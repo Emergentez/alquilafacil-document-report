@@ -270,6 +270,43 @@
 
 #### 1.2.2.2. Lean UX Assumptions
 
+#### Business Outcomes
+
+- Facilitar la gestión de mínimo 1,000 reservaciones durante el primer año operativo, mejorando la comunicación y administración entre ambas partes.
+- Alcanzar un índice de satisfacción superior al 90% mediante herramientas que permitan verificar ratings e historial de propiedades, facilitando decisiones informadas.
+- Conseguir un 80% de renovación en suscripciones al finalizar el primer año, demostrando satisfacción y fidelización efectiva.
+
+#### User Assumptions
+
+###### ¿Quién es el usuario?
+- Usuarios que buscan espacios (arrendatarios)
+- Propietarios de espacios (arrendadores)
+
+###### ¿Dónde entra nuestro producto en su trabajo o su vida?
+- **Para arrendatarios:** La plataforma AlquilaFácil optimiza la localización y reserva de espacios, facilitando la organización de eventos y reduciendo tiempo y recursos invertidos.
+- **Para arrendadores:** AlquilaFácil potencia la promoción de propiedades y mejora la administración, incrementando exposición y volumen de reservas.
+
+###### ¿Cuál es el problema que nuestro producto soluciona?
+- Comunicación deficiente entre las partes involucradas
+- Complejidad en la localización y reserva de espacios apropiados
+- Ausencia de transparencia y credibilidad respecto a calidad y disponibilidad
+- Carencia de una herramienta unificada para administrar reservas y promocionar propiedades
+
+###### ¿Cómo y cuándo nuestro producto es usado?
+- **Arrendatarios:** Utilizan la plataforma para localizar, filtrar y reservar espacios durante las etapas de planificación y ejecución de eventos.
+- **Arrendadores:** Emplean la plataforma para dar visibilidad a sus espacios y administrar las reservaciones.
+
+###### ¿Qué características son importantes?
+- Interface intuitiva para búsqueda y reserva eficiente
+- Sistema robusto de promoción y visibilidad de espacios
+- Herramientas integradas para gestión de reservas y comunicación efectiva
+- Sistema de calificaciones y reseñas para decisiones fundamentadas
+
+#### User Outcomes
+
+- **Eficiencia para arrendatarios:** Reducción del 20% en tiempo promedio de búsqueda y reserva durante los primeros seis meses de uso.
+- **Crecimiento para arrendadores:** Incremento del 25% en reservas y consultas recibidas durante el primer año de implementación.
+- **Satisfacción mejorada:** Aumento del 30% en satisfacción con calidad y adecuación de espacios reservados, medido através del sistema de reseñas y calificaciones durante el primer año.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
