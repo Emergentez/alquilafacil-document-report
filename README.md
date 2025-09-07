@@ -23,7 +23,7 @@
 
 |               Member                |    Code    |
 | :---------------------------------: | :--------: |
-|                                     |            |
+|  Llamo Sánchez Amner Levi           | U20221C376 |
 |                                     |            |
 |                                     |            |
 |                                     |            |
@@ -264,9 +264,14 @@
 
 
 ### 1.2.2. Lean UX Process
+En esta parte, hacemos el proceso Lean UX que cubre la visión de un modelo de negocio que respalda nuestro producto de software. Este enfoque metodológico nos permite centrarnos en desarrollar nuestra solución y la solución al problema identificado al pensar en el diseño.
 
 #### 1.2.2.1. Lean UX Problem Statements
+Nuestro entorno se sitúa en el mercado peruano de alquiler de espacios para eventos, un rubro que ha mostrado un crecimiento constante en los últimos años. El incremento de la demanda por ambientes versátiles y ajustables a distintas necesidades también ha traído consigo retos en la forma en que interactúan arrendadores y arrendatarios dentro de este ecosistema.
 
+Detectamos que, dentro de este mercado, los usuarios enfrentan complicaciones debido a la falta de integración en las distintas etapas del proceso. La dispersión en la búsqueda, la gestión de reservas y la organización genera ineficiencias y una experiencia poco satisfactoria.
+
+Surge entonces la pregunta: ¿cómo lograr una mejor conexión entre arrendadores y arrendatarios, optimizando el proceso de alquiler de espacios para eventos y garantizando una experiencia más ágil y eficiente?
 
 #### 1.2.2.2. Lean UX Assumptions
 
