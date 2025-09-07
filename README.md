@@ -417,6 +417,17 @@
 
 ### 2.3.4. As-is Scenario Mapping
 
+__Persona Principal: Arrendatarios__
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/LOppgHF.png" alt="as-is scenario mapping for arrendatarios" width="90%" />
+</div><br>
+
+__Persona Secundaria: Arrendadores__
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/svsvxcC.png" alt="as-is scenario mapping for arrendadores" width="90%" />
+</div><br>
 
 ## 2.4. Ubiquitous Language
 
