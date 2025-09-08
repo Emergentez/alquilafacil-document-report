@@ -477,6 +477,239 @@ Con estos hallazgos podremos diseñar una experiencia enfocada en el usuario, qu
 
 ### 2.2.2. Registro de entrevistas
 
+<div align="justify">
+
+Se llevarán a cabo tres entrevistas por segmento, sumando un total de seis. El registro será en formato mp4, y cada entrevista será independiente, ya que las preguntas y respuestas varían según los entrevistados de cada grupo.
+
+**Segmento 1: Arrendadores de espacios para eventos**
+<br>
+
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"> <div align="center">Entrevista #1<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Luis David</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Garcia Días</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>21 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Magdalena</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones usadas</td>
+    <td>Instagram, Excel.</td>
+  </tr>
+  <tr>
+    <td>Motivación</td>
+    <td>Ver crecer su negocio y convertir su local en un lugar de referencia para eventos en su comunidad.</td>
+  </tr>
+  <tr>
+    <td>Frustración</td>
+    <td>Posibles accidentes dentro de su local por falta de herramientas para gestionarlo.</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Android, Windows.</td>
+  </tr>
+  <tr>
+    <td>Browsers</td>
+    <td>Opera GX</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Mariano Ames</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="images/cap-2/interviews/arrendador-3.png" alt="Entrevista a Luis Garcia"></div></td>
+  </tr>
+  <tr>
+    <td>Enlace</td>
+    <td><p><a target="_blank"  href="https://" title="Title">Microsoft Stream</a></p></td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>00:00 min - 00:00 min </td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    El entrevistado señaló que estaría interesado en la aplicación, ya que le permitiría gestionar de manera más sencilla tanto sus locales como a los arrendatarios, mejorando así su negocio. Comentó que en el pasado enfrentó dificultades al organizar reservas por no contar con una herramienta especializada para llevar un control adecuado. También indicó que tuvo inconvenientes con ciertos clientes, los cuales podrían haberse evitado si hubiera tenido acceso a un perfil previo de ellos.
+    Finalmente, expresó su interés en contar con una solución que integre todo el proceso en una sola aplicación, desde la promoción del local y la gestión de reservas y pagos, hasta el control y administración del espacio.
+    </td>
+  </tr>
+</tbody>
+</table>
+<br>
+
+**Segmento 2: Arrendatarios sociales frecuentes de espacios para eventos**
+
+<br>
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"> <div align="center">Entrevista #1<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Manuel Jesús</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Chávez Cuba</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>21</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>San Martín de Porres</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones usadas</td>
+    <td>Facebook Marketplace</td>
+  </tr>
+  <tr>
+    <td>Motivación</td>
+    <td>Ofrecer experiencias únicas y memorables para sus clientes.</td>
+  </tr>
+  <tr>
+    <td>Frustración</td>
+    <td>Limitaciones presupuestarias que puedan afectar la calidad de los eventos.</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>iOS, Android, Windows.</td>
+  </tr>
+  <tr>
+    <td>Browsers</td>
+    <td>Google Chrome, Brave</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Christopher Lecca</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="images/cap-2/interviews/arrendatario-1.png" alt="Entrevista a Manuel Chavez"></div></td>
+  </tr>
+  <tr>
+    <td>Enlace</td>
+    <td><p><a target="_blank"  href="https://" title="Title">Microsoft Stream</a></p></td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>00:00 min - 00:00 min </td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    El entrevistado se presenta como Manuel Chavez, un estudiante de Ingeniería de 21 años. Manuel nos comentó que se encuentra viendo la manera de generar ingresos, por lo que se lo ocurrió adentrarse al mercado de alquiler de espacios para organizar eventos.
+    Durante la entrevista, resaltó la necesidad de una aplicación que facilite la reserva de este tipo de espacios, enfocándose en la gestión del local por parte del arrendador, de modo que pueda estar al tanto de aquellas ocurrencias que puedan perjudicar el desarrollo de su evento.
+    Para finalizar, nos comentó su experiencia previa con otras herramientas similares y cómo es que estas no cuentan con herramientas de gestión inteligentes que faciliten el control del aforo o detección de riesgos.
+    </td>
+  </tr>
+</tbody>
+</table>
+
+<br>
+
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"> <div align="center">Entrevista #2<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Fabio Ernesto</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Horna Silva</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>23</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Surco</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones usadas</td>
+    <td>Instagram</td>
+  </tr>
+  <tr>
+    <td>Motivación</td>
+    <td>Establecerse como un organizador de eventos reconocido en su área.</td>
+  </tr>
+  <tr>
+    <td>Frustración</td>
+    <td>Dificultades para encontrar espacios con características específicas.</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Android, Windows.</td>
+  </tr>
+  <tr>
+    <td>Browsers</td>
+    <td>Google Chrome, Brave</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Carlos Casimiro</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="images/cap-2/interviews/arrendatario-2.png" alt="Entrevista a XXX"></div></td>
+  </tr>
+  <tr>
+    <td>Enlace</td>
+    <td><p><a target="_blank"  href="https://" title="Title">Microsoft Stream</a></p></td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>00:00 min - 00:00 min </td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    Fabio Orna Silva, consultor de ingeniería, respondió sobre su experiencia como usuario y proveedor de espacios para eventos, resaltando los desafíos que enfrenta al alquilar y ofrecer inmuebles. Considera muy útil una app como Alquilar Fácil, ya que facilitaría la búsqueda, comparación de precios y reservas en un solo lugar. Destacó la importancia de contar con calificaciones y opiniones de otros usuarios, procesos rápidos y seguros, así como la posibilidad de hacer reclamos directamente desde la plataforma. Además, valoró la existencia de un sistema de reputación para arrendadores y arrendatarios, y sugirió integrar herramientas tecnológicas como cerraduras electrónicas y sistemas de gestión de reservas para mejorar la experiencia y confianza en el servicio.
+    </td>
+  </tr>
+</tbody>
+</table>
+
+<br>
+
+
+</div>
+
 ### 2.2.3. Análisis de entrevistas
 
 <div align="justify">
