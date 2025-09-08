@@ -263,6 +263,19 @@
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
+|<!-- -->|<!-- -->|
+|--------|--------|
+|Nombre|Llamo Sánchez Amner Levi (U20221C376)|
+|Mi nombre es Amner Levi Llamo Sánchez, soy estudiante del octavo ciclo de ingeniería de software en la UPC. Me gusta jugar fútbol y videojuegos, por eso estoy constantemente investigando sobre nuevas tecnologías. Soy responsable con los trabajos que se me asignan; además soy tolerante y me adapto a las circunstancias del equipo.||
+|Nombre|Sebastian Nicolas Cachis Gonzales (U202210846)|
+| Mi nombre es Sebastian Nicolas Cachis Gonzales, soy estudiante de octavo ciclo de ingeniería de software en la UPC. Me considero una persona proactiva, organizada, meticulosa y muy enfocada en mis estudios, tanto grupales como individuales. Tengo facilidad para entender y ejemplificar los distintos temas que vemos, teniendo soltura para explicar. |
+|Nombre|Lecca Choccare, Christopher Bryan (U202211399)|
+|Mi nombre es Christopher, tengo 20 años y actualmente me encuentro cursando el 7mo ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Considero que mi compromiso con el equipo de trabajo designado y mi capacidad de aprendizaje rápida aportarán de buena manera al desarrollo del producto final.|
+|Nombre| ()|
+||
+|Nombre| ()|
+|  |
+
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
