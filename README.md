@@ -413,6 +413,68 @@ Sabremos que estamos en lo correcto cuando se registre una reducción del 40% en
 
 ### 2.2.1. Diseño de entrevistas
 
+
+Se definieron preguntas por segmento objetivo para obtener información cualitativa que apoye el desarrollo de nuestra solución.
+
+**Preguntas generales:**
+
+1. ¿Cuál es tu nombre?
+2. ¿Qué edad tienes?
+3. ¿Dónde vives actualmente?
+4. ¿A qué te dedicas?
+
+**Preguntas segmento de arrendadores de espacios para eventos:**
+
+El objetivo de entrevistar a los arrendadores es comprender sus necesidades, expectativas y preocupaciones en la gestión de propiedades para eventos. Buscamos conocer su disposición a usar una plataforma como AlquilaFácil que centralice reservas, pagos, comunicación y solución de conflictos, así como su interés en herramientas que les den mayor control y visibilidad de sus espacios.
+
+Con esta información podremos diseñar funciones que respondan a sus prioridades, como aprobación de usuarios, monitoreo, pagos integrados y soporte ante imprevistos. De esta manera, buscamos generar confianza y ofrecer un valor añadido que mejore su experiencia como anfitriones.
+
+1. ¿Qué tan útil te parecería tener una sola plataforma como AlquilaFácil para gestionar reservas, pagos y comunicación con los usuarios?
+
+2. ¿Te gustaría que los usuarios puedan dejar calificaciones y comentarios sobre tu espacio? ¿Por qué?
+
+3. ¿Qué tan importante es para vos poder aprobar o rechazar reservas según el perfil o reputación del usuario?
+
+4. ¿Te serviría ver reportes o estadísticas sobre las reservas y uso de tu espacio?
+
+5. ¿Cómo te gustaría recibir los pagos de tus alquileres? ¿Todo desde la misma plataforma?
+
+6. ¿Cuánto valorás tener una app que te ayude a resolver reclamos o problemas con arrendatarios de forma rápida?
+
+7. ¿Qué tan importante es para vos poder tener visibilidad de lo que ocurre en tu espacio durante un evento?
+
+8. ¿Te gustaría recibir alertas si algo inusual sucede mientras alguien está usando tu espacio?
+
+9. ¿Qué tipo de herramientas o soluciones tecnológicas creés que te ayudarían a gestionar mejor tu propiedad?
+
+10. ¿Te interesaría usar tecnología que te permita tener más control sobre el uso de tu espacio sin necesidad de estar presente?
+
+**Preguntas segmento de arrendatarios sociales / usuarios frecuentes de espacios para eventos:**
+
+El objetivo de entrevistar a este segmento es identificar sus hábitos de búsqueda, reserva y uso de espacios para eventos, además de sus expectativas en relación con la seguridad, la transparencia y la facilidad de los procesos. También nos interesa conocer la importancia que le dan a las calificaciones, su nivel de comodidad con el sistema de alquiler actual y el valor que otorgan a funciones como reclamos o notificaciones durante el evento.
+
+Con estos hallazgos podremos diseñar una experiencia enfocada en el usuario, que simplifique la búsqueda de espacios confiables e integre herramientas para reforzar la seguridad, la reputación compartida y la comunicación efectiva, logrando así una plataforma clara, accesible y funcional.
+
+1. ¿Qué tan útil te parecería una app como AlquilaFácil que te permita ver espacios disponibles, comparar precios y reservar en el mismo lugar?
+
+2. ¿Qué tanto valoras poder leer opiniones y calificaciones de otros usuarios antes de alquilar un espacio?
+
+3. ¿Cómo te gustaría que sea el proceso de reserva: rápido, seguro, desde la misma plataforma?
+
+4. ¿Qué tan importante sería para vos poder reportar problemas o hacer reclamos directamente desde la app?
+
+5. ¿Qué tan fácil te resulta hoy en día encontrar espacios adecuados para tus eventos?
+
+6. ¿Te sentirías más cómodo/a alquilando si la app tuviera un sistema de reputación tanto para arrendadores como para arrendatarios?
+
+7. ¿Te interesaría recibir notificaciones sobre el estado del lugar durante tu evento? (por ejemplo, si algo se sale de control)
+
+8. ¿Qué tan importante es para ti saber que el espacio cuenta con herramientas que ayuden a garantizar tu seguridad durante el evento?
+
+9. ¿Prefieres lugares que cuenten con tecnología que permita controlar ciertas situaciones mientras se alquila?
+
+10. ¿Qué tipo de herramientas tecnológicas te gustaría que tuvieran los espacios que alquilás para sentirte más tranquilo/a?
+
 ### 2.2.2. Registro de entrevistas
 
 ### 2.2.3. Análisis de entrevistas
