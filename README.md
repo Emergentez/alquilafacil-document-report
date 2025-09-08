@@ -315,6 +315,56 @@ Surge entonces la pregunta: ¿cómo lograr una mejor conexión entre arrendadore
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
+Para la elaboración de los Hypothesis Statements se utilizó el formato Lean UX: [We believe that], [This will achieve] y [We will have demostrated this when] 
+
+**Hipótesis 1**
+
+Creemos que, al simplificar el proceso de búsqueda y comparación de espacios para eventos en nuestra plataforma, aumentaremos la fidelización de clientes y la recurrencia de uso.
+
+Esto permitirá que los usuarios encuentren más fácilmente opciones adecuadas a sus necesidades, mejorando su experiencia.
+
+Sabremos que estamos en lo correcto cuando observemos un incremento del 25% en la cantidad de reservas realizadas por clientes recurrentes en los primeros seis meses tras la implementación.
+
+<br>
+ 
+**Hipótesis 2** 
+
+Creemos que, al mejorar la función de búsqueda avanzada, incorporando filtros detallados como capacidad, ubicación y servicios incluidos, optimizaremos la experiencia de exploración y selección de espacios.
+
+Esto facilitará que los usuarios encuentren rápidamente opciones relevantes y reduzcan la necesidad de soporte.
+
+Sabremos que estamos en lo correcto cuando se registre una disminución del 25% en las consultas al área de soporte relacionadas con la búsqueda, y un aumento en el tiempo promedio de navegación en la plataforma.
+
+<br>
+
+**Hipótesis 3**
+
+Creemos que, al implementar un dashboard personalizado para los arrendadores, donde puedan monitorear en tiempo real el estado de sus espacios (reservas activas, ingresos generados, evaluaciones, disponibilidad, etc.), mejoraremos la gestión de los locales y el compromiso de los arrendadores con la plataforma.
+
+Esto permitirá a los arrendadores tomar decisiones informadas y ofrecer un mejor servicio.
+
+Sabremos que estamos en lo correcto cuando observemos un aumento del 30% en la actividad de los arrendadores dentro del panel, así como una mejora en la tasa de respuesta y actualización de disponibilidad en sus publicaciones, dentro de los primeros seis meses.
+
+<br>
+
+**Hipótesis 4**
+
+Creemos que, al habilitar un sistema de calificación y comentarios para los espacios, incrementaremos la confianza de los usuarios y la percepción de calidad de los servicios ofrecidos.
+
+Esto ayudará a generar transparencia y a tomar decisiones basadas en la experiencia de otros clientes.
+
+Sabremos que estamos en lo correcto cuando se evidencie un aumento del 20% en la cantidad de reservas completadas y una mejora progresiva en la calidad de los comentarios dentro de los primeros tres meses tras la implementación.
+
+<br>
+
+**Hipótesis 5**
+
+Creemos que, al implementar un sistema de notificaciones en tiempo real que alerte a los arrendadores y al equipo de soporte sobre posibles infracciones o comportamientos indebidos en los locales (como exceder la capacidad, ruido excesivo o uso indebido del espacio), reforzaremos la seguridad y el control sobre los espacios alquilados.
+
+Esto contribuirá a mejorar la reputación de la plataforma y a reducir conflictos entre usuarios.
+
+Sabremos que estamos en lo correcto cuando se registre una reducción del 40% en reportes de incidentes posteriores a las reservas, así como una mejora en las calificaciones promedio de los espacios afectados, dentro de los primeros tres meses de implementación.
+
 
 #### 1.2.2.4. Lean UX Canvas
 
