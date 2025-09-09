@@ -880,7 +880,7 @@ En resumen, los arrendatarios demandan plataformas fáciles de usar, con proceso
 **Determinación de Personas**
 
 - **Persona Principal: Arrendatarios**  
-  **Justificación:** Son quienes interactúan de manera más constante con la plataforma y dependen de ella para encontrar y reservar espacios. Sus necesidades —usabilidad, transparencia, comunicación y variedad— son determinantes para el éxito del producto, por lo que constituyen el foco principal del diseño y desarrollo.  
+  **Justificación:** Son quienes interactúan de manera más constante con la plataforma y dependen de ella para encontrar y reservar espacios. Sus necesidades (usabilidad, transparencia, comunicación y variedad) son determinantes para el éxito del producto, por lo que constituyen el foco principal del diseño y desarrollo.  
 
 - **Persona Secundaria: Arrendadores**  
   **Justificación:** Aunque fundamentales para el funcionamiento de la plataforma, los arrendadores cumplen un rol complementario en comparación con los arrendatarios. Sus prioridades giran en torno a la seguridad en transacciones, la promoción de sus espacios y la eficiencia en la gestión, pero su nivel de interacción es menos frecuente que el de los usuarios que reservan.  
