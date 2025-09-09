@@ -405,7 +405,28 @@ Este Lean UX Canvas representa la propuesta integral de valor de AlquilaFácil, 
 
 ## 1.3. Segmentos objetivo
 
+En esta sección, identificamos los segmentos de clientes específicos a los que se dirige AlquilaFácil, basándonos en características demográficas, comportamientos y necesidades compartidas. 
+
+**Arrendatarios:** 
+
+- Descripción: Individuos que planifican eventos sociales como bodas, fiestas de cumpleaños, reuniones familiares, entre otros, y aquellos que organizan eventos regularmente, ya sea social o corporativo. 
+
+- Características: Buscan espacios que se adapten a sus necesidades específicas, como capacidad, ubicación y servicios disponibles. Realizan múltiples reservas de espacios a lo largo del año. 
+
+- Necesidades: Facilidad de búsqueda y reserva de espacios, acceso a información detallada sobre las instalaciones y servicios ofrecidos, programas de fidelización y alertas de acontecimientos que puedan afectar el desarrollo de su evento. 
+
+**Arrendadores:**
+
+- Descripción: Individuos o empresas que poseen espacios aptos para eventos, como salones de banquetes, jardines, locales comerciales, etc. 
+
+- Características: Ofrecen una variedad de espacios con diferentes capacidades y servicios. 
+
+- Necesidades: Promoción efectiva de sus espacios, gestión eficiente de reservas, acceso a herramientas para administrar sus listados y proyectos de eventos. 
+
+
 ---
+
+
 
 # Capítulo II: Requirements Elicitation & Analysis
 
