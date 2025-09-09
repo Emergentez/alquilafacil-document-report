@@ -907,6 +907,100 @@ Presentaremos los User Persona por cada segmento objetivo, en los cuales nos bas
 
 ### 2.3.2. User Task Matrix
 
+<br>
+
+**User Persona Principal**
+
+**Nombre:** Sergio Aguirre  
+**Rol:** Arrendatario
+
+<table align="center">
+  <thead>
+    <tr>
+      <th>Task</th>
+      <th>Frequency</th>
+      <th>Importance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Buscar y reservar espacios para eventos</td>
+      <td>High</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Comunicarse con los arrendadores de los espacios</td>
+      <td>High</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Buscar variedad en los tipos de espacios disponibles</td>
+      <td>High</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Reservar espacios para diferentes tipos de eventos</td>
+      <td>High</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Estar dispuesto a pagar por una mejor experiencia</td>
+      <td>Medium</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Utilizar una plataforma fácil de usar e intuitiva</td>
+      <td>High</td>
+      <td>High</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+**User Persona Secundaria**
+
+**Nombre:** Claudia Cañamero  
+**Rol:** Arrendadora
+
+<table align="center">
+  <thead>
+    <tr>
+      <th>Task</th>
+      <th>Frequency</th>
+      <th>Importance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Gestionar reservas y coordinar eventos</td>
+      <td>High</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Promocionar el local en redes sociales y otros canales de marketing</td>
+      <td>High</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Mantener el local en óptimas condiciones de limpieza y mantenimiento</td>
+      <td>High</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Establecer comunicación efectiva con clientes y proveedores</td>
+      <td>High</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Explorar nuevas oportunidades de negocio y crecimiento</td>
+      <td>Medium</td>
+      <td>Medium</td>
+    </tr>
+  </tbody>
+</table> 
+<br>
+
 ### 2.3.3. Empathy Mapping
 
 ### 2.3.4. As-is Scenario Mapping
