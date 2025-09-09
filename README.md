@@ -891,6 +891,20 @@ En resumen, los arrendatarios demandan plataformas fáciles de usar, con proceso
 
 ### 2.3.1. User Personas
 
+<p align="justify">
+Presentaremos los User Persona por cada segmento objetivo, en los cuales nos basamos en los usuarios ideales de cada segmento: Sergio Aguirre (Arrendatario), Claudia Camareño (Arrendador).
+</p>
+
+**Segmento 1: Arrendatario**
+
+![Artefacto creado en UXPressia](images/cap-2/user-personas/userpersona-1.png)
+
+<br>
+
+**Segmento 2: Arrendador**
+
+![Artefacto creado en UXPressia](images/cap-2/user-personas/userpersona-2.png)
+
 ### 2.3.2. User Task Matrix
 
 ### 2.3.3. Empathy Mapping
