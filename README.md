@@ -24,8 +24,8 @@
 |              Member               |    Code    |
 | :-------------------------------: | :--------: |
 |     Llamo Sánchez Amner Levi      | U20221C376 |
-| Sebastian Nicolas Cachis Gonzales | U202210846 |
-|                                   |            |
+| Cachis Gonzales Sebastian Nicolas | U202210846 |
+| Morales Montalvo Omar Andrew      | U202212383 |
 |                                   |            |
 |                                   |            |
 |                                   |            |
@@ -1013,7 +1013,35 @@ Presentaremos los User Persona por cada segmento objetivo, en los cuales nos bas
 
 ### 2.3.4. As-is Scenario Mapping
 
+__Persona Principal: Arrendatarios__
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/LOppgHF.png" alt="as-is scenario mapping for arrendatarios" width="90%" />
+</div><br>
+
+__Persona Secundaria: Arrendadores__
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/svsvxcC.png" alt="as-is scenario mapping for arrendadores" width="90%" />
+</div><br>
+
+
+
 ## 2.4. Ubiquitous Language
+
+| Término | Definición |
+|---------|------------|
+| **Tenant** | Arrendatario, quien realiza la reserva de un espacio. |
+| **Landlord** | Arrendador, quien publica sus espacios para ser reservados. |
+| **Local** | Espacio para eventos que contiene diferentes características de acuerdo con el arrendador. |
+| **Booking** | Reserva de un espacio, con identificación de arrendatario, fecha y hora de inicio y fin. |
+| **Comment** | Comentario acerca de un local anexado a su reseña con calificación. |
+| **Calendar** | Agenda de reservas presentadas tanto para arrendador como arrendatario. |
+| **Report** | Denuncia hacia algún espacio publicada por un arrendatario de este mismo. |
+| **District** | Distrito de ubicación del espacio publicado. |
+| **Features** | Características adicionales del espacio publicado. |
+
+
 
 ---
 
