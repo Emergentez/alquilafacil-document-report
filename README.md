@@ -25,7 +25,7 @@
 | :-------------------------------: | :--------: |
 |     Llamo Sánchez Amner Levi      | U20221C376 |
 | Cachis Gonzales Sebastian Nicolas | U202210846 |
-| Morales Montalvo Omar Andrew      | U202212383 |
+|   Morales Montalvo Omar Andrew    | U202212383 |
 |                                   |            |
 |                                   |            |
 |                                   |            |
@@ -263,18 +263,18 @@
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-|<!-- -->|<!-- -->|
-|--------|--------|
-|Nombre|Llamo Sánchez Amner Levi (U20221C376)|
-|Mi nombre es Amner Levi Llamo Sánchez, soy estudiante del octavo ciclo de ingeniería de software en la UPC. Me gusta jugar fútbol y videojuegos, por eso estoy constantemente investigando sobre nuevas tecnologías. Soy responsable con los trabajos que se me asignan; además soy tolerante y me adapto a las circunstancias del equipo.||
-|Nombre|Sebastian Nicolas Cachis Gonzales (U202210846)|
+| <!-- -->                                                                                                                                                                                                                                                                                                                                                     | <!-- -->                                       |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------- |
+| Nombre                                                                                                                                                                                                                                                                                                                                                       | Llamo Sánchez Amner Levi (U20221C376)          |
+| Mi nombre es Amner Levi Llamo Sánchez, soy estudiante del octavo ciclo de ingeniería de software en la UPC. Me gusta jugar fútbol y videojuegos, por eso estoy constantemente investigando sobre nuevas tecnologías. Soy responsable con los trabajos que se me asignan; además soy tolerante y me adapto a las circunstancias del equipo.                   |                                                |
+| Nombre                                                                                                                                                                                                                                                                                                                                                       | Sebastian Nicolas Cachis Gonzales (U202210846) |
 | Mi nombre es Sebastian Nicolas Cachis Gonzales, soy estudiante de octavo ciclo de ingeniería de software en la UPC. Me considero una persona proactiva, organizada, meticulosa y muy enfocada en mis estudios, tanto grupales como individuales. Tengo facilidad para entender y ejemplificar los distintos temas que vemos, teniendo soltura para explicar. |
-|Nombre|Lecca Choccare, Christopher Bryan (U202211399)|
-|Mi nombre es Christopher, tengo 20 años y actualmente me encuentro cursando el 7mo ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Considero que mi compromiso con el equipo de trabajo designado y mi capacidad de aprendizaje rápida aportarán de buena manera al desarrollo del producto final.|
-|Nombre| ()|
-||
-|Nombre| ()|
-| |
+| Nombre                                                                                                                                                                                                                                                                                                                                                       | Lecca Choccare, Christopher Bryan (U202211399) |
+| Mi nombre es Christopher, tengo 20 años y actualmente me encuentro cursando el 7mo ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Considero que mi compromiso con el equipo de trabajo designado y mi capacidad de aprendizaje rápida aportarán de buena manera al desarrollo del producto final.      |
+| Nombre                                                                                                                                                                                                                                                                                                                                                       | ()                                             |
+|                                                                                                                                                                                                                                                                                                                                                              |
+| Nombre                                                                                                                                                                                                                                                                                                                                                       | ()                                             |
+|                                                                                                                                                                                                                                                                                                                                                              |
 
 ## 1.2. Solution Profile
 
@@ -544,7 +544,6 @@ El marketing de AlquilaFácil estará enfocado en construir una comunidad activa
 
 ### 2.2.1. Diseño de entrevistas
 
-
 Se definieron preguntas por segmento objetivo para obtener información cualitativa que apoye el desarrollo de nuestra solución.
 
 **Preguntas generales:**
@@ -614,7 +613,6 @@ Se llevarán a cabo tres entrevistas por segmento, sumando un total de seis. El 
 
 **Segmento 1: Arrendadores de espacios para eventos**
 <br>
-
 
 <table>
 <colgroup>
@@ -765,7 +763,6 @@ Se llevarán a cabo tres entrevistas por segmento, sumando un total de seis. El 
 
 <br>
 
-
 <table>
 <colgroup>
 </colgroup>
@@ -838,6 +835,76 @@ Se llevarán a cabo tres entrevistas por segmento, sumando un total de seis. El 
 
 <br>
 
+<br>
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"> <div align="center">Entrevista #3<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Ricardo Rafael</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Rivas Carrillo</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Callao</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones usadas</td>
+    <td>Facebook Marketplace</td>
+  </tr>
+  <tr>
+    <td>Motivación</td>
+    <td>Realizar practicar en espacio adecuados para su grupo de baile</td>
+  </tr>
+  <tr>
+    <td>Frustración</td>
+    <td>Limitaciones para encontrar espacios que cumplan las necesidades de su grupo de baile.</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Android, Windows.</td>
+  </tr>
+  <tr>
+    <td>Browsers</td>
+    <td>Opera, Edge</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Sebastian Cachis</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="images/cap-2/interviews/arrendatario-3.png" alt="Entrevista a Ricardo Riva"></div></td>
+  </tr>
+  <tr>
+    <td>Enlace</td>
+    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210846_upc_edu_pe/ERWyw8fUHNROuTWYe4s3Pl8BGYaEe71s3EVcS5fHitocSA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UEpMcx" title="Title">Microsoft Stream</a></p></td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>00:00 min - 07:44 min </td>
+  </tr>
+  <tr>z
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    En la entrevista, Ricardo Rivas, estudiante de 20 años de ciencias de la computación, expresó que una aplicación como Alquila Fácil le resultaría muy útil para organizar eventos de baile o actuación, ya que actualmente es complicado encontrar y reservar espacios adecuados, con información clara sobre costos, capacidad y disponibilidad. Destacó la importancia de poder comparar precios, ver fotos, leer opiniones y calificaciones, ya que le permitiría ahorrar tiempo y confiar en la calidad del lugar, incluso al alquilar con poca anticipación. Considera fundamental que el proceso de reserva sea rápido, seguro y con contacto directo con el arrendador, y que la app funcione como intermediario en caso de reclamos, brindando respaldo y confianza. También valoró un sistema de reputación tanto para arrendadores como arrendatarios, así como recibir notificaciones durante el evento ante imprevistos. Para él, la seguridad es prioritaria, por lo que aprecia que los espacios cuenten con herramientas como cámaras de vigilancia, sistemas de control de ingreso y tecnología que garantice protección. En resumen, su visión resalta la necesidad de una plataforma confiable, segura y tecnológica que simplifique el acceso a espacios para eventos, brinde transparencia y fortalezca la experiencia de los usuarios.
+    </td>
+  </tr>
+</tbody>
+</table>
 
 </div>
 
@@ -852,38 +919,38 @@ Las entrevistas realizadas ofrecen una perspectiva clara y detallada sobre las e
 **Arrendadores de espacios para eventos**
 
 Los arrendadores priorizan la seguridad en los pagos y la validez de los contratos como factores críticos. Además, valoran la posibilidad de promocionar sus locales de manera efectiva, llegando a un público más amplio y relevante. También consideran indispensable una comunicación fluida con los arrendatarios para evitar conflictos o malentendidos. De hecho, algunos están dispuestos a invertir en planes premium que les brinden beneficios adicionales, como una mayor visibilidad en la plataforma.  
-En conclusión, los arrendadores esperan que la plataforma les proporcione seguridad, visibilidad, canales de comunicación confiables y herramientas que potencien el rendimiento de sus espacios.  
+En conclusión, los arrendadores esperan que la plataforma les proporcione seguridad, visibilidad, canales de comunicación confiables y herramientas que potencien el rendimiento de sus espacios.
 
-| **Característica objetiva**    | **Frecuencia** | **Porcentaje** | **Sustento desde entrevistas** |
-|--------------------------------|----------------|----------------|--------------------------------|
-| **Utiliza redes sociales para captar clientes** | 3 de 3 | 100% | Se mencionan principalmente Instagram y Facebook |
-| **Gestiona reservas manualmente** | 3 de 3 | 100% | Utilizan agenda física o Excel |
-| **Recibe consultas por WhatsApp**  | 3 de 3 | 100% | Todo el proceso se coordina vía WhatsApp |
-| **Necesita un sistema de agenda para evitar dobles reservas** | 3 de 3 | 100% | Reportaron problemas por doble reserva |
+| **Característica objetiva**                                   | **Frecuencia** | **Porcentaje** | **Sustento desde entrevistas**                   |
+| ------------------------------------------------------------- | -------------- | -------------- | ------------------------------------------------ |
+| **Utiliza redes sociales para captar clientes**               | 3 de 3         | 100%           | Se mencionan principalmente Instagram y Facebook |
+| **Gestiona reservas manualmente**                             | 3 de 3         | 100%           | Utilizan agenda física o Excel                   |
+| **Recibe consultas por WhatsApp**                             | 3 de 3         | 100%           | Todo el proceso se coordina vía WhatsApp         |
+| **Necesita un sistema de agenda para evitar dobles reservas** | 3 de 3         | 100%           | Reportaron problemas por doble reserva           |
 
 ---
 
 **Arrendatarios para eventos**
 
 Por su parte, los arrendatarios valoran sobre todo la facilidad para encontrar y reservar espacios adecuados, especialmente en situaciones imprevistas o de última hora. La claridad en los contratos y una comunicación transparente con los arrendadores también son aspectos determinantes para garantizar experiencias satisfactorias. Además, esperan encontrar una amplia variedad de locales que se adapten a distintos tipos de actividades y horarios. La disponibilidad de filtros y herramientas de búsqueda avanzada resulta clave para optimizar la elección del espacio ideal.  
-En resumen, los arrendatarios demandan plataformas fáciles de usar, con procesos transparentes, comunicación eficiente y una oferta amplia y diversificada de espacios.  
+En resumen, los arrendatarios demandan plataformas fáciles de usar, con procesos transparentes, comunicación eficiente y una oferta amplia y diversificada de espacios.
 
-| **Característica objetiva**    | **Frecuencia** | **Porcentaje** | **Sustento desde entrevistas** |
-|--------------------------------|----------------|----------------|--------------------------------|
-| **Usa redes sociales o sitios web para buscar espacios** | 3 de 3 | 100% | Todos señalaron estas herramientas como su primera opción |
-| **Realiza reservas de forma habitual** | 3 de 3 | 100% | Mencionan alquilar espacios regularmente |
-| **Busca espacios para actividades familiares o recreativas** | 3 de 3 | 100% | Los eventos más frecuentes son de carácter recreativo o familiar |
-| **Valora herramientas de organización del tiempo (agenda/calendario)** | 3 de 3 | 100% | Reconocen la utilidad de agendas digitales para evitar desorden |
+| **Característica objetiva**                                            | **Frecuencia** | **Porcentaje** | **Sustento desde entrevistas**                                   |
+| ---------------------------------------------------------------------- | -------------- | -------------- | ---------------------------------------------------------------- |
+| **Usa redes sociales o sitios web para buscar espacios**               | 3 de 3         | 100%           | Todos señalaron estas herramientas como su primera opción        |
+| **Realiza reservas de forma habitual**                                 | 3 de 3         | 100%           | Mencionan alquilar espacios regularmente                         |
+| **Busca espacios para actividades familiares o recreativas**           | 3 de 3         | 100%           | Los eventos más frecuentes son de carácter recreativo o familiar |
+| **Valora herramientas de organización del tiempo (agenda/calendario)** | 3 de 3         | 100%           | Reconocen la utilidad de agendas digitales para evitar desorden  |
 
 ---
 
 **Determinación de Personas**
 
 - **Persona Principal: Arrendatarios**  
-  **Justificación:** Son quienes interactúan de manera más constante con la plataforma y dependen de ella para encontrar y reservar espacios. Sus necesidades (usabilidad, transparencia, comunicación y variedad) son determinantes para el éxito del producto, por lo que constituyen el foco principal del diseño y desarrollo.  
+  **Justificación:** Son quienes interactúan de manera más constante con la plataforma y dependen de ella para encontrar y reservar espacios. Sus necesidades (usabilidad, transparencia, comunicación y variedad) son determinantes para el éxito del producto, por lo que constituyen el foco principal del diseño y desarrollo.
 
 - **Persona Secundaria: Arrendadores**  
-  **Justificación:** Aunque fundamentales para el funcionamiento de la plataforma, los arrendadores cumplen un rol complementario en comparación con los arrendatarios. Sus prioridades giran en torno a la seguridad en transacciones, la promoción de sus espacios y la eficiencia en la gestión, pero su nivel de interacción es menos frecuente que el de los usuarios que reservan.  
+  **Justificación:** Aunque fundamentales para el funcionamiento de la plataforma, los arrendadores cumplen un rol complementario en comparación con los arrendatarios. Sus prioridades giran en torno a la seguridad en transacciones, la promoción de sus espacios y la eficiencia en la gestión, pero su nivel de interacción es menos frecuente que el de los usuarios que reservan.
 
 </div>
 
@@ -1013,35 +1080,31 @@ Presentaremos los User Persona por cada segmento objetivo, en los cuales nos bas
 
 ### 2.3.4. As-is Scenario Mapping
 
-__Persona Principal: Arrendatarios__
+**Persona Principal: Arrendatarios**
 
 <div style="text-align: center;">
   <img src="https://i.imgur.com/LOppgHF.png" alt="as-is scenario mapping for arrendatarios" width="90%" />
 </div><br>
 
-__Persona Secundaria: Arrendadores__
+**Persona Secundaria: Arrendadores**
 
 <div style="text-align: center;">
   <img src="https://i.imgur.com/svsvxcC.png" alt="as-is scenario mapping for arrendadores" width="90%" />
 </div><br>
 
-
-
 ## 2.4. Ubiquitous Language
 
-| Término | Definición |
-|---------|------------|
-| **Tenant** | Arrendatario, quien realiza la reserva de un espacio. |
-| **Landlord** | Arrendador, quien publica sus espacios para ser reservados. |
-| **Local** | Espacio para eventos que contiene diferentes características de acuerdo con el arrendador. |
-| **Booking** | Reserva de un espacio, con identificación de arrendatario, fecha y hora de inicio y fin. |
-| **Comment** | Comentario acerca de un local anexado a su reseña con calificación. |
-| **Calendar** | Agenda de reservas presentadas tanto para arrendador como arrendatario. |
-| **Report** | Denuncia hacia algún espacio publicada por un arrendatario de este mismo. |
-| **District** | Distrito de ubicación del espacio publicado. |
-| **Features** | Características adicionales del espacio publicado. |
-
-
+| Término      | Definición                                                                                 |
+| ------------ | ------------------------------------------------------------------------------------------ |
+| **Tenant**   | Arrendatario, quien realiza la reserva de un espacio.                                      |
+| **Landlord** | Arrendador, quien publica sus espacios para ser reservados.                                |
+| **Local**    | Espacio para eventos que contiene diferentes características de acuerdo con el arrendador. |
+| **Booking**  | Reserva de un espacio, con identificación de arrendatario, fecha y hora de inicio y fin.   |
+| **Comment**  | Comentario acerca de un local anexado a su reseña con calificación.                        |
+| **Calendar** | Agenda de reservas presentadas tanto para arrendador como arrendatario.                    |
+| **Report**   | Denuncia hacia algún espacio publicada por un arrendatario de este mismo.                  |
+| **District** | Distrito de ubicación del espacio publicado.                                               |
+| **Features** | Características adicionales del espacio publicado.                                         |
 
 ---
 
