@@ -360,9 +360,8 @@ Creemos que, al simplificar el proceso de búsqueda y comparación de espacios p
 Esto permitirá que los usuarios encuentren más fácilmente opciones adecuadas a sus necesidades, mejorando su experiencia.
 
 Sabremos que estamos en lo correcto cuando observemos un incremento del 25% en la cantidad de reservas realizadas por clientes recurrentes en los primeros seis meses tras la implementación.
-
 <br>
- 
+
 **Hipótesis 2**
 
 Creemos que, al mejorar la función de búsqueda avanzada, incorporando filtros detallados como capacidad, ubicación y servicios incluidos, optimizaremos la experiencia de exploración y selección de espacios.
@@ -370,7 +369,6 @@ Creemos que, al mejorar la función de búsqueda avanzada, incorporando filtros 
 Esto facilitará que los usuarios encuentren rápidamente opciones relevantes y reduzcan la necesidad de soporte.
 
 Sabremos que estamos en lo correcto cuando se registre una disminución del 25% en las consultas al área de soporte relacionadas con la búsqueda, y un aumento en el tiempo promedio de navegación en la plataforma.
-
 <br>
 
 **Hipótesis 3**
@@ -380,7 +378,6 @@ Creemos que, al implementar un dashboard personalizado para los arrendadores, do
 Esto permitirá a los arrendadores tomar decisiones informadas y ofrecer un mejor servicio.
 
 Sabremos que estamos en lo correcto cuando observemos un aumento del 30% en la actividad de los arrendadores dentro del panel, así como una mejora en la tasa de respuesta y actualización de disponibilidad en sus publicaciones, dentro de los primeros seis meses.
-
 <br>
 
 **Hipótesis 4**
@@ -390,7 +387,6 @@ Creemos que, al habilitar un sistema de calificación y comentarios para los esp
 Esto ayudará a generar transparencia y a tomar decisiones basadas en la experiencia de otros clientes.
 
 Sabremos que estamos en lo correcto cuando se evidencie un aumento del 20% en la cantidad de reservas completadas y una mejora progresiva en la calidad de los comentarios dentro de los primeros tres meses tras la implementación.
-
 <br>
 
 **Hipótesis 5**
@@ -402,6 +398,10 @@ Esto contribuirá a mejorar la reputación de la plataforma y a reducir conflict
 Sabremos que estamos en lo correcto cuando se registre una reducción del 40% en reportes de incidentes posteriores a las reservas, así como una mejora en las calificaciones promedio de los espacios afectados, dentro de los primeros tres meses de implementación.
 
 #### 1.2.2.4. Lean UX Canvas
+
+Este Lean UX Canvas representa la propuesta integral de valor de AlquilaFácil, sintetiza los problemas detectados, los objetivos de negocio, los supuestos sobre los usuarios y las hipótesis de diseño que guían el desarrollo de la solución. Cada sección del canvas refleja cómo la solución aborda los retos de eficiencia, comunicación y confianza para arrendadores y arrendatarios, y cómo mediremos el éxito de nuestras acciones a través de métricas concretas.
+
+![Lean UX Canvas](images/cap-1/lean-ux-process/lean-ux-canvas.png)
 
 ## 1.3. Segmentos objetivo
 
