@@ -1003,6 +1003,14 @@ Presentaremos los User Persona por cada segmento objetivo, en los cuales nos bas
 
 ### 2.3.3. Empathy Mapping
 
+**Persona Principal: Arrendatarios de eventos sociales**
+
+![Artefacto creado en UXPressia](images/cap-2/empathy-mapping/empathy-1.jpg)
+
+**Persona Secundaria: Arrendadores de espacios para eventos**
+
+![Artefacto creado en UXPressia](images/cap-2/empathy-mapping/empathy-2.jpg)
+
 ### 2.3.4. As-is Scenario Mapping
 
 ## 2.4. Ubiquitous Language
