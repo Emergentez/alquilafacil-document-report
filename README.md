@@ -11,9 +11,9 @@
 
 <center>
 
-#### Startup: **AlquildoreEz**
+#### Startup: **AlquilaEZ**
 
-#### Product: **Alquila Facil**
+#### Product: **Alquila Fácil**
 
 </center>
 
@@ -260,6 +260,12 @@
 ## 1.1. Startup Profile
 
 ### 1.1.1. Descripción de la Startup
+
+AlquilaFácil es un startup fundado en el 2025, por un grupo de estudiantes de la carrera de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas (UPC). Nuestra empresa emergente se enfoca en la simplificación del proceso de búsqueda de alquiler de espacios para eventos, así como la administración de los mismos.
+
+**Misión:** Revolucionar el alquiler de espacios para eventos con una plataforma intuitiva que une a arrendadores y arrendatarios de manera rápida y sencilla. 
+
+**Visión:** Consolidarnos como la referencia global en alquiler de espacios para eventos, redefiniendo el sector con soluciones inteligentes y una experiencia excepcional.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
