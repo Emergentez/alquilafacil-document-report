@@ -271,16 +271,16 @@ AlquilaFácil es un startup fundado en el 2025, por un grupo de estudiantes de l
 
 |<!-- -->|<!-- -->|
 |--------|--------|
-|Nombre|Llamo Sánchez Amner Levi (U20221C376)|
-|Mi nombre es Amner Levi Llamo Sánchez, soy estudiante del octavo ciclo de ingeniería de software en la UPC. Me gusta jugar fútbol y videojuegos, por eso estoy constantemente investigando sobre nuevas tecnologías. Soy responsable con los trabajos que se me asignan; además soy tolerante y me adapto a las circunstancias del equipo.||
-|Nombre|Sebastian Nicolas Cachis Gonzales (U202210846)|
-| Mi nombre es Sebastian Nicolas Cachis Gonzales, soy estudiante de octavo ciclo de ingeniería de software en la UPC. Me considero una persona proactiva, organizada, meticulosa y muy enfocada en mis estudios, tanto grupales como individuales. Tengo facilidad para entender y ejemplificar los distintos temas que vemos, teniendo soltura para explicar. |
+|Nombre|Ames Oviedo, Mariano José (U202211371)|
+|Mi nombre es Mariano Ames, tengo 20 años y me encuentro cursando el 8vo ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias aplicadas. Soy una persona e intento colaborar en lo más posible dentro del equipo de trabajo, también me llama la atención el aprendizaje de nuevas tecnologías que puedan ayudarme a mejorar mi ayuda en el equipo.|![Foto de Mariano](images/cap-1/members/mariano.jpg) |
+|Nombre|Cachis Gonzales, Sebastian Nicolas  (U202210846)|
+|Mi nombre es Sebastian Nicolas Cachis Gonzales, soy estudiante de octavo ciclo de ingeniería de software en la UPC. Me considero una persona proactiva, organizada, meticulosa y muy enfocada en mis estudios, tanto grupales como individuales. Tengo facilidad para entender y ejemplificar los distintos temas que vemos, teniendo soltura para explicar. |![Foto de Sebastian](images/cap-1/members/sebastian.jpg) |
 |Nombre|Lecca Choccare, Christopher Bryan (U202211399)|
-|Mi nombre es Christopher, tengo 20 años y actualmente me encuentro cursando el 7mo ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Considero que mi compromiso con el equipo de trabajo designado y mi capacidad de aprendizaje rápida aportarán de buena manera al desarrollo del producto final.|
-|Nombre| ()|
-||
-|Nombre| ()|
-|  |
+|Mi nombre es Christopher, tengo 20 años y actualmente me encuentro cursando el 8vo ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Considero que mi compromiso con el equipo de trabajo designado y mi capacidad de aprendizaje rápida aportarán de buena manera al desarrollo del producto final.|![Foto de Christopher](images/cap-1/members/christopher.jpg)|
+|Nombre|Llamo Sánchez, Amner Levi (U20221C376)|
+|Mi nombre es Amner Levi Llamo Sánchez, soy estudiante del octavo ciclo de ingeniería de software en la UPC. Me gusta jugar fútbol y videojuegos, por eso estoy constantemente investigando sobre nuevas tecnologías. Soy responsable con los trabajos que se me asignan; además soy tolerante y me adapto a las circunstancias del equipo.|![Foto de Amner](images/cap-1/members/amner.jpg)|
+|Nombre|Morales Montalvo, Omar Andrew (U202212383)|
+|Mi nombre es Omar, tengo 19 años y actualmente estoy cursando el séptimo ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me considero una persona comprometida con lo que hace, además de ser responsable y dedicada. Me gusta aprender constantemente y trabajar en equipo, siempre buscando mejorar y aportar en cada proyecto.|![Foto de Omar](images/cap-1/members/omar.png)|
 
 ## 1.2. Solution Profile
 
