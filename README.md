@@ -375,6 +375,18 @@ Los escenarios de atributos de calidad identificados para **Alquila Fácil** se 
 
 #### 4.1.2.3. Constraints
 
+En esta sección se incluye la especificación de restricciones, es decir características que no pueden ser negociadas y son impuestas por el cliente o el propio negocio como guía para la elaboración de la solución. La sección inicia con una introducción donde se resume los principales constraints a considerar. Luego de ello se incluye el cuadro de Constraints representados como Technical Stories, donde cada constraint considerado ocupa una fila.
+
+Los constraints identificados para **Alquila Fácil** incluyen restricciones técnicas relacionadas con la seguridad de datos personales, compliance regulatorio, limitaciones presupuestarias y requerimientos de compatibilidad que son fundamentales para el éxito del proyecto.
+
+| Technical Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|-------------------|--------|-------------|------------------------|-------------------------|
+| C-001 | Cumplimiento de Ley de Protección de Datos | El sistema debe cumplir con la normativa peruana de protección de datos personales | - Implementar consentimiento explícito para recolección de datos<br>- Permitir eliminación de datos bajo solicitud<br>- Cifrar datos personales sensibles | Epic N |
+| C-002 | Compatibilidad con Navegadores Web | La aplicación web debe ser compatible con navegadores principales | - Funcionar correctamente en Chrome, Firefox, Safari y Edge<br>- Versiones de los últimos 2 años<br>- Responsive design para dispositivos móviles | Epic N |
+| C-003 | Presupuesto de Infraestructura Cloud | Los costos de infraestructura no deben exceder el presupuesto inicial | - Utilizar servicios cloud con modelo de pricing escalable<br>- Implementar auto-scaling para optimizar costos<br>- Monitorear gastos mensuales | Epic N |
+| C-004 | Tiempo de Desarrollo Limitado | El MVP debe estar listo en 6 meses | - Priorizar funcionalidades core<br>- Utilizar frameworks y librerías existentes<br>- Implementar metodología ágil | Epic N |
+| C-005 | Integración con Servicios de Mapas | Debe integrarse con servicios de geolocalización existentes | - Utilizar API de Google Maps o similar<br>- Mostrar ubicación de propiedades en mapa<br>- Permitir búsqueda por ubicación | Epic N |
+| C-006 | Seguridad en Transacciones | Las transacciones financieras deben ser seguras y auditables | - Implementar protocolo HTTPS<br>- Integrar con pasarelas de pago certificadas<br>- Mantener logs de todas las transacciones | Epic N |
 
 ### 4.1.3. Architectural Drivers Backlog
 
