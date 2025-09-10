@@ -351,7 +351,21 @@ El propósito del proceso de diseño de la solución **Alquila Facil** es diseñ
 
 El diseño busca generar valor para el negocio mediante la creación de un ecosistema digital que conecte eficientemente a ambos segmentos, reduciendo fricciones en el proceso de alquiler y posibilitando la monetización a través de transacciones exitosas facilitadas por la plataforma.
 
-### 4.1.2. Attribute-Driven Design Inputs
+### 4.1.2.2. Quality attribute Scenarios
+
+En esta sección se incluye la especificación de la primera versión de los escenarios de atributos de calidad que tienen mayor impacto en la arquitectura de la solución, los cuales sirven de input para el proceso de diseño. La sección inicia con un texto de introducción en el cual se resume los escenarios de atributos de calidad identificados en primera instancia y se incluye el siguiente cuadro para especificar los Quality Attribute Scenarios.
+
+Los escenarios de atributos de calidad identificados para **Alquila Fácil** se centran en garantizar una experiencia de usuario óptima, seguridad de datos, disponibilidad del sistema y escalabilidad para soportar el crecimiento esperado de la plataforma.
+
+| Atributo | Fuente | Estímulo | Artefacto | Entorno | Respuesta | Medida |
+|----------|--------|----------|-----------|---------|-----------|---------|
+| **Performance** | Usuario (arrendador/arrendatario) | Búsqueda de propiedades con filtros múltiples | Sistema de búsqueda | Operación normal con 1000 usuarios concurrentes | El sistema retorna resultados de búsqueda | Tiempo de respuesta ≤ 2 segundos |
+| **Availability** | Usuario | Acceso a la plataforma | Sistema completo | Operación normal | El sistema permanece disponible y operativo | Disponibilidad ≥ 99.5% del tiempo |
+| **Security** | Usuario malicioso | Intento de acceso no autorizado a datos personales | Módulo de autenticación | Operación normal | El sistema bloquea el acceso y registra el intento | 100% de intentos no autorizados bloqueados |
+| **Scalability** | Carga del sistema | Incremento súbito de 500 usuarios simultáneos | Sistema completo | Pico de demanda | El sistema mantiene el rendimiento sin degradación | Tiempo de respuesta se mantiene ≤ 3 segundos |
+| **Usability** | Arrendatario nuevo | Registro y primera búsqueda en la plataforma | Interfaz de usuario | Operación normal | El usuario completa el proceso sin asistencia | ≥ 90% de usuarios completan el proceso en ≤ 5 minutos |
+| **Modifiability** | Desarrollador | Agregación de nueva funcionalidad de pagos | Módulo de transacciones | Desarrollo | Se integra la nueva funcionalidad sin afectar módulos existentes | Implementación ≤ 2 sprints de desarrollo |
+
 
 #### 4.1.2.1. Primary Functionality (Primary User Stories)
 
