@@ -358,12 +358,139 @@
 
 ### 4.1.3. Architectural Drivers Backlog
 
+La arquitectura de la solución AlquilaFácil está guiada por un conjunto de drivers que garantizan el cumplimiento de los objetivos funcionales del sistema, los atributos de calidad priorizados y las restricciones tecnológicas definidas. Estos drivers representan las decisiones críticas que orientan el diseño de los distintos componentes, desde la autenticación segura y la gestión de espacios, hasta la integración de sensores IoT y la escalabilidad en la nube, asegurando que la plataforma sea confiable, segura y consistente para todos los usuarios.
+
+
+| Driver ID | Título de Driver | Descripción | Importancia para Stakeholders | Impacto en Architecture Technical Complexity |
+|-----------|-----------------|-------------|-------------------------------|---------------------------------------------|
+| FD-01 | Gestión de Usuarios y Autenticación Segura | Los usuarios deben registrarse e iniciar sesión de forma segura (JWT, hashing). Base para todas las demás interacciones. | High | High |
+| FD-02 | Gestión de Espacios (Locals) | Permitir a arrendadores publicar y gestionar espacios, y a arrendatarios reservarlos. | High | Medium |
+| FD-03 | Integración de Sensores IoT | Captura de datos de humo, sonido, aforo y movimiento en tiempo real mediante Edge Node y Embedded App. | High | High |
+| FD-04 | Notificaciones en Tiempo Real | Enviar alertas (seguridad, reservas, estado de locales) a usuarios vía Web y Mobile. | High | High |
+| QAD-01 | Seguridad de Datos | Proteger datos sensibles de usuarios y locales mediante cifrado, autenticación robusta y control de acceso por roles. | High | High |
+| QAD-02 | Escalabilidad en la Nube | El sistema debe soportar un incremento de usuarios, locales y sensores sin degradar el rendimiento, aprovechando Azure Cloud. | High | High |
+| QAD-03 | Disponibilidad y Resiliencia | El sistema debe garantizar alta disponibilidad y recuperación rápida ante fallos (despliegue distribuido, redundancia). | High | High |
+| QAD-04 | Experiencia de Usuario Consistente | El diseño UX/UI debe ser consistente entre Landing, Web App y Mobile App, con flujos simples e inclusivos. | High | Medium |
+| QAD-05 | Interoperabilidad con Servicios Externos | El sistema debe integrarse con APIs externas (ej. pasarela de pagos, mapas de localización). | Medium | High |
+| C-01 | Restricción de Uso de Tecnologías | Todas las capas deben implementar soluciones basadas en tecnologías establecidas (.NET, Vue y Flutter). | High | Medium |
+| C-02 | Restricción de Despliegue en Azure | Todos los componentes (Backend, Edge Node, Web) deben ser desplegados en Azure según lineamientos del curso. | High | Medium |
+| C-03 | Restricción de Evidencias de Desarrollo | Deben generarse evidencias (commits, ramas GitFlow, videos, despliegues) en cada sprint para evaluación académica. | High | Low |
 
 ### 4.1.4. Architectural Design Decisions
 
+### Introducción  
+Durante el **Quality Attribute Workshop** se evaluaron los drivers arquitectónicos definidos previamente, identificando patrones candidatos y analizando ventajas y desventajas para cada caso. El objetivo fue asegurar que las decisiones arquitectónicas estuvieran alineadas con los objetivos de negocio, los atributos de calidad priorizados y las restricciones del proyecto, garantizando al mismo tiempo la viabilidad técnica de la solución **AlquilaFácil**.  
+
+El análisis se organizó en torno a los principales *drivers*, considerando tres patrones candidatos por cada uno, evaluando sus beneficios y limitaciones, y seleccionando la alternativa más adecuada para el contexto del proyecto. El resultado se presenta en la siguiente **Candidate Pattern Evaluation Matrix**, seguida de una síntesis de las decisiones finales adoptadas.
+
+---
+
+### Candidate Pattern Evaluation Matrix
+
+#### D1 — Gestión de Usuarios y Autenticación (FD-01)
+
+| Driver ID | Título de Driver | Pattern 1: JWT Stateless (Spring Security) | Pattern 2: OAuth2/OIDC con IdP | Pattern 3: Session-Based Auth |
+|-----------|------------------|-------------------------------------------|--------------------------------|-------------------------------|
+| FD-01 | Autenticación segura | **Pro:** Simplicidad, escalabilidad horizontal, soporte Web/Mobile. **Con:** Gestión de refresh tokens es propia. | **Pro:** Estándar enterprise, SSO, scopes. **Con:** Alta complejidad y sobrecarga para un MVP. | **Pro:** Fácil de implementar. **Con:** No escala bien, requiere sticky sessions. |
+
+**Decisión:** Se adopta **JWT stateless** con refresh tokens y hashing de contraseñas con BCrypt/Argon2, asegurando simplicidad y escalabilidad para el MVP.
+
+---
+
+#### D2 — Gestión de Espacios y Reservas (FD-02)
+
+| Driver ID | Título de Driver | Pattern 1: Monolito modular DDD | Pattern 2: Microservicios | Pattern 3: Microkernel |
+|-----------|------------------|---------------------------------|---------------------------|-------------------------|
+| FD-02 | Locals & Bookings | **Pro:** Organización clara, bajo costo operativo, fácil evolución. **Con:** Requiere disciplina modular. | **Pro:** Aislamiento fuerte. **Con:** Sobrecoste en despliegue y monitoreo. | **Pro:** Extensibilidad. **Con:** Complejidad innecesaria para MVP. |
+
+**Decisión:** Se mantiene un **monolito modular con bounded contexts** (IAM, Locals, Sensors, Notifications), listo para futura evolución hacia microservicios.
+
+---
+
+#### D3 — Integración IoT en Tiempo Real (FD-03)
+
+| Driver ID | Título de Driver | Pattern 1: MQTT + Edge Processing | Pattern 2: HTTP Polling | Pattern 3: AMQP directo |
+|-----------|------------------|----------------------------------|-------------------------|-------------------------|
+| FD-03 | Sensores IoT | **Pro:** Eficiente, bajo consumo, QoS configurable. **Con:** Requiere broker. | **Pro:** Simplicidad. **Con:** Ineficiente, mayor latencia. | **Pro:** Fiable en enterprise. **Con:** Pesado para microcontroladores. |
+
+**Decisión:** Se adopta **MQTT con Edge Processing**, asegurando eficiencia y filtrado de datos en tiempo real.
+
+---
+
+#### D4 — Notificaciones en Tiempo Real (FD-04)
+
+| Driver ID | Título de Driver | Pattern 1: WebSocket | Pattern 2: SSE + FCM | Pattern 3: Polling |
+|-----------|------------------|----------------------|----------------------|--------------------|
+| FD-04 | Notificaciones | **Pro:** Bidireccional y baja latencia. **Con:** Mayor complejidad de conexión. | **Pro:** Simplicidad (SSE) + fiabilidad en Mobile (FCM). **Con:** SSE es unidireccional. | **Pro:** Fácil. **Con:** Ineficiente, mala UX. |
+
+**Decisión:** Se implementa **SSE en Web** y **FCM en Mobile**, respaldados por un bus interno Pub/Sub para distribución de eventos.
+
+---
+
+#### D5 — Seguridad Transversal (QAD-01)
+
+| Driver ID | Título de Driver | Pattern 1: API Gateway | Pattern 2: Zero-Trust con JWT | Pattern 3: Vault + TLS |
+|-----------|------------------|------------------------|-------------------------------|------------------------|
+| QAD-01 | Seguridad | **Pro:** Rate-limiting y control centralizado. **Con:** Capa extra a mantener. | **Pro:** Control granular de accesos. **Con:** Requiere gestión de claves. | **Pro:** Cifrado integral. **Con:** Administración de Vault. |
+
+**Decisión:** Se adopta un **API Gateway** con limitación de peticiones, junto con **JWT con roles** y **TLS end-to-end**.
+
+---
+
+#### D6 — Escalabilidad (QAD-02)
+
+| Driver ID | Título de Driver | Pattern 1: CQRS light | Pattern 2: Cache distribuido | Pattern 3: Sharding |
+|-----------|------------------|-----------------------|------------------------------|---------------------|
+| QAD-02 | Escalabilidad | **Pro:** Consultas optimizadas, separa lecturas/escrituras. **Con:** Mayor complejidad en sincronización. | **Pro:** Mejora de rendimiento. **Con:** Riesgo en invalidación. | **Pro:** Escala masiva. **Con:** Sobrecoste para MVP. |
+
+**Decisión:** Se combina **CQRS light** con **Redis cache**, permitiendo escalabilidad horizontal en Azure.
+
+---
+
+#### D7 — Disponibilidad y Resiliencia (QAD-03)
+
+| Driver ID | Título de Driver | Pattern 1: Resilience4j | Pattern 2: Health-checks | Pattern 3: Outbox Pattern |
+|-----------|------------------|------------------------|--------------------------|---------------------------|
+| QAD-03 | Alta disponibilidad | **Pro:** Evita cascadas de fallos. **Con:** Configuración detallada. | **Pro:** Recuperación automática. **Con:** Limitado frente a fallos lógicos. | **Pro:** Garantiza entrega de eventos. **Con:** Complejidad extra. |
+
+**Decisión:** Se adopta **Resilience4j**, junto con **health-checks en Azure** y **Outbox Pattern** para asegurar consistencia eventual.
+
+---
+
+#### D8 — Experiencia de Usuario Consistente (QAD-04)
+
+| Driver ID | Título de Driver | Pattern 1: Design System | Pattern 2: BFF (Backend for Frontends) | Pattern 3: GraphQL |
+|-----------|------------------|--------------------------|---------------------------------------|--------------------|
+| QAD-04 | Consistencia UX | **Pro:** Uniformidad visual y coherencia. **Con:** Requiere mantenimiento. | **Pro:** APIs adaptadas a cada cliente. **Con:** Nuevos servicios por canal. | **Pro:** Flexibilidad de consultas. **Con:** Complejidad añadida. |
+
+**Decisión:** Se implementa un **Design System común** y un **BFF por canal (Web/Mobile)** para asegurar consistencia.
+
+---
+
+#### D9 — Interoperabilidad con Servicios Externos (QAD-05)
+
+| Driver ID | Título de Driver | Pattern 1: ACL/Adapter | Pattern 2: Integración directa | Pattern 3: ESB |
+|-----------|------------------|------------------------|--------------------------------|----------------|
+| QAD-05 | Integraciones | **Pro:** Aísla dependencias externas. **Con:** Sobrecoste de implementación. | **Pro:** Simplicidad. **Con:** Alto acoplamiento. | **Pro:** Orquestación potente. **Con:** Excesivo para MVP. |
+
+**Decisión:** Se utiliza **ACL/Adapter** para cada integración externa (pagos, mapas), minimizando riesgos de acoplamiento.
+
+---
+
+### Síntesis de Decisiones
+
+- **Backend:** Monolito modular con DDD, CQRS light y Redis.  
+- **IoT:** MQTT con Edge Processing para sensores.  
+- **Tiempo real:** SSE en Web + FCM en Mobile, con Pub/Sub interno.  
+- **Seguridad:** API Gateway, JWT con roles, TLS end-to-end y secretos externos.  
+- **UX:** Design System común y BFF por canal.  
+- **Resiliencia:** Resilience4j + health-checks + Outbox Pattern.  
+- **Integraciones:** ACL/Adapters para proveedores externos.  
+- **Despliegue:** Contenerización y escalado horizontal en Azure.  
+
+Estas decisiones permiten balancear las necesidades de negocio con la factibilidad técnica, asegurando que la solución sea **segura, escalable, resiliente y fácil de evolucionar** en el futuro.
 
 ### 4.1.5. Quality Attribute Scenario Refinements
-
 
 ## 4.2. Strategic-Level Domain-Driven Design
 
