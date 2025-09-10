@@ -344,6 +344,12 @@
 
 ### 4.1.1. Design Purpose
 
+El propósito del proceso de diseño de la solución **Alquila Facil** es diseñar una arquitectura de software que resuelva la problemática de dispersión de la oferta y demanda de alquileres en múltiples canales desconectados, así como la complejidad de los procesos de búsqueda y gestión identificada previamente.
+
+- **Arrendadores**: Requieren una plataforma que maximice la visibilidad de sus propiedades y simplifique la gestión de arrendatarios potenciales.
+- **Arrendatarios**: Necesitan un punto centralizado para búsqueda eficiente de propiedades y comunicación directa con arrendadores.
+
+El diseño busca generar valor para el negocio mediante la creación de un ecosistema digital que conecte eficientemente a ambos segmentos, reduciendo fricciones en el proceso de alquiler y posibilitando la monetización a través de transacciones exitosas facilitadas por la plataforma.
 
 ### 4.1.2. Attribute-Driven Design Inputs
 
