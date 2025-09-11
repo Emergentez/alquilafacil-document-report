@@ -906,6 +906,77 @@ Se llevarán a cabo tres entrevistas por segmento, sumando un total de seis. El 
 </tbody>
 </table>
 
+
+<br>
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"> <div align="center">Entrevista #3<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Walther</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Cachay Villar</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>27</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Surco</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones usadas</td>
+    <td>Facebook Marketplace</td>
+  </tr>
+  <tr>
+    <td>Motivación</td>
+    <td>Ahorrar tiempo y esfuerzo al buscar espacios adecuados, con precios claros y disponibilidad inmediata.</td>
+  </tr>
+  <tr>
+    <td>Frustración</td>
+    <td>Tener que revisar múltiples páginas o redes sociales sin información confiable ni opiniones verificadas.</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Android, Windows.</td>
+  </tr>
+  <tr>
+    <td>Browsers</td>
+    <td>Chrome, Brave</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Amner Llamo</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="images/cap-2/interviews/arrendatario-4.png" alt="Entrevista a Walther CV"></div></td>
+  </tr>
+  <tr>
+    <td>Enlace</td>
+    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/EZlqVACTfwpLplWreJA7dfcBL5gCzJyGQrH9NU7Wp3Ofmg?e=p8gpJe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" title="Title">Microsoft Stream</a></p></td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>00:00 min - 08:25 min </td>
+  </tr>
+  <tr>z
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    Walther Kevin, de 27 años y organizador de eventos en Santiago de Surco, considera que una aplicación como AlquilaFácil sería muy útil porque centralizaría la búsqueda, comparación y reserva de espacios, ahorrando tiempo y brindando confianza. Para él, las opiniones de otros usuarios son fundamentales, y valora que el proceso de reserva sea rápido, seguro y dentro de la misma plataforma, con pagos en línea y confirmación inmediata.Actualmente, encuentra difícil localizar espacios adecuados debido a la fragmentación de la información en redes sociales y páginas web. Destaca la importancia de contar con un sistema de reputación, canales de reclamo directos y notificaciones en tiempo real sobre seguridad o fallas técnicas. Además, prefiere lugares con tecnología de control (acceso digital, cámaras, sensores, monitoreo de aforo, internet estable y botón de emergencia), ya que considera la seguridad y la transparencia como factores clave en la experiencia de alquiler.
+    </td>
+  </tr>
+</tbody>
+</table>
 </div>
 
 ### 2.2.3. Análisis de entrevistas
