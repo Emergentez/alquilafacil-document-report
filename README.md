@@ -326,6 +326,7 @@
 
 ## 3.1. To-Be Scenario Mapping
 
+![Artefacto creado en Miro](images/cap-3/To-be-diagram.jpeg)
 
 ## 3.2. User Stories
 
