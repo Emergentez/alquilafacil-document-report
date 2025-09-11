@@ -379,7 +379,7 @@
 
 ###### Segmento Arrendatario
 
-
+![Artefacto creado en UXPressia](images/cap-3/impact-maps/Impact-map-arrendatario.png)
 
 ## 3.4. Product Backlog
 
