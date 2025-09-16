@@ -524,6 +524,279 @@ Estas decisiones permiten balancear las necesidades de negocio con la factibilid
 
 ### 4.1.5. Quality Attribute Scenario Refinements
 
+<h2>Scenario Refinement 1 - Performance</h2>
+
+<table>
+    <tr>
+        <th colspan="3" class="scenario-header">Scenario Refinement for Performance</th>
+    </tr>
+    <tr>
+        <td><strong>Scenario(s):</strong></td>
+        <td colspan="2">Búsqueda eficiente de propiedades con filtros múltiples bajo carga concurrente</td>
+    </tr>
+    <tr>
+        <td><strong>Business Goals:</strong></td>
+        <td colspan="2">Garantizar una experiencia de usuario fluida que mantenga a los usuarios comprometidos con la plataforma y reduzca la tasa de abandono durante las búsquedas</td>
+    </tr>
+    <tr>
+        <td><strong>Relevant Quality Attributes:</strong></td>
+        <td colspan="2">Performance, Usability</td>
+    </tr>
+    <tr>
+        <td rowspan="6" class="section-title"><strong>Scenario Components</strong></td>
+        <td><strong>Stimulus:</strong></td>
+        <td>Arrendatario/arrendador ejecuta búsqueda con múltiples filtros (ubicación, precio, tipo de propiedad, características)</td>
+    </tr>
+    <tr>
+        <td><strong>Stimulus Source:</strong></td>
+        <td>Usuario final (arrendador/arrendatario)</td>
+    </tr>
+    <tr>
+        <td><strong>Environment:</strong></td>
+        <td>Sistema en operación normal con hasta 1000 usuarios concurrentes</td>
+    </tr>
+    <tr>
+        <td><strong>Artifact (if known):</strong></td>
+        <td>Sistema de búsqueda, base de datos, índices de búsqueda, cache distribuido</td>
+    </tr>
+    <tr>
+        <td><strong>Response:</strong></td>
+        <td>El sistema procesa la consulta, aplica filtros, consulta índices optimizados y retorna resultados paginados</td>
+    </tr>
+    <tr>
+        <td><strong>Response Measure:</strong></td>
+        <td>Tiempo de respuesta ≤ 2 segundos para el 95% de las consultas</td>
+    </tr>
+    <tr>
+        <td><strong>Questions:</strong></td>
+        <td colspan="2">¿Cómo se comporta el sistema cuando los filtros requieren joins complejos? ¿El cache distribuido maneja correctamente la invalidación de resultados?</td>
+    </tr>
+    <tr>
+        <td><strong>Issues:</strong></td>
+        <td colspan="2">Posible degradación con consultas geoespaciales complejas, necesidad de estrategias de cache inteligentes</td>
+    </tr>
+</table>
+
+<hr>
+
+<h2>Scenario Refinement 2 - Availability</h2>
+
+<table>
+    <tr>
+        <th colspan="3" class="scenario-header">Scenario Refinement for Availability</th>
+    </tr>
+    <tr>
+        <td><strong>Scenario(s):</strong></td>
+        <td colspan="2">Acceso ininterrumpido a la plataforma durante picos de demanda y fallos parciales</td>
+    </tr>
+    <tr>
+        <td><strong>Business Goals:</strong></td>
+        <td colspan="2">Mantener la confianza del usuario y evitar pérdida de ingresos por indisponibilidad del servicio</td>
+    </tr>
+    <tr>
+        <td><strong>Relevant Quality Attributes:</strong></td>
+        <td colspan="2">Availability, Reliability, Recoverability</td>
+    </tr>
+    <tr>
+        <td rowspan="6" class="section-title"><strong>Scenario Components</strong></td>
+        <td><strong>Stimulus:</strong></td>
+        <td>Fallo de componente crítico o pico inesperado de tráfico</td>
+    </tr>
+    <tr>
+        <td><strong>Stimulus Source:</strong></td>
+        <td>Fallo de infraestructura, sobrecarga del sistema, mantenimiento programado</td>
+    </tr>
+    <tr>
+        <td><strong>Environment:</strong></td>
+        <td>Operación normal y condiciones de estrés</td>
+    </tr>
+    <tr>
+        <td><strong>Artifact (if known):</strong></td>
+        <td>Sistema completo, load balancers, instancias redundantes, base de datos</td>
+    </tr>
+    <tr>
+        <td><strong>Response:</strong></td>
+        <td>El sistema redirige tráfico a instancias saludables, activa réplicas y mantiene operatividad</td>
+    </tr>
+    <tr>
+        <td><strong>Response Measure:</strong></td>
+        <td>Disponibilidad ≥ 99.5% mensual, tiempo de recuperación ≤ 5 minutos</td>
+    </tr>
+    <tr>
+        <td><strong>Questions:</strong></td>
+        <td colspan="2">¿Cómo se maneja la sincronización de datos entre réplicas? ¿El sistema detecta automáticamente fallos parciales?</td>
+    </tr>
+    <tr>
+        <td><strong>Issues:</strong></td>
+        <td colspan="2">Complejidad en la gestión de estado distribuido, costos de infraestructura redundante</td>
+    </tr>
+</table>
+
+<hr>
+
+<h2>Scenario Refinement 3 - Security</h2>
+
+<table>
+    <tr>
+        <th colspan="3" class="scenario-header">Scenario Refinement for Security</th>
+    </tr>
+    <tr>
+        <td><strong>Scenario(s):</strong></td>
+        <td colspan="2">Protección contra accesos no autorizados y ataques maliciosos a datos sensibles</td>
+    </tr>
+    <tr>
+        <td><strong>Business Goals:</strong></td>
+        <td colspan="2">Cumplir con regulaciones de protección de datos y mantener la confianza del usuario en la seguridad de sus datos personales</td>
+    </tr>
+    <tr>
+        <td><strong>Relevant Quality Attributes:</strong></td>
+        <td colspan="2">Security, Privacy, Integrity</td>
+    </tr>
+    <tr>
+        <td rowspan="6" class="section-title"><strong>Scenario Components</strong></td>
+        <td><strong>Stimulus:</strong></td>
+        <td>Intento de acceso no autorizado, ataque de fuerza bruta, inyección SQL</td>
+    </tr>
+    <tr>
+        <td><strong>Stimulus Source:</strong></td>
+        <td>Usuario malicioso, bot automatizado, atacante interno</td>
+    </tr>
+    <tr>
+        <td><strong>Environment:</strong></td>
+        <td>Operación normal, bajo ataque activo</td>
+    </tr>
+    <tr>
+        <td><strong>Artifact (if known):</strong></td>
+        <td>Módulo de autenticación, API Gateway, base de datos, logs de seguridad</td>
+    </tr>
+    <tr>
+        <td><strong>Response:</strong></td>
+        <td>Sistema bloquea acceso, registra intento, activa medidas defensivas (rate limiting, CAPTCHA)</td>
+    </tr>
+    <tr>
+        <td><strong>Response Measure:</strong></td>
+        <td>100% de intentos no autorizados bloqueados, tiempo de detección ≤ 30 segundos</td>
+    </tr>
+    <tr>
+        <td><strong>Questions:</strong></td>
+        <td colspan="2">¿El sistema diferencia entre ataques automatizados y errores legítimos de usuario? ¿Cómo se balancea seguridad con usabilidad?</td>
+    </tr>
+    <tr>
+        <td><strong>Issues:</strong></td>
+        <td colspan="2">Falsos positivos que bloqueen usuarios legítimos, complejidad en la gestión de tokens JWT</td>
+    </tr>
+</table>
+
+<hr>
+
+<h2>Scenario Refinement 4 - Scalability</h2>
+
+<table>
+    <tr>
+        <th colspan="3" class="scenario-header">Scenario Refinement for Scalability</th>
+    </tr>
+    <tr>
+        <td><strong>Scenario(s):</strong></td>
+        <td colspan="2">Crecimiento súbito de usuarios simultáneos sin degradación del rendimiento</td>
+    </tr>
+    <tr>
+        <td><strong>Business Goals:</strong></td>
+        <td colspan="2">Soportar el crecimiento del negocio sin requerir rediseño arquitectónico mayor, optimizando costos de infraestructura</td>
+    </tr>
+    <tr>
+        <td><strong>Relevant Quality Attributes:</strong></td>
+        <td colspan="2">Scalability, Performance, Cost-effectiveness</td>
+    </tr>
+    <tr>
+        <td rowspan="6" class="section-title"><strong>Scenario Components</strong></td>
+        <td><strong>Stimulus:</strong></td>
+        <td>Incremento de 500 usuarios simultáneos adicionales en corto período</td>
+    </tr>
+    <tr>
+        <td><strong>Stimulus Source:</strong></td>
+        <td>Crecimiento orgánico, campaña de marketing, evento viral</td>
+    </tr>
+    <tr>
+        <td><strong>Environment:</strong></td>
+        <td>Pico de demanda, operación bajo estrés</td>
+    </tr>
+    <tr>
+        <td><strong>Artifact (if known):</strong></td>
+        <td>Sistema completo, auto-scaling groups, load balancers, base de datos</td>
+    </tr>
+    <tr>
+        <td><strong>Response:</strong></td>
+        <td>Sistema activa auto-scaling, distribuye carga, mantiene rendimiento estable</td>
+    </tr>
+    <tr>
+        <td><strong>Response Measure:</strong></td>
+        <td>Tiempo de respuesta se mantiene ≤ 3 segundos, escalado automático en ≤ 2 minutos</td>
+    </tr>
+    <tr>
+        <td><strong>Questions:</strong></td>
+        <td colspan="2">¿El auto-scaling considera métricas de negocio además de técnicas? ¿Cómo se manejan las sesiones durante el escalado?</td>
+    </tr>
+    <tr>
+        <td><strong>Issues:</strong></td>
+        <td colspan="2">Latencia en el aprovisionamiento de recursos, costos variables impredecibles</td>
+    </tr>
+</table>
+
+<hr>
+
+<h2>Scenario Refinement 5 - Usability</h2>
+
+<table>
+    <tr>
+        <th colspan="3" class="scenario-header">Scenario Refinement for Usability</th>
+    </tr>
+    <tr>
+        <td><strong>Scenario(s):</strong></td>
+        <td colspan="2">Onboarding intuitivo para nuevos usuarios sin experiencia previa en la plataforma</td>
+    </tr>
+    <tr>
+        <td><strong>Business Goals:</strong></td>
+        <td colspan="2">Maximizar conversión de visitantes a usuarios registrados y reducir abandono durante el proceso de registro inicial</td>
+    </tr>
+    <tr>
+        <td><strong>Relevant Quality Attributes:</strong></td>
+        <td colspan="2">Usability, Accessibility, Learnability</td>
+    </tr>
+    <tr>
+        <td rowspan="6" class="section-title"><strong>Scenario Components</strong></td>
+        <td><strong>Stimulus:</strong></td>
+        <td>Nuevo arrendatario accede por primera vez y realiza registro completo + primera búsqueda</td>
+    </tr>
+    <tr>
+        <td><strong>Stimulus Source:</strong></td>
+        <td>Arrendatario nuevo sin experiencia previa en la plataforma</td>
+    </tr>
+    <tr>
+        <td><strong>Environment:</strong></td>
+        <td>Operación normal, interfaz web/móvil</td>
+    </tr>
+    <tr>
+        <td><strong>Artifact (if known):</strong></td>
+        <td>Interfaz de usuario, formularios de registro, sistema de onboarding, tutoriales</td>
+    </tr>
+    <tr>
+        <td><strong>Response:</strong></td>
+        <td>Sistema guía al usuario a través del proceso con indicadores claros y validación en tiempo real</td>
+    </tr>
+    <tr>
+        <td><strong>Response Measure:</strong></td>
+        <td>≥ 90% de usuarios completan registro y primera búsqueda en ≤ 5 minutos sin asistencia</td>
+    </tr>
+    <tr>
+        <td><strong>Questions:</strong></td>
+        <td colspan="2">¿El sistema adapta el onboarding según el dispositivo utilizado? ¿Se consideran usuarios con diferentes niveles de alfabetización digital?</td>
+    </tr>
+    <tr>
+        <td><strong>Issues:</strong></td>
+        <td colspan="2">Balance entre simplicidad y recolección de información necesaria, accesibilidad para usuarios con discapacidades</td>
+    </tr>
+</table>
+
 ## 4.2. Strategic-Level Domain-Driven Design
 
 ### 4.2.1. EventStorming
