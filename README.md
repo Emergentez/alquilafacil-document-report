@@ -353,6 +353,8 @@ El diseño busca generar valor para el negocio mediante la creación de un ecosi
 
 ### 4.1.2 Attribute-Driven Design Inputs
 
+El diseño arquitectónico de AlquilaFácil se basa en la metodología Attribute-Driven Design (ADD), que prioriza la definición sistemática de inputs arquitectónicos críticos. Esta sección presenta los elementos fundamentales que orientarán las decisiones de diseño: Primary Functionality (historias de usuario de mayor impacto), Quality Attribute Scenarios (escenarios cuantificables de rendimiento, seguridad y escalabilidad), y Constraints (restricciones técnicas y regulatorias no negociables). Esta aproximación asegura que la arquitectura resultante satisfaga los requisitos funcionales, los atributos de calidad esperados y las limitaciones del contexto operativo.
+
 #### 4.1.2.1. Primary Functionality (Primary User Stories)
 
 En esta sección se presentan las historias de usuario que representan la **funcionalidad primaria** de AlquilaFácil. Estas historias son consideradas de mayor relevancia, ya que reflejan los **requisitos funcionales esenciales** del sistema y tienen un **impacto directo sobre la arquitectura de la solución**. La selección se centra en aquellas funcionalidades que permiten a los usuarios interactuar con la plataforma de manera clave: búsqueda y reserva de espacios, gestión de espacios por parte de arrendadores y monitoreo de eventos para garantizar la seguridad.
@@ -384,7 +386,6 @@ Los escenarios de atributos de calidad identificados para **Alquila Fácil** se 
 | **Security** | Usuario malicioso | Intento de acceso no autorizado a datos personales | Módulo de autenticación | Operación normal | El sistema bloquea el acceso y registra el intento | 100% de intentos no autorizados bloqueados |
 | **Scalability** | Carga del sistema | Incremento súbito de 500 usuarios simultáneos | Sistema completo | Pico de demanda | El sistema mantiene el rendimiento sin degradación | Tiempo de respuesta se mantiene ≤ 3 segundos |
 | **Usability** | Arrendatario nuevo | Registro y primera búsqueda en la plataforma | Interfaz de usuario | Operación normal | El usuario completa el proceso sin asistencia | ≥ 90% de usuarios completan el proceso en ≤ 5 minutos |
-| **Modifiability** | Desarrollador | Agregación de nueva funcionalidad de pagos | Módulo de transacciones | Desarrollo | Se integra la nueva funcionalidad sin afectar módulos existentes | Implementación ≤ 2 sprints de desarrollo |
 
 
 #### 4.1.2.3. Constraints
@@ -395,12 +396,10 @@ Los constraints identificados para **Alquila Fácil** incluyen restricciones té
 
 | Technical Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |-------------------|--------|-------------|------------------------|-------------------------|
-| C-001 | Cumplimiento de Ley de Protección de Datos | El sistema debe cumplir con la normativa peruana de protección de datos personales | - Implementar consentimiento explícito para recolección de datos<br>- Permitir eliminación de datos bajo solicitud<br>- Cifrar datos personales sensibles | Epic N |
-| C-002 | Compatibilidad con Navegadores Web | La aplicación web debe ser compatible con navegadores principales | - Funcionar correctamente en Chrome, Firefox, Safari y Edge<br>- Versiones de los últimos 2 años<br>- Responsive design para dispositivos móviles | Epic N |
-| C-003 | Presupuesto de Infraestructura Cloud | Los costos de infraestructura no deben exceder el presupuesto inicial | - Utilizar servicios cloud con modelo de pricing escalable<br>- Implementar auto-scaling para optimizar costos<br>- Monitorear gastos mensuales | Epic N |
-| C-004 | Tiempo de Desarrollo Limitado | El MVP debe estar listo en 6 meses | - Priorizar funcionalidades core<br>- Utilizar frameworks y librerías existentes<br>- Implementar metodología ágil | Epic N |
-| C-005 | Integración con Servicios de Mapas | Debe integrarse con servicios de geolocalización existentes | - Utilizar API de Google Maps o similar<br>- Mostrar ubicación de propiedades en mapa<br>- Permitir búsqueda por ubicación | Epic N |
-| C-006 | Seguridad en Transacciones | Las transacciones financieras deben ser seguras y auditables | - Implementar protocolo HTTPS<br>- Integrar con pasarelas de pago certificadas<br>- Mantener logs de todas las transacciones | Epic N |
+| C-001 | Cumplimiento de Ley de Protección de Datos | El sistema debe cumplir con la normativa peruana de protección de datos personales | - Implementar consentimiento explícito para recolección de datos<br>- Permitir eliminación de datos bajo solicitud<br>- Cifrar datos personales sensibles | Epic EP01 |
+| C-002 | Compatibilidad con Navegadores Web | La aplicación web debe ser compatible con navegadores principales | - Funcionar correctamente en Chrome, Firefox, Safari y Edge<br>- Versiones de los últimos 2 años<br>- Responsive design para dispositivos móviles | Epic EP02 |
+| C-003 | Presupuesto de Infraestructura Cloud | Los costos de infraestructura no deben exceder el presupuesto inicial | - Utilizar servicios cloud con modelo de pricing escalable<br>- Implementar auto-scaling para optimizar costos<br>- Monitorear gastos mensuales | Epic EP03 |
+| C-004 | Tiempo de Desarrollo Limitado | El MVP debe estar listo en 6 meses | - Priorizar funcionalidades core<br>- Utilizar frameworks y librerías existentes<br>- Implementar metodología ágil | Epic EP03 |
 
 ### 4.1.3. Architectural Drivers Backlog
 
@@ -519,7 +518,7 @@ El análisis se organizó en torno a los principales *drivers*, considerando tre
 |-----------|------------------|------------------------|--------------------------------|----------------|
 | QAD-05 | Integraciones | **Pro:** Aísla dependencias externas. **Con:** Sobrecoste de implementación. | **Pro:** Simplicidad. **Con:** Alto acoplamiento. | **Pro:** Orquestación potente. **Con:** Excesivo para MVP. |
 
-**Decisión:** Se utiliza **ACL/Adapter** para cada integración externa (pagos, mapas), minimizando riesgos de acoplamiento.
+**Decisión:** Se utiliza **ACL/Adapter** para cada integración externa (imágenes), minimizando riesgos de acoplamiento.
 
 ---
 
@@ -938,19 +937,45 @@ Cada uno de estos contextos delimita claramente su modelo de datos, comandos y e
 
 ### 4.2.3. Domain Message Flows Modeling
 <strong>Scenario 1: Local reservation</strong>:<br>
+
+La secuencia de reserva local fue diseñada para optimizar la experiencia del usuario manteniendo la máxima disponibilidad del sistema. La decisión de procesar inicialmente la reserva de forma local (steps 1-4) antes de involucrar sistemas externos refleja el principio de "optimistic UX": proporcionamos retroalimentación inmediata al usuario mientras procesamos las validaciones críticas en segundo plano. Este enfoque reduce significativamente el tiempo de respuesta percibido.
+
+La integración con PayPal (steps 7-8) se posiciona estratégicamente después de la creación de la reserva, no antes, para evitar cargos por transacciones fallidas debido a problemas de disponibilidad de espacios. El flujo asíncrono entre IAM, Reservation y Locals bounded contexts demuestra cómo la arquitectura distribuida mantiene la consistencia eventual sin bloquear la experiencia del usuario.
+
+
 ![Event Storming](images/cap-4/strategic-level/imagen_11.jpeg)
 
 <strong>Scenario 2: Local comment creation</strong>:<br>
+
+El flujo de comentarios fue diseñado con un enfoque de validación en capas que prioriza la integridad de datos y la experiencia del usuario. La decisión de validar primero la existencia del usuario (step 4) antes de permitir la creación del comentario (steps 1-3) previene comentarios huérfanos y mantiene la trazabilidad de la información.
+
+La ausencia de un sistema de pago en este flujo es intencional: los comentarios son considerados contenido generado por usuarios que no requiere transacciones monetarias, simplificando significativamente el proceso. La comunicación directa entre bounded contexts (IAM → Reservation → Locals) optimiza el rendimiento al evitar saltos innecesarios entre servicios.
+
 ![Event Storming](images/cap-4/strategic-level/imagen_12.jpeg)
 
 <strong>Scenario 3: Tenant exceeds local capacity</strong>:<br>
+
+Este escenario implementa un patrón de monitoreo proactivo que detecta condiciones de sobrecarga antes de que impacten la experiencia del usuario. La decisión de involucrar al Landlord (propietario) en el flujo (steps 6-7) reconoce que ciertos problemas operativos requieren intervención humana y no pueden ser resueltos automáticamente por el sistema.
+
+El comando "Enter local" (step 1) actúa como trigger para el sistema de monitoring, creando un registro de actividad que permite el análisis de patrones de uso. Esta aproximación event-driven facilita la escalabilidad horizontal del sistema de monitoreo sin impactar el rendimiento de las operaciones principales.
+
 ![Event Storming](images/cap-4/strategic-level/imagen_13.jpeg)
 
 <strong>Scenario 4: Tenant exceeds noise level</strong>:<br>
+
+La arquitectura de detección de infracciones fue diseñada para balancear la automatización con la supervisión humana. El comando "Exceeds noise level" (step 1) desencadena un flujo que involucra tanto sistemas automatizados (Monitoring, Notification) como actores humanos (Landlord), reconociendo que las violaciones de políticas requieren tanto detección técnica como juicio humano.
+
+La simplicidad aparente del flujo (solo 5 steps) es intencional: las infracciones requieren respuesta rápida, y un flujo complejo podría retrasar las notificaciones críticas. La comunicación directa entre sistemas minimiza la latencia en situaciones que podrían requerir intervención inmediata.
+
 ![Event Storming](images/cap-4/strategic-level/imagen_14.jpeg)
 
 <strong>Scenario 5: Tenant tries to enter the premises outside of reservation hours
 </strong>:<br>
+
+Este escenario implementa un sistema de validación temporal que protege tanto a propietarios como inquilinos. La consulta al schedule de reservas (step 3) añade una capa de validación lógica. Esta aproximación de doble validación (física + lógica) es fundamental en sistemas donde el acceso no autorizado puede tener consecuencias legales y financieras.
+
+La decisión de mantener un historial de infracciones (step 5) facilita el análisis de patrones y la toma de decisiones informadas sobre políticas de acceso. El flujo relativamente extenso (7 steps) refleja la complejidad inherente en la gestión de accesos seguros y el cumplimiento de políticas.
+
 ![Event Storming](images/cap-4/strategic-level/imagen_15.jpeg)
 
 
@@ -958,6 +983,31 @@ Cada uno de estos contextos delimita claramente su modelo de datos, comandos y e
 ![Event Storming](images/cap-4/strategic-level/imagen_16.jpeg)
 ![Event Storming](images/cap-4/strategic-level/imagen_17.jpeg)
 ![Event Storming](images/cap-4/strategic-level/imagen_18.jpeg)
+
+##### **IAM (Identity and Access Management)**
+
+El bounded context de IAM fue diseñado como el núcleo de seguridad y control de acceso del sistema, manteniendo una separación clara entre autenticación y autorización. La decisión de centralizar la gestión de usuarios en este contexto refleja principios de seguridad consolidados: un punto único de control facilita auditorías, cumplimiento normativo y gestión de políticas de seguridad.
+Las comunicaciones entrantes (Request via Webhook, Create User, Login Request) están diseñadas para manejar múltiples canales de autenticación, mientras que las salientes (User Logout, Locals) mantienen la integración con otros contextos. La clasificación estratégica como "Supporting" reconoce que, aunque crítico, IAM facilita las funcionalidades del negocio sin ser el core domain.
+
+##### **Locals**
+
+El contexto Locals encapsula toda la lógica relacionada con la gestión de espacios físicos y su información asociada. La decisión de separar este contexto del booking refleja el principio de separación de responsabilidades: Locals se enfoca en la información y características de los espacios, mientras que Booking maneja las transacciones y reservas.
+Las múltiples comunicaciones entrantes (WM, Register Local, Update Data, etc.) demuestran la naturaleza central de este contexto en el ecosistema. La clasificación como "Core" refleja que la gestión de locales es fundamental para el modelo de negocio. El lenguaje ubicuo incluye términos específicos del dominio inmobiliario que aseguran consistencia en la comunicación entre stakeholders técnicos y de negocio.
+
+#### **Booking**
+
+El contexto de Booking gestiona el ciclo completo de vida de las reservas, desde la creación hasta la finalización. La decisión de mantener este contexto separado de Locals permite evolucionar independientemente las lógicas de reserva sin impactar la gestión de espacios. Esta separación facilita también la implementación de diferentes modelos de pricing y políticas de reserva.
+Las comunicaciones con IAM, Locals y Monitoring reflejan las dependencias necesarias para un proceso de reserva completo: validación de usuarios, verificación de disponibilidad de espacios, y seguimiento de cumplimiento de políticas. La clasificación como "Core" junto con Locals forma el corazón del modelo de negocio de la plataforma.
+
+#### **Monitoring**
+
+El contexto de Monitoring implementa capacidades de observabilidad y cumplimiento en tiempo real. La decisión de crear un contexto dedicado para monitoring refleja la complejidad de gestionar espacios físicos donde el cumplimiento de reglas (ruido, ocupación, horarios) es crítico para el éxito del negocio.
+Las comunicaciones entrantes desde Booking y otros sistemas, junto con las salientes hacia Notifications, crean un sistema de alertas proactivo que previene problemas antes de que escalen. La clasificación como "Supporting" reconoce que, aunque esencial para la operación, su función principal es facilitar y asegurar el cumplimiento de las operaciones core del negocio.
+
+
+#### **Notifications**
+El contexto de Notifications centraliza todas las comunicaciones hacia usuarios finales, implementando un patrón de messaging que desacopla la generación de eventos de su entrega. Esta separación permite implementar diferentes canales de comunicación (email, SMS, push notifications) sin impactar los contextos que generan los eventos.
+La simplicidad aparente del contexto (pocas comunicaciones entrantes, múltiples salientes) refleja su naturaleza de hub de comunicaciones. La clasificación como "Generic" reconoce que las capacidades de notificación son reutilizables across múltiples dominios y no contienen lógica específica del negocio de alquiler de espacios.
 
 ### 4.2.5. Context Mapping
 ##### 1. Pasos para Crear el Context Mapping
@@ -1027,15 +1077,32 @@ Mantener la asignación de dispositivos dentro de Booking.
 
 ### 4.3.1. Software Architecture System Landscape Diagram
 
+El diagrama de landscape proporciona una vista estratégica de alto nivel que posiciona AlquilaFácil dentro del ecosistema tecnológico más amplio, mostrando cómo el sistema se integra con servicios externos críticos para su funcionamiento. La aparente similitud con el diagrama de contexto es intencional y beneficiosa: demuestra que el core del sistema mantiene su identidad y responsabilidades principales, independientemente de las integraciones externas.
+La decisión de mostrar únicamente Cloudinary como sistema externo refleja una filosofía de diseño "lean": mantener las dependencias externas al mínimo necesario para reducir la complejidad y los puntos de falla. Cloudinary fue seleccionado específicamente porque el manejo de imágenes (almacenamiento, transformación, optimización, CDN) requiere infraestructura altamente especializada que sería ineficiente desarrollar internamente. Esta vista landscape permite a los stakeholders comprender rápidamente las dependencias críticas del sistema y planificar adecuadamente la gestión de riesgos y la continuidad del negocio.
+
+![Landscape Diagram](images/cap-4/software-architecture/landscape.png)
+
 
 ### 4.3.2. Software Architecture Context Level Diagrams
 
+El diagrama de contexto presenta una vista simplificada e intencionalmente minimalista del sistema AlquilaFácil, enfocándose exclusivamente en los actores principales y sus interacciones directas con la plataforma. Esta decisión de simplicidad es estratégica: permite a stakeholders no técnicos comprender rápidamente el propósito y alcance del sistema sin perderse en detalles técnicos.
+La similitud aparente con el diagrama de landscape es completamente intencional y refleja una arquitectura coherente donde el sistema central mantiene las mismas responsabilidades fundamentales independientemente del nivel de detalle presentado. La diferencia clave radica en que el contexto se centra en QUÉ hace el sistema (booking y gestión de espacios), mientras que el landscape muestra CÓMO interactúa con servicios externos. Esta consistencia entre vistas valida la solidez del diseño arquitectónico.
+
+![Context Diagram](images/cap-4/software-architecture/context.png)
 
 ### 4.3.3. Software Architecture Container Level Diagrams
 
+El diagrama de contenedor fue diseñado para mostrar la arquitectura técnica completa del sistema AlquilaFácil, destacando cómo cada componente tecnológico contribuye a satisfacer las necesidades de los diferentes tipos de usuarios. La decisión de incluir múltiples interfaces (Landing Page, Web Application, Mobile App) responde a la necesidad de proporcionar diferentes puntos de entrada según el contexto de uso: la landing page para atraer nuevos usuarios, la aplicación web para gestión completa desde escritorio, y la aplicación móvil para acceso rápido en movilidad.
+La arquitectura distribuida con Edge Nodes refleja la realidad geográfica del negocio de alquiler de espacios, donde la latencia y la disponibilidad local son críticas. La separación entre bases de datos edge y cloud permite optimizar el rendimiento local mientras se mantiene la consistencia global de datos. El API Gateway centraliza la seguridad y el control de acceso, mientras que Cloudinary maneja específicamente las imágenes, reconociendo que el contenido visual es fundamental en el negocio de alquiler de espacios.
+
+![Container Diagram](images/cap-4/software-architecture/container.png)
 
 ### 4.3.4. Software Architecture Deployment Diagrams
 
+El diagrama de despliegue ilustra la estrategia de distribución física y lógica del sistema, diseñada para optimizar el rendimiento y la disponibilidad geográfica. La decisión de implementar una arquitectura edge-first responde directamente a los requisitos del negocio: los usuarios necesitan acceso rápido y confiable a información de espacios locales, independientemente de su ubicación geográfica.
+La separación clara entre deployment nodes (Edge Node Server, Web Server, API Gateway Server, etc.) refleja principios de separación de responsabilidades y escalabilidad horizontal. Cada servidor tiene un propósito específico, permitiendo escalamiento independiente según la demanda. La ubicación de Cloudinary como servicio externo reconoce que el almacenamiento y procesamiento de imágenes requiere infraestructura especializada que es más eficiente como servicio managed. Esta arquitectura también facilita el mantenimiento y las actualizaciones, ya que cada componente puede ser gestionado independientemente.
+
+![Deployment Diagram](images/cap-4/software-architecture/deployment.png)
 
 ---
 
