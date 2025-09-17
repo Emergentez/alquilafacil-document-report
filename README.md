@@ -685,16 +685,12 @@ Se llevarán a cabo tres entrevistas por segmento, sumando un total de seis. El 
 </tbody>
 </table>
 <br>
-
-**Segmento 2: Arrendatarios sociales frecuentes de espacios para eventos**
-
-<br>
 <table>
 <colgroup>
 </colgroup>
 <thead>
   <tr>
-    <th colspan="2"> <div align="center">Entrevista #1<br></div></th>
+    <th colspan="2"> <div align="center">Entrevista #2<br></div></th>
   </tr>
 </thead>
 <tbody>
@@ -768,57 +764,57 @@ Se llevarán a cabo tres entrevistas por segmento, sumando un total de seis. El 
 </colgroup>
 <thead>
   <tr>
-    <th colspan="2"> <div align="center">Entrevista #2<br></div></th>
+    <th colspan="2"> <div align="center">Entrevista #3<br></div></th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>Nombre</td>
-    <td>Fabio Ernesto</td>
+    <td>Angello Rodolfo</td>
   </tr>
   <tr>
     <td>Apellidos</td>
-    <td>Horna Silva</td>
+    <td>Sosa Colca</td>
   </tr>
   <tr>
     <td>Edad</td>
-    <td>23</td>
+    <td>20</td>
   </tr>
   <tr>
     <td>Distrito</td>
-    <td>Surco</td>
+    <td>San Borja</td>
   </tr>
   <tr>
     <td>Aplicaciones usadas</td>
-    <td>Instagram</td>
+    <td>Facebook Marketplace</td>
   </tr>
   <tr>
     <td>Motivación</td>
-    <td>Establecerse como un organizador de eventos reconocido en su área.</td>
+    <td>Maximizar el uso de sus espacios y generar ingresos adicionales mediante alquileres frecuentes.</td>
   </tr>
   <tr>
     <td>Frustración</td>
-    <td>Dificultades para encontrar espacios con características específicas.</td>
+    <td>La falta de control y visibilidad sobre el comportamiento de los inquilinos y posibles daños en los espacios alquilados.</td>
   </tr>
   <tr>
     <td>Tecnologías</td>
-    <td>Android, Windows.</td>
+    <td>Android, Windows</td>
   </tr>
   <tr>
     <td>Browsers</td>
-    <td>Google Chrome, Brave</td>
+    <td>Brave</td>
   </tr>
   <tr>
     <td>Entrevistador</td>
-    <td>Carlos Casimiro</td>
+    <td>Omar Morales</td>
   </tr>
   <tr>
     <td>Evidencia</td>
-    <td><div align="center"><img src="images/cap-2/interviews/arrendatario-2.png" alt="Entrevista a XXX"></div></td>
+    <td><div align="center"><img src="https://i.imgur.com/hEtj6a6.png" alt="Entrevista a Angello Sosa"></div></td>
   </tr>
   <tr>
     <td>Enlace</td>
-    <td><p><a target="_blank"  href="https://" title="Title">Microsoft Stream</a></p></td>
+    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/EU3VSEXzIcRGirzqTJsQ7j0BB1NowarJyA5Qrxhwf7GB-g?e=EITSCV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" title="Entrevista Angello">Microsoft Stream</a></p></td>
   </tr>
   <tr>
     <td>Duración<br></td>
@@ -827,21 +823,21 @@ Se llevarán a cabo tres entrevistas por segmento, sumando un total de seis. El 
   <tr>
     <td>Resumen</td>
     <td style="text-align: justify;">
-    Fabio Orna Silva, consultor de ingeniería, respondió sobre su experiencia como usuario y proveedor de espacios para eventos, resaltando los desafíos que enfrenta al alquilar y ofrecer inmuebles. Considera muy útil una app como Alquilar Fácil, ya que facilitaría la búsqueda, comparación de precios y reservas en un solo lugar. Destacó la importancia de contar con calificaciones y opiniones de otros usuarios, procesos rápidos y seguros, así como la posibilidad de hacer reclamos directamente desde la plataforma. Además, valoró la existencia de un sistema de reputación para arrendadores y arrendatarios, y sugirió integrar herramientas tecnológicas como cerraduras electrónicas y sistemas de gestión de reservas para mejorar la experiencia y confianza en el servicio.
+    El entrevistado, Angello Sosa, comentó que ve con entusiasmo la propuesta de una aplicación enfocada en la gestión de alquileres de espacios. Considera que esta herramienta es innovadora porque facilitaría el control y la administración de sus propiedades, reduciendo riesgos y optimizando la experiencia tanto para arrendadores como para arrendatarios. Mencionó que la idea le parece acertada, ya que podría marcar la diferencia frente a otras alternativas poco prácticas del mercado actual.
     </td>
   </tr>
 </tbody>
 </table>
 
-<br>
 
-<br>
+**Segmento 2: Arrendatarios sociales frecuentes de espacios para eventos**
+
 <table>
 <colgroup>
 </colgroup>
 <thead>
   <tr>
-    <th colspan="2"> <div align="center">Entrevista #3<br></div></th>
+    <th colspan="2"> <div align="center">Entrevista #1<br></div></th>
   </tr>
 </thead>
 <tbody>
@@ -897,7 +893,7 @@ Se llevarán a cabo tres entrevistas por segmento, sumando un total de seis. El 
     <td>Duración<br></td>
     <td>00:00 min - 07:44 min </td>
   </tr>
-  <tr>z
+  <tr>
     <td>Resumen</td>
     <td style="text-align: justify;">
     En la entrevista, Ricardo Rivas, estudiante de 20 años de ciencias de la computación, expresó que una aplicación como Alquila Fácil le resultaría muy útil para organizar eventos de baile o actuación, ya que actualmente es complicado encontrar y reservar espacios adecuados, con información clara sobre costos, capacidad y disponibilidad. Destacó la importancia de poder comparar precios, ver fotos, leer opiniones y calificaciones, ya que le permitiría ahorrar tiempo y confiar en la calidad del lugar, incluso al alquilar con poca anticipación. Considera fundamental que el proceso de reserva sea rápido, seguro y con contacto directo con el arrendador, y que la app funcione como intermediario en caso de reclamos, brindando respaldo y confianza. También valoró un sistema de reputación tanto para arrendadores como arrendatarios, así como recibir notificaciones durante el evento ante imprevistos. Para él, la seguridad es prioritaria, por lo que aprecia que los espacios cuenten con herramientas como cámaras de vigilancia, sistemas de control de ingreso y tecnología que garantice protección. En resumen, su visión resalta la necesidad de una plataforma confiable, segura y tecnológica que simplifique el acceso a espacios para eventos, brinde transparencia y fortalezca la experiencia de los usuarios.
@@ -913,7 +909,7 @@ Se llevarán a cabo tres entrevistas por segmento, sumando un total de seis. El 
 </colgroup>
 <thead>
   <tr>
-    <th colspan="2"> <div align="center">Entrevista #3<br></div></th>
+    <th colspan="2"> <div align="center">Entrevista #2<br></div></th>
   </tr>
 </thead>
 <tbody>
@@ -969,7 +965,7 @@ Se llevarán a cabo tres entrevistas por segmento, sumando un total de seis. El 
     <td>Duración<br></td>
     <td>00:00 min - 08:25 min </td>
   </tr>
-  <tr>z
+  <tr>
     <td>Resumen</td>
     <td style="text-align: justify;">
     Walther Kevin, de 27 años y organizador de eventos en Santiago de Surco, considera que una aplicación como AlquilaFácil sería muy útil porque centralizaría la búsqueda, comparación y reserva de espacios, ahorrando tiempo y brindando confianza. Para él, las opiniones de otros usuarios son fundamentales, y valora que el proceso de reserva sea rápido, seguro y dentro de la misma plataforma, con pagos en línea y confirmación inmediata.Actualmente, encuentra difícil localizar espacios adecuados debido a la fragmentación de la información en redes sociales y páginas web. Destaca la importancia de contar con un sistema de reputación, canales de reclamo directos y notificaciones en tiempo real sobre seguridad o fallas técnicas. Además, prefiere lugares con tecnología de control (acceso digital, cámaras, sensores, monitoreo de aforo, internet estable y botón de emergencia), ya que considera la seguridad y la transparencia como factores clave en la experiencia de alquiler.
@@ -977,6 +973,79 @@ Se llevarán a cabo tres entrevistas por segmento, sumando un total de seis. El 
   </tr>
 </tbody>
 </table>
+
+<br>
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"> <div align="center">Entrevista #3<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Alonso Rafael</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Castro</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Miraflores</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones usadas</td>
+    <td>Airbnb, Facebook Marketplace</td>
+  </tr>
+  <tr>
+    <td>Motivación</td>
+    <td>Acceder de manera rápida a espacios adecuados para eventos sociales y familiares.</td>
+  </tr>
+  <tr>
+    <td>Frustración</td>
+    <td>La poca transparencia en precios y condiciones de alquiler, así como la dificultad para comparar opciones confiables.</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Android, Windows</td>
+  </tr>
+  <tr>
+    <td>Browsers</td>
+    <td>Google Chrome</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Mariano Ames</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="https://i.imgur.com/rO1QZ5l.png" alt="Entrevista a Alonso Castro"></div></td>
+  </tr>
+  <tr>
+    <td>Enlace</td>
+    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211371_upc_edu_pe/ESQltFXU8tFAuwSbkq6_F3IBR9otieA9wHrLG2m191c3lw?e=ZaTgkw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" title="Entrevista Alonso">Microsoft Stream</a></p></td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>00:00 min - 00:00 min </td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    El entrevistado, Alonso Castro, pertenece al segmento de arrendatarios y compartió su experiencia buscando espacios para eventos. Comentó que la aplicación le resulta una propuesta útil y novedosa, ya que facilitaría encontrar lugares disponibles con mayor rapidez y transparencia. Resaltó que el principal valor estaría en centralizar la información de precios y condiciones, evitando la pérdida de tiempo en negociaciones poco claras. Finalmente, expresó que le parece una idea con gran potencial para mejorar la experiencia de los usuarios que alquilan espacios.
+    </td>
+  </tr>
+</tbody>
+</table>
+
 </div>
 
 ### 2.2.3. Análisis de entrevistas
