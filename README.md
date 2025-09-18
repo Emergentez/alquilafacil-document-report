@@ -1514,6 +1514,7 @@ Presentaremos los User Persona por cada segmento objetivo, en los cuales nos bas
         </tbody>
     </table>
 </div>
+
 ---
 
 # Capítulo IV: Strategic-Level Software Design
@@ -1522,41 +1523,764 @@ Presentaremos los User Persona por cada segmento objetivo, en los cuales nos bas
 
 ### 4.1.1. Design Purpose
 
-### 4.1.2. Attribute-Driven Design Inputs
+El propósito del proceso de diseño de la solución **Alquila Facil** es diseñar una arquitectura de software que resuelva la problemática de dispersión de la oferta y demanda de alquileres en múltiples canales desconectados, así como la complejidad de los procesos de búsqueda y gestión identificada previamente.
+
+- **Arrendadores**: Requieren una plataforma que maximice la visibilidad de sus propiedades y simplifique la gestión de arrendatarios potenciales.
+- **Arrendatarios**: Necesitan un punto centralizado para búsqueda eficiente de propiedades y comunicación directa con arrendadores.
+
+El diseño busca generar valor para el negocio mediante la creación de un ecosistema digital que conecte eficientemente a ambos segmentos, reduciendo fricciones en el proceso de alquiler y posibilitando la monetización a través de transacciones exitosas facilitadas por la plataforma.
+
+### 4.1.2 Attribute-Driven Design Inputs
+
+El diseño arquitectónico de AlquilaFácil se basa en la metodología Attribute-Driven Design (ADD), que prioriza la definición sistemática de inputs arquitectónicos críticos. Esta sección presenta los elementos fundamentales que orientarán las decisiones de diseño: Primary Functionality (historias de usuario de mayor impacto), Quality Attribute Scenarios (escenarios cuantificables de rendimiento, seguridad y escalabilidad), y Constraints (restricciones técnicas y regulatorias no negociables). Esta aproximación asegura que la arquitectura resultante satisfaga los requisitos funcionales, los atributos de calidad esperados y las limitaciones del contexto operativo.
 
 #### 4.1.2.1. Primary Functionality (Primary User Stories)
 
+En esta sección se presentan las historias de usuario que representan la **funcionalidad primaria** de AlquilaFácil. Estas historias son consideradas de mayor relevancia, ya que reflejan los **requisitos funcionales esenciales** del sistema y tienen un **impacto directo sobre la arquitectura de la solución**. La selección se centra en aquellas funcionalidades que permiten a los usuarios interactuar con la plataforma de manera clave: búsqueda y reserva de espacios, gestión de espacios por parte de arrendadores y monitoreo de eventos para garantizar la seguridad.
+
+A continuación, se detallan las historias de usuario seleccionadas, con su descripción, criterios de aceptación y la Epic a la que están relacionadas:
+
+| ID de la user story | Título| Descripción|Criterios de aceptación| Relacionado con (Epic ID)
+|---------------------|-------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|
+| US04                | Buscar espacios disponibles               | Como arrendatario, quiero poder buscar fácilmente espacios disponibles en AlquilaFácil para encontrar el lugar perfecto para mi evento.            | Escenario 01: Búsqueda principal por ubicación <br> **Dado** que un arrendatario busca un espacio para eventos en una ubicación específica. **Cuando** el arrendatario ingresa la ubicación deseada en el campo de búsqueda. **Entonces** se muestran los espacios disponibles en esa ubicación. <br><br> Escenario 02: Búsqueda general de espacios <br> **Dado** que un arrendatario no ingresa algún texto en la barra de búsqueda. **Cuando** presiona sobre el ícono para buscar espacios. **Entonces** se muestran todos los espacios disponibles. | EP03 |
+| US05                | Filtrar espacios disponibles              | Como arrendatario, quiero poder filtrar los espacios disponibles por capacidad y categoría, para encontrar uno que cumpla con mis criterios específicos. | Escenario 01: Filtrado por capacidad <br> **Dado** que un arrendatario desea un espacio con capacidad para un número específico de personas. **Cuando** el arrendatario aplica un filtro de capacidad en la búsqueda. **Entonces** se muestran solo los espacios que cumplen con ese criterio. <br><br> Escenario 02: Filtrado por categoría <br> **Dado** que un arrendatario desea un espacio de una categoría en específico. **Cuando** el arrendatario aplica un filtro de categoría en la búsqueda. **Entonces** se muestran solo los espacios que cumplen con ese criterio. | EP03 |
+| US07                | Reservar espacios                         | Como arrendatario, quiero poder reservar un espacio para mi evento en AlquilaFácil para garantizar su disponibilidad en la fecha deseada. | Escenario 01: Proceso de Reserva <br> Dado que un arrendatario ha encontrado el espacio ideal en AlquilaFácil. Cuando selecciona un espacio y una fecha. Entonces se muestra un formulario de para completar los detalles de reserva. <br><br> Escenario 02: Pago de la reserva con PayPal <br> **Dado** que el usuario está a punto de culminar el proceso de reserva de un espacio. **Cuando** el usuario presione el botón de realizar reserva. **Entonces** el usuario realizará el pago de la reserva a través de PayPal. <br><br> Escenario 03: Confirmación de Reserva <br> Dado que un arrendatario ha realizado el pago de la reserva en AlquilaFácil. Cuando el arrendatario es redirigido a la aplicación. Entonces recibe una confirmación de reserva y los detalles se actualizan en su cuenta. | EP03 |
+| US08                | Gestionar calendario de reservas          | Como usuario de AlquilaFácil, quiero poder controlar una agenda de reservas para tener un horario organizado y evitar conflictos futuros. | Escenario 01: Existencia de reserva de usuario normal <br> Dado que un arrendatario ha realizado una reserva   de uno de mis espacios. Cuando el propietario accede al calendario. Entonces puede ver el día de la reserva resaltada en color rojo. <br><br> Escenario 02: Existencia de reserva de usuario premium <br> Dado que un arrendatario con suscripción premium ha realizado una reserva   de uno de mis espacios. Cuando el propietario accede al calendario. Entonces puede ver el día de la reserva resaltada en color amarillo. <br><br> Escenario 03: Existencia de reserva de espacio ajeno <br> Dado que un arrendatario ha realizado una reserva de espacio. Cuando este accede al calendario. Entonces puede ver el día de su reserva resaltada en color azul. | EP04 |
+| US18                | Control de Aforo                          | Como arrendador, quiero recibir información en tiempo real sobre el número de personas presentes en mi local durante un evento, para asegurarme de que no se exceda el aforo permitido. | Escenario 01: Alerta de aforo<br>**Dado** que hay un evento activo, **cuando** se detecta que el número de personas se acerca al límite permitido, **entonces** se muestra una alerta en la app del arrendador.<br><br>Escenario 02: Aforo excedido<br>**Dado** que se ha superado el aforo máximo permitido, **cuando** esto ocurre, **entonces** el sistema debe notificar al arrendador inmediatamente por notificación push **y** correo electrónico. | EP05 |
+| US19                | Monitoreo de Niveles de Ruido             | Como arrendador, quiero que el sistema me notifique si el nivel de ruido supera un umbral establecido, para poder tomar acciones preventivas. | Escenario 01: Umbral de ruido excedido<br> **Dado** que se ha configurado un umbral de ruido, **cuando** los decibeles exceden ese límite, **entonces** el sistema envía una notificación al arrendador.<br><br>Escenario 02: Actualización de umbral <br> **Dado** que el evento sigue en curso, **cuando** los niveles de ruido vuelven a la normalidad, **entonces** el sistema registra automáticamente el tiempo total del exceso. |
+| US20                | Detección de Humo                         | Como arrendador, quiero que se active una alerta automática si se detecta humo en el local durante un evento, para verificar si hay una situación de riesgo. | Escenario 01: Presencia de humo detectada<br>**Dado** que hay sensores de humo activos, **cuando** se detecta presencia de humo, **entonces** se envía una notificación crítica al arrendador.<br><br>Escenario 02: Visualización de incidente<br> **Dado** que se ha enviado una alerta de humo, **cuando** el usuario accede a la app, **entonces** debe visualizar el evento en un panel de incidentes con la hora exacta de detección. | EP05 |
+| US21                | Movimiento en Áreas No Autorizadas        | Como arrendador, quiero recibir notificaciones si se detecta movimiento en zonas restringidas, para asegurar que los arrendatarios respeten los espacios delimitados. | Escenario 01: Movimiento detectado en zona retringida<br>**Dado** que se ha definido una zona como restringida, **cuando** se detecta movimiento en esa área, **entonces** el arrendador recibe una alerta inmediata con la ubicación del incidente.<br><br>Escenario 02: Registro de movimientos detectados<br>**Dado** que ocurre una intrusión, **cuando** el evento es registrado, **entonces** debe quedar un historial con fecha, hora **y** duración del movimiento. | EP05 |
+| US22                | Registro de Incidentes                    | Como arrendador, quiero acceder a un historial con todos los eventos registrados por sensores, para tener evidencia y mejorar la gestión. | Escenario 01: Historial de incidentes <br> **Dado** que han ocurrido incidentes durante un evento, **cuando** el arrendador accede al panel de historial, **entonces** puede ver un listado con fecha, tipo de incidente **y** duración.<br><br>Escenario 02: Detalle de incidente registrado <br>**Dado** que se selecciona un evento del historial, **cuando** el usuario lo abre, **entonces** debe poder ver detalles como gráfico de actividad, sensores involucrados **y** ubicación dentro del local. | EP05 |
+
 #### 4.1.2.2. Quality attribute Scenarios
+
+En esta sección se incluye la especificación de la primera versión de los escenarios de atributos de calidad que tienen mayor impacto en la arquitectura de la solución, los cuales sirven de input para el proceso de diseño. La sección inicia con un texto de introducción en el cual se resume los escenarios de atributos de calidad identificados en primera instancia y se incluye el siguiente cuadro para especificar los Quality Attribute Scenarios.
+
+Los escenarios de atributos de calidad identificados para **Alquila Fácil** se centran en garantizar una experiencia de usuario óptima, seguridad de datos, disponibilidad del sistema y escalabilidad para soportar el crecimiento esperado de la plataforma.
+
+| Atributo | Fuente | Estímulo | Artefacto | Entorno | Respuesta | Medida |
+|----------|--------|----------|-----------|---------|-----------|---------|
+| **Performance** | Usuario (arrendador/arrendatario) | Búsqueda de propiedades con filtros múltiples | Sistema de búsqueda | Operación normal con 1000 usuarios concurrentes | El sistema retorna resultados de búsqueda | Tiempo de respuesta ≤ 2 segundos |
+| **Availability** | Usuario | Acceso a la plataforma | Sistema completo | Operación normal | El sistema permanece disponible y operativo | Disponibilidad ≥ 99.5% del tiempo |
+| **Security** | Usuario malicioso | Intento de acceso no autorizado a datos personales | Módulo de autenticación | Operación normal | El sistema bloquea el acceso y registra el intento | 100% de intentos no autorizados bloqueados |
+| **Scalability** | Carga del sistema | Incremento súbito de 500 usuarios simultáneos | Sistema completo | Pico de demanda | El sistema mantiene el rendimiento sin degradación | Tiempo de respuesta se mantiene ≤ 3 segundos |
+| **Usability** | Arrendatario nuevo | Registro y primera búsqueda en la plataforma | Interfaz de usuario | Operación normal | El usuario completa el proceso sin asistencia | ≥ 90% de usuarios completan el proceso en ≤ 5 minutos |
+
 
 #### 4.1.2.3. Constraints
 
+En esta sección se incluye la especificación de restricciones, es decir características que no pueden ser negociadas y son impuestas por el cliente o el propio negocio como guía para la elaboración de la solución. La sección inicia con una introducción donde se resume los principales constraints a considerar. Luego de ello se incluye el cuadro de Constraints representados como Technical Stories, donde cada constraint considerado ocupa una fila.
+
+Los constraints identificados para **Alquila Fácil** incluyen restricciones técnicas relacionadas con la seguridad de datos personales, compliance regulatorio, limitaciones presupuestarias y requerimientos de compatibilidad que son fundamentales para el éxito del proyecto.
+
+| Technical Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|-------------------|--------|-------------|------------------------|-------------------------|
+| C-001 | Cumplimiento de Ley de Protección de Datos | El sistema debe cumplir con la normativa peruana de protección de datos personales | - Implementar consentimiento explícito para recolección de datos<br>- Permitir eliminación de datos bajo solicitud<br>- Cifrar datos personales sensibles | Epic EP01 |
+| C-002 | Compatibilidad con Navegadores Web | La aplicación web debe ser compatible con navegadores principales | - Funcionar correctamente en Chrome, Firefox, Safari y Edge<br>- Versiones de los últimos 2 años<br>- Responsive design para dispositivos móviles | Epic EP02 |
+| C-003 | Presupuesto de Infraestructura Cloud | Los costos de infraestructura no deben exceder el presupuesto inicial | - Utilizar servicios cloud con modelo de pricing escalable<br>- Implementar auto-scaling para optimizar costos<br>- Monitorear gastos mensuales | Epic EP03 |
+| C-004 | Tiempo de Desarrollo Limitado | El MVP debe estar listo en 6 meses | - Priorizar funcionalidades core<br>- Utilizar frameworks y librerías existentes<br>- Implementar metodología ágil | Epic EP03 |
+
 ### 4.1.3. Architectural Drivers Backlog
+
+La arquitectura de la solución AlquilaFácil está guiada por un conjunto de drivers que garantizan el cumplimiento de los objetivos funcionales del sistema, los atributos de calidad priorizados y las restricciones tecnológicas definidas. Estos drivers representan las decisiones críticas que orientan el diseño de los distintos componentes, desde la autenticación segura y la gestión de espacios, hasta la integración de sensores IoT y la escalabilidad en la nube, asegurando que la plataforma sea confiable, segura y consistente para todos los usuarios.
+
+
+| Driver ID | Título de Driver | Descripción | Importancia para Stakeholders | Impacto en Architecture Technical Complexity |
+|-----------|-----------------|-------------|-------------------------------|---------------------------------------------|
+| FD-01 | Gestión de Usuarios y Autenticación Segura | Los usuarios deben registrarse e iniciar sesión de forma segura (JWT, hashing). Base para todas las demás interacciones. | High | High |
+| FD-02 | Gestión de Espacios (Locals) | Permitir a arrendadores publicar y gestionar espacios, y a arrendatarios reservarlos. | High | Medium |
+| FD-03 | Integración de Sensores IoT | Captura de datos de humo, sonido, aforo y movimiento en tiempo real mediante Edge Node y Embedded App. | High | High |
+| FD-04 | Notificaciones en Tiempo Real | Enviar alertas (seguridad, reservas, estado de locales) a usuarios vía Web y Mobile. | High | High |
+| QAD-01 | Seguridad de Datos | Proteger datos sensibles de usuarios y locales mediante cifrado, autenticación robusta y control de acceso por roles. | High | High |
+| QAD-02 | Escalabilidad en la Nube | El sistema debe soportar un incremento de usuarios, locales y sensores sin degradar el rendimiento, aprovechando Azure Cloud. | High | High |
+| QAD-03 | Disponibilidad y Resiliencia | El sistema debe garantizar alta disponibilidad y recuperación rápida ante fallos (despliegue distribuido, redundancia). | High | High |
+| QAD-04 | Experiencia de Usuario Consistente | El diseño UX/UI debe ser consistente entre Landing, Web App y Mobile App, con flujos simples e inclusivos. | High | Medium |
+| QAD-05 | Interoperabilidad con Servicios Externos | El sistema debe integrarse con APIs externas (ej. pasarela de pagos, mapas de localización). | Medium | High |
+| C-01 | Restricción de Uso de Tecnologías | Todas las capas deben implementar soluciones basadas en tecnologías establecidas (.NET, Vue y Flutter). | High | Medium |
+| C-02 | Restricción de Despliegue en Azure | Todos los componentes (Backend, Edge Node, Web) deben ser desplegados en Azure según lineamientos del curso. | High | Medium |
+| C-03 | Restricción de Evidencias de Desarrollo | Deben generarse evidencias (commits, ramas GitFlow, videos, despliegues) en cada sprint para evaluación académica. | High | Low |
 
 ### 4.1.4. Architectural Design Decisions
 
+### Introducción  
+Durante el **Quality Attribute Workshop** se evaluaron los drivers arquitectónicos definidos previamente, identificando patrones candidatos y analizando ventajas y desventajas para cada caso. El objetivo fue asegurar que las decisiones arquitectónicas estuvieran alineadas con los objetivos de negocio, los atributos de calidad priorizados y las restricciones del proyecto, garantizando al mismo tiempo la viabilidad técnica de la solución **AlquilaFácil**.  
+
+El análisis se organizó en torno a los principales *drivers*, considerando tres patrones candidatos por cada uno, evaluando sus beneficios y limitaciones, y seleccionando la alternativa más adecuada para el contexto del proyecto. El resultado se presenta en la siguiente **Candidate Pattern Evaluation Matrix**, seguida de una síntesis de las decisiones finales adoptadas.
+
+---
+
+### Candidate Pattern Evaluation Matrix
+
+#### D1 — Gestión de Usuarios y Autenticación (FD-01)
+
+| Driver ID | Título de Driver | Pattern 1: JWT Stateless (Spring Security) | Pattern 2: OAuth2/OIDC con IdP | Pattern 3: Session-Based Auth |
+|-----------|------------------|-------------------------------------------|--------------------------------|-------------------------------|
+| FD-01 | Autenticación segura | **Pro:** Simplicidad, escalabilidad horizontal, soporte Web/Mobile. **Con:** Gestión de refresh tokens es propia. | **Pro:** Estándar enterprise, SSO, scopes. **Con:** Alta complejidad y sobrecarga para un MVP. | **Pro:** Fácil de implementar. **Con:** No escala bien, requiere sticky sessions. |
+
+**Decisión:** Se adopta **JWT stateless** con refresh tokens y hashing de contraseñas con BCrypt/Argon2, asegurando simplicidad y escalabilidad para el MVP.
+
+---
+
+#### D2 — Gestión de Espacios y Reservas (FD-02)
+
+| Driver ID | Título de Driver | Pattern 1: Monolito modular DDD | Pattern 2: Microservicios | Pattern 3: Microkernel |
+|-----------|------------------|---------------------------------|---------------------------|-------------------------|
+| FD-02 | Locals & Bookings | **Pro:** Organización clara, bajo costo operativo, fácil evolución. **Con:** Requiere disciplina modular. | **Pro:** Aislamiento fuerte. **Con:** Sobrecoste en despliegue y monitoreo. | **Pro:** Extensibilidad. **Con:** Complejidad innecesaria para MVP. |
+
+**Decisión:** Se mantiene un **monolito modular con bounded contexts** (IAM, Locals, Sensors, Notifications), listo para futura evolución hacia microservicios.
+
+---
+
+#### D3 — Integración IoT en Tiempo Real (FD-03)
+
+| Driver ID | Título de Driver | Pattern 1: MQTT + Edge Processing | Pattern 2: HTTP Polling | Pattern 3: AMQP directo |
+|-----------|------------------|----------------------------------|-------------------------|-------------------------|
+| FD-03 | Sensores IoT | **Pro:** Eficiente, bajo consumo, QoS configurable. **Con:** Requiere broker. | **Pro:** Simplicidad. **Con:** Ineficiente, mayor latencia. | **Pro:** Fiable en enterprise. **Con:** Pesado para microcontroladores. |
+
+**Decisión:** Se adopta **MQTT con Edge Processing**, asegurando eficiencia y filtrado de datos en tiempo real.
+
+---
+
+#### D4 — Notificaciones en Tiempo Real (FD-04)
+
+| Driver ID | Título de Driver | Pattern 1: WebSocket | Pattern 2: SSE + FCM | Pattern 3: Polling |
+|-----------|------------------|----------------------|----------------------|--------------------|
+| FD-04 | Notificaciones | **Pro:** Bidireccional y baja latencia. **Con:** Mayor complejidad de conexión. | **Pro:** Simplicidad (SSE) + fiabilidad en Mobile (FCM). **Con:** SSE es unidireccional. | **Pro:** Fácil. **Con:** Ineficiente, mala UX. |
+
+**Decisión:** Se implementa **SSE en Web** y **FCM en Mobile**, respaldados por un bus interno Pub/Sub para distribución de eventos.
+
+---
+
+#### D5 — Seguridad Transversal (QAD-01)
+
+| Driver ID | Título de Driver | Pattern 1: API Gateway | Pattern 2: Zero-Trust con JWT | Pattern 3: Vault + TLS |
+|-----------|------------------|------------------------|-------------------------------|------------------------|
+| QAD-01 | Seguridad | **Pro:** Rate-limiting y control centralizado. **Con:** Capa extra a mantener. | **Pro:** Control granular de accesos. **Con:** Requiere gestión de claves. | **Pro:** Cifrado integral. **Con:** Administración de Vault. |
+
+**Decisión:** Se adopta un **API Gateway** con limitación de peticiones, junto con **JWT con roles** y **TLS end-to-end**.
+
+---
+
+#### D6 — Escalabilidad (QAD-02)
+
+| Driver ID | Título de Driver | Pattern 1: CQRS light | Pattern 2: Cache distribuido | Pattern 3: Sharding |
+|-----------|------------------|-----------------------|------------------------------|---------------------|
+| QAD-02 | Escalabilidad | **Pro:** Consultas optimizadas, separa lecturas/escrituras. **Con:** Mayor complejidad en sincronización. | **Pro:** Mejora de rendimiento. **Con:** Riesgo en invalidación. | **Pro:** Escala masiva. **Con:** Sobrecoste para MVP. |
+
+**Decisión:** Se combina **CQRS light** con **Redis cache**, permitiendo escalabilidad horizontal en Azure.
+
+---
+
+#### D7 — Disponibilidad y Resiliencia (QAD-03)
+
+| Driver ID | Título de Driver | Pattern 1: Resilience4j | Pattern 2: Health-checks | Pattern 3: Outbox Pattern |
+|-----------|------------------|------------------------|--------------------------|---------------------------|
+| QAD-03 | Alta disponibilidad | **Pro:** Evita cascadas de fallos. **Con:** Configuración detallada. | **Pro:** Recuperación automática. **Con:** Limitado frente a fallos lógicos. | **Pro:** Garantiza entrega de eventos. **Con:** Complejidad extra. |
+
+**Decisión:** Se adopta **Resilience4j**, junto con **health-checks en Azure** y **Outbox Pattern** para asegurar consistencia eventual.
+
+---
+
+#### D8 — Experiencia de Usuario Consistente (QAD-04)
+
+| Driver ID | Título de Driver | Pattern 1: Design System | Pattern 2: BFF (Backend for Frontends) | Pattern 3: GraphQL |
+|-----------|------------------|--------------------------|---------------------------------------|--------------------|
+| QAD-04 | Consistencia UX | **Pro:** Uniformidad visual y coherencia. **Con:** Requiere mantenimiento. | **Pro:** APIs adaptadas a cada cliente. **Con:** Nuevos servicios por canal. | **Pro:** Flexibilidad de consultas. **Con:** Complejidad añadida. |
+
+**Decisión:** Se implementa un **Design System común** y un **BFF por canal (Web/Mobile)** para asegurar consistencia.
+
+---
+
+#### D9 — Interoperabilidad con Servicios Externos (QAD-05)
+
+| Driver ID | Título de Driver | Pattern 1: ACL/Adapter | Pattern 2: Integración directa | Pattern 3: ESB |
+|-----------|------------------|------------------------|--------------------------------|----------------|
+| QAD-05 | Integraciones | **Pro:** Aísla dependencias externas. **Con:** Sobrecoste de implementación. | **Pro:** Simplicidad. **Con:** Alto acoplamiento. | **Pro:** Orquestación potente. **Con:** Excesivo para MVP. |
+
+**Decisión:** Se utiliza **ACL/Adapter** para cada integración externa (imágenes), minimizando riesgos de acoplamiento.
+
+---
+
+### Síntesis de Decisiones
+
+- **Backend:** Monolito modular con DDD, CQRS light y Redis.  
+- **IoT:** MQTT con Edge Processing para sensores.  
+- **Tiempo real:** SSE en Web + FCM en Mobile, con Pub/Sub interno.  
+- **Seguridad:** API Gateway, JWT con roles, TLS end-to-end y secretos externos.  
+- **UX:** Design System común y BFF por canal.  
+- **Resiliencia:** Resilience4j + health-checks + Outbox Pattern.  
+- **Integraciones:** ACL/Adapters para proveedores externos.  
+- **Despliegue:** Contenerización y escalado horizontal en Azure.  
+
+Estas decisiones permiten balancear las necesidades de negocio con la factibilidad técnica, asegurando que la solución sea **segura, escalable, resiliente y fácil de evolucionar** en el futuro.
+
 ### 4.1.5. Quality Attribute Scenario Refinements
+
+<h2>Scenario Refinement 1 - Performance</h2>
+
+<table>
+    <tr>
+        <th colspan="3" class="scenario-header">Scenario Refinement for Performance</th>
+    </tr>
+    <tr>
+        <td><strong>Scenario(s):</strong></td>
+        <td colspan="2">Búsqueda eficiente de propiedades con filtros múltiples bajo carga concurrente</td>
+    </tr>
+    <tr>
+        <td><strong>Business Goals:</strong></td>
+        <td colspan="2">Garantizar una experiencia de usuario fluida que mantenga a los usuarios comprometidos con la plataforma y reduzca la tasa de abandono durante las búsquedas</td>
+    </tr>
+    <tr>
+        <td><strong>Relevant Quality Attributes:</strong></td>
+        <td colspan="2">Performance, Usability</td>
+    </tr>
+    <tr>
+        <td rowspan="6" class="section-title"><strong>Scenario Components</strong></td>
+        <td><strong>Stimulus:</strong></td>
+        <td>Arrendatario/arrendador ejecuta búsqueda con múltiples filtros (ubicación, precio, tipo de propiedad, características)</td>
+    </tr>
+    <tr>
+        <td><strong>Stimulus Source:</strong></td>
+        <td>Usuario final (arrendador/arrendatario)</td>
+    </tr>
+    <tr>
+        <td><strong>Environment:</strong></td>
+        <td>Sistema en operación normal con hasta 1000 usuarios concurrentes</td>
+    </tr>
+    <tr>
+        <td><strong>Artifact (if known):</strong></td>
+        <td>Sistema de búsqueda, base de datos, índices de búsqueda, cache distribuido</td>
+    </tr>
+    <tr>
+        <td><strong>Response:</strong></td>
+        <td>El sistema procesa la consulta, aplica filtros, consulta índices optimizados y retorna resultados paginados</td>
+    </tr>
+    <tr>
+        <td><strong>Response Measure:</strong></td>
+        <td>Tiempo de respuesta ≤ 2 segundos para el 95% de las consultas</td>
+    </tr>
+    <tr>
+        <td><strong>Questions:</strong></td>
+        <td colspan="2">¿Cómo se comporta el sistema cuando los filtros requieren joins complejos? ¿El cache distribuido maneja correctamente la invalidación de resultados?</td>
+    </tr>
+    <tr>
+        <td><strong>Issues:</strong></td>
+        <td colspan="2">Posible degradación con consultas geoespaciales complejas, necesidad de estrategias de cache inteligentes</td>
+    </tr>
+</table>
+
+<hr>
+
+<h2>Scenario Refinement 2 - Availability</h2>
+
+<table>
+    <tr>
+        <th colspan="3" class="scenario-header">Scenario Refinement for Availability</th>
+    </tr>
+    <tr>
+        <td><strong>Scenario(s):</strong></td>
+        <td colspan="2">Acceso ininterrumpido a la plataforma durante picos de demanda y fallos parciales</td>
+    </tr>
+    <tr>
+        <td><strong>Business Goals:</strong></td>
+        <td colspan="2">Mantener la confianza del usuario y evitar pérdida de ingresos por indisponibilidad del servicio</td>
+    </tr>
+    <tr>
+        <td><strong>Relevant Quality Attributes:</strong></td>
+        <td colspan="2">Availability, Reliability, Recoverability</td>
+    </tr>
+    <tr>
+        <td rowspan="6" class="section-title"><strong>Scenario Components</strong></td>
+        <td><strong>Stimulus:</strong></td>
+        <td>Fallo de componente crítico o pico inesperado de tráfico</td>
+    </tr>
+    <tr>
+        <td><strong>Stimulus Source:</strong></td>
+        <td>Fallo de infraestructura, sobrecarga del sistema, mantenimiento programado</td>
+    </tr>
+    <tr>
+        <td><strong>Environment:</strong></td>
+        <td>Operación normal y condiciones de estrés</td>
+    </tr>
+    <tr>
+        <td><strong>Artifact (if known):</strong></td>
+        <td>Sistema completo, load balancers, instancias redundantes, base de datos</td>
+    </tr>
+    <tr>
+        <td><strong>Response:</strong></td>
+        <td>El sistema redirige tráfico a instancias saludables, activa réplicas y mantiene operatividad</td>
+    </tr>
+    <tr>
+        <td><strong>Response Measure:</strong></td>
+        <td>Disponibilidad ≥ 99.5% mensual, tiempo de recuperación ≤ 5 minutos</td>
+    </tr>
+    <tr>
+        <td><strong>Questions:</strong></td>
+        <td colspan="2">¿Cómo se maneja la sincronización de datos entre réplicas? ¿El sistema detecta automáticamente fallos parciales?</td>
+    </tr>
+    <tr>
+        <td><strong>Issues:</strong></td>
+        <td colspan="2">Complejidad en la gestión de estado distribuido, costos de infraestructura redundante</td>
+    </tr>
+</table>
+
+<hr>
+
+<h2>Scenario Refinement 3 - Security</h2>
+
+<table>
+    <tr>
+        <th colspan="3" class="scenario-header">Scenario Refinement for Security</th>
+    </tr>
+    <tr>
+        <td><strong>Scenario(s):</strong></td>
+        <td colspan="2">Protección contra accesos no autorizados y ataques maliciosos a datos sensibles</td>
+    </tr>
+    <tr>
+        <td><strong>Business Goals:</strong></td>
+        <td colspan="2">Cumplir con regulaciones de protección de datos y mantener la confianza del usuario en la seguridad de sus datos personales</td>
+    </tr>
+    <tr>
+        <td><strong>Relevant Quality Attributes:</strong></td>
+        <td colspan="2">Security, Privacy, Integrity</td>
+    </tr>
+    <tr>
+        <td rowspan="6" class="section-title"><strong>Scenario Components</strong></td>
+        <td><strong>Stimulus:</strong></td>
+        <td>Intento de acceso no autorizado, ataque de fuerza bruta, inyección SQL</td>
+    </tr>
+    <tr>
+        <td><strong>Stimulus Source:</strong></td>
+        <td>Usuario malicioso, bot automatizado, atacante interno</td>
+    </tr>
+    <tr>
+        <td><strong>Environment:</strong></td>
+        <td>Operación normal, bajo ataque activo</td>
+    </tr>
+    <tr>
+        <td><strong>Artifact (if known):</strong></td>
+        <td>Módulo de autenticación, API Gateway, base de datos, logs de seguridad</td>
+    </tr>
+    <tr>
+        <td><strong>Response:</strong></td>
+        <td>Sistema bloquea acceso, registra intento, activa medidas defensivas (rate limiting, CAPTCHA)</td>
+    </tr>
+    <tr>
+        <td><strong>Response Measure:</strong></td>
+        <td>100% de intentos no autorizados bloqueados, tiempo de detección ≤ 30 segundos</td>
+    </tr>
+    <tr>
+        <td><strong>Questions:</strong></td>
+        <td colspan="2">¿El sistema diferencia entre ataques automatizados y errores legítimos de usuario? ¿Cómo se balancea seguridad con usabilidad?</td>
+    </tr>
+    <tr>
+        <td><strong>Issues:</strong></td>
+        <td colspan="2">Falsos positivos que bloqueen usuarios legítimos, complejidad en la gestión de tokens JWT</td>
+    </tr>
+</table>
+
+<hr>
+
+<h2>Scenario Refinement 4 - Scalability</h2>
+
+<table>
+    <tr>
+        <th colspan="3" class="scenario-header">Scenario Refinement for Scalability</th>
+    </tr>
+    <tr>
+        <td><strong>Scenario(s):</strong></td>
+        <td colspan="2">Crecimiento súbito de usuarios simultáneos sin degradación del rendimiento</td>
+    </tr>
+    <tr>
+        <td><strong>Business Goals:</strong></td>
+        <td colspan="2">Soportar el crecimiento del negocio sin requerir rediseño arquitectónico mayor, optimizando costos de infraestructura</td>
+    </tr>
+    <tr>
+        <td><strong>Relevant Quality Attributes:</strong></td>
+        <td colspan="2">Scalability, Performance, Cost-effectiveness</td>
+    </tr>
+    <tr>
+        <td rowspan="6" class="section-title"><strong>Scenario Components</strong></td>
+        <td><strong>Stimulus:</strong></td>
+        <td>Incremento de 500 usuarios simultáneos adicionales en corto período</td>
+    </tr>
+    <tr>
+        <td><strong>Stimulus Source:</strong></td>
+        <td>Crecimiento orgánico, campaña de marketing, evento viral</td>
+    </tr>
+    <tr>
+        <td><strong>Environment:</strong></td>
+        <td>Pico de demanda, operación bajo estrés</td>
+    </tr>
+    <tr>
+        <td><strong>Artifact (if known):</strong></td>
+        <td>Sistema completo, auto-scaling groups, load balancers, base de datos</td>
+    </tr>
+    <tr>
+        <td><strong>Response:</strong></td>
+        <td>Sistema activa auto-scaling, distribuye carga, mantiene rendimiento estable</td>
+    </tr>
+    <tr>
+        <td><strong>Response Measure:</strong></td>
+        <td>Tiempo de respuesta se mantiene ≤ 3 segundos, escalado automático en ≤ 2 minutos</td>
+    </tr>
+    <tr>
+        <td><strong>Questions:</strong></td>
+        <td colspan="2">¿El auto-scaling considera métricas de negocio además de técnicas? ¿Cómo se manejan las sesiones durante el escalado?</td>
+    </tr>
+    <tr>
+        <td><strong>Issues:</strong></td>
+        <td colspan="2">Latencia en el aprovisionamiento de recursos, costos variables impredecibles</td>
+    </tr>
+</table>
+
+<hr>
+
+<h2>Scenario Refinement 5 - Usability</h2>
+
+<table>
+    <tr>
+        <th colspan="3" class="scenario-header">Scenario Refinement for Usability</th>
+    </tr>
+    <tr>
+        <td><strong>Scenario(s):</strong></td>
+        <td colspan="2">Onboarding intuitivo para nuevos usuarios sin experiencia previa en la plataforma</td>
+    </tr>
+    <tr>
+        <td><strong>Business Goals:</strong></td>
+        <td colspan="2">Maximizar conversión de visitantes a usuarios registrados y reducir abandono durante el proceso de registro inicial</td>
+    </tr>
+    <tr>
+        <td><strong>Relevant Quality Attributes:</strong></td>
+        <td colspan="2">Usability, Accessibility, Learnability</td>
+    </tr>
+    <tr>
+        <td rowspan="6" class="section-title"><strong>Scenario Components</strong></td>
+        <td><strong>Stimulus:</strong></td>
+        <td>Nuevo arrendatario accede por primera vez y realiza registro completo + primera búsqueda</td>
+    </tr>
+    <tr>
+        <td><strong>Stimulus Source:</strong></td>
+        <td>Arrendatario nuevo sin experiencia previa en la plataforma</td>
+    </tr>
+    <tr>
+        <td><strong>Environment:</strong></td>
+        <td>Operación normal, interfaz web/móvil</td>
+    </tr>
+    <tr>
+        <td><strong>Artifact (if known):</strong></td>
+        <td>Interfaz de usuario, formularios de registro, sistema de onboarding, tutoriales</td>
+    </tr>
+    <tr>
+        <td><strong>Response:</strong></td>
+        <td>Sistema guía al usuario a través del proceso con indicadores claros y validación en tiempo real</td>
+    </tr>
+    <tr>
+        <td><strong>Response Measure:</strong></td>
+        <td>≥ 90% de usuarios completan registro y primera búsqueda en ≤ 5 minutos sin asistencia</td>
+    </tr>
+    <tr>
+        <td><strong>Questions:</strong></td>
+        <td colspan="2">¿El sistema adapta el onboarding según el dispositivo utilizado? ¿Se consideran usuarios con diferentes niveles de alfabetización digital?</td>
+    </tr>
+    <tr>
+        <td><strong>Issues:</strong></td>
+        <td colspan="2">Balance entre simplicidad y recolección de información necesaria, accesibilidad para usuarios con discapacidades</td>
+    </tr>
+</table>
 
 ## 4.2. Strategic-Level Domain-Driven Design
 
 ### 4.2.1. EventStorming
+<p>
+EventStorming es una técnica de modelado colaborativo e iterativo que permite analizar a fondo problemas complejos y de gran escala, ayudando a descubrir una amplia variedad de detalles y desafíos involucrados.</p>
+
+![Event Storming](images/cap-4/strategic-level/imagen_1.png)
+
+Enlace del Miroo para verlo completo: https://miro.com/app/board/uXjVIBJ9674=/?share_link_id=539583810560
 
 ### 4.2.2. Candidate Context Discovery
+<strong>Step 1: Unstructured Exploration</strong>:<br>
+<p>En la etapa inicial del EventStorming, se lleva a cabo una sesión de lluvia de ideas destinada a descubrir los eventos clave del dominio vinculados al negocio analizado. Es importante redactar estos eventos utilizando verbos en pasado, ya que deben reflejar acciones que ya han sucedido dentro del sistema o proceso.</p>
+
+![Event Storming](images/cap-4/strategic-level/imagen_2.png)
+
+
+<p>Realizamos una sesión de lluvia de ideas para identificar todos los eventos relevantes que el sistema de reservas de locales con tecnología IoT debe manejar. En esta etapa inicial del Event Storming se mapearon eventos clave como la creación de cuentas, registro y actualización de locales, postulaciones y confirmación de reservas, así como la entrada y salida del arrendatario mediante pulsera NFC. También se incluyeron eventos generados por sensores, como detección de humo, sobreaforo y accesos no autorizados, fundamentales para garantizar el cumplimiento de las normas del local. Se consideraron alertas automáticas enviadas tanto al arrendador como al arrendatario en caso de infracciones, así como acciones relacionadas con la gestión de reportes, historial de asistencia e interacciones con la app móvil. Este mapeo inicial permite tener una visión integral de todos los comportamientos que el sistema debe registrar y reaccionar para brindar una solución de monitoreo y control eficaz para ambas partes involucradas</p>
+
+
+<strong>Step 2: Timelines</strong>:<br>
+<p>En esta segunda etapa, se toman los eventos de dominio identificados y se ordenan cronológicamente según su secuencia natural dentro del proceso. El primer enfoque consiste en construir un "camino feliz" (happy path), es decir, una secuencia ideal en la que todas las acciones se ejecutan correctamente y el flujo del sistema se desarrolla sin inconvenientes. Una vez definido este escenario óptimo, se incorporan variaciones o situaciones alternativas que representen posibles errores, fallos o condiciones excepcionales dentro del flujo operativo.</p>
+
+
+![Event Storming](images/cap-4/strategic-level/imagen_3.png)
+
+
+<p>En esta segunda fase del Event Storming, organizamos los eventos de dominio identificados previamente en flujos secuenciales que reflejan cómo se comporta el sistema ante diferentes escenarios relacionados con el proceso de reserva, ingreso y monitoreo del uso del local. El flujo principal sigue un "camino feliz" donde el usuario inicia sesión, selecciona un local, crea una reserva, asiste con su pulsera NFC, y completa la experiencia sin incidentes, incluyendo la generación de reportes y la calificación del local.
+Además, se contemplan trayectorias alternativas que incluyen detecciones de humo, ruido o exceso de aforo, así como ingresos fuera de horario o con pulseras no autorizadas. Estas situaciones activan mecanismos de control como el registro de infracciones, el envío de notificaciones al arrendador o arrendatario, y la actualización del historial de eventos. Esta organización permite visualizar cómo el sistema reacciona ante distintos contextos operativos, sentando las bases para diseñar una lógica robusta, trazable y automatizada tanto en la app móvil como en la plataforma web.</p>
+
+
+<strong>Step 3: Paint Points</strong>:<br>
+<p>Una vez que los eventos fueron organizados en una secuencia temporal, utilizamos esta visión global del proceso para detectar áreas clave que requieren atención. Estos puntos críticos pueden manifestarse como cuellos de botella operativos, tareas manuales susceptibles de automatización, ausencia de documentación relevante o vacíos en el entendimiento del dominio. Esta revisión permite anticipar mejoras y definir prioridades para el diseño del sistema.</p>
+
+
+![Event Storming](images/cap-4/strategic-level/imagen_4.png)
+
+
+<p>En esta fase del Event Storming, se identificaron los puntos críticos del sistema y se documentaron preguntas clave que deben ser respondidas para garantizar el correcto funcionamiento del proceso de reservas, ingreso y monitoreo de locales. Estas preguntas se integran directamente en los flujos de eventos y permiten explorar escenarios como la verificación de acceso mediante pulseras NFC, la validación del cronograma de reservas o la forma en que se detectan eventos de sobreaforo, humo o ruido durante el uso del local.
+</p>
+
+
+
+
+<strong>Step 4: Pivotal Points</strong>:<br>
+<p>Una vez que se ha construido la línea de eventos completa, incluyendo los puntos de dolor, se procede a identificar aquellos eventos relevantes que representan un cambio significativo en el contexto o en la etapa del proceso. Estos se conocen como eventos principales, y se utilizan como puntos de corte dentro del flujo, marcando una transición clara entre lo que ocurre antes y lo que sucede después. Para visualizarlos, se incorpora una barra vertical que divide los eventos previos de los posteriores a dicho hito</p>
+
+
+![Event Storming](images/cap-4/strategic-level/imagen_5.png)
+
+
+<p>Hemos identificado los eventos principales (pivotal points) que marcan transiciones clave dentro del sistema de reservas y monitoreo de locales con tecnología IoT. Estos eventos delimitan fases importantes del proceso y permiten establecer momentos en los que es necesario validar decisiones fundamentales para garantizar el correcto funcionamiento del sistema.
+</p>
+
+
+
+<strong>Step 5: Commands</strong>:<br>
+<p>En esta etapa también incorporamos los comandos, los cuales representan las acciones que desencadenan uno o varios eventos dentro del sistema. A diferencia de los eventos de dominio, que describen hechos ya ocurridos, los comandos se expresan en forma imperativa, indicando las operaciones que deben llevarse a cabo en el sistema para provocar un cambio en su estado o avanzar en el flujo del proceso</p>
+
+
+![Event Storming](images/cap-4/strategic-level/imagen_6.png)
+
+
+
+<strong>Step 6: Policies</strong>:<br>
+<p>En esta etapa se identifican las políticas de automatización, es decir, reglas que permiten que ciertos comandos se ejecuten automáticamente en respuesta a eventos del dominio. Esto implica que, al producirse un evento específico dentro del sistema, se dispare de forma inmediata la acción correspondiente, sin intervención manual. En otras palabras, se establece una relación directa entre eventos y comandos, permitiendo que el sistema reaccione de forma autónoma ante situaciones previamente definidas.</p>
+
+
+![Event Storming](images/cap-4/strategic-level/imagen_7.png)
+
+
+<p>Definimos y organizamos las políticas de automatización que permiten ejecutar comandos de forma automática ante la ocurrencia de eventos clave dentro del sistema. Estas políticas cubren la recolección y envío de datos, la asignación de pulseras NFC, la validación de accesos, la generación de reportes del local, y el monitoreo de condiciones críticas como sobreaforo, humo o ruido en el recinto.
+También se estructuraron reglas para el disparo automático de alertas al detectar eventos que representan infracciones, asegurando que el sistema reaccione de manera inmediata sin intervención manual.
+</p>
+
+
+<strong>Step 7: Read models</strong>:<br>
+<p>En esta etapa, incorporamos los modelos de lectura, que representan las vistas de datos del sistema que los agentes (ya sean usuarios o componentes del sistema) utilizan para decidir si deben ejecutar un comando. Esto implica definir visualizaciones específicas como reportes de locales, paneles de monitoreo de aforo, alertas en tiempo real por infracciones, estado de las reservas, historial de asistencia y validación de acceso mediante NFC.</p>
+
+
+![Event Storming](images/cap-4/strategic-level/imagen_7.png)
+
+
+
+<strong>Step 8: External Systems</strong>:<br>
+<p>En este paso, integramos al modelo los sistemas externos, es decir, aquellos que están fuera del dominio principal del sistema que estamos diseñando. Estos sistemas pueden intervenir ejecutando comandos hacia nuestro sistema (como entradas) o bien recibir información generada por eventos del dominio (como salidas).</p>
+
+
+![Event Storming](images/cap-4/strategic-level/imagen_8.png)
+
+
+<p>Incorporamos los sistemas externos que interactúan con el dominio principal, representados con etiquetas rojas. Se identificaron elementos clave como el lector NFC y los sensores IoT (aforo, humo, ruido), los cuales permiten recolectar datos del entorno físico y activan eventos automatizados dentro del sistema. Además, se detallaron las políticas de envío de datos, representadas en color morado, las cuales se encargan de transmitir información relevante a la nube o al backend en tiempo real.
+</p>
+
+
+
+<strong>Step 9: Aggregates</strong>:<br>
+<p>Después de haber definido todos los eventos y comandos del sistema, procedemos a agrupar aquellos conceptos que guardan una relación directa dentro de unidades llamadas agregados. Estos agregados representan componentes clave del dominio, ya que son los encargados de recibir comandos y, a partir de ellos, generar los eventos correspondientes que reflejan los cambios en el estado del sistema</p>
+
+
+![Event Storming](images/cap-4/strategic-level/imagen_9.png)
+
+
+<p>Identificamos los agregados del dominio que encapsulan la lógica de negocio principal del sistema de reservas con IoT. Cada aggregate agrupa los comandos y eventos que afectan una misma unidad lógica, asegurando la coherencia de los datos y el cumplimiento de las reglas definidas. Se establecieron agregados como User, para el control de identidad y autenticación; Locale, encargado del ciclo de vida de los locales; Reservation, que gestiona las reservas y su estado; AccessControl, que regula el ingreso mediante pulseras NFC; y Monitoring, responsable de registrar condiciones detectadas por sensores IoT. Esta estructura permite organizar el dominio de forma modular y consistente, facilitando el mantenimiento y escalabilidad del sistema
+</p>
+
+
+<strong>Step 10: Bounded Context</strong>:<br>
+<p>Finalmente, agrupamos los agregados que mantienen una relación directa entre sí, ya sea porque comparten funciones estrechamente relacionadas o porque están conectados a través de ciertas políticas de negocio. Estos conjuntos de agregados constituyen candidatos naturales para establecer los contextos delimitados (Bounded Contexts) del sistema, permitiendo organizar el dominio en módulos coherentes y bien definidos según sus responsabilidades y reglas específicas.</p>
+
+
+![Event Storming](images/cap-4/strategic-level/imagen_10.png)
+
+
+
+<p>En esta etapa final, estructuramos el sistema en Bounded Contexts claramente definidos, agrupando los agregados que comparten responsabilidades, reglas de negocio o interacciones comunes. Esta segmentación permite organizar el dominio en módulos independientes, cada uno con un propósito específico y una lógica coherente.
+Se identificaron cinco contextos principales:
+IAM (Identity and Access Management): encargado de la gestión de identidad, registro, autenticación y control de acceso de los usuarios al sistema.
+Locals: responsable del registro, actualización, visualización y reporte de los locales disponibles para reserva.
+Booking: gestiona todo el ciclo de vida de las reservas, incluyendo su creación, modificación, finalización y calificación posterior.
+Monitoring: controla la recolección de datos desde sensores IoT (como aforo, humo o ruido), valida reglas del local y registra infracciones.
+Notifications: administra el envío de alertas a usuarios o arrendadores cuando se detectan condiciones críticas o eventos relevantes.
+Cada uno de estos contextos delimita claramente su modelo de datos, comandos y eventos, lo que permite mantener una arquitectura modular, trazable y preparada para escalar según las necesidades del sistema.
+</p>
+
 
 ### 4.2.3. Domain Message Flows Modeling
+<strong>Scenario 1: Local reservation</strong>:<br>
+
+La secuencia de reserva local fue diseñada para optimizar la experiencia del usuario manteniendo la máxima disponibilidad del sistema. La decisión de procesar inicialmente la reserva de forma local (steps 1-4) antes de involucrar sistemas externos refleja el principio de "optimistic UX": proporcionamos retroalimentación inmediata al usuario mientras procesamos las validaciones críticas en segundo plano. Este enfoque reduce significativamente el tiempo de respuesta percibido.
+
+La integración con PayPal (steps 7-8) se posiciona estratégicamente después de la creación de la reserva, no antes, para evitar cargos por transacciones fallidas debido a problemas de disponibilidad de espacios. El flujo asíncrono entre IAM, Reservation y Locals bounded contexts demuestra cómo la arquitectura distribuida mantiene la consistencia eventual sin bloquear la experiencia del usuario.
+
+
+![Event Storming](images/cap-4/strategic-level/imagen_11.jpeg)
+
+<strong>Scenario 2: Local comment creation</strong>:<br>
+
+El flujo de comentarios fue diseñado con un enfoque de validación en capas que prioriza la integridad de datos y la experiencia del usuario. La decisión de validar primero la existencia del usuario (step 4) antes de permitir la creación del comentario (steps 1-3) previene comentarios huérfanos y mantiene la trazabilidad de la información.
+
+La ausencia de un sistema de pago en este flujo es intencional: los comentarios son considerados contenido generado por usuarios que no requiere transacciones monetarias, simplificando significativamente el proceso. La comunicación directa entre bounded contexts (IAM → Reservation → Locals) optimiza el rendimiento al evitar saltos innecesarios entre servicios.
+
+![Event Storming](images/cap-4/strategic-level/imagen_12.jpeg)
+
+<strong>Scenario 3: Tenant exceeds local capacity</strong>:<br>
+
+Este escenario implementa un patrón de monitoreo proactivo que detecta condiciones de sobrecarga antes de que impacten la experiencia del usuario. La decisión de involucrar al Landlord (propietario) en el flujo (steps 6-7) reconoce que ciertos problemas operativos requieren intervención humana y no pueden ser resueltos automáticamente por el sistema.
+
+El comando "Enter local" (step 1) actúa como trigger para el sistema de monitoring, creando un registro de actividad que permite el análisis de patrones de uso. Esta aproximación event-driven facilita la escalabilidad horizontal del sistema de monitoreo sin impactar el rendimiento de las operaciones principales.
+
+![Event Storming](images/cap-4/strategic-level/imagen_13.jpeg)
+
+<strong>Scenario 4: Tenant exceeds noise level</strong>:<br>
+
+La arquitectura de detección de infracciones fue diseñada para balancear la automatización con la supervisión humana. El comando "Exceeds noise level" (step 1) desencadena un flujo que involucra tanto sistemas automatizados (Monitoring, Notification) como actores humanos (Landlord), reconociendo que las violaciones de políticas requieren tanto detección técnica como juicio humano.
+
+La simplicidad aparente del flujo (solo 5 steps) es intencional: las infracciones requieren respuesta rápida, y un flujo complejo podría retrasar las notificaciones críticas. La comunicación directa entre sistemas minimiza la latencia en situaciones que podrían requerir intervención inmediata.
+
+![Event Storming](images/cap-4/strategic-level/imagen_14.jpeg)
+
+<strong>Scenario 5: Tenant tries to enter the premises outside of reservation hours
+</strong>:<br>
+
+Este escenario implementa un sistema de validación temporal que protege tanto a propietarios como inquilinos. La consulta al schedule de reservas (step 3) añade una capa de validación lógica. Esta aproximación de doble validación (física + lógica) es fundamental en sistemas donde el acceso no autorizado puede tener consecuencias legales y financieras.
+
+La decisión de mantener un historial de infracciones (step 5) facilita el análisis de patrones y la toma de decisiones informadas sobre políticas de acceso. El flujo relativamente extenso (7 steps) refleja la complejidad inherente en la gestión de accesos seguros y el cumplimiento de políticas.
+
+![Event Storming](images/cap-4/strategic-level/imagen_15.jpeg)
 
 ### 4.2.4. Bounded Context Canvases
+![Event Storming](images/cap-4/strategic-level/imagen_16.jpeg)
+![Event Storming](images/cap-4/strategic-level/imagen_17.jpeg)
+![Event Storming](images/cap-4/strategic-level/imagen_18.jpeg)
+
+##### **IAM (Identity and Access Management)**
+
+El bounded context de IAM fue diseñado como el núcleo de seguridad y control de acceso del sistema, manteniendo una separación clara entre autenticación y autorización. La decisión de centralizar la gestión de usuarios en este contexto refleja principios de seguridad consolidados: un punto único de control facilita auditorías, cumplimiento normativo y gestión de políticas de seguridad.
+Las comunicaciones entrantes (Request via Webhook, Create User, Login Request) están diseñadas para manejar múltiples canales de autenticación, mientras que las salientes (User Logout, Locals) mantienen la integración con otros contextos. La clasificación estratégica como "Supporting" reconoce que, aunque crítico, IAM facilita las funcionalidades del negocio sin ser el core domain.
+
+##### **Locals**
+
+El contexto Locals encapsula toda la lógica relacionada con la gestión de espacios físicos y su información asociada. La decisión de separar este contexto del booking refleja el principio de separación de responsabilidades: Locals se enfoca en la información y características de los espacios, mientras que Booking maneja las transacciones y reservas.
+Las múltiples comunicaciones entrantes (WM, Register Local, Update Data, etc.) demuestran la naturaleza central de este contexto en el ecosistema. La clasificación como "Core" refleja que la gestión de locales es fundamental para el modelo de negocio. El lenguaje ubicuo incluye términos específicos del dominio inmobiliario que aseguran consistencia en la comunicación entre stakeholders técnicos y de negocio.
+
+#### **Booking**
+
+El contexto de Booking gestiona el ciclo completo de vida de las reservas, desde la creación hasta la finalización. La decisión de mantener este contexto separado de Locals permite evolucionar independientemente las lógicas de reserva sin impactar la gestión de espacios. Esta separación facilita también la implementación de diferentes modelos de pricing y políticas de reserva.
+Las comunicaciones con IAM, Locals y Monitoring reflejan las dependencias necesarias para un proceso de reserva completo: validación de usuarios, verificación de disponibilidad de espacios, y seguimiento de cumplimiento de políticas. La clasificación como "Core" junto con Locals forma el corazón del modelo de negocio de la plataforma.
+
+#### **Monitoring**
+
+El contexto de Monitoring implementa capacidades de observabilidad y cumplimiento en tiempo real. La decisión de crear un contexto dedicado para monitoring refleja la complejidad de gestionar espacios físicos donde el cumplimiento de reglas (ruido, ocupación, horarios) es crítico para el éxito del negocio.
+Las comunicaciones entrantes desde Booking y otros sistemas, junto con las salientes hacia Notifications, crean un sistema de alertas proactivo que previene problemas antes de que escalen. La clasificación como "Supporting" reconoce que, aunque esencial para la operación, su función principal es facilitar y asegurar el cumplimiento de las operaciones core del negocio.
+
+
+#### **Notifications**
+El contexto de Notifications centraliza todas las comunicaciones hacia usuarios finales, implementando un patrón de messaging que desacopla la generación de eventos de su entrega. Esta separación permite implementar diferentes canales de comunicación (email, SMS, push notifications) sin impactar los contextos que generan los eventos.
+La simplicidad aparente del contexto (pocas comunicaciones entrantes, múltiples salientes) refleja su naturaleza de hub de comunicaciones. La clasificación como "Generic" reconoce que las capacidades de notificación son reutilizables across múltiples dominios y no contienen lógica específica del negocio de alquiler de espacios.
+
 
 ### 4.2.5. Context Mapping
+##### 1. Pasos para Crear el Context Mapping
+###### 1.1. Identificación de los Bounded Contexts
+- IAM (Identity and Access Management)
+- Locals
+- Booking
+- Monitoring
+- Notifications
+###### 1.2. Identificación de Relaciones Iniciales
+- IAM ⭤ Booking: Relación de Customer/Supplier.
+- IAM proporciona la autenticación y control de acceso, mientras Booking consume la identidad para permitir la creación de reservas.
+- Locals ⭤ Booking: Relación de Customer/Supplier.
+- Locals administra la disponibilidad y características de los espacios, Booking consulta esa información para registrar una reserva.
+- Booking ⭤ Monitoring: Relación de Customer/Supplier.
+- Booking genera el inicio y fin de la reserva, mientras Monitoring supervisa el cumplimiento de normas durante ese periodo.
+- Monitoring ⭤ Notifications: Relación de Conformist.
+- Notifications se adapta a los eventos generados por Monitoring para emitir alertas sin modificar la estructura de los datos.
+- Booking ⭤ Notifications: Relación de Conformist.
+- Booking puede generar eventos que Notifications transforma en mensajes para usuarios.
+
+
+##### 2. Análisis de Alternativas y Preguntas Clave
+###### 2.1. ¿Qué pasaria si movemos la gestión de reportes de locales desde Locals a Monitoring?
+Impacto: Monitoring tendría control total del estado operacional del local.
+Se perdería la separación entre información estática del local (Locals) y condiciones temporales (Monitoring).
+Discusión:
+No se recomienda el cambio. Mantener reportes en Locals permite independencia de la información operativa.
+
+###### 2.2. ¿Y si separáramos Monitoring en dos contexts: SensorEvents y RuleValidation?
+Impacto:
+Permitiría escalar el procesamiento de eventos por separado del motor de reglas.
+Mayor complejidad y necesidad de sincronización.
+Discusión:
+Podría evaluarse si los volúmenes de datos lo justifican, pero por ahora es preferible mantenerlo unificado.
+
+###### 2.3. ¿Podría Notifications compartir un kernel con Booking?
+Impacto:
+Se podría optimizar el modelo de eventos compartidos.
+Riesgo de acoplamiento excesivo.
+Discusión:
+Mejor mantener el contrato como evento público. No se recomienda un shared kernel.
+
+
+###### 2.4. ¿Sería viable mover la asignación de pulseras NFC de Booking a IAM?
+Impacto:
+IAM controlaría identidad + dispositivo asignado.
+Aumenta la carga de IAM, mezcla responsabilidades de autenticación con gestión de dispositivos.
+Discusión:
+Se recomienda mantener la asignación en Booking para no contaminar IAM con lógica operacional.
+
+##### 3. Alternativas Recomendadas de Context Mapping
+Mantener la separación entre datos estáticos (Locals) y monitoreo operacional (Monitoring).
+No dividir Monitoring aún, salvo que se presenten cuellos de botella o necesidades de escalabilidad por volumen de eventos.
+Evitar compartir kernels entre contexts; priorizar integración por eventos públicos.
+Mantener la asignación de dispositivos dentro de Booking.
+##### 4. Patrones de Relaciones Sugeridos
+- Customer/Supplier: IAM ⭤ Booking, Locals ⭤ Booking, Booking ⭤ Monitoring
+- Conformist: Monitoring ⭤ Notifications, Booking ⭤ Notifications
+- Published Language: Monitoring publica eventos con estructura conocida para consumo externo (ej. por Notifications)
+- Anti-Corruption Layer (ACL): Podría evaluarse entre Monitoring y cualquier motor externo de validación de reglas en el futuro
+
+![Event Storming](images/cap-4/strategic-level/imagen_19.png)
 
 ## 4.3. Software Architecture
 
 ### 4.3.1. Software Architecture System Landscape Diagram
 
+El diagrama de landscape proporciona una vista estratégica de alto nivel que posiciona AlquilaFácil dentro del ecosistema tecnológico más amplio, mostrando cómo el sistema se integra con servicios externos críticos para su funcionamiento. La aparente similitud con el diagrama de contexto es intencional y beneficiosa: demuestra que el core del sistema mantiene su identidad y responsabilidades principales, independientemente de las integraciones externas.
+La decisión de mostrar únicamente Cloudinary como sistema externo refleja una filosofía de diseño "lean": mantener las dependencias externas al mínimo necesario para reducir la complejidad y los puntos de falla. Cloudinary fue seleccionado específicamente porque el manejo de imágenes (almacenamiento, transformación, optimización, CDN) requiere infraestructura altamente especializada que sería ineficiente desarrollar internamente. Esta vista landscape permite a los stakeholders comprender rápidamente las dependencias críticas del sistema y planificar adecuadamente la gestión de riesgos y la continuidad del negocio.
+
+![Landscape Diagram](images/cap-4/software-architecture/landscape.png)
+
 ### 4.3.2. Software Architecture Context Level Diagrams
+
+El diagrama de contexto presenta una vista simplificada e intencionalmente minimalista del sistema AlquilaFácil, enfocándose exclusivamente en los actores principales y sus interacciones directas con la plataforma. Esta decisión de simplicidad es estratégica: permite a stakeholders no técnicos comprender rápidamente el propósito y alcance del sistema sin perderse en detalles técnicos.
+La similitud aparente con el diagrama de landscape es completamente intencional y refleja una arquitectura coherente donde el sistema central mantiene las mismas responsabilidades fundamentales independientemente del nivel de detalle presentado. La diferencia clave radica en que el contexto se centra en QUÉ hace el sistema (booking y gestión de espacios), mientras que el landscape muestra CÓMO interactúa con servicios externos. Esta consistencia entre vistas valida la solidez del diseño arquitectónico.
+
+![Context Diagram](images/cap-4/software-architecture/context.png)
 
 ### 4.3.3. Software Architecture Container Level Diagrams
 
+El diagrama de contenedor fue diseñado para mostrar la arquitectura técnica completa del sistema AlquilaFácil, destacando cómo cada componente tecnológico contribuye a satisfacer las necesidades de los diferentes tipos de usuarios. La decisión de incluir múltiples interfaces (Landing Page, Web Application, Mobile App) responde a la necesidad de proporcionar diferentes puntos de entrada según el contexto de uso: la landing page para atraer nuevos usuarios, la aplicación web para gestión completa desde escritorio, y la aplicación móvil para acceso rápido en movilidad.
+La arquitectura distribuida con Edge Nodes refleja la realidad geográfica del negocio de alquiler de espacios, donde la latencia y la disponibilidad local son críticas. La separación entre bases de datos edge y cloud permite optimizar el rendimiento local mientras se mantiene la consistencia global de datos. El API Gateway centraliza la seguridad y el control de acceso, mientras que Cloudinary maneja específicamente las imágenes, reconociendo que el contenido visual es fundamental en el negocio de alquiler de espacios.
+
+![Container Diagram](images/cap-4/software-architecture/container.png)
+
 ### 4.3.4. Software Architecture Deployment Diagrams
+
+El diagrama de despliegue ilustra la estrategia de distribución física y lógica del sistema, diseñada para optimizar el rendimiento y la disponibilidad geográfica. La decisión de implementar una arquitectura edge-first responde directamente a los requisitos del negocio: los usuarios necesitan acceso rápido y confiable a información de espacios locales, independientemente de su ubicación geográfica.
+La separación clara entre deployment nodes (Edge Node Server, Web Server, API Gateway Server, etc.) refleja principios de separación de responsabilidades y escalabilidad horizontal. Cada servidor tiene un propósito específico, permitiendo escalamiento independiente según la demanda. La ubicación de Cloudinary como servicio externo reconoce que el almacenamiento y procesamiento de imágenes requiere infraestructura especializada que es más eficiente como servicio managed. Esta arquitectura también facilita el mantenimiento y las actualizaciones, ya que cada componente puede ser gestionado independientemente.
+
+![Deployment Diagram](images/cap-4/software-architecture/deployment.png)
 
 ---
 
