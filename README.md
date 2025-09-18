@@ -10,13 +10,13 @@
     <br>INFORME
 </p>
 
-<center>
+<div align="center">
 
 #### Startup: **AlquilaEZ**
 
 #### Product: **AlquilaFácil**
 
-</center>
+</div>
 
 ## Team Members:
 
