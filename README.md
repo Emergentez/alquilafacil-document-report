@@ -97,7 +97,7 @@ del ABET – EAC - Student Outcome 3.
       <strong>Ames Oviedo, Mariano José <br>(TB1):</strong><br>
       <strong>Cachis Gonzales, Sebastian Nicolas <br>(TB1): </strong>En esta entrega me enfoqué en el desarrollo del Análisis de entrevistas, el Architectural Drivers Backlog y las Architectural Design Decisions. A través de este trabajo logré comunicar oralmente mis ideas y resultados con objetividad, explicando a públicos de diferentes especialidades y niveles jerárquicos la importancia de cada decisión dentro del proyecto de ingeniería.<br>
         <strong>Lecca Choccare, Christopher Bryan <br> (TB1):</strong> Durante el desarrollo del proyecto, lideré sesiones colaborativas de Event Storming y Context Mapping, guiando al equipo en la identificación y delimitación de los bounded contexts. Estas actividades se realizaron frente a un equipo compuesto por miembros con distintos niveles de experiencia y especialización, por lo que me aseguré de adaptar el lenguaje técnico y facilitar la comprensión de conceptos complejos.<br>
-        <strong>Llamo Sánchez, Amner Levi <br>(TB1):</strong><br>
+        <strong>Llamo Sánchez, Amner Levi <br>(TB1):</strong>Conduje entrevistas al segmento objetivo, recopilando información clave para el análisis de necesidades. Participé en sesiones de Event Storming, exponiendo de manera clara las interacciones y eventos identificados en el dominio, asegurándome de que fueran entendidos tanto por perfiles técnicos como no técnicos.<br>
       <strong>Morales Montalvo, Omar Andrew<br>(TB1):</strong><br>
       </td>
       <td>
@@ -110,7 +110,7 @@ del ABET – EAC - Student Outcome 3.
       <strong>Ames Oviedo, Mariano José <br>(TB1):</strong><br>
       <strong>Cachis Gonzales, Sebastian Nicolas <br>(TB1): </strong>De la misma forma, comuniqué por escrito los avances y resultados de manera clara y objetiva, organizando la información para que pudiera ser comprendida tanto por personas con un perfil técnico como por quienes tienen un rol más estratégico en el proyecto.<br>
         <strong>Lecca Choccare, Christopher Bryan <br>(TB1):</strong> Participé en la elaboración de las descripciones de cada nivel del modelo C4, así como la redacción de las User Stories y la estructuración del Product Backlog. Me aseguré de que los documentos fueran comprensibles tanto para los desarrolladores como para los interesados no técnicos<br>
-      <strong>Llamo Sánchez, Amner Levi <br>(TB1):</strong><br>
+      <strong>Llamo Sánchez, Amner Levi <br>(TB1):</strong>Documenté los resultados de las entrevistas y los escenarios obtenidos del Event Storming, estructurando la información de forma clara y accesible. Además, contribuí en la organización de los artefactos escritos del equipo, garantizando que reflejaran tanto los aspectos técnicos como las necesidades identificadas en el segmento objetivo.<br>
       <strong>Morales Montalvo, Omar Andrew<br>(TB1):</strong><br>
       </td>
       <td>
