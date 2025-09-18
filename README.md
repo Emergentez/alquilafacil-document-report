@@ -563,7 +563,7 @@ Con esta información podremos diseñar funciones que respondan a sus prioridade
 
 2. ¿Te gustaría que los usuarios puedan dejar calificaciones y comentarios sobre tu espacio? ¿Por qué?
 
-3. ¿Qué tan importante es para vos poder aprobar o rechazar reservas según el perfil o reputación del usuario?
+3. ¿Qué tan importante es para ti poder aprobar o rechazar reservas según el perfil o reputación del usuario?
 
 4. ¿Te serviría ver reportes o estadísticas sobre las reservas y uso de tu espacio?
 
