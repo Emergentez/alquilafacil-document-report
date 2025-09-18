@@ -1,4 +1,4 @@
-# <center>Informe del Trabajo Final</center>
+ <center>Informe del Trabajo Final</center>
 
 <p align="center">
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
@@ -11,9 +11,9 @@
 
 <center>
 
-#### Startup: **AlquildoreEz**
+#### Startup: **AlquilaEZ**
 
-#### Product: **Alquila Facil**
+#### Product: **Alquila Fácil**
 
 </center>
 
@@ -24,8 +24,8 @@
 |              Member               |    Code    |
 | :-------------------------------: | :--------: |
 |     Llamo Sánchez Amner Levi      | U20221C376 |
-| Cachis Gonzales Sebastian Nicolas | U202210846 |
-|   Morales Montalvo Omar Andrew    | U202212383 |
+| Sebastian Nicolas Cachis Gonzales | U202210846 |
+|                                   |            |
 |                                   |            |
 |                                   |            |
 |                                   |            |
@@ -261,20 +261,26 @@
 
 ### 1.1.1. Descripción de la Startup
 
+AlquilaFácil es un startup fundado en el 2025, por un grupo de estudiantes de la carrera de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas (UPC). Nuestra empresa emergente se enfoca en la simplificación del proceso de búsqueda de alquiler de espacios para eventos, así como la administración de los mismos.
+
+**Misión:** Revolucionar el alquiler de espacios para eventos con una plataforma intuitiva que une a arrendadores y arrendatarios de manera rápida y sencilla. 
+
+**Visión:** Consolidarnos como la referencia global en alquiler de espacios para eventos, redefiniendo el sector con soluciones inteligentes y una experiencia excepcional.
+
 ### 1.1.2. Perfiles de integrantes del equipo
 
-| <!-- -->                                                                                                                                                                                                                                                                                                                                                     | <!-- -->                                       |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------- |
-| Nombre                                                                                                                                                                                                                                                                                                                                                       | Llamo Sánchez Amner Levi (U20221C376)          |
-| Mi nombre es Amner Levi Llamo Sánchez, soy estudiante del octavo ciclo de ingeniería de software en la UPC. Me gusta jugar fútbol y videojuegos, por eso estoy constantemente investigando sobre nuevas tecnologías. Soy responsable con los trabajos que se me asignan; además soy tolerante y me adapto a las circunstancias del equipo.                   |                                                |
-| Nombre                                                                                                                                                                                                                                                                                                                                                       | Sebastian Nicolas Cachis Gonzales (U202210846) |
-| Mi nombre es Sebastian Nicolas Cachis Gonzales, soy estudiante de octavo ciclo de ingeniería de software en la UPC. Me considero una persona proactiva, organizada, meticulosa y muy enfocada en mis estudios, tanto grupales como individuales. Tengo facilidad para entender y ejemplificar los distintos temas que vemos, teniendo soltura para explicar. |
-| Nombre                                                                                                                                                                                                                                                                                                                                                       | Lecca Choccare, Christopher Bryan (U202211399) |
-| Mi nombre es Christopher, tengo 20 años y actualmente me encuentro cursando el 7mo ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Considero que mi compromiso con el equipo de trabajo designado y mi capacidad de aprendizaje rápida aportarán de buena manera al desarrollo del producto final.      |
-| Nombre                                                                                                                                                                                                                                                                                                                                                       | ()                                             |
-|                                                                                                                                                                                                                                                                                                                                                              |
-| Nombre                                                                                                                                                                                                                                                                                                                                                       | ()                                             |
-|                                                                                                                                                                                                                                                                                                                                                              |
+|<!-- -->|<!-- -->|
+|--------|--------|
+|Nombre|Ames Oviedo, Mariano José (U202211371)|
+|Mi nombre es Mariano Ames, tengo 20 años y me encuentro cursando el 8vo ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias aplicadas. Soy una persona e intento colaborar en lo más posible dentro del equipo de trabajo, también me llama la atención el aprendizaje de nuevas tecnologías que puedan ayudarme a mejorar mi ayuda en el equipo.|![Foto de Mariano](images/cap-1/members/mariano.jpg) |
+|Nombre|Cachis Gonzales, Sebastian Nicolas  (U202210846)|
+|Mi nombre es Sebastian Nicolas Cachis Gonzales, soy estudiante de octavo ciclo de ingeniería de software en la UPC. Me considero una persona proactiva, organizada, meticulosa y muy enfocada en mis estudios, tanto grupales como individuales. Tengo facilidad para entender y ejemplificar los distintos temas que vemos, teniendo soltura para explicar. |![Foto de Sebastian](images/cap-1/members/sebastian.png) |
+|Nombre|Lecca Choccare, Christopher Bryan (U202211399)|
+|Mi nombre es Christopher, tengo 20 años y actualmente me encuentro cursando el 8vo ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Considero que mi compromiso con el equipo de trabajo designado y mi capacidad de aprendizaje rápida aportarán de buena manera al desarrollo del producto final.|![Foto de Christopher](images/cap-1/members/christopher.jpg)|
+|Nombre|Llamo Sánchez, Amner Levi (U20221C376)|
+|Mi nombre es Amner Levi Llamo Sánchez, soy estudiante del octavo ciclo de ingeniería de software en la UPC. Me gusta jugar fútbol y videojuegos, por eso estoy constantemente investigando sobre nuevas tecnologías. Soy responsable con los trabajos que se me asignan; además soy tolerante y me adapto a las circunstancias del equipo.|![Foto de Amner](images/cap-1/members/amner.png)|
+|Nombre|Morales Montalvo, Omar Andrew (U202212383)|
+|Mi nombre es Omar, tengo 19 años y actualmente estoy cursando el séptimo ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me considero una persona comprometida con lo que hace, además de ser responsable y dedicada. Me gusta aprender constantemente y trabajar en equipo, siempre buscando mejorar y aportar en cada proyecto.|![Foto de Omar](images/cap-1/members/omar.png)|
 
 ## 1.2. Solution Profile
 
@@ -284,7 +290,21 @@ Hoy en día, las personas cuentan con múltiples herramientas tecnológicas que 
 
 De igual manera, las marcas apuestan cada vez más por la organización de eventos como estrategia para acercarse a su público y transmitir sus valores. Como indica Mañas (2024), estas experiencias son vistas como una vía efectiva para fortalecer el vínculo con los clientes y construir relaciones más duraderas.
 
-En este contexto, se evidencia que en el Perú el número de usuarios con acceso a internet ha aumentado de manera significativa en los últimos años, lo que respalda la necesidad de contar con una plataforma que agilice la búsqueda y el alquiler de espacios para eventos frente a la creciente demanda, especialmente de las empresas.
+Por otro lado, las empresas que ofrecen espacios para eventos enfrentan desafíos al momento de gestionar reservas, promocionar sus locales o coordinar con los arrendatarios. Muchas veces recurren a procesos manuales, canales informales o herramientas dispersas que generan fricciones en la experiencia de usuario.
+
+En este contexto, se evidencia que en el Perú el número de usuarios con acceso a internet ha aumentado de manera significativa en los últimos años, lo que respalda la necesidad de contar con una plataforma digital centralizada y confiable que agilice la búsqueda, comparación, reserva y monitoreo de espacios para eventos. Este tipo de solución se vuelve especialmente relevante frente a la creciente demanda, especialmente por parte de empresas, emprendimientos y usuarios que organizan eventos corporativos, sociales o culturales.
+
+#### 5W's y 2H's:
+
+| Elemento      | Respuesta                                                                                                                                                                                                                                                                                                                                                                                                          |
+|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Who**       | Usuarios con acceso a internet en el Perú interesados en alquilar u ofrecer espacios para eventos.                                                                                                                                                                                                                                                                                                                  |
+| **What**      | Desarrollo de una plataforma digital (web y app móvil) para facilitar la búsqueda, publicación, reserva y monitoreo de espacios para eventos.                                                                                                                                                                                                                                                                       |
+| **When**      | En un contexto actual (2025), donde el acceso a internet y la demanda de servicios digitales siguen en crecimiento.                                                                                                                                                                                                                                                                                                |
+| **Where**     | Perú, especialmente en zonas urbanas con mayor acceso a internet y actividad empresarial.                                                                                                                                                                                                                                                                                                                           |
+| **Why**       | Porque existe una creciente necesidad de plataformas que conecten a arrendadores y arrendatarios de espacios para eventos, facilitando la gestión, seguridad y visibilidad de los locales en un mercado cada vez más competitivo.                                                                                                                                                                                  |
+| **How**       | A través del desarrollo de una aplicación móvil y una landing page web responsiva, con funciones como publicación de espacios, filtros de búsqueda, calendario de reservas, monitoreo mediante sensores, notificaciones y sección de ayuda.                                                                                                                                                                        |
+| **How much**  | El costo estimado para la publicación en Google Play es de 25 dólares más 30% de ingresos, mientras que en App Store la tasa se encuentra entre 99 y 299 dólares anuales. Este rango está basado en fuentes como:<br>- [DoApps](https://doapps.pe/blog/cuanto-cuesta-desarrollar-una-app/)<br>- [GoApps](https://gooapps.es/2022/02/21/cuanto-cuesta-subir-una-aplicacion-a-una-app-store/)<br> |
 
 ### 1.2.2. Lean UX Process
 
@@ -354,9 +374,8 @@ Creemos que, al simplificar el proceso de búsqueda y comparación de espacios p
 Esto permitirá que los usuarios encuentren más fácilmente opciones adecuadas a sus necesidades, mejorando su experiencia.
 
 Sabremos que estamos en lo correcto cuando observemos un incremento del 25% en la cantidad de reservas realizadas por clientes recurrentes en los primeros seis meses tras la implementación.
-
 <br>
- 
+
 **Hipótesis 2**
 
 Creemos que, al mejorar la función de búsqueda avanzada, incorporando filtros detallados como capacidad, ubicación y servicios incluidos, optimizaremos la experiencia de exploración y selección de espacios.
@@ -364,7 +383,6 @@ Creemos que, al mejorar la función de búsqueda avanzada, incorporando filtros 
 Esto facilitará que los usuarios encuentren rápidamente opciones relevantes y reduzcan la necesidad de soporte.
 
 Sabremos que estamos en lo correcto cuando se registre una disminución del 25% en las consultas al área de soporte relacionadas con la búsqueda, y un aumento en el tiempo promedio de navegación en la plataforma.
-
 <br>
 
 **Hipótesis 3**
@@ -374,7 +392,6 @@ Creemos que, al implementar un dashboard personalizado para los arrendadores, do
 Esto permitirá a los arrendadores tomar decisiones informadas y ofrecer un mejor servicio.
 
 Sabremos que estamos en lo correcto cuando observemos un aumento del 30% en la actividad de los arrendadores dentro del panel, así como una mejora en la tasa de respuesta y actualización de disponibilidad en sus publicaciones, dentro de los primeros seis meses.
-
 <br>
 
 **Hipótesis 4**
@@ -384,7 +401,6 @@ Creemos que, al habilitar un sistema de calificación y comentarios para los esp
 Esto ayudará a generar transparencia y a tomar decisiones basadas en la experiencia de otros clientes.
 
 Sabremos que estamos en lo correcto cuando se evidencie un aumento del 20% en la cantidad de reservas completadas y una mejora progresiva en la calidad de los comentarios dentro de los primeros tres meses tras la implementación.
-
 <br>
 
 **Hipótesis 5**
@@ -397,7 +413,30 @@ Sabremos que estamos en lo correcto cuando se registre una reducción del 40% en
 
 #### 1.2.2.4. Lean UX Canvas
 
+Este Lean UX Canvas representa la propuesta integral de valor de AlquilaFácil, sintetiza los problemas detectados, los objetivos de negocio, los supuestos sobre los usuarios y las hipótesis de diseño que guían el desarrollo de la solución. Cada sección del canvas refleja cómo la solución aborda los retos de eficiencia, comunicación y confianza para arrendadores y arrendatarios, y cómo mediremos el éxito de nuestras acciones a través de métricas concretas.
+
+![Lean UX Canvas](images/cap-1/lean-ux-process/lean-ux-canvas.png)
+
 ## 1.3. Segmentos objetivo
+
+En esta sección, identificamos los segmentos de clientes específicos a los que se dirige AlquilaFácil, basándonos en características demográficas, comportamientos y necesidades compartidas. 
+
+**Arrendatarios:** 
+
+- Descripción: Individuos que planifican eventos sociales como bodas, fiestas de cumpleaños, reuniones familiares, entre otros, y aquellos que organizan eventos regularmente, ya sea social o corporativo. 
+
+- Características: Buscan espacios que se adapten a sus necesidades específicas, como capacidad, ubicación y servicios disponibles. Realizan múltiples reservas de espacios a lo largo del año. 
+
+- Necesidades: Facilidad de búsqueda y reserva de espacios, acceso a información detallada sobre las instalaciones y servicios ofrecidos, programas de fidelización y alertas de acontecimientos que puedan afectar el desarrollo de su evento. 
+
+**Arrendadores:**
+
+- Descripción: Individuos o empresas que poseen espacios aptos para eventos, como salones de banquetes, jardines, locales comerciales, etc. 
+
+- Características: Ofrecen una variedad de espacios con diferentes capacidades y servicios. 
+
+- Necesidades: Promoción efectiva de sus espacios, gestión eficiente de reservas, acceso a herramientas para administrar sus listados y proyectos de eventos. 
+
 
 ---
 
@@ -1247,6 +1286,7 @@ Presentaremos los User Persona por cada segmento objetivo, en los cuales nos bas
 | **Features** | Características adicionales del espacio publicado.                                         |
 
 ---
+
 
 # Capítulo III: Requirements Specification
 
