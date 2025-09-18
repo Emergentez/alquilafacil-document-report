@@ -1,4 +1,4 @@
-# <center>Informe del Trabajo Final</center>
+ <center>Informe del Trabajo Final</center>
 
 <p align="center">
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
@@ -440,37 +440,853 @@ En esta sección, identificamos los segmentos de clientes específicos a los que
 
 ---
 
-
-
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
 
 ### 2.1.1. Análisis competitivo
 
+<table border="1" style="border-collapse: collapse; width: 100%;">
+    <thead>
+        <tr>
+            <th colspan="6" style="text-align: center;">Competitive Analysis Landscape</th>
+        </tr>
+        <tr>
+            <td colspan="2">¿Por qué llevar a cabo este análisis?</td>
+            <td colspan="4">Este análisis se realizó con la finalidad de poder identificar a nuestros potenciales competidores e idear estrategias y tácticas para diferenciarnos de estos.</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr style="text-align: center;">
+            <td colspan="2">Empresas</td>
+            <td><strong>AlquilaFácil</strong></td>
+            <td><strong>Airbnb</strong></td>
+            <td><strong>Vrbo</strong></td>
+            <td><strong>Booking.com</strong></td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="writing-mode: vertical-lr; text-align: center;">Perfil</td>
+            <td>Overview</td>
+            <td>Es una plataforma en línea que facilita el alquiler de una amplia gama de espacios para eventos, desde salones de eventos hasta casas y alojamientos temporales. Con una interfaz fácil de usar, conecta a arrendadores con arrendatarios, ofreciendo una solución conveniente y eficiente para satisfacer las necesidades de ambos. Asimismo, presenta una interfaz para poder recibir reportes de eventos ocurridos en el local.</td>
+            <td>Plataforma en línea que revoluciona el alquiler de alojamientos a corto plazo, conectando anfitriones y huéspedes en todo el mundo. Ofrece una amplia variedad de opciones de alojamiento, desde habitaciones individuales hasta casas completas.</td>
+            <td>Plataforma en línea que permite a los usuarios buscar y reservar alojamientos vacacionales directamente a través de arrendadores. Ofrece una variedad de opciones de alojamiento, como casas, apartamentos, cabañas y villas, en diferentes destinos, adaptándose a las necesidades y preferencias de los viajeros.</td>
+            <td>Booking.com es una plataforma líder para reservar alojamiento y actividades turísticas en todo el mundo. Ofrece una amplia variedad de opciones, desde hoteles hasta apartamentos, y facilita la búsqueda y reserva según las preferencias y presupuesto de los usuarios.</td>
+        </tr>
+        <tr>
+            <td>¿Qué valor ofrece a los clientes?</td>
+            <td>Proporciona una solución completa para la planificación de eventos, ofreciendo una amplia gama de espacios para eventos y una plataforma intuitiva para gestionar reservas y espacios. Con características como registro gratuito de espacios, búsqueda avanzada y servicio al cliente dedicado, ArrendaFácil simplifica el proceso de planificación de eventos para arrendatarios y arrendadores.</td>
+            <td>Ofrece una amplia variedad de alojamientos en todo el mundo, desde habitaciones individuales hasta casas completas, junto con experiencias locales únicas organizadas por anfitriones. Esto permite a los viajeros personalizar su experiencia y sumergirse en la cultura local.</td>
+            <td>Se especializa en alquileres vacacionales directamente a través de arrendadores, brindando a los viajeros la oportunidad de disfrutar de una experiencia más auténtica y personalizada. Con una amplia selección de alojamientos vacacionales, Vrbo ofrece opciones para todos los gustos y presupuestos.</td>
+            <td>Destaca por su amplia oferta de alojamiento y servicios, que incluyen hoteles, vuelos, alquiler de coches y actividades turísticas. La plataforma fácil de usar permite a los usuarios encontrar y reservar alojamiento de manera rápida y sencilla, ofreciendo una solución integral para los viajeros.</td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="writing-mode: vertical-lr; text-align: center;">Perfil de Marketing</td>
+            <td>Mercado objetivo</td>
+            <td>Dirigido a arrendatarios adultos de 18 años en adelante que buscan espacios para eventos sociales, corporativos o especiales, como bodas, conferencias, fiestas de empresa, entre otros. Además, atrae a empresas y organizaciones que buscan espacios para eventos corporativos y reuniones profesionales dirigidas a un público adulto.</td>
+            <td>Se centra en viajeros adultos de 18 años en adelante, ofreciendo una amplia variedad de alojamientos en todo el mundo, desde habitaciones individuales hasta casas completas, para adaptarse a diferentes necesidades y preferencias de viaje. Además, apunta a grupos de amigos, parejas y familias adultas que buscan opciones de alojamiento que se ajusten a sus requerimientos y presupuestos durante sus vacaciones o escapadas.</td>
+            <td>Está dirigido a familias y grupos de amigos adultos de 18 años en adelante que buscan alquilar casas, villas o cabañas para vacaciones o escapadas grupales. Además, atrae a parejas y grupos de amigos adultos que buscan alquilar alojamientos vacacionales para eventos especiales, como bodas, reuniones familiares o celebraciones de cumpleaños.</td>
+            <td>Orientado a viajeros adultos de 18 años en adelante, busca ofrecer una amplia gama de opciones de alojamiento para adaptarse a diversas necesidades y preferencias durante sus viajes. También se dirige a personas que viajan por negocios, parejas en escapadas románticas, grupos de amigos en vacaciones y familias en busca de opciones de alojamiento cómodas y convenientes.</td>
+        </tr>
+        <tr>
+            <td>Estrategias de marketing</td>
+            <td>ArrendaFácil destaca con marketing de contenidos, participación en eventos de la industria y alianzas con proveedores de servicios de eventos para ofrecer soluciones completas a arrendatarios.</td>
+            <td>Airbnb emplea campañas publicitarias en redes sociales y colaboraciones con influencers para promocionar destinos y experiencias únicas. También utiliza programas de referidos para aumentar su base de usuarios.</td>
+            <td>Vrbo se centra en contenido educativo en su sitio web, colaboraciones con agencias de viajes y ofertas exclusivas para atraer a familias y grupos de amigos a reservar a través de su plataforma.</td>
+            <td>Booking.com utiliza estrategias de SEO y SEM, junto con programas de fidelización, para atraer tráfico y fomentar la lealtad del cliente a través de una experiencia personalizada.</td>
+        </tr>
+        <tr>
+            <td rowspan="3" style="writing-mode: vertical-lr; text-align: center;">Perfil de Producto</td>
+            <td>Productos & Servicios</td>
+            <td>Aplicación web que conecta a arrendadores de diversos espacios, como salones de eventos, jardines y locales comerciales, con arrendatarios que buscan alquilar estos espacios para celebrar eventos sociales, corporativos o especiales. Proporciona una variedad de herramientas y servicios para facilitar la búsqueda, reserva y gestión de espacios para eventos.</td>
+            <td>Plataforma en línea donde los usuarios pueden alquilar una variedad de alojamientos a corto plazo, desde habitaciones individuales hasta casas completas, en todo el mundo. Además de alojamiento, Airbnb también proporciona experiencias locales únicas organizadas por anfitriones, como recorridos gastronómicos, clases de cocina y excursiones.</td>
+            <td>Plataforma para alquilar alojamientos vacacionales directamente a través de los arrendadores. Los usuarios pueden encontrar y reservar una amplia gama de propiedades, que van desde casas y apartamentos hasta cabañas y villas, para sus vacaciones o escapadas en todo el mundo.</td>
+            <td>Plataforma en línea que permite a los usuarios reservar una variedad de alojamientos, incluyendo hoteles, hostales, apartamentos y otros tipos de hospedaje en todo el mundo. Además de alojamiento, Booking.com ofrece la posibilidad de reservar vuelos, alquilar coches y reservar actividades turísticas para completar la experiencia de viaje del usuario.</td>
+        </tr>
+        <tr>
+            <td>Precios & Costos</td>
+            <td>Los precios de ArrendaFácil varían dependiendo del lugar, el tamaño de la propiedad, servicios, y el tiempo de uso.</td>
+            <td>El costo promedio puede variar significativamente dependiendo de varios factores, como la ubicación, el tipo de alojamiento, la época del año y la demanda local.</td>
+            <td>Los precios en VRBO pueden variar significativamente dependiendo de la ubicación, el tamaño de la propiedad, las comodidades ofrecidas y la temporada del año.</td>
+            <td>Los precios pueden variar significativamente según la ubicación, la temporada, la demanda y el tipo de alojamiento.</td>
+        </tr>
+        <tr>
+            <td>Canales de distribución (Web y/o móvil)</td>
+            <td>Redes sociales y aplicación web donde los usuarios pueden poner en renta su espacio o alquilar un espacio para eventos.</td>
+            <td>Sitio web de Airbnb, aplicación móvil de Airbnb, socios afiliados y asociaciones, redes sociales y marketing digital.</td>
+            <td>Principalmente su sitio web y su aplicación móvil, así como acuerdos de distribución con otros sitios web de viajes o agencias de viajes en línea.</td>
+            <td>Sitio web de Booking.com, aplicación móvil de Booking, agencias de viajes en línea, alianzas con compañías de viajes, afiliados y asociados.</td>
+        </tr>
+        <tr>
+            <td rowspan="4" style="writing-mode: vertical-lr; text-align: center;">Análisis SWOT</td>
+            <td>Fortalezas</td>
+            <td>Solución completa para la planificación de eventos.</td>
+            <td>Gran comunidad de anfitriones y usuarios.</td>
+            <td>Variedad de alojamientos en todo el mundo.</td>
+            <td>Interfaz fácil de usar y experiencia intuitiva del usuario.</td>
+        </tr>
+        <tr>
+            <td>Debilidades</td>
+            <td>Dependencia de la disponibilidad de espacios para eventos.</td>
+            <td>Dependencia de la reputación y opiniones de los usuarios.</td>
+            <td>Posible saturación del mercado de alquiler vacacional.</td>
+            <td>Competencia intensa con otras plataformas de alquiler de alojamiento.</td>
+        </tr>
+        <tr>
+            <td>Oportunidades</td>
+            <td>Expansión mediante aplicaciones integradas para mejorar la comunicación entre sus usuarios.</td>
+            <td>Desarrollo de nuevas características y servicios para mejorar la experiencia del usuario.</td>
+            <td>Alianzas estratégicas con proveedores de servicios de eventos.</td>
+            <td>Aprovechamiento de la tendencia creciente del turismo y los viajes.</td>
+        </tr>
+        <tr>
+            <td>Amenazas</td>
+            <td>Cambios en la regulación de alquileres vacacionales y eventos.</td>
+            <td>Posible disminución de la demanda de viajes debido a crisis económicas o sanitarias.</td>
+            <td>Innovaciones tecnológicas que podrían ser adoptadas por competidores.</td>
+            <td>Posible pérdida de confianza del usuario debido a problemas de seguridad o calidad del servicio.</td>
+        </tr>
+    </tbody>
+</table>
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
+### 2.1.2. Estrategias y tácticas frente a competidores
+
+<div align="justify">
+
+En esta sección se analizarán las estrategias y tácticas que se implementarán para aprovechar las debilidades de la competencia y enfrentar sus fortalezas, así como para abordar las amenazas y oportunidades del mercado. Para ello, hemos empleado un análisis FODA que nos ha permitido identificar nuestras fortalezas y debilidades internas, así como las oportunidades y amenazas externas, todo en función de nuestros dos segmentos objetivos: arrendadores y arrendatarios.
+
+**Estrategia de diferenciación:**
+
+**Para los arrendadores:** A diferencia de otras plataformas de alquiler de espacios para eventos, AlquilaFácil ofrecerá herramientas innovadoras para la gestión de reservas y un sistema de promoción destacada para que sus espacios tengan mayor visibilidad. Además, contarán con opciones para integrar servicios adicionales como catering o entretenimiento, facilitando así una oferta más completa para los clientes.
+
+**Para los arrendatarios:** Nuestra interfaz será fácil de usar y estará diseñada para simplificar todo el proceso de búsqueda, comparación y reserva de espacios. AlquilaFácil también permitirá la personalización de eventos y la contratación de servicios complementarios desde la misma plataforma, brindando una experiencia integral y diferenciada.
+
+**Estrategia de liderazgo en Costos:**
+
+AlquilaFácil buscará ofrecer un modelo flexible y competitivo en costos. Si bien se mantendrán tarifas estándar por el uso de la plataforma, se explorarán modelos de monetización creativa que permitan diversificar los ingresos sin afectar la accesibilidad. Se ofrecerán servicios premium opcionales para arrendadores que deseen destacar sus listados o acceder a herramientas avanzadas de gestión. También se considerará la inclusión de servicios adicionales bajo demanda, así como publicidad no intrusiva y patrocinios de eventos como fuentes complementarias de ingreso.
+
+**Estrategia de marketing:**
+
+El marketing de AlquilaFácil estará enfocado en construir una comunidad activa y comprometida de arrendadores y arrendatarios. Se buscará destacar los beneficios de la plataforma no solo desde el punto de vista funcional, sino también como un espacio para compartir experiencias, generar confianza y fidelizar usuarios.
+
+**Tácticas:**
+
+- **Campañas segmentadas:** Se lanzarán campañas digitales específicas para arrendadores y otras para arrendatarios, empleando publicidad en redes sociales, colaboraciones con influencers del sector de eventos y alianzas con proveedores de servicios relacionados.
+- **Fomento de comunidad:** Se habilitarán espacios dentro de la plataforma para que los usuarios compartan sus experiencias, recomienden espacios o servicios, e interactúen entre sí, fortaleciendo así el sentido de comunidad.
+- **Eventos y participación activa:** AlquilaFácil participará en ferias comerciales, eventos del sector y actividades colaborativas que aumenten la visibilidad de la marca y fomenten la interacción directa con los usuarios.
+- **Modelos de referidos:** Se incentivará a los usuarios actuales a invitar a nuevos miembros mediante recompensas como descuentos, servicios premium o visibilidad destacada.
+
+</div>
 
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
 
+Se definieron preguntas por segmento objetivo para obtener información cualitativa que apoye el desarrollo de nuestra solución.
+
+**Preguntas generales:**
+
+1. ¿Cuál es tu nombre?
+2. ¿Qué edad tienes?
+3. ¿Dónde vives actualmente?
+4. ¿A qué te dedicas?
+
+**Preguntas segmento de arrendadores de espacios para eventos:**
+
+El objetivo de entrevistar a los arrendadores es comprender sus necesidades, expectativas y preocupaciones en la gestión de propiedades para eventos. Buscamos conocer su disposición a usar una plataforma como AlquilaFácil que centralice reservas, pagos, comunicación y solución de conflictos, así como su interés en herramientas que les den mayor control y visibilidad de sus espacios.
+
+Con esta información podremos diseñar funciones que respondan a sus prioridades, como aprobación de usuarios, monitoreo, pagos integrados y soporte ante imprevistos. De esta manera, buscamos generar confianza y ofrecer un valor añadido que mejore su experiencia como anfitriones.
+
+1. ¿Qué tan útil te parecería tener una sola plataforma como AlquilaFácil para gestionar reservas, pagos y comunicación con los usuarios?
+
+2. ¿Te gustaría que los usuarios puedan dejar calificaciones y comentarios sobre tu espacio? ¿Por qué?
+
+3. ¿Qué tan importante es para ti poder aprobar o rechazar reservas según el perfil o reputación del usuario?
+
+4. ¿Te serviría ver reportes o estadísticas sobre las reservas y uso de tu espacio?
+
+5. ¿Cómo te gustaría recibir los pagos de tus alquileres? ¿Todo desde la misma plataforma?
+
+6. ¿Cuánto valorás tener una app que te ayude a resolver reclamos o problemas con arrendatarios de forma rápida?
+
+7. ¿Qué tan importante es para vos poder tener visibilidad de lo que ocurre en tu espacio durante un evento?
+
+8. ¿Te gustaría recibir alertas si algo inusual sucede mientras alguien está usando tu espacio?
+
+9. ¿Qué tipo de herramientas o soluciones tecnológicas creés que te ayudarían a gestionar mejor tu propiedad?
+
+10. ¿Te interesaría usar tecnología que te permita tener más control sobre el uso de tu espacio sin necesidad de estar presente?
+
+**Preguntas segmento de arrendatarios sociales / usuarios frecuentes de espacios para eventos:**
+
+El objetivo de entrevistar a este segmento es identificar sus hábitos de búsqueda, reserva y uso de espacios para eventos, además de sus expectativas en relación con la seguridad, la transparencia y la facilidad de los procesos. También nos interesa conocer la importancia que le dan a las calificaciones, su nivel de comodidad con el sistema de alquiler actual y el valor que otorgan a funciones como reclamos o notificaciones durante el evento.
+
+Con estos hallazgos podremos diseñar una experiencia enfocada en el usuario, que simplifique la búsqueda de espacios confiables e integre herramientas para reforzar la seguridad, la reputación compartida y la comunicación efectiva, logrando así una plataforma clara, accesible y funcional.
+
+1. ¿Qué tan útil te parecería una app como AlquilaFácil que te permita ver espacios disponibles, comparar precios y reservar en el mismo lugar?
+
+2. ¿Qué tanto valoras poder leer opiniones y calificaciones de otros usuarios antes de alquilar un espacio?
+
+3. ¿Cómo te gustaría que sea el proceso de reserva: rápido, seguro, desde la misma plataforma?
+
+4. ¿Qué tan importante sería para vos poder reportar problemas o hacer reclamos directamente desde la app?
+
+5. ¿Qué tan fácil te resulta hoy en día encontrar espacios adecuados para tus eventos?
+
+6. ¿Te sentirías más cómodo/a alquilando si la app tuviera un sistema de reputación tanto para arrendadores como para arrendatarios?
+
+7. ¿Te interesaría recibir notificaciones sobre el estado del lugar durante tu evento? (por ejemplo, si algo se sale de control)
+
+8. ¿Qué tan importante es para ti saber que el espacio cuenta con herramientas que ayuden a garantizar tu seguridad durante el evento?
+
+9. ¿Prefieres lugares que cuenten con tecnología que permita controlar ciertas situaciones mientras se alquila?
+
+10. ¿Qué tipo de herramientas tecnológicas te gustaría que tuvieran los espacios que alquilás para sentirte más tranquilo/a?
+
 ### 2.2.2. Registro de entrevistas
 
+<div align="justify">
+
+Se llevarán a cabo tres entrevistas por segmento, sumando un total de seis. El registro será en formato mp4, y cada entrevista será independiente, ya que las preguntas y respuestas varían según los entrevistados de cada grupo.
+
+**Segmento 1: Arrendadores de espacios para eventos**
+<br>
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"> <div align="center">Entrevista #1<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Luis David</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Garcia Días</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>21 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Magdalena</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones usadas</td>
+    <td>Instagram, Excel.</td>
+  </tr>
+  <tr>
+    <td>Motivación</td>
+    <td>Ver crecer su negocio y convertir su local en un lugar de referencia para eventos en su comunidad.</td>
+  </tr>
+  <tr>
+    <td>Frustración</td>
+    <td>Posibles accidentes dentro de su local por falta de herramientas para gestionarlo.</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Android, Windows.</td>
+  </tr>
+  <tr>
+    <td>Browsers</td>
+    <td>Opera GX</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Mariano Ames</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="images/cap-2/interviews/arrendador-3.png" alt="Entrevista a Luis Garcia"></div></td>
+  </tr>
+  <tr>
+    <td>Enlace</td>
+    <td><p><a target="_blank"  href="https://" title="Title">Microsoft Stream</a></p></td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>00:00 min - 00:00 min </td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    El entrevistado señaló que estaría interesado en la aplicación, ya que le permitiría gestionar de manera más sencilla tanto sus locales como a los arrendatarios, mejorando así su negocio. Comentó que en el pasado enfrentó dificultades al organizar reservas por no contar con una herramienta especializada para llevar un control adecuado. También indicó que tuvo inconvenientes con ciertos clientes, los cuales podrían haberse evitado si hubiera tenido acceso a un perfil previo de ellos.
+    Finalmente, expresó su interés en contar con una solución que integre todo el proceso en una sola aplicación, desde la promoción del local y la gestión de reservas y pagos, hasta el control y administración del espacio.
+    </td>
+  </tr>
+</tbody>
+</table>
+<br>
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"> <div align="center">Entrevista #2<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Manuel Jesús</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Chávez Cuba</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>21</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>San Martín de Porres</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones usadas</td>
+    <td>Facebook Marketplace</td>
+  </tr>
+  <tr>
+    <td>Motivación</td>
+    <td>Ofrecer experiencias únicas y memorables para sus clientes.</td>
+  </tr>
+  <tr>
+    <td>Frustración</td>
+    <td>Limitaciones presupuestarias que puedan afectar la calidad de los eventos.</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>iOS, Android, Windows.</td>
+  </tr>
+  <tr>
+    <td>Browsers</td>
+    <td>Google Chrome, Brave</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Christopher Lecca</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="images/cap-2/interviews/arrendatario-1.png" alt="Entrevista a Manuel Chavez"></div></td>
+  </tr>
+  <tr>
+    <td>Enlace</td>
+    <td><p><a target="_blank"  href="https://" title="Title">Microsoft Stream</a></p></td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>00:00 min - 00:00 min </td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    El entrevistado se presenta como Manuel Chavez, un estudiante de Ingeniería de 21 años. Manuel nos comentó que se encuentra viendo la manera de generar ingresos, por lo que se lo ocurrió adentrarse al mercado de alquiler de espacios para organizar eventos.
+    Durante la entrevista, resaltó la necesidad de una aplicación que facilite la reserva de este tipo de espacios, enfocándose en la gestión del local por parte del arrendador, de modo que pueda estar al tanto de aquellas ocurrencias que puedan perjudicar el desarrollo de su evento.
+    Para finalizar, nos comentó su experiencia previa con otras herramientas similares y cómo es que estas no cuentan con herramientas de gestión inteligentes que faciliten el control del aforo o detección de riesgos.
+    </td>
+  </tr>
+</tbody>
+</table>
+
+<br>
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"> <div align="center">Entrevista #3<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Angello Rodolfo</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Sosa Colca</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>San Borja</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones usadas</td>
+    <td>Facebook Marketplace</td>
+  </tr>
+  <tr>
+    <td>Motivación</td>
+    <td>Maximizar el uso de sus espacios y generar ingresos adicionales mediante alquileres frecuentes.</td>
+  </tr>
+  <tr>
+    <td>Frustración</td>
+    <td>La falta de control y visibilidad sobre el comportamiento de los inquilinos y posibles daños en los espacios alquilados.</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Android, Windows</td>
+  </tr>
+  <tr>
+    <td>Browsers</td>
+    <td>Brave</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Omar Morales</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="https://i.imgur.com/hEtj6a6.png" alt="Entrevista a Angello Sosa"></div></td>
+  </tr>
+  <tr>
+    <td>Enlace</td>
+    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/EU3VSEXzIcRGirzqTJsQ7j0BB1NowarJyA5Qrxhwf7GB-g?e=EITSCV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" title="Entrevista Angello">Microsoft Stream</a></p></td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>00:00 min - 00:00 min </td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    El entrevistado, Angello Sosa, comentó que ve con entusiasmo la propuesta de una aplicación enfocada en la gestión de alquileres de espacios. Considera que esta herramienta es innovadora porque facilitaría el control y la administración de sus propiedades, reduciendo riesgos y optimizando la experiencia tanto para arrendadores como para arrendatarios. Mencionó que la idea le parece acertada, ya que podría marcar la diferencia frente a otras alternativas poco prácticas del mercado actual.
+    </td>
+  </tr>
+</tbody>
+</table>
+
+
+**Segmento 2: Arrendatarios sociales frecuentes de espacios para eventos**
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"> <div align="center">Entrevista #1<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Ricardo Rafael</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Rivas Carrillo</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Callao</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones usadas</td>
+    <td>Facebook Marketplace</td>
+  </tr>
+  <tr>
+    <td>Motivación</td>
+    <td>Realizar practicar en espacio adecuados para su grupo de baile</td>
+  </tr>
+  <tr>
+    <td>Frustración</td>
+    <td>Limitaciones para encontrar espacios que cumplan las necesidades de su grupo de baile.</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Android, Windows.</td>
+  </tr>
+  <tr>
+    <td>Browsers</td>
+    <td>Opera, Edge</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Sebastian Cachis</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="images/cap-2/interviews/arrendatario-3.png" alt="Entrevista a Ricardo Riva"></div></td>
+  </tr>
+  <tr>
+    <td>Enlace</td>
+    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210846_upc_edu_pe/ERWyw8fUHNROuTWYe4s3Pl8BGYaEe71s3EVcS5fHitocSA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UEpMcx" title="Title">Microsoft Stream</a></p></td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>00:00 min - 07:44 min </td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    En la entrevista, Ricardo Rivas, estudiante de 20 años de ciencias de la computación, expresó que una aplicación como Alquila Fácil le resultaría muy útil para organizar eventos de baile o actuación, ya que actualmente es complicado encontrar y reservar espacios adecuados, con información clara sobre costos, capacidad y disponibilidad. Destacó la importancia de poder comparar precios, ver fotos, leer opiniones y calificaciones, ya que le permitiría ahorrar tiempo y confiar en la calidad del lugar, incluso al alquilar con poca anticipación. Considera fundamental que el proceso de reserva sea rápido, seguro y con contacto directo con el arrendador, y que la app funcione como intermediario en caso de reclamos, brindando respaldo y confianza. También valoró un sistema de reputación tanto para arrendadores como arrendatarios, así como recibir notificaciones durante el evento ante imprevistos. Para él, la seguridad es prioritaria, por lo que aprecia que los espacios cuenten con herramientas como cámaras de vigilancia, sistemas de control de ingreso y tecnología que garantice protección. En resumen, su visión resalta la necesidad de una plataforma confiable, segura y tecnológica que simplifique el acceso a espacios para eventos, brinde transparencia y fortalezca la experiencia de los usuarios.
+    </td>
+  </tr>
+</tbody>
+</table>
+
+
+<br>
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"> <div align="center">Entrevista #2<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Walther</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Cachay Villar</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>27</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Surco</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones usadas</td>
+    <td>Facebook Marketplace</td>
+  </tr>
+  <tr>
+    <td>Motivación</td>
+    <td>Ahorrar tiempo y esfuerzo al buscar espacios adecuados, con precios claros y disponibilidad inmediata.</td>
+  </tr>
+  <tr>
+    <td>Frustración</td>
+    <td>Tener que revisar múltiples páginas o redes sociales sin información confiable ni opiniones verificadas.</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Android, Windows.</td>
+  </tr>
+  <tr>
+    <td>Browsers</td>
+    <td>Chrome, Brave</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Amner Llamo</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="images/cap-2/interviews/arrendatario-4.png" alt="Entrevista a Walther CV"></div></td>
+  </tr>
+  <tr>
+    <td>Enlace</td>
+    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/EZlqVACTfwpLplWreJA7dfcBL5gCzJyGQrH9NU7Wp3Ofmg?e=p8gpJe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" title="Title">Microsoft Stream</a></p></td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>00:00 min - 08:25 min </td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    Walther Kevin, de 27 años y organizador de eventos en Santiago de Surco, considera que una aplicación como AlquilaFácil sería muy útil porque centralizaría la búsqueda, comparación y reserva de espacios, ahorrando tiempo y brindando confianza. Para él, las opiniones de otros usuarios son fundamentales, y valora que el proceso de reserva sea rápido, seguro y dentro de la misma plataforma, con pagos en línea y confirmación inmediata.Actualmente, encuentra difícil localizar espacios adecuados debido a la fragmentación de la información en redes sociales y páginas web. Destaca la importancia de contar con un sistema de reputación, canales de reclamo directos y notificaciones en tiempo real sobre seguridad o fallas técnicas. Además, prefiere lugares con tecnología de control (acceso digital, cámaras, sensores, monitoreo de aforo, internet estable y botón de emergencia), ya que considera la seguridad y la transparencia como factores clave en la experiencia de alquiler.
+    </td>
+  </tr>
+</tbody>
+</table>
+
+<br>
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"> <div align="center">Entrevista #3<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Alonso Rafael</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Castro</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Miraflores</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones usadas</td>
+    <td>Airbnb, Facebook Marketplace</td>
+  </tr>
+  <tr>
+    <td>Motivación</td>
+    <td>Acceder de manera rápida a espacios adecuados para eventos sociales y familiares.</td>
+  </tr>
+  <tr>
+    <td>Frustración</td>
+    <td>La poca transparencia en precios y condiciones de alquiler, así como la dificultad para comparar opciones confiables.</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Android, Windows</td>
+  </tr>
+  <tr>
+    <td>Browsers</td>
+    <td>Google Chrome</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Mariano Ames</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="https://i.imgur.com/rO1QZ5l.png" alt="Entrevista a Alonso Castro"></div></td>
+  </tr>
+  <tr>
+    <td>Enlace</td>
+    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211371_upc_edu_pe/ESQltFXU8tFAuwSbkq6_F3IBR9otieA9wHrLG2m191c3lw?e=ZaTgkw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" title="Entrevista Alonso">Microsoft Stream</a></p></td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>00:00 min - 00:00 min </td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    El entrevistado, Alonso Castro, pertenece al segmento de arrendatarios y compartió su experiencia buscando espacios para eventos. Comentó que la aplicación le resulta una propuesta útil y novedosa, ya que facilitaría encontrar lugares disponibles con mayor rapidez y transparencia. Resaltó que el principal valor estaría en centralizar la información de precios y condiciones, evitando la pérdida de tiempo en negociaciones poco claras. Finalmente, expresó que le parece una idea con gran potencial para mejorar la experiencia de los usuarios que alquilan espacios.
+    </td>
+  </tr>
+</tbody>
+</table>
+
+</div>
+
 ### 2.2.3. Análisis de entrevistas
+
+<div align="justify">
+
+Las entrevistas realizadas ofrecen una perspectiva clara y detallada sobre las expectativas y necesidades de los distintos actores que participan en el proceso de alquiler de espacios para eventos. En términos generales, tanto arrendadores como arrendatarios coinciden en la importancia de contar con plataformas que garanticen la seguridad en las transacciones financieras, la transparencia en los acuerdos contractuales y una comunicación directa, clara y eficiente.
+
+---
+
+**Arrendadores de espacios para eventos**
+
+Los arrendadores priorizan la seguridad en los pagos y la validez de los contratos como factores críticos. Además, valoran la posibilidad de promocionar sus locales de manera efectiva, llegando a un público más amplio y relevante. También consideran indispensable una comunicación fluida con los arrendatarios para evitar conflictos o malentendidos. De hecho, algunos están dispuestos a invertir en planes premium que les brinden beneficios adicionales, como una mayor visibilidad en la plataforma.  
+En conclusión, los arrendadores esperan que la plataforma les proporcione seguridad, visibilidad, canales de comunicación confiables y herramientas que potencien el rendimiento de sus espacios.
+
+| **Característica objetiva**                                   | **Frecuencia** | **Porcentaje** | **Sustento desde entrevistas**                   |
+| ------------------------------------------------------------- | -------------- | -------------- | ------------------------------------------------ |
+| **Utiliza redes sociales para captar clientes**               | 3 de 3         | 100%           | Se mencionan principalmente Instagram y Facebook |
+| **Gestiona reservas manualmente**                             | 3 de 3         | 100%           | Utilizan agenda física o Excel                   |
+| **Recibe consultas por WhatsApp**                             | 3 de 3         | 100%           | Todo el proceso se coordina vía WhatsApp         |
+| **Necesita un sistema de agenda para evitar dobles reservas** | 3 de 3         | 100%           | Reportaron problemas por doble reserva           |
+
+---
+
+**Arrendatarios para eventos**
+
+Por su parte, los arrendatarios valoran sobre todo la facilidad para encontrar y reservar espacios adecuados, especialmente en situaciones imprevistas o de última hora. La claridad en los contratos y una comunicación transparente con los arrendadores también son aspectos determinantes para garantizar experiencias satisfactorias. Además, esperan encontrar una amplia variedad de locales que se adapten a distintos tipos de actividades y horarios. La disponibilidad de filtros y herramientas de búsqueda avanzada resulta clave para optimizar la elección del espacio ideal.  
+En resumen, los arrendatarios demandan plataformas fáciles de usar, con procesos transparentes, comunicación eficiente y una oferta amplia y diversificada de espacios.
+
+| **Característica objetiva**                                            | **Frecuencia** | **Porcentaje** | **Sustento desde entrevistas**                                   |
+| ---------------------------------------------------------------------- | -------------- | -------------- | ---------------------------------------------------------------- |
+| **Usa redes sociales o sitios web para buscar espacios**               | 3 de 3         | 100%           | Todos señalaron estas herramientas como su primera opción        |
+| **Realiza reservas de forma habitual**                                 | 3 de 3         | 100%           | Mencionan alquilar espacios regularmente                         |
+| **Busca espacios para actividades familiares o recreativas**           | 3 de 3         | 100%           | Los eventos más frecuentes son de carácter recreativo o familiar |
+| **Valora herramientas de organización del tiempo (agenda/calendario)** | 3 de 3         | 100%           | Reconocen la utilidad de agendas digitales para evitar desorden  |
+
+---
+
+**Determinación de Personas**
+
+- **Persona Principal: Arrendatarios**  
+  **Justificación:** Son quienes interactúan de manera más constante con la plataforma y dependen de ella para encontrar y reservar espacios. Sus necesidades (usabilidad, transparencia, comunicación y variedad) son determinantes para el éxito del producto, por lo que constituyen el foco principal del diseño y desarrollo.
+
+- **Persona Secundaria: Arrendadores**  
+  **Justificación:** Aunque fundamentales para el funcionamiento de la plataforma, los arrendadores cumplen un rol complementario en comparación con los arrendatarios. Sus prioridades giran en torno a la seguridad en transacciones, la promoción de sus espacios y la eficiencia en la gestión, pero su nivel de interacción es menos frecuente que el de los usuarios que reservan.
+
+</div>
 
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
 
+<p align="justify">
+Presentaremos los User Persona por cada segmento objetivo, en los cuales nos basamos en los usuarios ideales de cada segmento: Sergio Aguirre (Arrendatario), Claudia Camareño (Arrendador).
+</p>
+
+**Segmento 1: Arrendatario**
+
+![Artefacto creado en UXPressia](images/cap-2/user-personas/userpersona-1.png)
+
+<br>
+
+**Segmento 2: Arrendador**
+
+![Artefacto creado en UXPressia](images/cap-2/user-personas/userpersona-2.png)
+
 ### 2.3.2. User Task Matrix
+
+<br>
+
+**User Persona Principal**
+
+**Nombre:** Sergio Aguirre  
+**Rol:** Arrendatario
+
+<table align="center">
+  <thead>
+    <tr>
+      <th>Task</th>
+      <th>Frequency</th>
+      <th>Importance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Buscar y reservar espacios para eventos</td>
+      <td>High</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Comunicarse con los arrendadores de los espacios</td>
+      <td>High</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Buscar variedad en los tipos de espacios disponibles</td>
+      <td>High</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Reservar espacios para diferentes tipos de eventos</td>
+      <td>High</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Estar dispuesto a pagar por una mejor experiencia</td>
+      <td>Medium</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Utilizar una plataforma fácil de usar e intuitiva</td>
+      <td>High</td>
+      <td>High</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+**User Persona Secundaria**
+
+**Nombre:** Claudia Cañamero  
+**Rol:** Arrendadora
+
+<table align="center">
+  <thead>
+    <tr>
+      <th>Task</th>
+      <th>Frequency</th>
+      <th>Importance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Gestionar reservas y coordinar eventos</td>
+      <td>High</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Promocionar el local en redes sociales y otros canales de marketing</td>
+      <td>High</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Mantener el local en óptimas condiciones de limpieza y mantenimiento</td>
+      <td>High</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Establecer comunicación efectiva con clientes y proveedores</td>
+      <td>High</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Explorar nuevas oportunidades de negocio y crecimiento</td>
+      <td>Medium</td>
+      <td>Medium</td>
+    </tr>
+  </tbody>
+</table> 
+<br>
 
 ### 2.3.3. Empathy Mapping
 
+**Persona Principal: Arrendatarios de eventos sociales**
+
+![Artefacto creado en UXPressia](images/cap-2/empathy-mapping/empathy-1.jpg)
+
+**Persona Secundaria: Arrendadores de espacios para eventos**
+
+![Artefacto creado en UXPressia](images/cap-2/empathy-mapping/empathy-2.jpg)
+
 ### 2.3.4. As-is Scenario Mapping
+
+**Persona Principal: Arrendatarios**
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/LOppgHF.png" alt="as-is scenario mapping for arrendatarios" width="90%" />
+</div><br>
+
+**Persona Secundaria: Arrendadores**
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/svsvxcC.png" alt="as-is scenario mapping for arrendadores" width="90%" />
+</div><br>
 
 ## 2.4. Ubiquitous Language
 
+| Término      | Definición                                                                                 |
+| ------------ | ------------------------------------------------------------------------------------------ |
+| **Tenant**   | Arrendatario, quien realiza la reserva de un espacio.                                      |
+| **Landlord** | Arrendador, quien publica sus espacios para ser reservados.                                |
+| **Local**    | Espacio para eventos que contiene diferentes características de acuerdo con el arrendador. |
+| **Booking**  | Reserva de un espacio, con identificación de arrendatario, fecha y hora de inicio y fin.   |
+| **Comment**  | Comentario acerca de un local anexado a su reseña con calificación.                        |
+| **Calendar** | Agenda de reservas presentadas tanto para arrendador como arrendatario.                    |
+| **Report**   | Denuncia hacia algún espacio publicada por un arrendatario de este mismo.                  |
+| **District** | Distrito de ubicación del espacio publicado.                                               |
+| **Features** | Características adicionales del espacio publicado.                                         |
+
 ---
+
 
 # Capítulo III: Requirements Specification
 
