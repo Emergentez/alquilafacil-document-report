@@ -95,26 +95,26 @@ del ABET – EAC - Student Outcome 3.
       <td>Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.</td>
       <td>
       <strong>Ames Oviedo, Mariano José <br>(TB1):</strong><br>
-      <strong>Cachis Gonzales, Sebastian Nicolas <br>(TB1):</strong><br>
+      <strong>Cachis Gonzales, Sebastian Nicolas <br>(TB1): </strong>En esta entrega me enfoqué en el desarrollo del Análisis de entrevistas, el Architectural Drivers Backlog y las Architectural Design Decisions. A través de este trabajo logré comunicar oralmente mis ideas y resultados con objetividad, explicando a públicos de diferentes especialidades y niveles jerárquicos la importancia de cada decisión dentro del proyecto de ingeniería.<br>
         <strong>Lecca Choccare, Christopher Bryan <br> (TB1):</strong> Durante el desarrollo del proyecto, lideré sesiones colaborativas de Event Storming y Context Mapping, guiando al equipo en la identificación y delimitación de los bounded contexts. Estas actividades se realizaron frente a un equipo compuesto por miembros con distintos niveles de experiencia y especialización, por lo que me aseguré de adaptar el lenguaje técnico y facilitar la comprensión de conceptos complejos.<br>
         <strong>Llamo Sánchez, Amner Levi <br>(TB1):</strong><br>
       <strong>Morales Montalvo, Omar Andrew<br>(TB1):</strong><br>
       </td>
       <td>
-      Conclusión 1
+      Como equipo logramos exponer nuestras ideas y resultados de manera clara y objetiva, adaptando el lenguaje según el público y asegurando que tanto especialistas técnicos como personas en distintos niveles jerárquicos comprendieran el valor de nuestro trabajo en el proyecto de ingeniería.
       </td>
     </tr>
     <tr>
       <td>Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería</td>
       <td>
       <strong>Ames Oviedo, Mariano José <br>(TB1):</strong><br>
-      <strong>Cachis Gonzales, Sebastian Nicolas <br>(TB1):</strong><br>
+      <strong>Cachis Gonzales, Sebastian Nicolas <br>(TB1): </strong>De la misma forma, comuniqué por escrito los avances y resultados de manera clara y objetiva, organizando la información para que pudiera ser comprendida tanto por personas con un perfil técnico como por quienes tienen un rol más estratégico en el proyecto.<br>
         <strong>Lecca Choccare, Christopher Bryan <br>(TB1):</strong> Participé en la elaboración de las descripciones de cada nivel del modelo C4, así como la redacción de las User Stories y la estructuración del Product Backlog. Me aseguré de que los documentos fueran comprensibles tanto para los desarrolladores como para los interesados no técnicos<br>
       <strong>Llamo Sánchez, Amner Levi <br>(TB1):</strong><br>
       <strong>Morales Montalvo, Omar Andrew<br>(TB1):</strong><br>
       </td>
       <td>
-      Conclusión 1
+      El equipo plasmó los resultados en documentos bien estructurados y objetivos, permitiendo que la información del Análisis de entrevistas, el Architectural Drivers Backlog y las Architectural Design Decisions fuera accesible y útil para distintos públicos dentro del marco del proyecto.
       </td>
     </tr>
   </tbody>
