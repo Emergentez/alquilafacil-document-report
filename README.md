@@ -4,8 +4,9 @@
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
     <strong>Ingeniería de Software</strong><br>
-    <strong>[Nombre del Curso]</strong><br>
-    <strong>Profesor: [Nombre del Profesor]</strong><br>
+    <strong>Arquitecturas De Software Emergentes</strong><br>
+    <strong>Profesor: Richard Leonardo Berrocal Navarro
+</strong><br>
     <br>INFORME
 </p>
 
@@ -13,7 +14,7 @@
 
 #### Startup: **AlquilaEZ**
 
-#### Product: **Alquila Fácil**
+#### Product: **AlquilaFácil**
 
 </center>
 
@@ -21,14 +22,14 @@
 
 <div align="center">
 
-|              Member               |    Code    |
-| :-------------------------------: | :--------: |
-|     Llamo Sánchez Amner Levi      | U20221C376 |
-| Sebastian Nicolas Cachis Gonzales | U202210846 |
-|                                   |            |
-|                                   |            |
-|                                   |            |
-|                                   |            |
+|              Member                |    Code    |
+| :-------------------------------:  | :--------: |
+| Ames Oviedo, Mariano José | U202211371 |
+| Cachis Gonzales, Sebastian Nicolas | U202210846 |
+| Lecca Choccare, Christopher Bryan  | U202211399 |
+| Llamo Sánchez, Amner Levi           | U20221C376 |
+| Morales Montalvo, Omar Andrew      | U202212383 |
+
 
 </div>
 
@@ -45,77 +46,21 @@
     </thead>
     <tbody>
     <tr>
-        <td> </td>
-        <td> </td>
-        <td> </td>
+        <td>1era </td>
+        <td>18/09/2025 </td>
         <td>
-        <ul>
-        <li>  </li>
-        <li> </li>
-        <li> </li>
-        </ul>
+          - Ames Oviedo, Mariano José<br>
+          - Cachis Gonzales, Sebastian Nicolas<br>
+          - Lecca Choccare, Christopher Bryan<br>
+          - Llamo Sánchez,Amner Levi<br>
+          - Morales Montalvo, Omar Andrew<br>
         </td>
-    </tr>
-    <tr>
-        <td> </td>
-        <td> </td>
-        <td> </td>
         <td>
         <ul>
-        <li>  </li>
-        <li>  </li>
-        <li>  </li>
-        </ul>
-        </td>
-    </tr>
-    <tr>  
-    </tr>
-    <tr>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td>
-        <ul>
-        <li>   </li>
-        <li>   </li>
-        <li>   </li>
-        </ul>
-        </td>
-    </tr>
-    <tr>
-        <td> </td>
-        <td> </td>
-        <td>  </td>
-        <td>
-        <ul>
-        <li>   </li>
-        <li>   </li>
-        <li>   </li>
-        </ul>
-        </td>
-    </tr>
-    <tr>
-        <td> </td>
-        <td> </td>
-        <td>   </td>
-        <td>
-        <ul>
-        <li>   </li>
-        <li>   </li>
-        <li>   </li>
-        </ul>
-        </td>
-    </tr>
-    <tr>
-        <td> </td>
-        <td> </td>
-        <td>   </td>
-        <td>
-        <ul>
-        <li>   </li>
-        <li>   </li>
-        <li>   </li>
-        <li>   </li>
+        <li>Capítulo I</li>
+        <li>Capítulo II</li>
+        <li>Capítulo III</li>
+        <li>Capítulo IV</li>
         </ul>
         </td>
     </tr>
@@ -129,6 +74,51 @@
 ---
 
 # Student Outcome
+
+**ABET – EAC – Student Outcome 3**
+Criterio: Capacidad de comunicarse efectivamente con un rango de audiencias.
+
+En el siguiente cuadro se describe las acciones realizadas y enunciados de
+conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
+del ABET – EAC - Student Outcome 3.
+
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th><strong>Criterio específico</strong></th>
+      <th><strong>Acciones realizadas</strong></th>
+      <th><strong>Conclusiones</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.</td>
+      <td>
+      <strong>Ames Oviedo, Mariano José <br>(TB1):</strong><br>
+      <strong>Cachis Gonzales, Sebastian Nicolas <br>(TB1):</strong><br>
+        <strong>Lecca Choccare, Christopher Bryan <br> (TB1):</strong> Durante el desarrollo del proyecto, lideré sesiones colaborativas de Event Storming y Context Mapping, guiando al equipo en la identificación y delimitación de los bounded contexts. Estas actividades se realizaron frente a un equipo compuesto por miembros con distintos niveles de experiencia y especialización, por lo que me aseguré de adaptar el lenguaje técnico y facilitar la comprensión de conceptos complejos.<br>
+        <strong>Llamo Sánchez, Amner Levi <br>(TB1):</strong><br>
+      <strong>Morales Montalvo, Omar Andrew<br>(TB1):</strong><br>
+      </td>
+      <td>
+      Conclusión 1
+      </td>
+    </tr>
+    <tr>
+      <td>Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería</td>
+      <td>
+      <strong>Ames Oviedo, Mariano José <br>(TB1):</strong><br>
+      <strong>Cachis Gonzales, Sebastian Nicolas <br>(TB1):</strong><br>
+        <strong>Lecca Choccare, Christopher Bryan <br>(TB1):</strong> Participé en la elaboración de las descripciones de cada nivel del modelo C4, así como la redacción de las User Stories y la estructuración del Product Backlog. Me aseguré de que los documentos fueran comprensibles tanto para los desarrolladores como para los interesados no técnicos<br>
+      <strong>Llamo Sánchez, Amner Levi <br>(TB1):</strong><br>
+      <strong>Morales Montalvo, Omar Andrew<br>(TB1):</strong><br>
+      </td>
+      <td>
+      Conclusión 1
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -558,9 +548,9 @@ En esta sección se analizarán las estrategias y tácticas que se implementará
 
 **Estrategia de diferenciación:**
 
-**Para los arrendadores:** A diferencia de otras plataformas de alquiler de espacios para eventos, AlquilaFácil ofrecerá herramientas innovadoras para la gestión de reservas y un sistema de promoción destacada para que sus espacios tengan mayor visibilidad. Además, contarán con opciones para integrar servicios adicionales como catering o entretenimiento, facilitando así una oferta más completa para los clientes.
+**Para los arrendadores:** A diferencia de otras plataformas de alquiler de espacios para eventos, AlquilaFácil ofrecerá dispositivos IoT para la gestión de sus propiedades durante la realización de algún evento, de modo que el arrrendador esté al tanto de lo que está sucediendo en todo momento.
 
-**Para los arrendatarios:** Nuestra interfaz será fácil de usar y estará diseñada para simplificar todo el proceso de búsqueda, comparación y reserva de espacios. AlquilaFácil también permitirá la personalización de eventos y la contratación de servicios complementarios desde la misma plataforma, brindando una experiencia integral y diferenciada.
+**Para los arrendatarios:** Nuestra interfaz será fácil de usar y estará diseñada para simplificar todo el proceso de búsqueda, comparación y reserva de espacios. Además, gracias a los dispositivos IoT, no tendrán que preocuparse por romper alguna regla de seguridad, debido a que serán notificados en el momento de cometer la infracción.
 
 **Estrategia de liderazgo en Costos:**
 
@@ -575,7 +565,6 @@ El marketing de AlquilaFácil estará enfocado en construir una comunidad activa
 - **Campañas segmentadas:** Se lanzarán campañas digitales específicas para arrendadores y otras para arrendatarios, empleando publicidad en redes sociales, colaboraciones con influencers del sector de eventos y alianzas con proveedores de servicios relacionados.
 - **Fomento de comunidad:** Se habilitarán espacios dentro de la plataforma para que los usuarios compartan sus experiencias, recomienden espacios o servicios, e interactúen entre sí, fortaleciendo así el sentido de comunidad.
 - **Eventos y participación activa:** AlquilaFácil participará en ferias comerciales, eventos del sector y actividades colaborativas que aumenten la visibilidad de la marca y fomenten la interacción directa con los usuarios.
-- **Modelos de referidos:** Se incentivará a los usuarios actuales a invitar a nuevos miembros mediante recompensas como descuentos, servicios premium o visibilidad destacada.
 
 </div>
 
@@ -708,11 +697,11 @@ Se llevarán a cabo tres entrevistas por segmento, sumando un total de seis. El 
   </tr>
   <tr>
     <td>Enlace</td>
-    <td><p><a target="_blank"  href="https://" title="Title">Microsoft Stream</a></p></td>
+    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211371_upc_edu_pe/EUg-UGOfyf5DhMaq2BzCWdsBczDlAhLR1hoa4TqlnBsXVQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=bTJ250" title="Title">Microsoft Stream</a></p></td>
   </tr>
   <tr>
     <td>Duración<br></td>
-    <td>00:00 min - 00:00 min </td>
+    <td>00:00 min - 03:42 min </td>
   </tr>
   <tr>
     <td>Resumen</td>
@@ -779,11 +768,11 @@ Se llevarán a cabo tres entrevistas por segmento, sumando un total de seis. El 
   </tr>
   <tr>
     <td>Enlace</td>
-    <td><p><a target="_blank"  href="https://" title="Title">Microsoft Stream</a></p></td>
+    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211399_upc_edu_pe/Ee9MaUzmJ5hPk0YB-kw-ERQBNO0VLVXAIT09XaFW9QAGHg?e=e30Aax" title="Title">Microsoft Stream</a></p></td>
   </tr>
   <tr>
     <td>Duración<br></td>
-    <td>00:00 min - 00:00 min </td>
+    <td>00:00 min - 06:31 min </td>
   </tr>
   <tr>
     <td>Resumen</td>
@@ -857,7 +846,7 @@ Se llevarán a cabo tres entrevistas por segmento, sumando un total de seis. El 
   </tr>
   <tr>
     <td>Duración<br></td>
-    <td>00:00 min - 00:00 min </td>
+    <td>00:00 min - 04:58 min </td>
   </tr>
   <tr>
     <td>Resumen</td>
@@ -1074,7 +1063,7 @@ Se llevarán a cabo tres entrevistas por segmento, sumando un total de seis. El 
   </tr>
   <tr>
     <td>Duración<br></td>
-    <td>00:00 min - 00:00 min </td>
+    <td>00:00 min - 03:53 min </td>
   </tr>
   <tr>
     <td>Resumen</td>
@@ -1100,12 +1089,16 @@ Las entrevistas realizadas ofrecen una perspectiva clara y detallada sobre las e
 Los arrendadores priorizan la seguridad en los pagos y la validez de los contratos como factores críticos. Además, valoran la posibilidad de promocionar sus locales de manera efectiva, llegando a un público más amplio y relevante. También consideran indispensable una comunicación fluida con los arrendatarios para evitar conflictos o malentendidos. De hecho, algunos están dispuestos a invertir en planes premium que les brinden beneficios adicionales, como una mayor visibilidad en la plataforma.  
 En conclusión, los arrendadores esperan que la plataforma les proporcione seguridad, visibilidad, canales de comunicación confiables y herramientas que potencien el rendimiento de sus espacios.
 
+
 | **Característica objetiva**                                   | **Frecuencia** | **Porcentaje** | **Sustento desde entrevistas**                   |
 | ------------------------------------------------------------- | -------------- | -------------- | ------------------------------------------------ |
 | **Utiliza redes sociales para captar clientes**               | 3 de 3         | 100%           | Se mencionan principalmente Instagram y Facebook |
 | **Gestiona reservas manualmente**                             | 3 de 3         | 100%           | Utilizan agenda física o Excel                   |
 | **Recibe consultas por WhatsApp**                             | 3 de 3         | 100%           | Todo el proceso se coordina vía WhatsApp         |
 | **Necesita un sistema de agenda para evitar dobles reservas** | 3 de 3         | 100%           | Reportaron problemas por doble reserva           |
+
+
+![Arrendadores](images/cap-2/analisis/arrendadores)
 
 ---
 
@@ -1120,6 +1113,9 @@ En resumen, los arrendatarios demandan plataformas fáciles de usar, con proceso
 | **Realiza reservas de forma habitual**                                 | 3 de 3         | 100%           | Mencionan alquilar espacios regularmente                         |
 | **Busca espacios para actividades familiares o recreativas**           | 3 de 3         | 100%           | Los eventos más frecuentes son de carácter recreativo o familiar |
 | **Valora herramientas de organización del tiempo (agenda/calendario)** | 3 de 3         | 100%           | Reconocen la utilidad de agendas digitales para evitar desorden  |
+
+
+![Arrendatarios](images/cap-2/analisis/arrendatarios)
 
 ---
 
@@ -1143,11 +1139,15 @@ Presentaremos los User Persona por cada segmento objetivo, en los cuales nos bas
 
 **Segmento 1: Arrendatario**
 
+Este perfil representa a Sergio, un joven emprendedor de 19 años estudiante de Ingeniería de Software, ubicado en San Isidro, Lima. Como arrendatario que representa el 60% del mercado objetivo, Sergio se especializa en la organización de eventos, habiendo expandido su negocio desde pequeñas reuniones sociales hasta eventos corporativos y lanzamientos de productos. Sus principales fortalezas incluyen la planificación de eventos y el diseño creativo de experiencias, aunque enfrenta desafíos relacionados con limitaciones presupuestarias y la gestión eficiente de recursos durante el desarrollo de sus eventos.
+
 ![Artefacto creado en UXPressia](images/cap-2/user-personas/userpersona-1.png)
 
 <br>
 
 **Segmento 2: Arrendador**
+
+Claudia es una podóloga de 46 años de Surco, Lima, que representa el 40% del mercado como arrendador. Después de más de 10 años en su profesión, ha decidido aventurarse en el negocio del alquiler de espacios para generar ingresos adicionales. Su perfil destaca por sus habilidades en organización, comunicación y adaptabilidad. Su principal motivación es convertir su local en un lugar de referencia para eventos comunitarios, aunque enfrenta desafíos en la promoción efectiva de su espacio y la gestión de reservas durante períodos de alta demanda.
 
 ![Artefacto creado en UXPressia](images/cap-2/user-personas/userpersona-2.png)
 
@@ -1251,9 +1251,13 @@ Presentaremos los User Persona por cada segmento objetivo, en los cuales nos bas
 
 **Persona Principal: Arrendatarios de eventos sociales**
 
+Este mapa de empatía profundiza en la experiencia del usuario arrendatario, mostrando cómo Sergio busca espacios para sus eventos a través de recomendaciones y plataformas online. Sus principales dolores incluyen el tiempo dedicado a la búsqueda y evaluación de espacios, así como los esfuerzos de comunicación con propietarios. Por otro lado, valora el acceso a una variedad de opciones y la conveniencia de las plataformas digitales para reservas rápidas y seguras, expresando satisfacción cuando encuentra espacios que cumplen con todas sus expectativas y necesidades específicas.
+
 ![Artefacto creado en UXPressia](images/cap-2/empathy-mapping/empathy-1.jpg)
 
 **Persona Secundaria: Arrendadores de espacios para eventos**
+
+El mapa de empatía de Claudia ilustra la perspectiva del propietario que busca generar ingresos adicionales alquilando su espacio. Escucha sobre oportunidades a través de redes sociales y recibe sugerencias de plataformas online para promocionar su local. Sus principales desafíos incluyen la dedicación de tiempo y recursos para mantener y promocionar su espacio, así como el esfuerzo por ofrecer experiencias excepcionales. Sus beneficios se centran en obtener ingresos extra y la satisfacción de proporcionar un espacio funcional para organizadores de eventos, lo que puede generar recomendaciones y reservas futuras.
 
 ![Artefacto creado en UXPressia](images/cap-2/empathy-mapping/empathy-2.jpg)
 
@@ -1261,11 +1265,15 @@ Presentaremos los User Persona por cada segmento objetivo, en los cuales nos bas
 
 **Persona Principal: Arrendatarios**
 
+Este mapa de experiencia ilustra el proceso actual que atraviesan los arrendatarios al buscar y reservar espacios para eventos. El journey comienza con la búsqueda y selección de espacios a través de plataformas online, donde los usuarios evalúan diferentes opciones según el tipo de evento que planean organizar. Durante las fases de lectura de opiniones y negociación, experimentan una mezcla de expectativas positivas y ansiedad por encontrar el espacio perfecto. El proceso se vuelve más complejo durante la confirmación y programación de la reserva, donde deben coordinar múltiples detalles logísticos. A lo largo del journey, los arrendatarios enfrentan incertidumbre sobre estándares mínimos, preocupaciones por malentendidos en términos de alquiler, y la necesidad constante de planificación logística para garantizar una experiencia exitosa.
+
 <div style="text-align: center;">
   <img src="https://i.imgur.com/LOppgHF.png" alt="as-is scenario mapping for arrendatarios" width="90%" />
 </div><br>
 
 **Persona Secundaria: Arrendadores**
+
+Arrendadores Este mapa muestra la experiencia actual de los propietarios de espacios que buscan alquilar sus locales para eventos. El proceso inicia con la promoción del espacio en diferentes medios y plataformas, donde los arrendadores enfrentan incertidumbre sobre cómo encontrar clientes adecuados para su espacio. Durante el contacto inicial y la negociación, deben evaluar cuidadosamente las solicitudes de los posibles clientes mientras manejan la tensión de las negociaciones. Las fases de confirmación y programación generan alivio, pero también requieren una coordinación detallada y la preocupación por no olvidar aspectos importantes del acuerdo. Finalmente, durante la gestión del evento, los arrendadores deben mantener comunicación constante con los arrendatarios y enfrentar la preocupación de que el local pueda resultar dañado, mientras buscan asegurar opiniones positivas para futuras reservas.
 
 <div style="text-align: center;">
   <img src="https://i.imgur.com/svsvxcC.png" alt="as-is scenario mapping for arrendadores" width="90%" />
@@ -1291,6 +1299,16 @@ Presentaremos los User Persona por cada segmento objetivo, en los cuales nos bas
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
+
+**Persona Principal: Arrendatarios**
+
+Este mapa representa la experiencia optimizada para los arrendatarios utilizando la plataforma AlquilaFácil. El journey mejorado comienza con una navegación intuitiva y filtros personalizados que permiten a los usuarios encontrar espacios que se adapten específicamente a sus necesidades. Durante la fase de evaluación, los arrendatarios experimentan mayor seguridad al contar con información detallada sobre cada espacio y una comunidad activa de reseñas de otros organizadores. El proceso de reserva se simplifica significativamente con la selección automática de fechas y horarios, precios transparentes basados en horas reservadas, y un sistema de pago establecido. La experiencia emocional evoluciona desde el asombro inicial por la variedad de opciones disponibles hasta la tranquilidad final de poder ahorrar tiempo en la planificación del evento, eliminando la incertidumbre y ansiedad del proceso tradicional.
+
+![Artefacto creado en Miro](images/cap-3/ToBe-1.jpg)
+
+**Persona Secundaria: Arrendadores**
+
+Este mapa muestra cómo la plataforma AlquilaFácil transforma la experiencia de los propietarios de espacios. El proceso optimizado permite a los arrendadores publicar información detallada de sus locales directamente en la aplicación, eliminando la necesidad de promoción en múltiples canales. La plataforma facilita el contacto directo con arrendatarios interesados y automatiza gran parte del proceso de negociación mediante precios preestablecidos por hora de reserva. Las confirmaciones se manejan a través de notificaciones automáticas, y las reservas se integran seamlessly en un sistema de calendario. La experiencia emocional mejora considerablemente, pasando de la ansiedad inicial por encontrar clientes a la tranquilidad de saber que el proceso está bien estructurado. Los arrendadores sienten alivio al no perder tiempo en búsquedas activas de clientes y experimentan alegría por la simplicidad del sistema de reservas, culminando con la tranquilidad de recibir notificaciones automáticas sobre cualquier novedad en sus espacios.
 
 ![Artefacto creado en Miro](images/cap-3/To-be-diagram.jpeg)
 
@@ -2388,12 +2406,50 @@ La separación clara entre deployment nodes (Edge Node Server, Web Server, API G
 
 ---
 
-# Conclusiones y recomendaciones
+## Conclusiones y recomendaciones
 
----
+<div align="justify">
+
+* AlquilaFácil se consolida como una solución innovadora en el mercado de alquiler de espacios para eventos, ofreciendo una plataforma que simplifica y optimiza el proceso de búsqueda, reserva y gestión de lugares. Su enfoque integral no solo facilita las operaciones tradicionales, sino que también transforma la experiencia de arrendadores y arrendatarios, garantizando una interacción fluida, rápida y eficiente en cada etapa del proceso.
+
+* La propuesta de valor de AlquilaFácil se centra en la eficiencia y en la experiencia del usuario, incorporando herramientas avanzadas de gestión y seguimiento en tiempo real. Estas características distintivas permiten que tanto arrendadores como arrendatarios gestionen sus eventos de manera más organizada y profesional, reduciendo tiempos de respuesta y mejorando significativamente la satisfacción general en la utilización de la plataforma.
+
+* En cuanto a su estrategia de monetización, AlquilaFácil opta por un modelo inteligente y equilibrado: los arrendadores pueden acceder a planes de suscripción premium que les brindan ventajas competitivas, como mayor visibilidad y acceso a analíticas avanzadas, mientras que los arrendatarios disfrutan de un acceso gratuito a la plataforma. Esta estructura fomenta el crecimiento de la oferta de espacios disponibles y asegura un flujo constante de usuarios, fortaleciendo la comunidad dentro del ecosistema de AlquilaFácil.
+  
+* El uso de sensores IoT para el moniteo de espacios y la gestión de reservas en tiempo real representa un avance significativo en la forma en que se gestionan los eventos. Esta tecnología no solo mejora la eficiencia operativa, sino que también proporciona datos valiosos para la toma de decisiones estratégicas, permitiendo a los arrendadores optimizar sus espacios y a los arrendatarios disfrutar de una experiencia más personalizada y adaptada a sus necesidades.
 
 # Bibliografía
+
+<div align="justify">
+
+* A Clean Approach to Flutter Development through the Flutter Clean Architecture Package. (2023). *IEEE Conference Publication*. IEEE Xplore. Recuperado de [https://ieeexplore.ieee.org/document/9071367](https://ieeexplore.ieee.org/document/9071367)
+
+* Airbnb. (2024). *Airbnb – Sitio Oficial*. Recuperado de [https://www.airbnb.com.pe/](https://www.airbnb.com.pe/)
+
+* Booking.com. (2024). *Booking.com: La mayor selección de hoteles, casas y alquileres*. Recuperado de [https://www.booking.com/index.es.html](https://www.booking.com/index.es.html)
+
+* Cvent. (2023). *Cvent's Fourth Annual Benchmark Report: The Future of Event Technology in a Post-Pandemic World*. Cvent. Recuperado de [https://marketing.conference-news.co.uk/en-gb/cvent-event-tech-report-2024](https://marketing.conference-news.co.uk/en-gb/cvent-event-tech-report-2024)
+
+* Hybrid Development in Flutter and its Widgits. (2022). *IEEE Conference Publication*. IEEE Xplore. Recuperado de [https://ieeexplore.ieee.org/document/9995973](https://ieeexplore.ieee.org/document/9995973)
+
+* Forrester Research, Inc. (2024). *The Global State of B2B Events, 2024: Marketers Continue to Ride a Wave of Transformation*. Forrester. Recuperado de [https://www.forrester.com/report/the-global-state-of-b2b-events-2024-marketers-continue-to-ride-a-wave-of-transformation/RES181128](https://www.forrester.com/report/the-global-state-of-b2b-events-2024-marketers-continue-to-ride-a-wave-of-transformation/RES181128)
+
+* Inmuebles de Lima. (2024). *Encuentra el inmueble de tus sueños en Lima*. Recuperado de [https://inmueblesdelima.com.pe/](https://inmueblesdelima.com.pe/)
+
+* Jasin, N. (2023, 11 de julio). *Acceso a internet en Perú: Los aspectos clave para reducir la brecha entre el mundo laboral y el educativo*. Business Empresarial. Recuperado de [https://www.businessempresarial.com.pe/acceso-a-internet-en-peru-los-aspectos-clave-para-reducir-la-brecha-entre-el-mundo-laboral-y-el-educativo/](https://www.businessempresarial.com.pe/acceso-a-internet-en-peru-los-aspectos-clave-para-reducir-la-brecha-entre-el-mundo-laboral-y-el-educativo/)
+
+* Mañas, L. (2024). *Agencia de eventos Olympia= Olympia events agency*. Recuperado de [https://repositori.uji.es/xmlui/handle/10234/208284](https://repositori.uji.es/xmlui/handle/10234/208284)
+
+* Vrbo. (2024). *Sitio oficial de Vrbo®*. Recuperado de [https://www.vrbo.com/es-mx/](https://www.vrbo.com/es-mx/)
+
+</div>
 
 ---
 
 # Anexos
+
+### Vídeos de Exposición (Anexo 1)
+
+| Contenido | URL del Vídeo |
+|--------------|--------------|
+| Vídeo de Exposición TB1      | Link del Vídeo: <https://>|  
