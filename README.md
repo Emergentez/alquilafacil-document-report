@@ -1,4 +1,4 @@
- <center>Informe del Trabajo Final</center>
+<div align="center"><strong>Informe del Trabajo Final</strong></div>
 
 <p align="center">
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
@@ -70,6 +70,17 @@
 ---
 
 # Project Report Collaboration Insights
+
+Repositorio del proyecto: [https://github.com/Emergentez/alquilafacil-document-report](https://github.com/Emergentez/alquilafacil-document-report)
+
+
+<strong>TB1:</strong>
+
+Para este entregable, se mantuvo un orden trabajando los capítulos por ramas:
+
+![Contributors](images/insights/tb1/network.PNG)
+
+![Contributors](images/insights/tb1/contributors.PNG)
 
 ---
 
@@ -2299,110 +2310,6 @@ El diagrama de despliegue ilustra la estrategia de distribución física y lógi
 La separación clara entre deployment nodes (Edge Node Server, Web Server, API Gateway Server, etc.) refleja principios de separación de responsabilidades y escalabilidad horizontal. Cada servidor tiene un propósito específico, permitiendo escalamiento independiente según la demanda. La ubicación de Cloudinary como servicio externo reconoce que el almacenamiento y procesamiento de imágenes requiere infraestructura especializada que es más eficiente como servicio managed. Esta arquitectura también facilita el mantenimiento y las actualizaciones, ya que cada componente puede ser gestionado independientemente.
 
 ![Deployment Diagram](images/cap-4/software-architecture/deployment.png)
-
----
-
-# Capítulo V: Tactical-Level Software Design
-
-## 5.X. Bounded Context:
-
-### 5.X.1. Domain Layer
-
-### 5.X.2. Interface Layer
-
-### 5.X.3. Application Layer
-
-### 5.X.4. Infrastructure Layer
-
-### 5.X.6. Bounded Context Software Architecture Component Level Diagrams
-
-### 5.X.7. Bounded Context Software Architecture Code Level Diagrams
-
-#### 5.X.7.1. Bounded Context Domain Layer Class Diagrams
-
-#### 5.X.7.2. Bounded Context Database Design Diagram
-
----
-
-# Capítulo VI: Solution UX Design
-
-## 6.1. Style Guidelines
-
-### 6.1.1. General Style Guidelines
-
-### 6.1.2. Web, Mobile & Devices Style Guidelines
-
-## 6.2. Information Architecture
-
-### 6.2.2. Labeling Systems
-
-### 6.2.3. Searching Systems
-
-### 6.2.4. SEO Tags and Meta Tags
-
-### 6.2.5. Navigation Systems
-
-## 6.3. Landing Page UI Design
-
-### 6.3.1. Landing Page Wireframe
-
-### 6.3.2. Landing Page Mock-up
-
-## 6.4. Applications UX/UI Design
-
-### 6.4.1. Applications Wireframes
-
-### 6.4.2. Applications Wireflow Diagrams
-
-### 6.4.3. Applications Mock-ups
-
-### 6.4.4. Applications User Flow Diagrams
-
-## 6.5. Applications Prototyping
-
----
-
-# Capítulo VII: Product Implementation, Validation & Deployment
-
-## 7.1. Software Configuration Management
-
-### 7.1.1. Software Development Environment Configuration
-
-### 7.1.2. Source Code Management
-
-### 7.1.3. Source Code Style Guide & Conventions
-
-### 7.1.4. Software Deployment Configuration
-
-## 7.2. Solution Implementation
-
-### 7.2.X. Sprint n
-
-#### 7.2.X.1. Sprint Planning n
-
-#### 7.2.X.2. Sprint Backlog n
-
-#### 7.2.X.3. Development Evidence for Sprint Review
-
-#### 7.2.X.4. Testing Suite Evidence for Sprint Review
-
-#### 7.2.X.5. Execution Evidence for Sprint Review
-
-#### 7.2.X.6. Services Documentation Evidence for Sprint Review
-
-#### 7.2.X.7. Software Deployment Evidence for Sprint Review
-
-#### 7.2.X.8. Team Collaboration Insights during Sprint
-
-## 7.3. Validation Interviews
-
-### 7.3.1. Diseño de Entrevistas
-
-### 7.3.2. Registro de Entrevistas
-
-### 7.3.3. Evaluaciones según heurísticas
-
-## 7.4. Video About-the-Product
 
 ---
 
