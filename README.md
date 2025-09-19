@@ -2360,4 +2360,4 @@ La separación clara entre deployment nodes (Edge Node Server, Web Server, API G
 
 | Contenido | URL del Vídeo |
 |--------------|--------------|
-| Vídeo de Exposición TB1      | Link del Vídeo: <https://>|  
+| Vídeo de Exposición TB1      | Link del Vídeo: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211399_upc_edu_pe/ESgo7U5_auJIkjKMfm2eQHoBw1pkgzwlQ5RJI3YjKjch2w?e=t357hm>|  
