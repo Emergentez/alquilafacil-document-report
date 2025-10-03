@@ -2304,23 +2304,207 @@ La separación clara entre deployment nodes (Edge Node Server, Web Server, API G
 
 # Capítulo V: Tactical-Level Software Design
 
-## 5.X. Bounded Context:
+## 5.1. Bounded Context: IAM Context
 
-### 5.X.1. Domain Layer
+### 5.1.1. Domain Layer
 
-### 5.X.2. Interface Layer
+El **Domain Layer** representa el núcleo del bounded context IAM, donde se encuentran las entidades, value objects, agregados y contratos de repositorio que encapsulan la lógica de negocio.
 
-### 5.X.3. Application Layer
+- **Aggregate Root**
+  - **User**: entidad principal que representa a un usuario del sistema. Contiene atributos como `Id`, `Username`, `Email` y `PasswordHash`. Define operaciones para actualizar nombre de usuario y contraseña.  
+- **Entities**
+  - **Role**: define los roles disponibles en el sistema (`ADMIN`, `CLIENT`).
+  - **UserRole**: entidad de unión que materializa la relación muchos a muchos entre `User` y `Role`.
+- **Value Objects**
+  - **UserId**: encapsula el identificador del usuario.
+  - **Email**: asegura el formato correcto y unicidad del correo electrónico.
+  - **EncryptedPassword**: garantiza que la contraseña siempre se maneje en formato hasheado.
+- **Enumeraciones**
+  - **EUserRoles**: enum que define los roles base del sistema.
+- **Interfaces (Repositories)**
+  - **IUserRepository**: abstracción para persistencia de usuarios (`FindByEmail`, `ExistsByUsername`, `GetUsernameById`, etc.).
+  - **IUserRoleRepository**: valida la existencia de roles de usuario.
 
-### 5.X.4. Infrastructure Layer
+El dominio establece las **reglas clave**: cada `User` debe tener email único, username único y contraseñas siempre encriptadas. La relación `User` ↔ `Role` es de tipo M:N mediante `UserRole`.
 
-### 5.X.6. Bounded Context Software Architecture Component Level Diagrams
+---
 
-### 5.X.7. Bounded Context Software Architecture Code Level Diagrams
+### 5.1.2. Interface Layer
 
-#### 5.X.7.1. Bounded Context Domain Layer Class Diagrams
+El **Interface Layer** corresponde a la capa de presentación (exposición de API REST).
 
-#### 5.X.7.2. Bounded Context Database Design Diagram
+- **Controllers**
+  - **AuthenticationController**: expone los endpoints de autenticación (`/auth/sign-in`, `/auth/sign-up`). Recibe comandos, los transforma en objetos de aplicación y retorna un `ActionResult`.
+  - **UserController**: expone endpoints relacionados con la gestión de usuarios (`/users/{id}`, `/users`, `/users/{id}/username`). Permite obtener información y actualizar el nombre de usuario.
+
+Su responsabilidad es recibir solicitudes HTTP, validar datos básicos, mapear a comandos/queries y retornar respuestas adecuadas. No contiene lógica de negocio.
+
+---
+
+### 5.1.3. Application Layer
+
+El **Application Layer** coordina los casos de uso del bounded context IAM. Se implementa a través de servicios de comandos y queries.
+
+- **Command Handlers**
+  - **UserCommandService**: maneja flujos de `SignIn`, `SignUp` y `UpdateUsername`.  
+    - **SignUp**: crea un nuevo usuario, valida unicidad, encripta la contraseña y genera token.  
+    - **SignIn**: valida credenciales contra la base de datos y devuelve un `AuthResult`.  
+    - **UpdateUsername**: actualiza el nombre de usuario asegurando unicidad.
+  - **SeedUserRolesCommandService**: inicializa roles base en la base de datos.
+- **Query Handlers**
+  - **UserQueryService**: implementa consultas (`GetUserById`, `GetAllUsers`, `GetUserByEmail`, `GetUsernameById`, `UserExists`).
+
+Los comandos y queries se representan como DTOs inmutables (`SignInCommand`, `SignUpCommand`, `UpdateUsernameCommand`, etc.), facilitando la separación CQRS.
+
+---
+
+### 5.1.4. Infrastructure Layer
+
+El **Infrastructure Layer** contiene implementaciones concretas de los contratos definidos en el dominio y la interacción con servicios externos.
+
+- **Repositorios**
+  - **UserRepository**: implementación de `IUserRepository` sobre PostgreSQL.
+  - **UserRoleRepository**: implementación de `IUserRoleRepository`.
+- **Servicios externos**
+  - **JwtTokenService**: implementación de `ITokenService` para generar y validar JWT.
+  - **BcryptHashingService**: implementación de `IHashingService` para hashear y verificar contraseñas.
+- **Base de datos (PostgreSQL)**
+  - Tablas: `users`, `roles`, `user_roles`.  
+  - Persisten las entidades del dominio y soportan las relaciones M:N.
+
+---
+
+### 5.1.6. Bounded Context Software Architecture Component Level Diagrams
+
+El bounded context IAM se despliega como un contenedor **IAM API** en el modelo C4. Sus componentes principales son:
+
+- **Controllers**: `AuthenticationController`, `UserController`.
+- **Application Services**: `UserCommandService`, `UserQueryService`, `SeedUserRolesCommandService`.
+- **Domain**: entidades (`User`, `Role`, `UserRole`), value objects (`UserId`, `Email`, `EncryptedPassword`) y enums (`EUserRoles`).
+- **Infrastructure Adapters**: `UserRepository`, `UserRoleRepository` (adaptadores DB), `JwtTokenService` (adaptador JWT), `BcryptHashingService` (adaptador de hash).
+- **Base de datos PostgreSQL**: persistencia de usuarios y roles.
+
+El flujo de interacción es: Controllers → Application Services → Domain (Entities, VOs, Repositories) → Adapters (DB/JWT/Hash).
+
+---
+
+### 5.1.7. Bounded Context Software Architecture Code Level Diagrams
+
+#### 5.1.7.1. Bounded Context Domain Layer Class Diagrams
+
+![IAM Class Diagram](images/cap-5/class-diagrams/class-diagram-IAM.png)
+
+#### 5.1.7.2. Bounded Context Database Design Diagram
+
+![IAM Database Design Diagram](images/cap-5/database-diagram/database-diagram-IAM.png)
+
+---
+
+## 5.2. Bounded Context: Profile Context
+
+### 5.2.1. Domain Layer
+
+El **Domain Layer** del bounded context Profile encapsula las reglas de negocio relacionadas con la gestión de perfiles de usuario. Aquí se definen los agregados, entidades, value objects y repositorios que representan el núcleo del dominio.
+
+- **Aggregate Root**
+  - **Profile**: representa el perfil de un usuario. Contiene información personal, documento de identidad, fecha de nacimiento, teléfono, cuentas bancarias y estado de suscripción. Expone métodos de factoría y actualización (`Profile(CreateProfileCommand)`, `Update(UpdateProfileCommand)`).
+
+- **Entities**
+  - **Profile** (aggregate root).
+
+- **Value Objects**
+  - **PersonName**: compone `Name`, `FatherName` y `MotherName`.
+  - **DateOfBirth**: encapsula la fecha de nacimiento (`BirthDate`).
+  - **Phone**: encapsula el número de teléfono (`PhoneNumber`).
+  - **DocumentNumber**: representa el número de documento (`NumberDocument`).
+  - **BankAccount**: representa una cuenta bancaria, con `AccountNumber` e `InterbankAccountNumber`.
+  - **SubscriptionStatus**: indica el estado de suscripción del perfil (ej. `ACTIVE`, `INACTIVE`, `PENDING`).
+
+- **Interfaces (Repositories)**
+  - **IProfileRepository**: abstracción para la persistencia de perfiles. Expone `FindByUserId(int userId)`.
+
+El dominio asegura reglas como: cada perfil está asociado a un único `UserId`, el `DocumentNumber` es único, y cada perfil puede tener múltiples cuentas bancarias y registros de estado de suscripción.
+
+---
+
+### 5.2.2. Interface Layer
+
+El **Interface Layer** expone la funcionalidad de Profile a través de controladores REST (no mostrados en el diagrama, pero implícitos en la arquitectura).
+
+- **Responsabilidades**
+  - Recibir solicitudes HTTP para creación, actualización y consulta de perfiles.
+  - Mapear los requests a `CreateProfileCommand`, `UpdateProfileCommand` o queries específicas.
+  - Retornar respuestas con recursos de perfil y estados de operación.
+
+Ejemplo de endpoints:
+- `POST /profiles` → crear un perfil.
+- `PUT /profiles/{id}` → actualizar un perfil.
+- `GET /profiles/{userId}` → obtener perfil por usuario.
+- `GET /profiles/{userId}/bank-accounts` → obtener cuentas bancarias.
+- `GET /profiles/{userId}/subscription-status` → obtener estado de suscripción.
+
+---
+
+### 5.2.3. Application Layer
+
+El **Application Layer** coordina los casos de uso del bounded context Profile mediante servicios de comandos y queries.
+
+- **Command Handlers**
+  - **ProfileCommandService**: maneja la creación y actualización de perfiles.
+    - `Handle(CreateProfileCommand)` → crea un nuevo perfil y lo persiste.
+    - `Handle(UpdateProfileCommand)` → actualiza información personal, documento, teléfono o cuentas bancarias de un perfil.
+
+- **Query Handlers**
+  - **ProfileQueryService**: maneja las consultas asociadas al perfil.
+    - `Handle(GetProfileByUserIdQuery)` → retorna el perfil por `UserId`.
+    - `Handle(GetSubscriptionStatusByUserIdQuery)` → retorna el estado de suscripción como VO.
+    - `Handle(GetProfileBankAccountsByUserIdQuery)` → retorna la lista de cuentas bancarias.
+
+- **DTOs (Commands y Queries)**
+  - **Commands**: `CreateProfileCommand`, `UpdateProfileCommand`.
+  - **Queries**: `GetProfileByUserIdQuery`, `GetSubscriptionStatusByUserIdQuery`, `GetProfileBankAccountsByUserIdQuery`.
+
+---
+
+### 5.2.4. Infrastructure Layer
+
+El **Infrastructure Layer** contiene las implementaciones concretas y la interacción con la base de datos.
+
+- **Repositorios**
+  - **ProfileRepository**: implementación de `IProfileRepository` sobre PostgreSQL. Permite persistir y recuperar perfiles.
+
+- **Base de datos (PostgreSQL)**
+  - **profiles**: almacena los datos principales del perfil (nombre, documento, fecha de nacimiento, teléfono).
+  - **bank_accounts**: almacena las cuentas bancarias asociadas a cada perfil.
+  - **subscription_statuses**: guarda el estado de suscripción asociado a cada perfil.
+
+La infraestructura asegura integridad referencial entre `profiles`, `bank_accounts` y `subscription_statuses`.
+
+---
+
+### 5.2.6. Bounded Context Software Architecture Component Level Diagrams
+
+El bounded context Profile se despliega como un contenedor **Profile API** en el modelo C4. Sus componentes principales son:
+
+- **Controllers**: exponen endpoints para crear, actualizar y consultar perfiles.
+- **Application Services**: `ProfileCommandService`, `ProfileQueryService`.
+- **Domain**: entidades (`Profile`) y value objects (`PersonName`, `DateOfBirth`, `Phone`, `DocumentNumber`, `BankAccount`, `SubscriptionStatus`).
+- **Infrastructure Adapters**: `ProfileRepository` como adaptador de persistencia.
+- **Base de datos PostgreSQL**: almacenamiento de perfiles, cuentas bancarias y estados de suscripción.
+
+El flujo: Controllers → Application Services → Domain (Aggregate Profile + VOs) → Repository → DB.
+
+---
+
+### 5.2.7. Bounded Context Software Architecture Code Level Diagrams
+
+#### 5.2.7.1. Bounded Context Domain Layer Class Diagrams
+
+![Profile Class Diagram](images/cap-5/class-diagrams/class-diagram-Profiles.png)
+
+#### 5.2.7.2. Bounded Context Database Design Diagram
+
+![Profile Database Design Diagram](images/cap-5/database-diagram/database-diagram-profiles.png)
 
 ---
 
@@ -2447,6 +2631,36 @@ La separación clara entre deployment nodes (Edge Node Server, Web Server, API G
 ---
 
 # Anexos
+
+### Repositorio general
+- **Repositorio del proyecto (documentación completa):**  
+  [GitHub – AlquilaFácil Report](https://github.com/Emergentez/alquilafacil-document-report)
+
+### Lean UX
+- **Lean UX Canvas:**  
+  [Ver en GitHub](https://github.com/Emergentez/alquilafacil-document-report/blob/cap-5/images/cap-1/lean-ux-process/lean-ux-canvas.png)  
+
+### Mapas de Empatía
+- **Empathy Maps:**  
+  [Ver en GitHub](https://github.com/Emergentez/alquilafacil-document-report/blob/cap-5/images/cap-2/empathy-mapping/empathy-1.jpg)  
+
+  [Ver en GitHub](https://github.com/Emergentez/alquilafacil-document-report/blob/cap-5/images/cap-2/empathy-mapping/empathy-2.jpg)  
+
+### Escenarios
+
+- **To-Be Scenario:**  
+  [Ver en GitHub](https://github.com/Emergentez/alquilafacil-document-report/blob/cap-5/images/cap-3/ToBe-1.jpg)  
+
+### Mapa de Impacto
+- **Impact Map:**  
+  [Ver en GitHub](https://github.com/Emergentez/alquilafacil-document-report/blob/cap-5/images/cap-3/impact-maps/Impact-map-arrendador.png)
+
+  [Ver en GitHub](https://github.com/Emergentez/alquilafacil-document-report/blob/cap-5/images/cap-3/impact-maps/Impact-map-arrendatario.png)  
+
+### Diagramas de Arquitectura de Software
+
+- **Diagramas (Lucidchart):**  
+  [Abrir en Lucidchart](https://lucid.app/lucidchart/7fbb2e19-8ec1-4c1e-967c-3e1fb0c6df7e/edit?invitationId=inv_fcdb9abc-361f-4908-a1a7-661aec8f02ee&page=KIPV0OhYQO.c#)  
 
 ### Vídeos de Exposición (Anexo 1)
 
