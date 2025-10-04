@@ -2334,19 +2334,163 @@ La separación clara entre deployment nodes (Edge Node Server, Web Server, API G
 
 ## 6.2. Information Architecture
 
+<div align="justify">
+    En esta sección, se va a presentar la estructura del software según cada segmento objetivo. Además, los elementos que emplearan para la navegación de esta. 
+</div>
+
 ### 6.2.2. Labeling Systems
+
+<div align="justify">
+    El sistema de etiquetado o Labelling System de AlquilaFácil está diseñado para proporcionar claridad y coherencia en la presentación de información, facilitando la comprensión rápida y eficiente de los contenidos por parte del usuario. Este sistema emplea etiquetas visuales y textuales en diferentes áreas clave de la aplicación: 
+</div>
+
+<br>
+
+<div align="justify">
+
+* ***Etiquetas de búsqueda y filtro:***
+En la parte superior de la interfaz, los campos de búsqueda y filtro están claramente etiquetados con íconos universales, como una lupa para la búsqueda y un embudo para los filtros. Estos íconos, junto con textos descriptivos, permiten que los usuarios identifiquen rápidamente las funciones y realicen acciones sin confusión. 
+
+* ***Etiquetas en tarjetas de espacios:***
+Cada tarjeta de espacio cuenta con etiquetas descriptivas que destacan la ubicación y el precio, las cuales están claramente diferenciadas en la interfaz. Estas etiquetas ayudan a los usuarios a identificar los detalles más relevantes de un espacio sin necesidad de interactuar más allá del listado inicial. 
+
+
+* ***Iconos como Etiquetas Visuales:***
+La aplicación utiliza iconos ampliamente reconocidos, como la estrella para "puntuaciones" y el botón de "más" para añadir nuevos espacios, que actúan como etiquetas visuales. Estos iconos, en combinación con sus posiciones estratégicas, ofrecen una experiencia intuitiva, reduciendo la necesidad de explicaciones textuales adicionales. 
+
+* ***Categorías de espacios:***
+Los espacios se pueden clasificar por diferentes tipos o características, lo que permite el uso de etiquetas de categoría. Estas etiquetas aparecen en los resultados de búsqueda para que los usuarios identifiquen rápidamente el tipo de espacio que están viendo (por ejemplo, oficinas, espacios de coworking, etc.). 
+</div>
+
+<br>
 
 ### 6.2.3. Searching Systems
 
+<div align="justify">
+    El motor de búsqueda es fundamental para que los usuarios encuentren rápidamente detalles específicos 
+</div>
+
+<br>
+
+<div align="justify">
+Características claves: 
+
+* ***Búsqueda por ubicación:***
+Los usuarios podrán buscar centros para eventos cercanos a su ubicación actual o especificar una ubicación deseada.
+
+* ***Búsqueda por características:***
+Los usuarios podrán buscar características específicas, como piscina, parrilla, pet friendly, vigilancia.
+
+* ***Filtros avanzados:***
+Se proporcionarán filtros para refinar la búsqueda, como calificaciones, precios y disponibilidad.
+
+* ***Resultados relevantes:***
+ El sistema de búsqueda mostrará resultados relevantes y ordenados de acuerdo con la ubicación y otros criterios.
+
+</div>
+
+<br>
+
 ### 6.2.4. SEO Tags and Meta Tags
 
+<div align="justify">
+        Las meta-etiquetas nos permiten codificar y especificar metadatos en una página web. Aunque no son visibles para los usuarios, los navegadores y rastreadores web las leen. Estas etiquetas facilitan el análisis de archivos HTML y ayudan en el mantenimiento del contenido. Además, influyen en el posicionamiento de nuestra página en los motores de búsqueda. 
+</div>
+
+<br>
+
+<div align="justify">
+    
+* ***Título:***
+Las meta etiquetas nos permiten codificar y especificar metadatos en una página web. Aunque no son visibles para los usuarios, los navegadores y rastreadores web las leen. Estas etiquetas facilitan el análisis de archivos HTML y ayudan en el mantenimiento del contenido. Además, influyen en el posicionamiento de nuestra página en los motores de búsqueda.
+
+:::
+```
+<title>Register your processes with AlquilaFacil</title>
+```
+:::
+
+
+* ***Codificación de caracteres:***
+Se decidió usar el utf-8 por la eficiencia de memoria. Es más eficiente en términos de memoria para caracteres del BMP (Plano Multilingüe Básico, que incluye la mayoría de los caracteres comunes).
+
+:::
+```
+<meta charset="utf-8">
+```
+:::
+
+* ***Descripción:***
+Esta etiqueta meta nos permite ofrecer un resumen del contenido de la página web. En ella, proporcionamos una breve descripción de lo que los usuarios pueden esperar visualizar en la página.
+
+:::
+```
+<meta name="description" content="AlquilaFacil is a web application focused on plublish and rent centers for events"/>
+```
+:::
+
+* ***Palabras clave:***
+En esta etiqueta se pone las palabras claves relacionadas con el tema o contenido de la página web.
+:::
+```
+<meta name="keywords" content="publish, rent, management, application, announcements, centers"/> 
+```
+:::
+
+* ***Autor y derechos de autor:***
+Se utiliza para registrar la información del autor de la página web y la propiedad y derechos de autor.
+:::
+```
+<meta name="author" content="AlquilaFacil"/> 
+
+<meta name="copyright" content="Copyright AlquilaFacil team" />
+```
+:::
+
+</div>
+
+<br>
+
 ### 6.2.5. Navigation Systems
+
+<div align="justify">
+El Navigation System de AlquilaFácil está diseñado para proporcionar una experiencia de usuario fluida, intuitiva y eficiente, permitiendo a los usuarios moverse por la aplicación de manera rápida y sin complicaciones. Este sistema incluye varios elementos clave que optimizan el acceso a las distintas funciones y secciones de la aplicación: 
+</div>
+
+<br>
+
+<div align="justify">
+    
+* ***Barra de Navegación Inferior:***
+La aplicación cuenta con una barra de navegación fija en la parte inferior de la pantalla que agrupa las principales funcionalidades. Los iconos incluidos, como la lupa (búsqueda), la campana (notificaciones), el botón de "+" (añadir nuevo espacio), el calendario (gestión de eventos o reservas) y el perfil (opciones del usuario), permiten un acceso directo a cada sección, facilitando la navegación entre las funciones esenciales sin necesidad de menús desplegables o múltiples clics. 
+
+* ***Navegación Jerárquica:***
+AlquilaFácil implementa un sistema de navegación jerárquica en el que los usuarios pueden profundizar en los detalles de un espacio o acción, pero siempre tienen la opción de volver a la pantalla anterior de manera sencilla. Este enfoque evita que los usuarios se pierdan en la aplicación, manteniendo siempre claro en qué nivel de la jerarquía se encuentran. 
+    
+</div>
+
+<br>
 
 ## 6.3. Landing Page UI Design
 
 ### 6.3.1. Landing Page Wireframe
+![Artefacto creado en Figma](images/cap-6/landing/LandingWirefram-1.png) 
+
+![Artefacto creado en Figma](images/cap-6/landing/LandingWirefram-2.png) 
+
+![Artefacto creado en Figma](images/cap-6/landing/LandingWirefram-3.png) 
+
+**Enlace:** https://www.figma.com/design/Sk1zmVhp0zEdPv97Vlxvwm/Landing-Page?node-id=4-202&t=0W0h3rzLTOTQUsPF-1 
 
 ### 6.3.2. Landing Page Mock-up
+![Artefacto creado en Figma](images/cap-6/landing/LandingMockup-1.png) 
+
+![Artefacto creado en Figma](images/cap-6/landing/LandingMockup-2.png) 
+
+![Artefacto creado en Figma](images/cap-6/landing/LandingMockup-3.png) 
+
+**Enlace:** https://www.figma.com/design/Sk1zmVhp0zEdPv97Vlxvwm/Landing-Page?node-id=4-422&p=f&t=kZ23Arq5BMQvyN7O-0 
+
 
 ## 6.4. Applications UX/UI Design
 
