@@ -2508,6 +2508,103 @@ El flujo: Controllers → Application Services → Domain (Aggregate Profile + V
 
 ---
 
+
+
+
+
+
+## 5.5. Bounded Context: Notifications Context
+
+### 5.5.1. Domain Layer
+
+#### **Aggregates**
+
+**🔹 Notification**
+
+- **Descripción**: Representa una notificación enviada a un usuario dentro del sistema.
+- **Atributos**:
+  - `Id`: Identificador único de la notificación.
+  - `UserId`: Usuario destinatario.
+  - `Title`: Título de la notificación.
+  - `Message`: Contenido textual.
+  - `Type`: Tipo de notificación (información, advertencia, error).
+  - `CreationDate`: Fecha y hora de creación.
+  - `State`: Estado de la notificación (`enviada`, `leída`).
+
+#### **Value Objects**
+  - **NotificationType**: Enum de tipo de notificación `INFO`, `WARN` y `ERROR`.
+  - **NotificationStatus**: Enum de estado `SENT` y `READ`.
+  - **UserId**: encapsula el id del usuario (`userId`).
+
+---
+
+### 5.5.2. Interface Layer
+
+#### **Controllers**
+
+**🔹 NotificationController**
+
+- **Descripción**: Expone endpoints para gestionar las notificaciones del sistema.
+- **Métodos**:
+  - `GetAllNotificationsByUserId(int userId)`: Retorna todas las notificaciones asociadas a un usuario.
+  - `GetAllNotificationsByUserIdAndType(int userId, string type)`: Lista las notificaciones no leídas del usuario.
+  - `MarkAsRead(int notificationId)`: Marca una notificación como leída.
+
+---
+
+### 5.5.3. Application Layer
+
+#### **Command Services**
+
+**🔹 NotificationCommandService**
+
+- **Descripción**: Contiene la lógica para gestionar comandos relacionados con el envío de notificaciones.
+- **Métodos**:
+  - `Handle(SendNotificationCommand command)`: Valida y envía una nueva notificación.
+  - `Handle(MarkAsReadCommand command)`: Cambia el estado de una notificación a leida.
+
+#### **Query Services**
+
+**🔹 NotificationQueryService**
+
+- **Descripción**: Permite consultar notificaciones relacionadas a un usuario.
+- **Métodos**:
+  - `Handle(GetAllNotificationsByUserIdQuery query)`: Devuelve todas las notificaciones del usuario.
+  - `Handle(GetAllNotificationsByUserIdAndType query)`: Devuelve notificaciones por usuario y tipo.
+
+---
+
+### 5.5.4. Infrastructure Layer
+
+#### **Repositories (Implementaciones)**
+
+**🔹 NotificationRepository**
+
+- **Descripción**: Implementa acceso a la base de datos de notificaciones.
+- **Métodos**:
+  - `findByUserId(userId)`: Lista de notificaciones por usuario.
+  - `findByUserIdAndType(userId, type)`: Lista de notificaciones por usuario y tipo.
+  - `save(notification)`: Guarda una nueva notificación.
+
+---
+
+### 5.5.6. Bounded Context Software Architecture Component Level Diagrams
+
+![Diagrama Stucturizr([URL]())](images/cap-5/c4-component-diagrams/notification-context.png)
+
+---
+### 5.5.7. Bounded Context Software Architecture Code Level Diagrams
+
+#### 5.5.7.1. Bounded Context Domain Layer Class Diagrams
+
+![Diagrama Lucidchart([URL]())](images/cap-5/class-diagrams/class-diagram-notification.png)
+
+---
+#### 5.5.7.2. Bounded Context Database Design Diagram
+
+![Diagrama Lucidchart([URL]())](images/cap-5/database-diagram/database-diagram-notification.png)
+
+---
 # Capítulo VI: Solution UX Design
 
 ## 6.1. Style Guidelines
