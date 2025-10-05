@@ -2327,10 +2327,172 @@ La separación clara entre deployment nodes (Edge Node Server, Web Server, API G
 # Capítulo VI: Solution UX Design
 
 ## 6.1. Style Guidelines
+<div align="justify">
+    Un Style Guideline es un conjunto de reglas y normas que definen cómo se debe redactar, diseñar o presentar documentos, contenido web, software u otros trabajos creativos. A continuación, se detallan las especificaciones de los parámetros implementados en la estructura del proyecto.
+</div>
 
 ### 6.1.1. General Style Guidelines
 
+**Overview:**
+<div align="justify">
+    Deseamos capturar la atención del usuario desde el inicio mediante la creación y el diseño de una perspectiva del producto que establezca una conexión inmediata y reconocible.
+</div>
+<br>
+
+**Brand Overview:**
+<div align="justify">
+     AlquilaFácil es un startup tecnológico fundada en el 2024 por un grupo de estudiantes compuesta por un grupo de estudiantes de la carrera de Ingeniería de Software. Nuestro startup está dedicada a simplificar el proceso de alquiler de espacios para eventos, brindando una plataforma innovadora y accesible para propietarios y organizadores por igual.
+</div>
+<br>
+
+**Brand Name:**
+<div align="justify">
+     Como el startup se trata de alquilar centros para eventos y también para publicitar centros que podrían ser alquilados, se vio conveniente llamarlo “AlquilaFácil”.
+</div>
+<br>
+
+![Artefacto creado en Canva](images/cap-6/Guidelines/Background-AlquilaFacil.png) 
+
+**Typography:**
+<div align="justify">
+     El tamaño elegido para la tipografía por el equipo fue: 
+</div>
+<br>
+
+![Artefacto creado en Canva](images/cap-6/Guidelines/Typography.png) 
+
+<br>
+
+**Colors:**
+<div align="justify">
+     La gama de colores elegidos son:
+</div>
+<br>
+
+![Artefacto creado en Canva](images/cap-6/Guidelines/Colors.png) 
+
+
 ### 6.1.2. Web, Mobile & Devices Style Guidelines
+
+<div align="justify">
+    Teniendo en cuenta que tanto para la Web App se han utilizado los mismo estilos base ya predeterminados, como lo son: La tipografía, los colores y el brand del producto AlquilaFacil, hay ciertos aspectos que se diferencian dentro de la versión Mobile y Web. Por ejemplo:
+</div>
+
+<br>
+
+**Toolbar:**
+<div align="justify">
+     Una de las principales notoriedades es la Toolbar, al tratarse de una plataforma Web a diferencia de la contraparte Mobile, se tiene la posibilidad de ser mucho más amplia y tener el contenido más disperso.
+</div>
+<br>
+
+![Artefacto creado en Canva](images/cap-6/Web%20Styles/WebNavbar.png) 
+
+**Inputs/Buttons:**
+<div align="justify">
+     Al tener mucho más espacio en la pantalla, los inputs y botones de la Web App son mucho más grandes y con mayor espaciado.
+</div>
+<br>
+
+![Artefacto creado en Canva](images/cap-6/Web%20Styles/WebInputs.png) 
+
+
+**Espaciado**
+<div align="justify">
+     Siguiendo lo mencionado antes, teniendo en cuenta que el tamaño de la pantalla de una Web App es mucho más amplio, se puede tener un espacio mejor entre los componentes y elementos para una visibilidad más intuitiva.
+</div>
+<br>
+
+![Artefacto creado en Canva](images/cap-6/Web%20Styles/WebSpacing.png) 
+
+## Mobile Guidelines
+
+
+<div align="justify">
+Entre las plataformas de AlquilaFacil Mobile, existe una característica que comparten ambas plataformas del App Moblile, el cuál es la NavBar del aplicativo.
+</div>
+
+<br>
+
+
+**Navbar:**
+<div align="justify">
+    En comparación con la versión de escritorio, la barra de nevagación es mucho más reducida y sintetizada a íconos alusivos a las funcionalidades principales de AlquilaFacil
+</div>
+<br>
+
+![Artefacto creado en Canva](images/cap-6/Mobile%20Styles/MobileBar.png) 
+
+
+**Buttons:**
+<div align="justify">
+    Ambas versiones tanto como para Android e iOS comparten similitudes en todos los aspectos, sin embargo hay ciertos botonos por ejemplo que en la versión de iOS son enfocados más en colores Blancos o Negros, como por ejemplo:
+</div>
+<br>
+
+![Artefacto creado en Canva](images/cap-6/Mobile%20Styles/AndroidBackButton.png) 
+
+## IoT Guidelines
+En esta parte sedescribe los lineamientos técnicos para la implementación de sensores de movimiento, humo y ruido en un entorno simulado utilizando Wokwi. El objetivo es establecer una base sólida para el desarrollo, simulación y posterior migración a dispositivos físicos reales, asegurando buenas prácticas en diseño, seguridad y escalabilidad.
+
+---
+
+**Sensores Utilizados**
+
+| Tipo de Sensor        | Modelo Sugerido    | Tipo de Señal | Función                           |
+|------------------------|---------------------|----------------|------------------------------------|
+| Movimiento             | PIR HC-SR501         | Digital        | Detecta presencia o movimiento     |
+| Humo/Gases             | MQ-2                 | Analógica      | Mide concentración de gases        |
+| Ruido/Ambiente Sonoro  | Micrófono analógico  | Analógica      | Detecta intensidad del sonido      |
+
+---
+
+**Librerías y Dependencias**
+
+| Sensor      | Librería Recomendada      | Propósito                                   |
+|-------------|---------------------------|---------------------------------------------|
+| MQ-2        | `MQUnifiedsensor`         | Calibración, regresión y lectura de ppm     |
+| PIR         | No requiere               | Lectura digital directa                     |
+| Micrófono   | No requiere               | Lectura analógica directa                   |
+
+> En Wokwi, las simulaciones suelen funcionar sin necesidad de instalar librerías, pero se recomienda su uso para mantener fidelidad con hardware real.
+
+---
+
+**Lineamientos Técnicos (IoT Guidelines)**
+
+**Diseño Modular**
+- Separar la lógica de cada sensor en funciones o bloques independientes.
+- Facilitar el mantenimiento y futuras expansiones del sistema.
+
+**Buenas Prácticas**
+- Evitar el uso de funciones bloqueantes (`delay()`), emplear temporizadores no bloqueantes (`millis()`).
+- Definir umbrales personalizables para cada tipo de sensor.
+- Utilizar estructuras de datos para representar lecturas de sensores de forma estandarizada (ej. JSON).
+
+**Comunicación de Datos**
+- Para simulación: enviar datos por consola serial en formato estructurado (ej. JSON).
+- Para implementación real: considerar protocolos como MQTT o HTTP para transmisión a la nube.
+- Preparar el sistema para emitir alertas basadas en condiciones específicas (ej. detección de gas o ruido elevado).
+
+**Seguridad Básica (aplicable a entorno físico)**
+- Uso de identificadores únicos por dispositivo.
+- Encriptación de datos en tránsito (cuando se conecten a la red).
+- Control de acceso a interfaces y configuraciones.
+
+---
+
+**Configuración en Wokwi**
+
+| Sensor     | Pin sugerido | Tipo de Lectura     |
+|------------|---------------|----------------------|
+| PIR        | D2            | Digital (`HIGH`/`LOW`) |
+| MQ-2       | A0            | Analógica (ppm)       |
+| Micrófono  | A1            | Analógica (nivel)     |
+
+> Se recomienda utilizar resistencias de pull-down o pull-up según el comportamiento observado en la simulación para evitar fluctuaciones no deseadas.
+
+---
 
 ## 6.2. Information Architecture
 
