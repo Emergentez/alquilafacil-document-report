@@ -2636,6 +2636,12 @@ AlquilaFácil implementa un sistema de navegación jerárquica en el que los usu
 ## 6.3. Landing Page UI Design
 
 ### 6.3.1. Landing Page Wireframe
+
+<div align="justify">
+    A continuación, se presentan los wireframes de la Landing Page de AlquilaFácil, los cuales muestran la estructura y disposición de los elementos principales de la página sin incluir detalles visuales finales. Estos wireframes sirven como guía inicial para el diseño y desarrollo de la interfaz.
+</div>
+<br>
+
 ![Artefacto creado en Figma](images/cap-6/landing/LandingWirefram-1.png) 
 
 ![Artefacto creado en Figma](images/cap-6/landing/LandingWirefram-2.png) 
@@ -2645,6 +2651,12 @@ AlquilaFácil implementa un sistema de navegación jerárquica en el que los usu
 **Enlace:** <https://www.figma.com/design/Sk1zmVhp0zEdPv97Vlxvwm/Landing-Page?node-id=4-202&t=0W0h3rzLTOTQUsPF-1>
 
 ### 6.3.2. Landing Page Mock-up
+
+<div align="justify">
+    Los mock-ups de la Landing Page presentan el diseño visual completo con colores, tipografía, imágenes y todos los elementos gráficos finales. Estos prototipos de alta fidelidad permiten visualizar exactamente cómo se verá la página cuando esté implementada.
+</div>
+<br>
+
 ![Artefacto creado en Figma](images/cap-6/landing/LandingMockup-1.png) 
 
 ![Artefacto creado en Figma](images/cap-6/landing/LandingMockup-2.png) 
@@ -2658,6 +2670,11 @@ AlquilaFácil implementa un sistema de navegación jerárquica en el que los usu
 
 ### 6.4.1. Applications Wireframes.
 
+<div align="justify">
+    Los wireframes de la aplicación web muestran la estructura y organización de las diferentes pantallas y funcionalidades del sistema. Estos diseños de baja fidelidad permiten visualizar la arquitectura de la información y el flujo de navegación antes de aplicar el diseño visual final.
+</div>
+<br>
+
 ![Artefacto creado en Figma](images/cap-6/Web%20Page%20UXUI/WebWireframe-1.png) 
 
 ![Artefacto creado en Figma](images/cap-6/Web%20Page%20UXUI/WebWireframe-2.png) 
@@ -2667,6 +2684,11 @@ AlquilaFácil implementa un sistema de navegación jerárquica en el que los usu
 ![Artefacto creado en Figma](images/cap-6/Web%20Page%20UXUI/WebWireframe-4.png) 
 
 **Enlace WebPage:** <https://www.figma.com/design/8e7OrbLVZLRQHAgSK4pDYD/Web-App?node-id=1-207&t=hZfD2aBdxlDEywVP-1>
+
+<div align="justify">
+    Los wireframes de la aplicación móvil presentan el diseño estructural adaptado a dispositivos móviles, considerando las particularidades de la interfaz táctil y las limitaciones de espacio en pantalla. Estos esquemas permiten planificar la experiencia de usuario en dispositivos iOS y Android.
+</div>
+<br>
 
 ![Artefacto creado en Figma](images/cap-6/Mobile%20Application%20UXUI/Wireframe-1.png) 
 
@@ -2680,6 +2702,11 @@ AlquilaFácil implementa un sistema de navegación jerárquica en el que los usu
 
 ### 6.4.3. Applications Mock-ups
 
+<div align="justify">
+    Los mock-ups de la aplicación web presentan el diseño visual completo de las diferentes pantallas del sistema, incluyendo colores corporativos, tipografía, iconografía y todos los elementos gráficos de acuerdo a las guías de estilo establecidas. Estos prototipos de alta fidelidad representan fielmente la apariencia final de la aplicación.
+</div>
+<br>
+
 ![Artefacto creado en Figma](images/cap-6/Web%20Page%20UXUI/WebMockup-1.png) 
 
 ![Artefacto creado en Figma](images/cap-6/Web%20Page%20UXUI/WebMockup-2.png) 
@@ -2687,6 +2714,11 @@ AlquilaFácil implementa un sistema de navegación jerárquica en el que los usu
 ![Artefacto creado en Figma](images/cap-6/Web%20Page%20UXUI/WebMockup-3.png) 
 
 **Enlace WebPage:** <https://www.figma.com/design/8e7OrbLVZLRQHAgSK4pDYD/Web-App?node-id=1-206&t=hZfD2aBdxlDEywVP-1>
+
+<div align="justify">
+    Los mock-ups de la aplicación móvil muestran el diseño final optimizado para dispositivos móviles, incorporando todos los elementos visuales, patrones de interacción táctil y adaptaciones necesarias para ofrecer una experiencia de usuario óptima en smartphones y tablets, tanto para iOS como para Android.
+</div>
+<br>
 
 ![Artefacto creado en Figma](images/cap-6/Mobile%20Application%20UXUI/Mockup-1.png) 
 
