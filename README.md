@@ -2642,7 +2642,7 @@ AlquilaFácil implementa un sistema de navegación jerárquica en el que los usu
 
 ![Artefacto creado en Figma](images/cap-6/landing/LandingWirefram-3.png) 
 
-**Enlace:** https://www.figma.com/design/Sk1zmVhp0zEdPv97Vlxvwm/Landing-Page?node-id=4-202&t=0W0h3rzLTOTQUsPF-1 
+**Enlace:** <https://www.figma.com/design/Sk1zmVhp0zEdPv97Vlxvwm/Landing-Page?node-id=4-202&t=0W0h3rzLTOTQUsPF-1>
 
 ### 6.3.2. Landing Page Mock-up
 ![Artefacto creado en Figma](images/cap-6/landing/LandingMockup-1.png) 
@@ -2651,16 +2651,50 @@ AlquilaFácil implementa un sistema de navegación jerárquica en el que los usu
 
 ![Artefacto creado en Figma](images/cap-6/landing/LandingMockup-3.png) 
 
-**Enlace:** https://www.figma.com/design/Sk1zmVhp0zEdPv97Vlxvwm/Landing-Page?node-id=4-422&p=f&t=kZ23Arq5BMQvyN7O-0 
+**Enlace:** <https://www.figma.com/design/Sk1zmVhp0zEdPv97Vlxvwm/Landing-Page?node-id=4-422&p=f&t=kZ23Arq5BMQvyN7O-0>
 
 
 ## 6.4. Applications UX/UI Design
 
-### 6.4.1. Applications Wireframes
+### 6.4.1. Applications Wireframes.
+
+![Artefacto creado en Figma](images/cap-6/Web%20Page%20UXUI/WebWireframe-1.png) 
+
+![Artefacto creado en Figma](images/cap-6/Web%20Page%20UXUI/WebWireframe-2.png) 
+
+![Artefacto creado en Figma](images/cap-6/Web%20Page%20UXUI/WebWireframe-3.png) 
+
+![Artefacto creado en Figma](images/cap-6/Web%20Page%20UXUI/WebWireframe-4.png) 
+
+**Enlace WebPage:** <https://www.figma.com/design/8e7OrbLVZLRQHAgSK4pDYD/Web-App?node-id=1-207&t=hZfD2aBdxlDEywVP-1>
+
+![Artefacto creado en Figma](images/cap-6/Mobile%20Application%20UXUI/Wireframe-1.png) 
+
+![Artefacto creado en Figma](images/cap-6/Mobile%20Application%20UXUI/Wireframe-2.png) 
+
+![Artefacto creado en Figma](images/cap-6/Mobile%20Application%20UXUI/Wireframe-3.png) 
+
+**Enlace Mobile:** <https://www.figma.com/design/ZgcH4GPA3oBLZf4SvVs52Z/Mobile-App?node-id=1-207&t=hZfD2aBdxlDEywVP-1>
 
 ### 6.4.2. Applications Wireflow Diagrams
 
 ### 6.4.3. Applications Mock-ups
+
+![Artefacto creado en Figma](images/cap-6/Web%20Page%20UXUI/WebMockup-1.png) 
+
+![Artefacto creado en Figma](images/cap-6/Web%20Page%20UXUI/WebMockup-2.png) 
+
+![Artefacto creado en Figma](images/cap-6/Web%20Page%20UXUI/WebMockup-3.png) 
+
+**Enlace WebPage:** <https://www.figma.com/design/8e7OrbLVZLRQHAgSK4pDYD/Web-App?node-id=1-206&t=hZfD2aBdxlDEywVP-1>
+
+![Artefacto creado en Figma](images/cap-6/Mobile%20Application%20UXUI/Mockup-1.png) 
+
+![Artefacto creado en Figma](images/cap-6/Mobile%20Application%20UXUI/Mockup-2.png) 
+
+![Artefacto creado en Figma](images/cap-6/Mobile%20Application%20UXUI/Mockup-3.png) 
+
+**Enlace Mobile:** <https://www.figma.com/design/ZgcH4GPA3oBLZf4SvVs52Z/Mobile-App?node-id=1-206&t=hZfD2aBdxlDEywVP-1>
 
 ### 6.4.4. Applications User Flow Diagrams
 
