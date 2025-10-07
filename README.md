@@ -2392,9 +2392,19 @@ El flujo de interacción es: Controllers → Application Services → Domain (En
 
 #### 5.1.7.1. Bounded Context Domain Layer Class Diagrams
 
+<div align="justify">
+    El siguiente diagrama de clases representa la capa de dominio del bounded context IAM, mostrando las relaciones entre las entidades User, Role y UserRole, así como los value objects (UserId, Email, EncryptedPassword) y las interfaces de los repositorios que gestionan la persistencia de usuarios y roles.
+</div>
+<br>
+
 ![IAM Class Diagram](images/cap-5/class-diagrams/class-diagram-IAM.png)
 
 #### 5.1.7.2. Bounded Context Database Design Diagram
+
+<div align="justify">
+    El diagrama de base de datos del bounded context IAM muestra el diseño físico de las tablas users, roles y user_roles en PostgreSQL, incluyendo los tipos de datos, claves primarias, claves foráneas y las relaciones muchos a muchos entre usuarios y roles.
+</div>
+<br>
 
 ![IAM Database Design Diagram](images/cap-5/database-diagram/database-diagram-IAM.png)
 
@@ -2500,9 +2510,19 @@ El flujo: Controllers → Application Services → Domain (Aggregate Profile + V
 
 #### 5.2.7.1. Bounded Context Domain Layer Class Diagrams
 
+<div align="justify">
+    El diagrama de clases del bounded context Profile ilustra el aggregate root Profile y sus value objects asociados (PersonName, DateOfBirth, Phone, DocumentNumber, BankAccount, SubscriptionStatus), así como la interfaz del repositorio IProfileRepository que define los contratos de persistencia.
+</div>
+<br>
+
 ![Profile Class Diagram](images/cap-5/class-diagrams/class-diagram-Profiles.png)
 
 #### 5.2.7.2. Bounded Context Database Design Diagram
+
+<div align="justify">
+    El diagrama de base de datos del bounded context Profile presenta el diseño de las tablas profiles, bank_accounts y subscription_statuses, mostrando sus atributos, tipos de datos, claves y las relaciones uno a muchos entre el perfil y sus cuentas bancarias y estados de suscripción.
+</div>
+<br>
 
 ![Profile Database Design Diagram](images/cap-5/database-diagram/database-diagram-profiles.png)
 
@@ -2887,6 +2907,11 @@ El flujo: Controllers → Application Services → Domain (Aggregate Profile + V
 
 ### 5.3.6. Bounded Context Software Architecture Component Level Diagrams
 
+<div align="justify">
+    El diagrama de componentes C4 del bounded context Locals muestra la arquitectura interna del contenedor Locals API, incluyendo los controladores, servicios de aplicación (comandos y consultas), repositorios y su interacción con la base de datos relacional para gestionar locales, comentarios, reportes y categorías.
+</div>
+<br>
+
 ![Diagrama Stucturizr([URL]())](images/cap-5/c4-component-diagrams/locals_bounded_context.png)
 
 El bounded context **Locals** se despliega como un contenedor **Locals API** en el modelo C4. Sus componentes principales son:
@@ -2905,10 +2930,20 @@ El bounded context **Locals** se despliega como un contenedor **Locals API** en 
 
 #### 5.3.7.1. Bounded Context Domain Layer Class Diagrams
 
+<div align="justify">
+    El diagrama de clases del bounded context Locals representa las entidades principales del dominio: Local (aggregate root), Comment, Report y LocalCategory, junto con sus value objects (Location, Address, TimeRange, Price) y las interfaces de los repositorios correspondientes.
+</div>
+<br>
+
 ![Diagrama Stucturizr([URL]())](images/cap-5/class-diagrams/class_diagrams_1.png)
 
 
 #### 5.3.7.2. Bounded Context Database Design Diagram
+
+<div align="justify">
+    El diagrama de base de datos del bounded context Locals muestra el diseño de las tablas locales, comentarios, reportes y categorías de locales, incluyendo sus relaciones, claves primarias, claves foráneas y los tipos de datos de cada atributo.
+</div>
+<br>
 
 ![Diagrama Stucturizr([URL]())](images/cap-5/database-diagram/database_diagram.png)
 
@@ -3030,15 +3065,30 @@ Implementación del repositorio para interactuar con la base de datos de reserva
 
 ### 5.4.6. Bounded Context Software Architecture Component Level Diagrams
 
+<div align="justify">
+    El diagrama de componentes C4 del bounded context Booking muestra la arquitectura del contenedor Booking API, incluyendo el controlador de reservas, los servicios de comandos y consultas, el repositorio de reservas y su conexión con la base de datos para gestionar las reservaciones de locales.
+</div>
+<br>
+
 ![Diagrama Stucturizr([URL]())](images/cap-5/c4-component-diagrams/booking-context.png)
 
 ### 5.4.7. Bounded Context Software Architecture Code Level Diagrams
 
 #### 5.4.7.1. Bounded Context Domain Layer Class Diagrams
 
+<div align="justify">
+    El diagrama de clases del bounded context Booking representa el aggregate root Reservation con sus atributos (StartDate, EndDate, UserId, LocalId), los comandos para crear, actualizar y eliminar reservas, las consultas para obtener reservaciones, y la interfaz del repositorio IReservationRepository.
+</div>
+<br>
+
 ![Diagrama Lucidchart([URL]())](images/cap-5/class-diagrams/booking-context.png)
 
 #### 5.4.7.2. Bounded Context Database Design Diagram
+
+<div align="justify">
+    El diagrama de base de datos del bounded context Booking muestra la tabla reservations con sus atributos (id, start_date, end_date, user_id, local_id), sus tipos de datos, claves primarias y las claves foráneas que establecen relaciones con las tablas de usuarios y locales.
+</div>
+<br>
 
 ![Diagrama Vertanelo([URL]())](images/cap-5/database-diagram/booking-context.png)
 
@@ -3120,6 +3170,11 @@ Implementación del repositorio para interactuar con la base de datos de reserva
 
 ### 5.5.6. Bounded Context Software Architecture Component Level Diagrams
 
+<div align="justify">
+    El diagrama de componentes C4 del bounded context Notifications presenta la arquitectura del contenedor Notifications API, mostrando el controlador de notificaciones, los servicios de comandos y consultas, el repositorio de notificaciones y su integración con la base de datos y servicios externos de mensajería.
+</div>
+<br>
+
 ![Diagrama Stucturizr([URL]())](images/cap-5/c4-component-diagrams/notification-context.png)
 
 ---
@@ -3127,10 +3182,20 @@ Implementación del repositorio para interactuar con la base de datos de reserva
 
 #### 5.5.7.1. Bounded Context Domain Layer Class Diagrams
 
+<div align="justify">
+    El diagrama de clases del bounded context Notifications muestra el aggregate root Notification con sus atributos (Message, Type, SentDate, UserId), los value objects relacionados, los comandos para enviar notificaciones, las consultas para obtenerlas y la interfaz del repositorio INotificationRepository.
+</div>
+<br>
+
 ![Diagrama Lucidchart([URL]())](images/cap-5/class-diagrams/class-diagram-notification.png)
 
 ---
 #### 5.5.7.2. Bounded Context Database Design Diagram
+
+<div align="justify">
+    El diagrama de base de datos del bounded context Notifications muestra la tabla notifications con sus campos (id, message, type, sent_date, user_id), tipos de datos, claves primarias y las claves foráneas que relacionan las notificaciones con los usuarios destinatarios.
+</div>
+<br>
 
 ![Diagrama Lucidchart([URL]())](images/cap-5/database-diagram/database-diagram-notification.png)
 
@@ -3417,15 +3482,30 @@ Implementación del repositorio para interactuar con la base de datos de reserva
 
 ### 5.6.6. Bounded Context Software Architecture Component Level Diagrams
 
+<div align="justify">
+    El diagrama de componentes C4 del bounded context Subscription ilustra la arquitectura del contenedor Subscription API, mostrando los controladores para gestionar subscripciones, planes y facturas, los servicios de aplicación, los repositorios correspondientes y su conexión con la base de datos y servicios externos de usuarios.
+</div>
+<br>
+
 ![Diagrama Stucturizr([URL]())](images/cap-5/c4-component-diagrams/subscription-component-diagram.png)
 
 ### 5.6.7. Bounded Context Software Architecture Code Level Diagrams
 
 #### 5.6.7.1. Bounded Context Domain Layer Class Diagrams
 
+<div align="justify">
+    El diagrama de clases del bounded context Subscription presenta los aggregates Invoice, Plan y Subscription con sus atributos respectivos, los value objects (SubscriptionStatus, PlanDuration), los comandos para crear y gestionar subscripciones, las consultas y las interfaces de los repositorios (IInvoiceRepository, IPlanRepository, ISubscriptionRepository).
+</div>
+<br>
+
 ![Diagrama Lucidchart([URL]())](images/cap-5/class-diagrams/subscription-class-diagram.png)
 
 #### 5.6.7.2. Bounded Context Database Design Diagram
+
+<div align="justify">
+    El diagrama de base de datos del bounded context Subscription muestra las tablas invoices, plans, subscriptions y subscription_statuses con sus respectivos campos, tipos de datos, claves primarias y las relaciones entre ellas, estableciendo cómo se almacenan las subscripciones, planes y facturas en la base de datos.
+</div>
+<br>
 
 ![Diagrama Vertanelo([URL]())](images/cap-5/database-diagram/subscription-database-diagram.png)
 
@@ -3655,15 +3735,30 @@ Implementación del repositorio para interactuar con la base de datos de reserva
 
 ### 5.7.6. Bounded Context Software Architecture Component Level Diagrams
 
+<div align="justify">
+    El diagrama de componentes C4 del bounded context Monitoring muestra la arquitectura del contenedor Monitoring API, incluyendo los controladores para gestionar sensores y tags NFC, los servicios de comandos y consultas, los repositorios (SensorRepository, ReadingRepository, NFCTagRepository, NFCDetectionEventRepository) y su integración con la base de datos para monitorear eventos en los locales.
+</div>
+<br>
+
 ![Diagrama Stucturizr([URL]())](images/cap-5/c4-component-diagrams/management-context.jpg)
 
 ### 5.7.7. Bounded Context Software Architecture Code Level Diagrams
 
 #### 5.7.7.1. Bounded Context Domain Layer Class Diagrams
 
+<div align="justify">
+    El diagrama de clases del bounded context Monitoring presenta los aggregates Sensor, Reading, NFCTag y NFCDetectionEvent con sus respectivos atributos, los value objects relacionados con tipos de sensores y estados, los comandos para registrar sensores y lecturas, las consultas para obtener información de monitoreo y las interfaces de los repositorios correspondientes.
+</div>
+<br>
+
 ![Diagrama LucidChart([URL]())](images/cap-5/class-diagrams/management-context.png)
 
 #### 5.7.7.2. Bounded Context Database Design Diagram
+
+<div align="justify">
+    El diagrama de base de datos del bounded context Monitoring muestra las tablas sensors, readings, nfc_tags y nfc_detection_events con sus campos respectivos, tipos de datos, claves primarias y claves foráneas, estableciendo las relaciones entre sensores, sus lecturas, tags NFC y eventos de detección para el monitoreo de locales.
+</div>
+<br>
 
 ![Diagrama Vertabelo([URL]())](images/cap-5/database-diagram/management-context.png)
 
