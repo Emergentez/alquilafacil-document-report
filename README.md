@@ -3135,6 +3135,539 @@ Implementación del repositorio para interactuar con la base de datos de reserva
 ![Diagrama Lucidchart([URL]())](images/cap-5/database-diagram/database-diagram-notification.png)
 
 ---
+
+## 5.6. Bounded Context: Subscription Context
+
+### 5.6.1. Domain Layer
+
+#### Aggregates
+
+1. **Invoice**:
+  - **Descripción**: Representa la compra de una subscripción en la aplicación
+  - **Atributos**:
+    - `Id`: Identificador de la compra
+    - `Amount`: Monto de la compra
+    - `Date`: Fecha de la compra
+    - `SubscriptionId`: Id de la subscripción comprada
+
+2. **Plan**:
+  - **Descripción**: Representa un plan de subscripción en la aplicación
+  - **Atributos**:
+    - `Id`: Identificador del plan de subscripción.
+    - `Name`: Nombre del plan
+    - `Service`: Servicio que ofrece el plan
+    - `Price`: Precio del plan
+
+3. **Subscription**:
+  - **Descripción**: Representa una subscripción en la aplicación
+  - **Atributos**:
+    - `Id`: Identificador de la subscripción.
+    - `UserId`: Identificador del usuario que compro la subscripción.
+    - `SubscriptionStatusId`: Identificador del estado de la subscripción.
+    - `PlanId`: Identificador del plan de la subscripción
+    - `VoucherImageUrl`: Imagen del voucher de la subscripción
+
+4. **SubscriptionAudit**:
+  - **Description**: Registro de las fechas de creación o actualización de las subscripciones.
+  - **Atributos**:
+    - `CreatedDate`: Fecha de creación de la subscripción
+    - `UpdatedDate`: Fecha de actualización de la subscripción
+
+#### Entities
+
+1. **SubscriptionStatus**:
+  - **Descripción**: Estado de la subscripción
+  - **Atributos**:
+    - `Id`: Identificador unico del estado de la subscripción.
+    - `Status`: Nombre del estado de la descripción.
+
+#### Value Objects
+
+1. **ESubscriptionStatus**:
+  - **Descripción**: Enumerador para obtener los estados de la subscripción.
+
+#### Commands
+
+1. **ActiveSubscriptionStatusCommand**:
+  - **Descripción**: Comando para modificar el estado de una subscripción a activa.
+
+2. **CreateInvoiceCommand**:
+  - **Descripción**: Comando para crear una compra de una subscripción.
+
+3. **CreatePlanCommand**:
+  - **Descripción**: Comando para crear un plan de subscripción
+
+4. **CreateSubscriptionCommand**:
+  - **Descripción**: Comando para crear una subscripción
+
+5. **CreateSubscriptionPaymentCommand**:
+  - **Descripción**: Comando para crear un pago de una subscripción
+
+6. **SeedSubscriptionPlanCommand**:
+  - **Descripción**: Comando para inicializar los planes de subscripción
+
+7. **SeedSubscripionStatusCommand**:
+  - **Descripción**: Comando para inicializar los estados de subscripción
+
+#### Queries
+
+1. **GetAllInvoicesQuery**:
+  - **Descripción**: Consulta para obtener todas las compras de subscripción.
+
+2. **GetAllPlans**:
+  - **Descripción**: Consulta para obetener todos los planes de subscripción.
+
+3. **GetAllSubscriptionPayments**:
+  - **Descripción**: Consulta para obtener todos los pagos de subscripción.
+
+4. **GetInvoiceByIdQuery**:
+  - **Descripción**: Consulta para obtener una compra de subscripción dado su id.
+
+5. **GetPlanByIdQuery**:
+  - **Descripción**: Consulta para obtener un plan de subscripción dado su id.
+
+6. **GetSubscriptionByIdQuery**:
+  - **Descripción**: Consulta para obtener una subscripción dado su id.
+
+7. **GetSubscriptionByUserIdQuery**:
+  - **Descripción**: Consulta para obtener una subscripción dado el id de el usuario
+
+8. **GetSubscriptionPaymentByIdQuery**:
+  - **Descripción**: Consulta para obtener el pago de una subscripción dado su id
+
+9. **GetSubscriptionsByUserIdQuery**:
+  - **Descripción**: Consulta para obtener todas las subscripciones de un solo usuario.
+
+#### Repositories
+
+1. **IInvoiceRepository**:
+  - **Descripción**: Permite interactuar con la base de datos para almacenar u obtener datos de las compras.
+
+2. **IPlanRepository**:
+  - **Descripción**: Permite interactuar con la base de datos para almacenar u obtener datos de los planes de subscripción.
+
+3. **ISubscriptionRepository**:
+  - **Descripción**: Permite interactuar con la base de datos para almacenar u obtener datos de las subscripciones.
+  - **Métodos**:
+    - `FindByUserIdAsync(int userId)`: Obtiene una subscripción a traves del id de su usuario
+    - `FindByUserIdsListAsync`: Obtiene una lista de subscripciones a traves de una lista de ids de usuarios.
+
+4. **ISubscriptionStatusRepository**:
+  - **Descripción**: Permite interactuar con la base de datos para almacenar u obtener datos de los estados de subscripción.
+  - **Métodos**:
+    - `ExistsBySubscriptionStatus(ESubscriptionStatus subscriptionStatus)`: Verifica si existe un estado.
+
+#### Services
+
+1. **IInvoiceCommandService**:
+  - **Descripción**: Maneja los comandos para la creación de las compras
+  - **Métodos**:
+    - `Handle(CreateInvoiceCommand command)`: Maneja el comando para crear una compra.
+
+2. **IInvoiceQueryService**:
+  - **Descripción**: Maneja las consultas de las compras desde la base de datos
+  - **Métodos**:
+    - `Handle(GetInvoiceByIdQuery query)`: Maneja la consulta para obtener una compra a traves de su id.
+    - `Handle(GetAllInvoicesQuery query)`: Maneja la consulta para obtener todas las compras registradas.
+
+3. **IPlanCommandService**
+  - **Descripción**: Maneja los comandos para la creación de los planes
+  - **Métodos**:
+    - `Handle(CreatePlanCommand command)`: Maneja el comando para la creación de planes de subscripción.
+
+4. **IPlanQueryService**
+  - **Descripción**: Maneja las consultas de los planes desde la base de datos
+  - **Métodos**:
+    - `Handle(GetAllPlansQuery query)`: Maneja la consulta para obtener todos los planes de subscripción.
+
+5. **ISeedSubscriptionPlanCommandService**
+  - **Descripción**: Permite el manejo del comando para la inicialización de los planes de subscripción.
+  - **Métodos**:
+    - `Handle(SeedSubscriptionPlanCommand command)`: Maneja el comando para la inicialización de los planes de subscripción.
+
+6. **ISubscriptionCommandService**
+  - **Descripción**: Permite el manejo de comandos para la creación y activación de las subscripciones
+  - **Métodos**:
+    - `Handle(CreateSubscriptionCommand command)`: Maneja el comando para la creación de subscripciones.
+    - `Handle(ActiveSubscriptionStatusCommand command)`: Maneja el comando para la activación de una subscripciones.
+
+7. **ISubscriptionQueryService**
+  - **Descripción**: Permite el manejo de consultas de las subscripciones desde la base datos.
+  - **Métodos**:
+    - `Handle(GetSubscriptionByIdQuery query)`: Maneja la consulta para obtener una subscripción en base a su id.
+    - `Handle(GetAllSubscriptionsQuery query)`: Maneja la consulta para obtener todas las subscriptiones.
+    - `Handle(GetSubscriptionByUserIdQuery query)`: Maneja la consulta para obtener una subscripción en base a la id de su usuario.
+    - `Handle(GetSubscriptionsByUserIdQuery query)`: Maneja la consulta para obtener todas las subscripciones de un usuario en base a su id.
+
+8. **ISubscriptionStatusCommandService**
+  - **Descripción**: Permite el manejo de comandos para la inicializacion de estados.
+  - **Métodos**:
+    - `Handle(SeedSubscriptionStatusCommand command)`: Maneja la inicialización de los estados.
+
+### 5.6.2. Interface Layer
+
+#### Facades
+
+1. **ISubscriptionContextFacade**
+  - **Descripción**: Permite el uso de metodos del bounded context de subscriptions en otros bounded context.
+  - **Métodos**:
+    `GetSubscriptionByUserIdsList(List<int> userIdsList)`: Obtiene las subscripciones de varios usuarios a traves de sus ids.
+    `GetSubscriptionStatusByUserId(int userId)`: Obtiene los estados de la subscripción de un usuario a traves de su id.
+
+#### Controller
+
+1. **InvoiceController**: 
+  - **Descripción**: Expone endpoints para el manejo de las compras dentro de la aplicación
+  - **Métodos**:
+    - `CreateInvoice([CreateInvoiceResource createInvoiceResource)`: Endpoint para crear una compra
+    - `GetInvoices()`: Endpoint para obtener todas las compras.
+    - `GetInvoiceById(int invoiceId)`: Endpoint para obtener una compra en base a su id.
+
+2. **PlanController**:
+  - **Descripción**: Exponer endpoints para el manejo de los planes de subscripción dentro de la aplicación
+  - **Métodos**:
+    - `GetAllPlans()`: Endpoint para obtener todos los planes de subscripción dentro de la aplicación
+
+3. **SubscriptionsController**:
+  - **Descripción**: Exponer endpoints para el manejo de las subscripciones dentro de la aplicación.
+  - **Métodos**:
+    - `CreateSubscription(CreateSubscriptionResource createSubscriptionResource)`: Endpoint para la creación de subscripciones dentro de la aplicación
+    - `GetAllSubscriptions()`: Endpoint para obtener todas las subscripciones dentro de la aplicación
+    - `GetSubscriptionById(int subscriptionId)`: Endpoint para obtener subscripciones en base a su id
+    - `ActiveSubscriptionStatus(int subscriptionId)`: Endpoint para activar una subscripción en base a su id
+
+### 5.6.3. Application Layer
+
+#### Command Services (Implementation)
+
+1. **InvoiceCommandService**:
+  - **Descripción**: Maneja los comandos para la creación de las compras
+  - **Métodos**:
+    - `Handle(CreateInvoiceCommand command)`: Maneja el comando para crear una compra.
+
+2. **PlanCommandService**
+  - **Descripción**: Maneja los comandos para la creación de los planes
+  - **Métodos**:
+    - `Handle(CreatePlanCommand command)`: Maneja el comando para la creación de planes de subscripción.
+
+3. **SeedSubscriptionPlanCommandService**
+  - **Descripción**: Permite el manejo del comando para la inicialización de los planes de subscripción.
+  - **Métodos**:
+    - `Handle(SeedSubscriptionPlanCommand command)`: Maneja el comando para la inicialización de los planes de subscripción.
+
+4. **SubscriptionCommandService**
+  - **Descripción**: Permite el manejo de comandos para la creación y activación de las subscripciones
+  - **Métodos**:
+    - `Handle(CreateSubscriptionCommand command)`: Maneja el comando para la creación de subscripciones.
+    - `Handle(ActiveSubscriptionStatusCommand command)`: Maneja el comando para la activación de una subscripciones.
+
+5. **SubscriptionStatusCommandService**
+  - **Descripción**: Permite el manejo de comandos para la inicializacion de estados.
+  - **Métodos**:
+    - `Handle(SeedSubscriptionStatusCommand command)`: Maneja la inicialización de los estados.
+
+#### Query Services (Implementación)
+
+1. **InvoiceQueryService**:
+  - **Descripción**: Maneja las consultas de las compras desde la base de datos
+  - **Métodos**:
+    - `Handle(GetInvoiceByIdQuery query)`: Maneja la consulta para obtener una compra a traves de su id.
+    - `Handle(GetAllInvoicesQuery query)`: Maneja la consulta para obtener todas las compras registradas.
+
+2. **PlanQueryService**
+  - **Descripción**: Maneja las consultas de los planes desde la base de datos
+  - **Métodos**:
+    - `Handle(GetAllPlansQuery query)`: Maneja la consulta para obtener todos los planes de subscripción.
+  
+3. **SubscriptionQueryService**
+  - **Descripción**: Permite el manejo de consultas de las subscripciones desde la base datos.
+  - **Métodos**:
+    - `Handle(GetSubscriptionByIdQuery query)`: Maneja la consulta para obtener una subscripción en base a su id.
+    - `Handle(GetAllSubscriptionsQuery query)`: Maneja la consulta para obtener todas las subscriptiones.
+    - `Handle(GetSubscriptionByUserIdQuery query)`: Maneja la consulta para obtener una subscripción en base a la id de su usuario.
+    - `Handle(GetSubscriptionsByUserIdQuery query)`: Maneja la consulta para obtener todas las subscripciones de un usuario en base a su id.
+
+#### OutboundServices
+
+1. **ExternalUserWithSubscriptionService**
+  - **Descripción**: Permite utilizar metodos del bounded context de usuarios.
+  - **Métodos**:
+    - `UserExists(int id)`: Permite validar si un usuario existe dada su id.
+
+### 5.6.4. Infrastructure Layer
+
+#### Repositories (Implementación)
+
+1. **IInvoiceRepository**:
+  - **Descripción**: Permite interactuar con la base de datos para almacenar u obtener datos de las compras.
+
+2. **IPlanRepository**:
+  - **Descripción**: Permite interactuar con la base de datos para almacenar u obtener datos de los planes de subscripción.
+
+3. **ISubscriptionRepository**:
+  - **Descripción**: Permite interactuar con la base de datos para almacenar u obtener datos de las subscripciones.
+  - **Métodos**:
+    - `FindByUserIdAsync(int userId)`: Obtiene una subscripción a traves del id de su usuario
+    - `FindByUserIdsListAsync`: Obtiene una lista de subscripciones a traves de una lista de ids de usuarios.
+
+4. **ISubscriptionStatusRepository**:
+  - **Descripción**: Permite interactuar con la base de datos para almacenar u obtener datos de los estados de subscripción.
+  - **Métodos**:
+    - `ExistsBySubscriptionStatus(ESubscriptionStatus subscriptionStatus)`: Verifica si existe un estado.
+
+### 5.6.6. Bounded Context Software Architecture Component Level Diagrams
+
+![Diagrama Stucturizr([URL]())](images/cap-5/c4-component-diagrams/subscription-component-diagram.png)
+
+### 5.6.7. Bounded Context Software Architecture Code Level Diagrams
+
+#### 5.6.7.1. Bounded Context Domain Layer Class Diagrams
+
+![Diagrama Lucidchart([URL]())](images/cap-5/class-diagrams/subscription-class-diagram.png)
+
+#### 5.6.7.2. Bounded Context Database Design Diagram
+
+![Diagrama Vertanelo([URL]())](images/cap-5/database-diagram/subscription-database-diagram.png)
+
+------
+
+## 5.7. Bounded Context: Monitoring Context
+
+### 5.7.1. Domain Layer
+
+#### Aggregates
+
+1. **Sensor:**
+   - **Descripción:** Representa un sensor IoT desplegado dentro de un espacio monitoreado (por ejemplo, para ruido o humo).
+   - **Atributos:**
+     - `Id`: Identificador único del sensor.
+     - `Code`: Código físico o serial único del sensor.
+     - `Type`: Tipo del sensor: NOISE, SMOKE, TEMP, etc.
+     - `State`: Estado del sensor (ACTIVE, INACTIVE, MAINTENANCE).
+     - `Location`: Ubicación física dentro de la propiedad.
+     - `LocalId`: Identificador del local al que pertenece.
+     - `Readings`: Colección de lecturas registradas por el sensor.
+
+2. **NFCTag**
+   - **Descripción:** Representa una tarjeta NFC registrada y asociada a un usuario o propósito.
+   - **Atributos:**
+     - `Id`: Identificador único del tag.
+     - `Code`: Código físico del tag NFC.
+     - `Alias`: Nombre opcional para identificar la tarjeta.
+     - `IsActive`: Si está activa o desactivada.
+     - `ExpirationDate`: Fecha opcional de expiración del tag.
+
+#### Entities
+
+1. **Reading:**
+   - **Descripción:** Representa un dato capturado por un sensor en un momento específico.
+   - **Atributos:**
+     - `Id`: Identificador único de la lectura.
+     - `SensorId`: ID del sensor que envió la lectura.
+     - `Timestamp`: Fecha y hora de la lectura.
+     - `Value`: Valor medidor por el sensor.
+     - `Unit`: Unidad de medida (°C, %, etc.).
+
+2. **NFCDetectionEvent:**
+   - **Descripción:** Representa un evento de detección de un tag NFC en un lector.
+   - **Atributos:**
+     - `Id`: Identificador único de la configuración.
+     - `DetectedAt`: Momento de la detección.
+     - `TagId`: Identificador del NFCTag detectado.
+     - `SensorId`: Identificador de sensor que detecta.
+
+#### Value Objects
+
+1. **SensorType:**
+   - **Descripción:** Objeto de valor que representa el tipo de un sensor. Asegura el control del tipo de infracción respectivo.
+   - **Atributos:**
+     - `SensorType`: 	Tipo del sensor: (NOISE, SMOKE, TEMP, etc).
+
+2. **SensorStatus:**
+   - **Descripción:** Objeto de valor que representa el estado de un sensor. Asegura que el estado cumpla con ciertas reglas de negocio (por ejemplo, solo valores como 'activo' o 'inactivo').
+   - **Atributos:**
+     - `Status`: Estado del dispositivo (activo, inactivo, mantenimiento).
+
+3. **Unit:**
+   - **Descripción:** Objeto de valor que representa la unidad de valor de una lectura en el sensor.
+   - **Atributos:**
+     - `Unit`: 	Unidad del valor (ej: dB, ppm, °C).
+
+
+#### Commands
+
+##### Sensor
+
+1. **CreateSensorCommand:**
+   - **Descripción:** Crear un nuevo sensor con tipo, ubicación y estado inicial
+
+2. **CreateReadingCommand:**
+   - **Descripción:** Crear una lectura individual desde un sensor para registrarla
+
+3. **UpdateSensorCommand:**
+   - **Descripción:** Activar o desactivar un sensor específico
+
+##### NFCTag
+
+1. **CreateNFCTagCommand:**
+   - **Descripción:** Registra una nueva tarjeta NFC con UID y alias opcional
+
+2. **UpdateNFCTagCommand:**
+   - **Descripción:** Desactiva una tarjeta NFC existente
+
+3. **CreateNFCDetectionEvent:**
+   - **Descripción:** Registra un evento de detección de un tag NFC en un lector
+
+#### Queries
+
+##### Sensor
+
+1. **GetAllSensorsByLocalIdQuery:**
+   - **Descripción:** Obtener todos los sensores registrados para un id de local dado.
+
+2. **GetSensorByIdQuery:**
+   - **Descripción:** Obtener detalles de un sensor específico
+
+3. **GetReadingsBySensorIdQuery:**
+   - **Descripción:** Obtener todas las lecturas de un sensor
+
+##### NFCTag
+
+1. **GetNFCTagByIdQuery:**
+   - **Descripción:** Obtener detalles de un tag NFC específico
+
+2. **GetAllTagDetectionEventsBySensorIdQuery:**
+   - **Descripción:** Obtener eventos de detección para un sensor específico
+
+#### Repositories (Interfaces)
+
+1. **SensorRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de sensores.
+   - **Métodos:**
+     - `FindAllByLocalId(int id)`: Busca todos los sensores por ID de local.
+     - `FindById(int id)`: Busca un sensor por su ID.
+     - `Save(Sensor sensor)`: Guarda o actualiza un sensor en la base de datos.
+
+2. **ReadingRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de lecturas de sensores.
+   - **Métodos:**
+     - `FindAllBySensorId(int id)`: Busca todas las lecturas por ID de sensor.
+     - `Save(Reading reading)`: Guarda o actualiza una lectura en la base de datos.
+
+3. **NFCTagRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de tags NFC.
+   - **Métodos:**
+     - `FindById(int id)`: Busca un tag NFC por su ID.
+     - `Save(NFCTag nfcTag)`: Guarda o actualiza un tag NFC en la base de datos.
+
+4. **NFCDetectionEventRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de detecciones NFC.
+   - **Métodos:**
+     - `FindAllBySensorId(int id)`: Busca todas las detecciones por ID de sensor.
+     - `Save(NFCDetectionEvent nfcDetectionEvent)`: Guarda o actualiza una deteccion en la base de datos.
+
+### 5.7.2. Interface Layer
+
+#### Controllers
+
+1. **SensorsController:**
+   - **Descripción:** Expone endpoints para la gestión de sensores, incluyendo la creación, actualización y recuperación de lecturas.
+   - **Métodos:**
+     - `RegisterSensor(Sensor sensor)`: Endpoint para registrar un nuevo sensor.
+     - `RegisterReading(Reading reading)`: Endpoint para registrar una lectura de sensor.
+     - `UpdateSensorStatus(int id, String status)`: Endpoint para actualizar el estado de un dispositivo.
+     - `GetAllSensorsByLocalId(int id)`: Endpoint para obtener todos los sensores dado un ID de local.
+     - `GetSensorById(int id)`: Endpoint para obtener los detalles de un sensor por su ID.
+     - `GetAllReadingsBySensorId(int id)`: Endpoint para obtener todos las lecturas dado un ID de sensor.
+
+2. **NFCTagsController:**
+   - **Descripción:** Expone endpoints para la gestión de sensores, incluyendo la creación, actualización y recuperación de dispositivos.
+   - **Métodos:**
+     - `RegisterNFCTag(NFCTag nfcTag)`: Endpoint para registrar un nuevo tag NFC.
+     - `RegisterNFCDetectionEvent(NFCDetectionEvent nfcDetectionEvent)`: Endpoint para registrar una detección de evento NFC.
+     - `UpdateNFCTagStatus(int id, String status)`: Endpoint para actualizar el estado de un tag NFC.
+     - `GetNFCTagById(int id)`: Endpoint para obtener los detalles de un tag NFC por su ID.
+     - `GetAllNFCDetectionEventsBySensorId(int id)`: Endpoint para obtener todas las detecciones de eventos NFC dado un ID de sensor.
+
+### 5.7.3. Application Layer
+
+#### Command Services
+
+1. **SensorCommandService:**
+   - **Descripción:** Maneja comandos para crear y actualizar sensores con sus lecturas.
+   - **Métodos:**
+     - `Handle(CreateSensorCommand command)`: Valida y aplica el comando para crear un sensor.
+     - `Handle(CreateReadingCommand command)`: Valida y aplica el comando para crear una lectura.
+     - `Handle(UpdateSensorCommand command)`: Valida y aplica el comando para actualizar el estado de un sensor.
+
+2. **NFCTagCommandService:**
+   - **Descripción:** Maneja comandos para crear y actualizar tags NFC con sus detecciones de eventos.
+   - **Métodos:**
+     - `Handle(CreateNFCTagCommand command)`: Valida y aplica el comando para crear un tag NFC.
+     - `Handle(CreateNFCDetectionEventCommand command)`: Valida y aplica el comando para crear una deteccion de evento NFC.
+     - `Handle(UpdateNFCTagCommand command)`: Valida y aplica el comando para actualizar el estado de un tag NFC.
+
+
+#### Query Services
+
+1. **SensorQueryService:**
+   - **Descripción:** Ofrece consultas para obtener información sobre los sensores y sus lecturas.
+   - **Métodos:**
+     - `Handle(GetAllSensorsByLocalIdQuery query)`: Valida y aplica el query para obtener todos los sensores dado un ID de local.
+     - `Handle(GetSensorByIdQuery query)`: Valida y aplica el query para obtener la información de un sensor dado su ID.
+     - `Handle(GetReadingsBySensorIdQuery query)`: Valida y aplica el query para obtener las lecturas dado un ID de sensor.
+
+2. **NFCTagQueryService:**
+   - **Descripción:** Ofrece consultas para obtener información sobre los tag NFC y sus detecciones de eventos.
+   - **Métodos:**
+     - `Handle(GetNFCTagByIdQuery query)`: Valida y aplica el query para obtener la información de un tag NFC.
+     - `Handle(GetAllTagDetectionEventsBySensorIdQuery query)`: Valida y aplica el query para obtener todas las detecciones de eventos dado un ID de sensor.
+
+### 5.7.4. Infrastructure Layer
+
+#### Repositories (Implementaciones)
+
+1. **SensorRepository:**
+   - **Descripción:** Implementación para interactuar con la base de datos de sensores.
+   - **Métodos:**
+     - `FindAllByLocalId(int id)`: Busca todos los sensores por ID de local.
+     - `FindById(int id)`: Busca un sensor por su ID.
+     - `Save(Sensor sensor)`: Guarda o actualiza un sensor en la base de datos.
+
+2. **ReadingRepository:**
+   - **Descripción:** Implementación para interactuar con la base de datos de lecturas de sensores.
+   - **Métodos:**
+     - `FindAllBySensorId(int id)`: Busca todas las lecturas por ID de sensor.
+     - `Save(Reading reading)`: Guarda o actualiza una lectura en la base de datos.
+
+3. **NFCTagRepository:**
+   - **Descripción:** Implementación para interactuar con la base de datos de tags NFC.
+   - **Métodos:**
+     - `FindById(int id)`: Busca un tag NFC por su ID.
+     - `Save(Sensor sensor)`: Guarda o actualiza un tag NFC en la base de datos.
+
+4. **NFCDetectionEventRepository:**
+   - **Descripción:** Implementación para interactuar con la base de datos de detecciones NFC.
+   - **Métodos:**
+     - `FindAllBySensorId(int id)`: Busca todas las detecciones por ID de sensor.
+     - `Save(NFCDetectionEvent nfcDetectionEvent)`: Guarda o actualiza una deteccion en la base de datos.
+
+
+### 5.7.6. Bounded Context Software Architecture Component Level Diagrams
+
+![Diagrama Stucturizr([URL]())](images/cap-5/c4-component-diagrams/management-context.jpg)
+
+### 5.7.7. Bounded Context Software Architecture Code Level Diagrams
+
+#### 5.7.7.1. Bounded Context Domain Layer Class Diagrams
+
+![Diagrama LucidChart([URL]())](images/cap-5/class-diagrams/management-context.png)
+
+#### 5.7.7.2. Bounded Context Database Design Diagram
+
+![Diagrama Vertabelo([URL]())](images/cap-5/database-diagram/management-context.png)
+
+
 # Capítulo VI: Solution UX Design
 
 ## 6.1. Style Guidelines
