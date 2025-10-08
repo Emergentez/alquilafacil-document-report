@@ -64,6 +64,23 @@
         </ul>
         </td>
     </tr>
+    <tr>
+    <td>2da </td>
+        <td>07/10/2025 </td>
+        <td>
+          - Ames Oviedo, Mariano José<br>
+          - Cachis Gonzales, Sebastian Nicolas<br>
+          - Lecca Choccare, Christopher Bryan<br>
+          - Llamo Sánchez,Amner Levi<br>
+          - Morales Montalvo, Omar Andrew<br>
+        </td>
+        <td>
+        <ul>
+        <li>Capítulo V</li>
+        <li>Capítulo VI</li>
+        </ul>
+        </td>
+    </tr>
     </tbody>
 </table>
 
@@ -216,15 +233,82 @@ del ABET – EAC - Student Outcome 3.
 
 - [Capítulo V: Tactical-Level Software Design](#capítulo-v-tactical-level-software-design)
 
-  - [5.X. Bounded Context:](#5x-bounded-context)
-    - [5.X.1. Domain Layer](#5x1-domain-layer)
-    - [5.X.2. Interface Layer](#5x2-interface-layer)
-    - [5.X.3. Application Layer](#5x3-application-layer)
-    - [5.X.4. Infrastructure Layer](#5x4-infrastructure-layer)
-    - [5.X.6. Bounded Context Software Architecture Component Level Diagrams](#5x6-bounded-context-software-architecture-component-level-diagrams)
-    - [5.X.7. Bounded Context Software Architecture Code Level Diagrams](#5x7-bounded-context-software-architecture-code-level-diagrams)
-      - [5.X.7.1. Bounded Context Domain Layer Class Diagrams](#5x71-bounded-context-domain-layer-class-diagrams)
-      - [5.X.7.2. Bounded Context Database Design Diagram](#5x72-bounded-context-database-design-diagram)
+  - [Capítulo V: Tactical-Level Software Design](#capítulo-v-tactical-level-software-design)
+
+  - [5.1. Bounded Context:](#51-bounded-context-iam-context)
+    - [5.1.1. Domain Layer](#511-domain-layer)
+    - [5.1.2. Interface Layer](#512-interface-layer)
+    - [5.1.3. Application Layer](#513-application-layer)
+    - [5.1.4. Infrastructure Layer](#514-infrastructure-layer)
+    - [5.1.6. Bounded Context Software Architecture Component Level Diagrams](#516-bounded-context-software-architecture-component-level-diagrams)
+    - [5.1.7. Bounded Context Software Architecture Code Level Diagrams](#517-bounded-context-software-architecture-code-level-diagrams)
+      - [5.1.7.1. Bounded Context Domain Layer Class Diagrams](#5171-bounded-context-domain-layer-class-diagrams)
+      - [5.1.7.2. Bounded Context Database Design Diagram](#5172-bounded-context-database-design-diagram)
+
+
+- [5.2. Bounded Context: Profile Context](#52-bounded-context-profile-context)
+  - [5.2.1. Domain Layer](#521-domain-layer)
+  - [5.2.2. Interface Layer](#522-interface-layer)
+  - [5.2.3. Application Layer](#523-application-layer)
+  - [5.2.4. Infrastructure Layer](#524-infrastructure-layer)
+  - [5.2.6. Bounded Context Software Architecture Component Level Diagrams](#526-bounded-context-software-architecture-component-level-diagrams)
+  - [5.2.7. Bounded Context Software Architecture Code Level Diagrams](#527-bounded-context-software-architecture-code-level-diagrams)
+    - [5.2.7.1. Bounded Context Domain Layer Class Diagrams](#5271-bounded-context-domain-layer-class-diagrams)
+    - [5.2.7.2. Bounded Context Database Design Diagram](#5272-bounded-context-database-design-diagram)
+
+
+- [5.3. Bounded Context: Locals Context](#53-bounded-context-locals-context)
+  - [5.3.1. Domain Layer](#531-domain-layer)
+  - [5.3.2. Interface Layer](#532-interface-layer)
+  - [5.3.3. Application Layer](#533-application-layer)
+  - [5.3.4. Infrastructure Layer](#534-infrastructure-layer)
+  - [5.3.6. Bounded Context Software Architecture Component Level Diagrams](#536-bounded-context-software-architecture-component-level-diagrams)
+  - [5.3.7. Bounded Context Software Architecture Code Level Diagrams](#537-bounded-context-software-architecture-code-level-diagrams)
+    - [5.3.7.1. Bounded Context Domain Layer Class Diagrams](#5371-bounded-context-domain-layer-class-diagrams)
+    - [5.3.7.2. Bounded Context Database Design Diagram](#5372-bounded-context-database-design-diagram)
+
+
+- [5.4. Bounded Context: Booking Context](#54-bounded-context-booking-context)
+  - [5.4.1. Domain Layer](#541-domain-layer)
+  - [5.4.2. Interface Layer](#542-interface-layer)
+  - [5.4.3. Application Layer](#543-application-layer)
+  - [5.4.4. Infrastructure Layer](#544-infrastructure-layer)
+  - [5.4.6. Bounded Context Software Architecture Component Level Diagrams](#546-bounded-context-software-architecture-component-level-diagrams)
+  - [5.4.7. Bounded Context Software Architecture Code Level Diagrams](#547-bounded-context-software-architecture-code-level-diagrams)
+    - [5.4.7.1. Bounded Context Domain Layer Class Diagrams](#5471-bounded-context-domain-layer-class-diagrams)
+    - [5.4.7.2. Bounded Context Database Design Diagram](#5472-bounded-context-database-design-diagram)
+
+
+- [5.5. Bounded Context: Notifications Context](#55-bounded-context-notifications-context)
+  - [5.5.1. Domain Layer](#551-domain-layer)
+  - [5.5.2. Interface Layer](#552-interface-layer)
+  - [5.5.3. Application Layer](#553-application-layer)
+  - [5.5.4. Infrastructure Layer](#554-infrastructure-layer)
+  - [5.5.6. Bounded Context Software Architecture Component Level Diagrams](#556-bounded-context-software-architecture-component-level-diagrams)
+  - [5.5.7. Bounded Context Software Architecture Code Level Diagrams](#557-bounded-context-software-architecture-code-level-diagrams)
+    - [5.5.7.1. Bounded Context Domain Layer Class Diagrams](#5571-bounded-context-domain-layer-class-diagrams)
+    - [5.5.7.2. Bounded Context Database Design Diagram](#5572-bounded-context-database-design-diagram)
+
+- [5.6. Bounded Context: Subscription Context](#56-bounded-context-subscription-context)
+  - [5.6.1. Domain Layer](#561-domain-layer)
+  - [5.6.2. Interface Layer](#562-interface-layer)
+  - [5.6.3. Application Layer](#563-application-layer)
+  - [5.6.4. Infrastructure Layer](#564-infrastructure-layer)
+  - [5.6.6. Bounded Context Software Architecture Component Level Diagrams](#566-bounded-context-software-architecture-component-level-diagrams)
+  - [5.6.7. Bounded Context Software Architecture Code Level Diagrams](#567-bounded-context-software-architecture-code-level-diagrams)
+    - [5.6.7.1. Bounded Context Domain Layer Class Diagrams](#5671-bounded-context-domain-layer-class-diagrams)
+    - [5.6.7.2. Bounded Context Database Design Diagram](#5672-bounded-context-database-design-diagram)
+
+
+- [5.7. Bounded Context: Monitoring Context](#57-bounded-context-monitoring-context)
+  - [5.7.1. Domain Layer](#571-domain-layer)
+  - [5.7.2. Interface Layer](#572-interface-layer)
+  - [5.7.3. Application Layer](#573-application-layer)
+  - [5.7.4. Infrastructure Layer](#574-infrastructure-layer)
+  - [5.7.6. Bounded Context Software Architecture Component Level Diagrams](#576-bounded-context-software-architecture-component-level-diagrams)
+  - [5.7.7. Bounded Context Software Architecture Code Level Diagrams](#577-bounded-context-software-architecture-code-level-diagrams)
+    - [5.7.7.1. Bounded Context Domain Layer Class Diagrams](#5771-bounded-context-domain-layer-class-diagrams)
+    - [5.7.7.2. Bounded Context Database Design Diagram](#5772-bounded-context-database-design-diagram)
 
 - [Capítulo VI: Solution UX Design](#capítulo-vi-solution-ux-design)
 
