@@ -1,4 +1,4 @@
- <center>Informe del Trabajo Final</center>
+<div align="center"><strong>Informe del Trabajo Final</strong></div>
 
 <p align="center">
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
@@ -10,13 +10,13 @@
     <br>INFORME
 </p>
 
-<center>
+<div align="center">
 
 #### Startup: **AlquilaEZ**
 
 #### Product: **AlquilaFácil**
 
-</center>
+</div>
 
 ## Team Members:
 
@@ -70,6 +70,17 @@
 ---
 
 # Project Report Collaboration Insights
+
+Repositorio del proyecto: [https://github.com/Emergentez/alquilafacil-document-report](https://github.com/Emergentez/alquilafacil-document-report)
+
+
+<strong>TB1:</strong>
+
+Para este entregable, se mantuvo un orden trabajando los capítulos por ramas:
+
+![Contributors](images/insights/tb1/network.PNG)
+
+![Contributors](images/insights/tb1/contributors.PNG)
 
 ---
 
@@ -4243,49 +4254,6 @@ Los userflows describen gráficamente el recorrido que sigue el usuario dentro d
 
 [Ver prototipo Web](https://www.figma.com/proto/xgTMj9suBtUHH4bUyKpfq9?page-id=76%3A3767&node-id=76-3767&p=f&t=wbbhV2RsUAl2DKQg-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2002%3A8410)
 
----
-
-# Capítulo VII: Product Implementation, Validation & Deployment
-
-## 7.1. Software Configuration Management
-
-### 7.1.1. Software Development Environment Configuration
-
-### 7.1.2. Source Code Management
-
-### 7.1.3. Source Code Style Guide & Conventions
-
-### 7.1.4. Software Deployment Configuration
-
-## 7.2. Solution Implementation
-
-### 7.2.X. Sprint n
-
-#### 7.2.X.1. Sprint Planning n
-
-#### 7.2.X.2. Sprint Backlog n
-
-#### 7.2.X.3. Development Evidence for Sprint Review
-
-#### 7.2.X.4. Testing Suite Evidence for Sprint Review
-
-#### 7.2.X.5. Execution Evidence for Sprint Review
-
-#### 7.2.X.6. Services Documentation Evidence for Sprint Review
-
-#### 7.2.X.7. Software Deployment Evidence for Sprint Review
-
-#### 7.2.X.8. Team Collaboration Insights during Sprint
-
-## 7.3. Validation Interviews
-
-### 7.3.1. Diseño de Entrevistas
-
-### 7.3.2. Registro de Entrevistas
-
-### 7.3.3. Evaluaciones según heurísticas
-
-## 7.4. Video About-the-Product
 
 ---
 
@@ -4334,6 +4302,13 @@ Los userflows describen gráficamente el recorrido que sigue el usuario dentro d
 ### Repositorio general
 - **Repositorio del proyecto (documentación completa):**  
   [GitHub – AlquilaFácil Report](https://github.com/Emergentez/alquilafacil-document-report)
+  
+- **Repositorio de Landing Page:**  
+  [GitHub – AlquilaFácil Landing Page](https://github.com/Emergentez/alquilafacil-landing-page)
+  
+### Despliegues
+- **Landing Page:**  
+  [AlquilaFácil Landing Page](https://emergentez.github.io/alquilafacil-landing-page/)
 
 ### Lean UX
 - **Lean UX Canvas:**  
@@ -4365,4 +4340,5 @@ Los userflows describen gráficamente el recorrido que sigue el usuario dentro d
 
 | Contenido | URL del Vídeo |
 |--------------|--------------|
-| Vídeo de Exposición TB1      | Link del Vídeo: <https://>|  
+| Vídeo de Exposición TB1      | Link del Vídeo: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211399_upc_edu_pe/ESgo7U5_auJIkjKMfm2eQHoBw1pkgzwlQ5RJI3YjKjch2w?e=t357hm>|  
+
