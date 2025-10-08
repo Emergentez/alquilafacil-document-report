@@ -2749,6 +2749,23 @@ AlquilaFácil implementa un sistema de navegación jerárquica en el que los usu
 
 ### 6.4.4. Applications User Flow Diagrams
 
+<div align="justify">
+Los userflows describen gráficamente el recorrido que sigue el usuario dentro de la aplicación para cumplir un objetivo específico. Representan las decisiones, acciones y pantallas involucradas en cada paso del proceso, ayudando a identificar puntos críticos de la experiencia y optimizar la usabilidad. Estos diagramas permiten entender de manera clara cómo el usuario se desplaza por el sistema desde el inicio hasta la finalización de una tarea.
+</div>
+
+**Web**
+
+![Artefacto creado en Overflow](images/cap-6/Web%20Page%20UXUI/Web_Userflow_1.png) 
+
+![Artefacto creado en Overflow](images/cap-6/Web%20Page%20UXUI/Web_Userflow_2.png)
+**Mobile**
+
+![Artefacto creado en Overflow](images/cap-6/Mobile%20Application%20UXUI/Mobile_Userflow_1.png) 
+
+![Artefacto creado en Overflow](images/cap-6/Mobile%20Application%20UXUI/Mobile_Userflow_2.png) 
+
+![Artefacto creado en Overflow](images/cap-6/Mobile%20Application%20UXUI/Mobile_Userflow_3.png) 
+
 ## 6.5. Applications Prototyping
 
 ---
