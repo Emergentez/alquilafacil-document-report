@@ -3766,38 +3766,471 @@ Implementación del repositorio para interactuar con la base de datos de reserva
 # Capítulo VI: Solution UX Design
 
 ## 6.1. Style Guidelines
+<div align="justify">
+    Un Style Guideline es un conjunto de reglas y normas que definen cómo se debe redactar, diseñar o presentar documentos, contenido web, software u otros trabajos creativos. A continuación, se detallan las especificaciones de los parámetros implementados en la estructura del proyecto.
+</div>
 
 ### 6.1.1. General Style Guidelines
 
+**Overview:**
+<div align="justify">
+    Deseamos capturar la atención del usuario desde el inicio mediante la creación y el diseño de una perspectiva del producto que establezca una conexión inmediata y reconocible.
+</div>
+<br>
+
+**Brand Overview:**
+<div align="justify">
+     AlquilaFácil es un startup tecnológico fundada en el 2024 por un grupo de estudiantes compuesta por un grupo de estudiantes de la carrera de Ingeniería de Software. Nuestro startup está dedicada a simplificar el proceso de alquiler de espacios para eventos, brindando una plataforma innovadora y accesible para propietarios y organizadores por igual.
+</div>
+<br>
+
+**Brand Name:**
+<div align="justify">
+     Como el startup se trata de alquilar centros para eventos y también para publicitar centros que podrían ser alquilados, se vio conveniente llamarlo “AlquilaFácil”.
+</div>
+<br>
+
+![Artefacto creado en Canva](images/cap-6/Guidelines/Background-AlquilaFacil.png) 
+
+**Typography:**
+<div align="justify">
+     El tamaño elegido para la tipografía por el equipo fue: 
+</div>
+<br>
+
+![Artefacto creado en Canva](images/cap-6/Guidelines/Typography.png) 
+
+<br>
+
+**Colors:**
+<div align="justify">
+     La gama de colores elegidos son:
+</div>
+<br>
+
+![Artefacto creado en Canva](images/cap-6/Guidelines/Colors.png) 
+
+
 ### 6.1.2. Web, Mobile & Devices Style Guidelines
+
+<div align="justify">
+    Teniendo en cuenta que tanto para la Web App se han utilizado los mismo estilos base ya predeterminados, como lo son: La tipografía, los colores y el brand del producto AlquilaFacil, hay ciertos aspectos que se diferencian dentro de la versión Mobile y Web. Por ejemplo:
+</div>
+
+<br>
+
+**Toolbar:**
+<div align="justify">
+     Una de las principales notoriedades es la Toolbar, al tratarse de una plataforma Web a diferencia de la contraparte Mobile, se tiene la posibilidad de ser mucho más amplia y tener el contenido más disperso.
+</div>
+<br>
+
+![Artefacto creado en Canva](images/cap-6/Web%20Styles/WebNavbar.png) 
+
+**Inputs/Buttons:**
+<div align="justify">
+     Al tener mucho más espacio en la pantalla, los inputs y botones de la Web App son mucho más grandes y con mayor espaciado.
+</div>
+<br>
+
+![Artefacto creado en Canva](images/cap-6/Web%20Styles/WebInputs.png) 
+
+
+**Espaciado**
+<div align="justify">
+     Siguiendo lo mencionado antes, teniendo en cuenta que el tamaño de la pantalla de una Web App es mucho más amplio, se puede tener un espacio mejor entre los componentes y elementos para una visibilidad más intuitiva.
+</div>
+<br>
+
+![Artefacto creado en Canva](images/cap-6/Web%20Styles/WebSpacing.png) 
+
+## Mobile Guidelines
+
+
+<div align="justify">
+Entre las plataformas de AlquilaFacil Mobile, existe una característica que comparten ambas plataformas del App Moblile, el cuál es la NavBar del aplicativo.
+</div>
+
+<br>
+
+
+**Navbar:**
+<div align="justify">
+    En comparación con la versión de escritorio, la barra de nevagación es mucho más reducida y sintetizada a íconos alusivos a las funcionalidades principales de AlquilaFacil
+</div>
+<br>
+
+![Artefacto creado en Canva](images/cap-6/Mobile%20Styles/MobileBar.png) 
+
+
+**Buttons:**
+<div align="justify">
+    Ambas versiones tanto como para Android e iOS comparten similitudes en todos los aspectos, sin embargo hay ciertos botonos por ejemplo que en la versión de iOS son enfocados más en colores Blancos o Negros, como por ejemplo:
+</div>
+<br>
+
+![Artefacto creado en Canva](images/cap-6/Mobile%20Styles/AndroidBackButton.png) 
+
+## IoT Guidelines
+En esta parte sedescribe los lineamientos técnicos para la implementación de sensores de movimiento, humo y ruido en un entorno simulado utilizando Wokwi. El objetivo es establecer una base sólida para el desarrollo, simulación y posterior migración a dispositivos físicos reales, asegurando buenas prácticas en diseño, seguridad y escalabilidad.
+
+---
+
+**Sensores Utilizados**
+
+| Tipo de Sensor        | Modelo Sugerido    | Tipo de Señal | Función                           |
+|------------------------|---------------------|----------------|------------------------------------|
+| Movimiento             | PIR HC-SR501         | Digital        | Detecta presencia o movimiento     |
+| Humo/Gases             | MQ-2                 | Analógica      | Mide concentración de gases        |
+| Ruido/Ambiente Sonoro  | Micrófono analógico  | Analógica      | Detecta intensidad del sonido      |
+
+---
+
+**Librerías y Dependencias**
+
+| Sensor      | Librería Recomendada      | Propósito                                   |
+|-------------|---------------------------|---------------------------------------------|
+| MQ-2        | `MQUnifiedsensor`         | Calibración, regresión y lectura de ppm     |
+| PIR         | No requiere               | Lectura digital directa                     |
+| Micrófono   | No requiere               | Lectura analógica directa                   |
+
+> En Wokwi, las simulaciones suelen funcionar sin necesidad de instalar librerías, pero se recomienda su uso para mantener fidelidad con hardware real.
+
+---
+
+**Lineamientos Técnicos (IoT Guidelines)**
+
+**Diseño Modular**
+- Separar la lógica de cada sensor en funciones o bloques independientes.
+- Facilitar el mantenimiento y futuras expansiones del sistema.
+
+**Buenas Prácticas**
+- Evitar el uso de funciones bloqueantes (`delay()`), emplear temporizadores no bloqueantes (`millis()`).
+- Definir umbrales personalizables para cada tipo de sensor.
+- Utilizar estructuras de datos para representar lecturas de sensores de forma estandarizada (ej. JSON).
+
+**Comunicación de Datos**
+- Para simulación: enviar datos por consola serial en formato estructurado (ej. JSON).
+- Para implementación real: considerar protocolos como MQTT o HTTP para transmisión a la nube.
+- Preparar el sistema para emitir alertas basadas en condiciones específicas (ej. detección de gas o ruido elevado).
+
+**Seguridad Básica (aplicable a entorno físico)**
+- Uso de identificadores únicos por dispositivo.
+- Encriptación de datos en tránsito (cuando se conecten a la red).
+- Control de acceso a interfaces y configuraciones.
+
+---
+
+**Configuración en Wokwi**
+
+| Sensor     | Pin sugerido | Tipo de Lectura     |
+|------------|---------------|----------------------|
+| PIR        | D2            | Digital (`HIGH`/`LOW`) |
+| MQ-2       | A0            | Analógica (ppm)       |
+| Micrófono  | A1            | Analógica (nivel)     |
+
+> Se recomienda utilizar resistencias de pull-down o pull-up según el comportamiento observado en la simulación para evitar fluctuaciones no deseadas.
+
+---
 
 ## 6.2. Information Architecture
 
+<div align="justify">
+    En esta sección, se va a presentar la estructura del software según cada segmento objetivo. Además, los elementos que emplearan para la navegación de esta. 
+</div>
+
 ### 6.2.2. Labeling Systems
+
+<div align="justify">
+    El sistema de etiquetado o Labelling System de AlquilaFácil está diseñado para proporcionar claridad y coherencia en la presentación de información, facilitando la comprensión rápida y eficiente de los contenidos por parte del usuario. Este sistema emplea etiquetas visuales y textuales en diferentes áreas clave de la aplicación: 
+</div>
+
+<br>
+
+<div align="justify">
+
+* ***Etiquetas de búsqueda y filtro:***
+En la parte superior de la interfaz, los campos de búsqueda y filtro están claramente etiquetados con íconos universales, como una lupa para la búsqueda y un embudo para los filtros. Estos íconos, junto con textos descriptivos, permiten que los usuarios identifiquen rápidamente las funciones y realicen acciones sin confusión. 
+
+* ***Etiquetas en tarjetas de espacios:***
+Cada tarjeta de espacio cuenta con etiquetas descriptivas que destacan la ubicación y el precio, las cuales están claramente diferenciadas en la interfaz. Estas etiquetas ayudan a los usuarios a identificar los detalles más relevantes de un espacio sin necesidad de interactuar más allá del listado inicial. 
+
+
+* ***Iconos como Etiquetas Visuales:***
+La aplicación utiliza iconos ampliamente reconocidos, como la estrella para "puntuaciones" y el botón de "más" para añadir nuevos espacios, que actúan como etiquetas visuales. Estos iconos, en combinación con sus posiciones estratégicas, ofrecen una experiencia intuitiva, reduciendo la necesidad de explicaciones textuales adicionales. 
+
+* ***Categorías de espacios:***
+Los espacios se pueden clasificar por diferentes tipos o características, lo que permite el uso de etiquetas de categoría. Estas etiquetas aparecen en los resultados de búsqueda para que los usuarios identifiquen rápidamente el tipo de espacio que están viendo (por ejemplo, oficinas, espacios de coworking, etc.). 
+</div>
+
+<br>
 
 ### 6.2.3. Searching Systems
 
+<div align="justify">
+    El motor de búsqueda es fundamental para que los usuarios encuentren rápidamente detalles específicos 
+</div>
+
+<br>
+
+<div align="justify">
+Características claves: 
+
+* ***Búsqueda por ubicación:***
+Los usuarios podrán buscar centros para eventos cercanos a su ubicación actual o especificar una ubicación deseada.
+
+* ***Búsqueda por características:***
+Los usuarios podrán buscar características específicas, como piscina, parrilla, pet friendly, vigilancia.
+
+* ***Filtros avanzados:***
+Se proporcionarán filtros para refinar la búsqueda, como calificaciones, precios y disponibilidad.
+
+* ***Resultados relevantes:***
+ El sistema de búsqueda mostrará resultados relevantes y ordenados de acuerdo con la ubicación y otros criterios.
+
+</div>
+
+<br>
+
 ### 6.2.4. SEO Tags and Meta Tags
 
+<div align="justify">
+        Las meta-etiquetas nos permiten codificar y especificar metadatos en una página web. Aunque no son visibles para los usuarios, los navegadores y rastreadores web las leen. Estas etiquetas facilitan el análisis de archivos HTML y ayudan en el mantenimiento del contenido. Además, influyen en el posicionamiento de nuestra página en los motores de búsqueda. 
+</div>
+
+<br>
+
+<div align="justify">
+    
+* ***Título:***
+Las meta etiquetas nos permiten codificar y especificar metadatos en una página web. Aunque no son visibles para los usuarios, los navegadores y rastreadores web las leen. Estas etiquetas facilitan el análisis de archivos HTML y ayudan en el mantenimiento del contenido. Además, influyen en el posicionamiento de nuestra página en los motores de búsqueda.
+
+:::
+```
+<title>Register your processes with AlquilaFacil</title>
+```
+:::
+
+
+* ***Codificación de caracteres:***
+Se decidió usar el utf-8 por la eficiencia de memoria. Es más eficiente en términos de memoria para caracteres del BMP (Plano Multilingüe Básico, que incluye la mayoría de los caracteres comunes).
+
+:::
+```
+<meta charset="utf-8">
+```
+:::
+
+* ***Descripción:***
+Esta etiqueta meta nos permite ofrecer un resumen del contenido de la página web. En ella, proporcionamos una breve descripción de lo que los usuarios pueden esperar visualizar en la página.
+
+:::
+```
+<meta name="description" content="AlquilaFacil is a web application focused on plublish and rent centers for events"/>
+```
+:::
+
+* ***Palabras clave:***
+En esta etiqueta se pone las palabras claves relacionadas con el tema o contenido de la página web.
+:::
+```
+<meta name="keywords" content="publish, rent, management, application, announcements, centers"/> 
+```
+:::
+
+* ***Autor y derechos de autor:***
+Se utiliza para registrar la información del autor de la página web y la propiedad y derechos de autor.
+:::
+```
+<meta name="author" content="AlquilaFacil"/> 
+
+<meta name="copyright" content="Copyright AlquilaFacil team" />
+```
+:::
+
+</div>
+
+<br>
+
 ### 6.2.5. Navigation Systems
+
+<div align="justify">
+El Navigation System de AlquilaFácil está diseñado para proporcionar una experiencia de usuario fluida, intuitiva y eficiente, permitiendo a los usuarios moverse por la aplicación de manera rápida y sin complicaciones. Este sistema incluye varios elementos clave que optimizan el acceso a las distintas funciones y secciones de la aplicación: 
+</div>
+
+<br>
+
+<div align="justify">
+    
+* ***Barra de Navegación Inferior:***
+La aplicación cuenta con una barra de navegación fija en la parte inferior de la pantalla que agrupa las principales funcionalidades. Los iconos incluidos, como la lupa (búsqueda), la campana (notificaciones), el botón de "+" (añadir nuevo espacio), el calendario (gestión de eventos o reservas) y el perfil (opciones del usuario), permiten un acceso directo a cada sección, facilitando la navegación entre las funciones esenciales sin necesidad de menús desplegables o múltiples clics. 
+
+* ***Navegación Jerárquica:***
+AlquilaFácil implementa un sistema de navegación jerárquica en el que los usuarios pueden profundizar en los detalles de un espacio o acción, pero siempre tienen la opción de volver a la pantalla anterior de manera sencilla. Este enfoque evita que los usuarios se pierdan en la aplicación, manteniendo siempre claro en qué nivel de la jerarquía se encuentran. 
+    
+</div>
+
+<br>
 
 ## 6.3. Landing Page UI Design
 
 ### 6.3.1. Landing Page Wireframe
 
+<div align="justify">
+    A continuación, se presentan los wireframes de la Landing Page de AlquilaFácil, los cuales muestran la estructura y disposición de los elementos principales de la página sin incluir detalles visuales finales. Estos wireframes sirven como guía inicial para el diseño y desarrollo de la interfaz.
+</div>
+<br>
+
+![Artefacto creado en Figma](images/cap-6/landing/LandingWirefram-1.png) 
+
+![Artefacto creado en Figma](images/cap-6/landing/LandingWirefram-2.png) 
+
+![Artefacto creado en Figma](images/cap-6/landing/LandingWirefram-3.png) 
+
+**Enlace:** <https://www.figma.com/design/Sk1zmVhp0zEdPv97Vlxvwm/Landing-Page?node-id=4-202&t=0W0h3rzLTOTQUsPF-1>
+
 ### 6.3.2. Landing Page Mock-up
+
+<div align="justify">
+    Los mock-ups de la Landing Page presentan el diseño visual completo con colores, tipografía, imágenes y todos los elementos gráficos finales. Estos prototipos de alta fidelidad permiten visualizar exactamente cómo se verá la página cuando esté implementada.
+</div>
+<br>
+
+![Artefacto creado en Figma](images/cap-6/landing/LandingMockup-1.png) 
+
+![Artefacto creado en Figma](images/cap-6/landing/LandingMockup-2.png) 
+
+![Artefacto creado en Figma](images/cap-6/landing/LandingMockup-3.png) 
+
+**Enlace:** <https://www.figma.com/design/Sk1zmVhp0zEdPv97Vlxvwm/Landing-Page?node-id=4-422&p=f&t=kZ23Arq5BMQvyN7O-0>
+
 
 ## 6.4. Applications UX/UI Design
 
-### 6.4.1. Applications Wireframes
+### 6.4.1. Applications Wireframes.
+
+<div align="justify">
+    Los wireframes de la aplicación web muestran la estructura y organización de las diferentes pantallas y funcionalidades del sistema. Estos diseños de baja fidelidad permiten visualizar la arquitectura de la información y el flujo de navegación antes de aplicar el diseño visual final.
+</div>
+<br>
+
+![Artefacto creado en Figma](images/cap-6/Web%20Page%20UXUI/WebWireframe-1.png) 
+
+![Artefacto creado en Figma](images/cap-6/Web%20Page%20UXUI/WebWireframe-2.png) 
+
+![Artefacto creado en Figma](images/cap-6/Web%20Page%20UXUI/WebWireframe-3.png) 
+
+![Artefacto creado en Figma](images/cap-6/Web%20Page%20UXUI/WebWireframe-4.png) 
+
+**Enlace WebPage:** <https://www.figma.com/design/8e7OrbLVZLRQHAgSK4pDYD/Web-App?node-id=1-207&t=hZfD2aBdxlDEywVP-1>
+
+<div align="justify">
+    Los wireframes de la aplicación móvil presentan el diseño estructural adaptado a dispositivos móviles, considerando las particularidades de la interfaz táctil y las limitaciones de espacio en pantalla. Estos esquemas permiten planificar la experiencia de usuario en dispositivos iOS y Android.
+</div>
+<br>
+
+![Artefacto creado en Figma](images/cap-6/Mobile%20Application%20UXUI/Wireframe-1.png) 
+
+![Artefacto creado en Figma](images/cap-6/Mobile%20Application%20UXUI/Wireframe-2.png) 
+
+![Artefacto creado en Figma](images/cap-6/Mobile%20Application%20UXUI/Wireframe-3.png) 
+
+**Enlace Mobile:** <https://www.figma.com/design/ZgcH4GPA3oBLZf4SvVs52Z/Mobile-App?node-id=1-207&t=hZfD2aBdxlDEywVP-1>
 
 ### 6.4.2. Applications Wireflow Diagrams
 
+<div align="justify">
+  Los wireflows combinan los wireframes con los flujos de navegación para representar cómo el usuario interactúa con la aplicación paso a paso. Permiten visualizar las pantallas en secuencia junto con las conexiones entre ellas, mostrando las posibles rutas y decisiones que puede tomar el usuario. De esta forma, facilitan la comprensión del comportamiento del sistema y la lógica detrás de cada interacción.
+</div>
+
+**Web**
+
+![Artefacto creado en Overflow](images/cap-6/Web%20Page%20UXUI/Web_Wireflow_1.png) 
+
+![Artefacto creado en Overflow](images/cap-6/Web%20Page%20UXUI/Web_Wireflow_2.png)
+**Mobile**
+
+![Artefacto creado en Overflow](images/cap-6/Mobile%20Application%20UXUI/Mobile_Wireflow_1.png) 
+
+![Artefacto creado en Overflow](images/cap-6/Mobile%20Application%20UXUI/Mobile_Wireflow_2.png) 
+
+![Artefacto creado en Overflow](images/cap-6/Mobile%20Application%20UXUI/Mobile_Wireflow_3.png) 
+
+**Enlace de los wireflows:** <https://overflow.io/s/1IDNN3EF>
+
 ### 6.4.3. Applications Mock-ups
+
+<div align="justify">
+    Los mock-ups de la aplicación web presentan el diseño visual completo de las diferentes pantallas del sistema, incluyendo colores corporativos, tipografía, iconografía y todos los elementos gráficos de acuerdo a las guías de estilo establecidas. Estos prototipos de alta fidelidad representan fielmente la apariencia final de la aplicación.
+</div>
+<br>
+
+![Artefacto creado en Figma](images/cap-6/Web%20Page%20UXUI/WebMockup-1.png) 
+
+![Artefacto creado en Figma](images/cap-6/Web%20Page%20UXUI/WebMockup-2.png) 
+
+![Artefacto creado en Figma](images/cap-6/Web%20Page%20UXUI/WebMockup-3.png) 
+
+**Enlace WebPage:** <https://www.figma.com/design/8e7OrbLVZLRQHAgSK4pDYD/Web-App?node-id=1-206&t=hZfD2aBdxlDEywVP-1>
+
+<div align="justify">
+    Los mock-ups de la aplicación móvil muestran el diseño final optimizado para dispositivos móviles, incorporando todos los elementos visuales, patrones de interacción táctil y adaptaciones necesarias para ofrecer una experiencia de usuario óptima en smartphones y tablets, tanto para iOS como para Android.
+</div>
+<br>
+
+![Artefacto creado en Figma](images/cap-6/Mobile%20Application%20UXUI/Mockup-1.png) 
+
+![Artefacto creado en Figma](images/cap-6/Mobile%20Application%20UXUI/Mockup-2.png) 
+
+![Artefacto creado en Figma](images/cap-6/Mobile%20Application%20UXUI/Mockup-3.png) 
+
+**Enlace Mobile:** <https://www.figma.com/design/ZgcH4GPA3oBLZf4SvVs52Z/Mobile-App?node-id=1-206&t=hZfD2aBdxlDEywVP-1>
 
 ### 6.4.4. Applications User Flow Diagrams
 
+<div align="justify">
+Los userflows describen gráficamente el recorrido que sigue el usuario dentro de la aplicación para cumplir un objetivo específico. Representan las decisiones, acciones y pantallas involucradas en cada paso del proceso, ayudando a identificar puntos críticos de la experiencia y optimizar la usabilidad. Estos diagramas permiten entender de manera clara cómo el usuario se desplaza por el sistema desde el inicio hasta la finalización de una tarea.
+</div>
+
+**Web**
+
+![Artefacto creado en Overflow](images/cap-6/Web%20Page%20UXUI/Web_Userflow_1.png) 
+
+![Artefacto creado en Overflow](images/cap-6/Web%20Page%20UXUI/Web_Userflow_2.png)
+**Mobile**
+
+![Artefacto creado en Overflow](images/cap-6/Mobile%20Application%20UXUI/Mobile_Userflow_1.png) 
+
+![Artefacto creado en Overflow](images/cap-6/Mobile%20Application%20UXUI/Mobile_Userflow_2.png) 
+
+![Artefacto creado en Overflow](images/cap-6/Mobile%20Application%20UXUI/Mobile_Userflow_3.png) 
+
 ## 6.5. Applications Prototyping
+
+### Mobile Android
+
+
+![Prototype Android](images/cap-6/Prototypes/android.png) 
+
+<p> Prototipo interactivo diseñado para dispositivos Android, optimizado para la experiencia móvil con navegación táctil y diseño adaptado a las guías de Material Design. <p>
+
+[Ver prototipo Android](https://www.figma.com/proto/xgTMj9suBtUHH4bUyKpfq9/AlquilaFacil--IoT-?node-id=105-4793&p=f&t=KcyIhvbiCsSOhkGb-0&scaling=scale-down&content-scaling=fixed&page-id=72%3A3&starting-point-node-id=105%3A4793)
+
+### Mobile iOS
+
+![Prototype iOS](images/cap-6/Prototypes/iphone.png) 
+
+<p>Prototipo interactivo diseñado específicamente para dispositivos iOS, siguiendo las directrices de Human Interface Guidelines de Apple para una experiencia nativa en iPhone y iPad.<p>
+
+[Ver prototipo iOS](https://www.figma.com/proto/xgTMj9suBtUHH4bUyKpfq9?page-id=76%3A517&node-id=76-517&p=f&t=wbbhV2RsUAl2DKQg-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=76%3A1466)
+
+### WebPage
+
+![Prototype desktop](images/cap-6/Prototypes/desktop.png) 
+
+<p>Prototipo de la versión web de la plataforma, diseñado para navegadores de escritorio y tablets, con interfaz responsive y funcionalidades completas para la gestión de alquileres IoT.<p>
+
+[Ver prototipo Web](https://www.figma.com/proto/xgTMj9suBtUHH4bUyKpfq9?page-id=76%3A3767&node-id=76-3767&p=f&t=wbbhV2RsUAl2DKQg-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2002%3A8410)
 
 ---
 
