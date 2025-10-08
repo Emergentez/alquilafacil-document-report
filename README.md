@@ -86,9 +86,9 @@ Para este entregable, se mantuvo un orden trabajando los capítulos por ramas:
 
 Para este entregable, se continuó trabajando los capítulos por ramas, añadiendo el capítulo 5 y 6:
 
-![Contributors](images/insights/tb1/network.PNG)
+![Contributors](images/insights/tp1/network.PNG)
 
-![Contributors](images/insights/tb1/contributors.PNG)
+![Contributors](images/insights/tp1/contributors.PNG)
 
 ---
 
