@@ -94,42 +94,43 @@ del ABET – EAC - Student Outcome 3.
     <tr>
       <td>Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.</td>
       <td>
-      <strong>Ames Oviedo, Mariano José <br>(TB1):</strong> Expuso los avances de la fase de análisis de requerimientos, aclarando dudas del equipo y utilizando ejemplos prácticos para facilitar la comprensión de las funcionalidades.<br><br>
-      <strong>Cachis Gonzales, Sebastian Nicolas <br>(TB1):</strong> Presentó la propuesta de arquitectura del sistema, explicando de manera clara el flujo de datos y la interacción de módulos ante un público con distintos niveles de experiencia.<br><br>
-      <strong>Lecca Choccare, Christopher Bryan <br>(TB1):</strong> Lideró sesiones de Event Storming y Context Mapping, guiando al equipo en la identificación de bounded contexts y adaptando el lenguaje técnico según la audiencia.<br><br>
-      <strong>Llamo Sánchez, Amner Levi <br>(TB1):</strong> Explicó los diagramas UML al grupo, destacando las relaciones entre clases y casos de uso, simplificando conceptos técnicos para que todos pudieran entenderlos.<br><br>
-      <strong>Morales Montalvo, Omar Andrew<br>(TB1):</strong> Expuso la justificación del uso de metodologías ágiles, mostrando cómo Scrum permite adaptarse a cambios y ejemplificando con la organización de sprints.<br><br>
-      <strong>Ames Oviedo, Mariano José <br>(TP1):</strong> Presentó los Wireflows y User Flows del sistema, explicando el recorrido completo de los usuarios y cómo cada flujo responde a las necesidades identificadas, facilitando la comprensión del equipo.<br><br>
-      <strong>Cachis Gonzales, Sebastian Nicolas <br>(TP1):</strong> Expuso el trabajo realizado en Profiles (SC) y el agregado de enlaces de herramientas usadas (SC), explicando la estructura de perfiles de usuario y justificando las decisiones de diseño.<br><br>
-      <strong>Lecca Choccare, Christopher Bryan <br>(TP1):</strong> Presentó los desarrollos de Booking (CL), Subscriptions (CL), Monitoring (CL), Mockups (CL) y Wireframes (CL), articulando la funcionalidad de cada módulo y su integración en el sistema completo.<br><br>
-      <strong>Llamo Sánchez, Amner Levi <br>(TP1):</strong> Expuso el trabajo en Notifications (AS), Information Architecture (AS) y Landing Page UI Design (AS), explicando las decisiones de arquitectura de información y diseño de interfaz de manera clara.<br><br>
-      <strong>Morales Montalvo, Omar Andrew<br>(TP1):</strong> Presentó los avances en Locales (OM), Style Guidelines (OM) y Prototypes (OM), mostrando la coherencia visual del sistema y las guías de estilo establecidas para el proyecto.<br>
+      <strong>Ames Oviedo, Mariano José <br>(TB1):</strong> Expuse los avances de la fase de análisis de requerimientos, aclarando dudas del equipo y utilizando ejemplos prácticos para facilitar la comprensión de las funcionalidades.<br><br>
+      <strong>Cachis Gonzales, Sebastian Nicolas <br>(TB1):</strong> Presenté la propuesta de arquitectura del sistema, explicando de manera clara el flujo de datos y la interacción de módulos ante un público con distintos niveles de experiencia.<br><br>
+      <strong>Lecca Choccare, Christopher Bryan <br>(TB1):</strong> Lideré sesiones de Event Storming y Context Mapping, guiando al equipo en la identificación de bounded contexts y adaptando el lenguaje técnico según la audiencia.<br><br>
+      <strong>Llamo Sánchez, Amner Levi <br>(TB1):</strong> Expliqué los diagramas UML al grupo, destacando las relaciones entre clases y casos de uso, simplificando conceptos técnicos para que todos pudieran entenderlos.<br><br>
+      <strong>Morales Montalvo, Omar Andrew<br>(TB1):</strong> Expuse la justificación del uso de metodologías ágiles, mostrando cómo Scrum permite adaptarse a cambios y ejemplificando con la organización de sprints.<br><br>
+      <strong>Ames Oviedo, Mariano José <br>(TP1):</strong> Presenté los Wireflows y User Flows del sistema, explicando el recorrido completo de los usuarios y cómo cada flujo responde a las necesidades identificadas, facilitando la comprensión del equipo.<br><br>
+      <strong>Cachis Gonzales, Sebastian Nicolas <br>(TP1):</strong> Expuse el trabajo realizado en Profiles (SC) y el agregado de enlaces de herramientas usadas (SC), explicando la estructura de perfiles de usuario y justificando las decisiones de diseño.<br><br>
+      <strong>Lecca Choccare, Christopher Bryan <br>(TP1):</strong> Presenté los desarrollos de Booking (CL), Subscriptions (CL), Monitoring (CL), Mockups (CL) y Wireframes (CL), articulando la funcionalidad de cada módulo y su integración en el sistema completo.<br><br>
+      <strong>Llamo Sánchez, Amner Levi <br>(TP1):</strong> Expuse el trabajo en Notifications (AS), Information Architecture (AS) y Landing Page UI Design (AS), explicando las decisiones de arquitectura de información y diseño de interfaz de manera clara.<br><br>
+      <strong>Morales Montalvo, Omar Andrew<br>(TP1):</strong> Presenté los avances en Locales (OM), Style Guidelines (OM) y Prototypes (OM), mostrando la coherencia visual del sistema y las guías de estilo establecidas para el proyecto.<br>
       </td>
       <td>
-      Los integrantes del equipo demostraron capacidad de comunicación oral al exponer ideas y resultados con objetividad, adaptando el lenguaje a públicos con diferentes especialidades y niveles jerárquicos. En el TP1, se evidenció una mejora en la articulación de conceptos de diseño y arquitectura de información.
+      <strong>TB1:</strong> Los integrantes del equipo demostraron capacidad de comunicación oral al exponer ideas y resultados con objetividad, adaptando el lenguaje a públicos con diferentes especialidades y niveles jerárquicos.<br><br>
+      <strong>TP1:</strong> El equipo fortaleció sus habilidades para presentar elementos de diseño de interfaz y experiencia de usuario, logrando transmitir conceptos visuales y de interacción de manera clara y efectiva. Los integrantes mejoraron su capacidad de articular decisiones de diseño justificando cada elección desde una perspectiva técnica y de usabilidad, lo que facilitó la comprensión y alineación del equipo en la fase de prototipado.
       </td>
     </tr>
     <tr>
       <td>Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería</td>
       <td>
-      <strong>Ames Oviedo, Mariano José <br>(TB1):</strong> Redactó la documentación del análisis de requerimientos y los criterios de aceptación, asegurando claridad en el uso de términos técnicos y su comprensión general.<br><br>
-      <strong>Cachis Gonzales, Sebastian Nicolas <br>(TB1):</strong> Elaboró la sección del informe sobre diseño arquitectónico, integrando diagramas y resúmenes técnicos para hacer el contenido accesible a distintos públicos.<br><br>
-      <strong>Lecca Choccare, Christopher Bryan <br>(TB1):</strong> Participó en la redacción de las descripciones del modelo C4 y de las User Stories, estructurando el Product Backlog con un lenguaje claro y comprensible.<br><br>
-      <strong>Llamo Sánchez, Amner Levi <br>(TB1):</strong> Documentó los diagramas UML y su interpretación funcional, conectando lo visual con lo técnico y garantizando la coherencia del informe final.<br><br>
-      <strong>Morales Montalvo, Omar Andrew<br>(TB1):</strong> Redactó la sección metodológica del informe, justificando el uso de Scrum y explicando la organización de los sprints con un estilo formal y accesible.<br><br>
-      <strong>Ames Oviedo, Mariano José <br>(TP1):</strong> Documentó los Wireflows y User Flows con descripciones detalladas, explicando cada paso del recorrido del usuario y su relación con los requisitos funcionales del sistema.<br><br>
-      <strong>Cachis Gonzales, Sebastian Nicolas <br>(TP1):</strong> Redactó la documentación de Profiles (SC) y elaboró el enlace de herramientas usadas, estructurando la información de manera clara y accesible para diferentes audiencias.<br><br>
-      <strong>Lecca Choccare, Christopher Bryan <br>(TP1):</strong> Documentó los módulos de Booking, Subscriptions, Monitoring (CL), además de Mockups y Wireframes, integrando descripciones funcionales con elementos visuales de diseño.<br><br>
-      <strong>Llamo Sánchez, Amner Levi <br>(TP1):</strong> Elaboró la documentación de Notifications (AS), Information Architecture (AS) y Landing Page UI Design (AS), estructurando la arquitectura de información con claridad y coherencia.<br><br>
-      <strong>Morales Montalvo, Omar Andrew<br>(TP1):</strong> Redactó las secciones de Locales (OM), Style Guidelines (OM) y Prototypes (OM), estableciendo estándares visuales y de diseño con documentación clara y profesional.<br>
+      <strong>Ames Oviedo, Mariano José <br>(TB1):</strong> Redacté la documentación del análisis de requerimientos y los criterios de aceptación, asegurando claridad en el uso de términos técnicos y su comprensión general.<br><br>
+      <strong>Cachis Gonzales, Sebastian Nicolas <br>(TB1):</strong> Elaboré la sección del informe sobre diseño arquitectónico, integrando diagramas y resúmenes técnicos para hacer el contenido accesible a distintos públicos.<br><br>
+      <strong>Lecca Choccare, Christopher Bryan <br>(TB1):</strong> Participé en la redacción de las descripciones del modelo C4 y de las User Stories, estructurando el Product Backlog con un lenguaje claro y comprensible.<br><br>
+      <strong>Llamo Sánchez, Amner Levi <br>(TB1):</strong> Documenté los diagramas UML y su interpretación funcional, conectando lo visual con lo técnico y garantizando la coherencia del informe final.<br><br>
+      <strong>Morales Montalvo, Omar Andrew<br>(TB1):</strong> Redacté la sección metodológica del informe, justificando el uso de Scrum y explicando la organización de los sprints con un estilo formal y accesible.<br><br>
+      <strong>Ames Oviedo, Mariano José <br>(TP1):</strong> Documenté los Wireflows y User Flows con descripciones detalladas, explicando cada paso del recorrido del usuario y su relación con los requisitos funcionales del sistema.<br><br>
+      <strong>Cachis Gonzales, Sebastian Nicolas <br>(TP1):</strong> Redacté la documentación de Profiles (SC) y elaboré el enlace de herramientas usadas, estructurando la información de manera clara y accesible para diferentes audiencias.<br><br>
+      <strong>Lecca Choccare, Christopher Bryan <br>(TP1):</strong> Documenté los módulos de Booking, Subscriptions, Monitoring (CL), además de Mockups y Wireframes, integrando descripciones funcionales con elementos visuales de diseño.<br><br>
+      <strong>Llamo Sánchez, Amner Levi <br>(TP1):</strong> Elaboré la documentación de Notifications (AS), Information Architecture (AS) y Landing Page UI Design (AS), estructurando la arquitectura de información con claridad y coherencia.<br><br>
+      <strong>Morales Montalvo, Omar Andrew<br>(TP1):</strong> Redacté las secciones de Locales (OM), Style Guidelines (OM) y Prototypes (OM), estableciendo estándares visuales y de diseño con documentación clara y profesional.<br>
       </td>
       <td>
-      El equipo evidenció solidez en la comunicación escrita al elaborar documentación técnica clara y estructurada, comprensible para distintos públicos y útil para la gestión del proyecto. En el TP1, se consolidó la capacidad de documentar elementos de diseño, arquitectura de información y prototipos con un nivel profesional de detalle y claridad.
+      <strong>TB1:</strong> El equipo evidenció solidez en la comunicación escrita al elaborar documentación técnica clara y estructurada, comprensible para distintos públicos y útil para la gestión del proyecto.<br><br>
+      <strong>TP1:</strong> Los integrantes consolidaron su capacidad de documentar elementos de diseño, arquitectura de información y prototipos con un nivel profesional de detalle y claridad. El equipo desarrolló habilidades para integrar elementos visuales (mockups, wireframes) con descripciones textuales coherentes, creando documentación técnica que sirve tanto como referencia para desarrolladores como guía comprensible para stakeholders no técnicos. Esta competencia resultó fundamental para mantener la trazabilidad entre los requisitos iniciales y las soluciones de diseño propuestas.
       </td>
     </tr>
   </tbody>
 </table>
-
 ---
 
 # Contenido
