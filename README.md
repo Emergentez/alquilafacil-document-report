@@ -94,27 +94,37 @@ del ABET – EAC - Student Outcome 3.
     <tr>
       <td>Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.</td>
       <td>
-      <strong>Ames Oviedo, Mariano José <br>(TB1):</strong><br>
-      <strong>Cachis Gonzales, Sebastian Nicolas <br>(TB1): </strong>En esta entrega me enfoqué en el desarrollo del Análisis de entrevistas, el Architectural Drivers Backlog y las Architectural Design Decisions. A través de este trabajo logré comunicar oralmente mis ideas y resultados con objetividad, explicando a públicos de diferentes especialidades y niveles jerárquicos la importancia de cada decisión dentro del proyecto de ingeniería.<br>
-        <strong>Lecca Choccare, Christopher Bryan <br> (TB1):</strong> Durante el desarrollo del proyecto, lideré sesiones colaborativas de Event Storming y Context Mapping, guiando al equipo en la identificación y delimitación de los bounded contexts. Estas actividades se realizaron frente a un equipo compuesto por miembros con distintos niveles de experiencia y especialización, por lo que me aseguré de adaptar el lenguaje técnico y facilitar la comprensión de conceptos complejos.<br>
-        <strong>Llamo Sánchez, Amner Levi <br>(TB1):</strong>Conduje entrevistas al segmento objetivo, recopilando información clave para el análisis de necesidades. Participé en sesiones de Event Storming, exponiendo de manera clara las interacciones y eventos identificados en el dominio, asegurándome de que fueran entendidos tanto por perfiles técnicos como no técnicos.<br>
-      <strong>Morales Montalvo, Omar Andrew<br>(TB1):</strong><br>
+      <strong>Ames Oviedo, Mariano José <br>(TB1):</strong> Expuso los avances de la fase de análisis de requerimientos, aclarando dudas del equipo y utilizando ejemplos prácticos para facilitar la comprensión de las funcionalidades.<br><br>
+      <strong>Cachis Gonzales, Sebastian Nicolas <br>(TB1):</strong> Presentó la propuesta de arquitectura del sistema, explicando de manera clara el flujo de datos y la interacción de módulos ante un público con distintos niveles de experiencia.<br><br>
+      <strong>Lecca Choccare, Christopher Bryan <br>(TB1):</strong> Lideró sesiones de Event Storming y Context Mapping, guiando al equipo en la identificación de bounded contexts y adaptando el lenguaje técnico según la audiencia.<br><br>
+      <strong>Llamo Sánchez, Amner Levi <br>(TB1):</strong> Explicó los diagramas UML al grupo, destacando las relaciones entre clases y casos de uso, simplificando conceptos técnicos para que todos pudieran entenderlos.<br><br>
+      <strong>Morales Montalvo, Omar Andrew<br>(TB1):</strong> Expuso la justificación del uso de metodologías ágiles, mostrando cómo Scrum permite adaptarse a cambios y ejemplificando con la organización de sprints.<br><br>
+      <strong>Ames Oviedo, Mariano José <br>(TP1):</strong> Presentó los Wireflows y User Flows del sistema, explicando el recorrido completo de los usuarios y cómo cada flujo responde a las necesidades identificadas, facilitando la comprensión del equipo.<br><br>
+      <strong>Cachis Gonzales, Sebastian Nicolas <br>(TP1):</strong> Expuso el trabajo realizado en Profiles (SC) y el agregado de enlaces de herramientas usadas (SC), explicando la estructura de perfiles de usuario y justificando las decisiones de diseño.<br><br>
+      <strong>Lecca Choccare, Christopher Bryan <br>(TP1):</strong> Presentó los desarrollos de Booking (CL), Subscriptions (CL), Monitoring (CL), Mockups (CL) y Wireframes (CL), articulando la funcionalidad de cada módulo y su integración en el sistema completo.<br><br>
+      <strong>Llamo Sánchez, Amner Levi <br>(TP1):</strong> Expuso el trabajo en Notifications (AS), Information Architecture (AS) y Landing Page UI Design (AS), explicando las decisiones de arquitectura de información y diseño de interfaz de manera clara.<br><br>
+      <strong>Morales Montalvo, Omar Andrew<br>(TP1):</strong> Presentó los avances en Locales (OM), Style Guidelines (OM) y Prototypes (OM), mostrando la coherencia visual del sistema y las guías de estilo establecidas para el proyecto.<br>
       </td>
       <td>
-      Como equipo logramos exponer nuestras ideas y resultados de manera clara y objetiva, adaptando el lenguaje según el público y asegurando que tanto especialistas técnicos como personas en distintos niveles jerárquicos comprendieran el valor de nuestro trabajo en el proyecto de ingeniería.
+      Los integrantes del equipo demostraron capacidad de comunicación oral al exponer ideas y resultados con objetividad, adaptando el lenguaje a públicos con diferentes especialidades y niveles jerárquicos. En el TP1, se evidenció una mejora en la articulación de conceptos de diseño y arquitectura de información.
       </td>
     </tr>
     <tr>
       <td>Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería</td>
       <td>
-      <strong>Ames Oviedo, Mariano José <br>(TB1):</strong><br>
-      <strong>Cachis Gonzales, Sebastian Nicolas <br>(TB1): </strong>De la misma forma, comuniqué por escrito los avances y resultados de manera clara y objetiva, organizando la información para que pudiera ser comprendida tanto por personas con un perfil técnico como por quienes tienen un rol más estratégico en el proyecto.<br>
-        <strong>Lecca Choccare, Christopher Bryan <br>(TB1):</strong> Participé en la elaboración de las descripciones de cada nivel del modelo C4, así como la redacción de las User Stories y la estructuración del Product Backlog. Me aseguré de que los documentos fueran comprensibles tanto para los desarrolladores como para los interesados no técnicos<br>
-      <strong>Llamo Sánchez, Amner Levi <br>(TB1):</strong>Documenté los resultados de las entrevistas y los escenarios obtenidos del Event Storming, estructurando la información de forma clara y accesible. Además, contribuí en la organización de los artefactos escritos del equipo, garantizando que reflejaran tanto los aspectos técnicos como las necesidades identificadas en el segmento objetivo.<br>
-      <strong>Morales Montalvo, Omar Andrew<br>(TB1):</strong><br>
+      <strong>Ames Oviedo, Mariano José <br>(TB1):</strong> Redactó la documentación del análisis de requerimientos y los criterios de aceptación, asegurando claridad en el uso de términos técnicos y su comprensión general.<br><br>
+      <strong>Cachis Gonzales, Sebastian Nicolas <br>(TB1):</strong> Elaboró la sección del informe sobre diseño arquitectónico, integrando diagramas y resúmenes técnicos para hacer el contenido accesible a distintos públicos.<br><br>
+      <strong>Lecca Choccare, Christopher Bryan <br>(TB1):</strong> Participó en la redacción de las descripciones del modelo C4 y de las User Stories, estructurando el Product Backlog con un lenguaje claro y comprensible.<br><br>
+      <strong>Llamo Sánchez, Amner Levi <br>(TB1):</strong> Documentó los diagramas UML y su interpretación funcional, conectando lo visual con lo técnico y garantizando la coherencia del informe final.<br><br>
+      <strong>Morales Montalvo, Omar Andrew<br>(TB1):</strong> Redactó la sección metodológica del informe, justificando el uso de Scrum y explicando la organización de los sprints con un estilo formal y accesible.<br><br>
+      <strong>Ames Oviedo, Mariano José <br>(TP1):</strong> Documentó los Wireflows y User Flows con descripciones detalladas, explicando cada paso del recorrido del usuario y su relación con los requisitos funcionales del sistema.<br><br>
+      <strong>Cachis Gonzales, Sebastian Nicolas <br>(TP1):</strong> Redactó la documentación de Profiles (SC) y elaboró el enlace de herramientas usadas, estructurando la información de manera clara y accesible para diferentes audiencias.<br><br>
+      <strong>Lecca Choccare, Christopher Bryan <br>(TP1):</strong> Documentó los módulos de Booking, Subscriptions, Monitoring (CL), además de Mockups y Wireframes, integrando descripciones funcionales con elementos visuales de diseño.<br><br>
+      <strong>Llamo Sánchez, Amner Levi <br>(TP1):</strong> Elaboró la documentación de Notifications (AS), Information Architecture (AS) y Landing Page UI Design (AS), estructurando la arquitectura de información con claridad y coherencia.<br><br>
+      <strong>Morales Montalvo, Omar Andrew<br>(TP1):</strong> Redactó las secciones de Locales (OM), Style Guidelines (OM) y Prototypes (OM), estableciendo estándares visuales y de diseño con documentación clara y profesional.<br>
       </td>
       <td>
-      El equipo plasmó los resultados en documentos bien estructurados y objetivos, permitiendo que la información del Análisis de entrevistas, el Architectural Drivers Backlog y las Architectural Design Decisions fuera accesible y útil para distintos públicos dentro del marco del proyecto.
+      El equipo evidenció solidez en la comunicación escrita al elaborar documentación técnica clara y estructurada, comprensible para distintos públicos y útil para la gestión del proyecto. En el TP1, se consolidó la capacidad de documentar elementos de diseño, arquitectura de información y prototipos con un nivel profesional de detalle y claridad.
       </td>
     </tr>
   </tbody>
