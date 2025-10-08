@@ -2768,6 +2768,25 @@ Los userflows describen gráficamente el recorrido que sigue el usuario dentro d
 
 ## 6.5. Applications Prototyping
 
+### Mobile Android
+
+
+![Prototype Android](images/cap-6/Prototypes/android.png) 
+
+[Ver prototipo Android](https://www.figma.com/proto/xgTMj9suBtUHH4bUyKpfq9/AlquilaFacil--IoT-?node-id=105-4793&p=f&t=KcyIhvbiCsSOhkGb-0&scaling=scale-down&content-scaling=fixed&page-id=72%3A3&starting-point-node-id=105%3A4793)
+
+### Mobile iOS
+
+![Prototype iOS](images/cap-6/Prototypes/iphone.png) 
+
+[Ver prototipo iOS](https://www.figma.com/proto/xgTMj9suBtUHH4bUyKpfq9?page-id=76%3A517&node-id=76-517&p=f&t=wbbhV2RsUAl2DKQg-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=76%3A1466)
+
+### WebPage
+
+![Prototype desktop](images/cap-6/Prototypes/desktop.png) 
+
+[Ver prototipo Web](https://www.figma.com/proto/xgTMj9suBtUHH4bUyKpfq9?page-id=76%3A3767&node-id=76-3767&p=f&t=wbbhV2RsUAl2DKQg-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2002%3A8410)
+
 ---
 
 # Capítulo VII: Product Implementation, Validation & Deployment
