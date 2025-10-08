@@ -2416,6 +2416,10 @@ El bounded context IAM se despliega como un contenedor **IAM API** en el modelo 
 
 El flujo de interacción es: Controllers → Application Services → Domain (Entities, VOs, Repositories) → Adapters (DB/JWT/Hash).
 
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/RNyycVS.png" alt="c4 model for IAM context" width="90%" />
+</div><br>
+
 ---
 
 ### 5.1.7. Bounded Context Software Architecture Code Level Diagrams
@@ -2533,6 +2537,10 @@ El bounded context Profile se despliega como un contenedor **Profile API** en el
 - **Base de datos PostgreSQL**: almacenamiento de perfiles, cuentas bancarias y estados de suscripción.
 
 El flujo: Controllers → Application Services → Domain (Aggregate Profile + VOs) → Repository → DB.
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/XWTcrkM.png" alt="c4 model for Profiles context" width="90%" />
+</div><br>
 
 ---
 
