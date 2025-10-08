@@ -4463,4 +4463,4 @@ Los userflows describen gráficamente el recorrido que sigue el usuario dentro d
 | Contenido | URL del Vídeo |
 |--------------|--------------|
 | Vídeo de Exposición TB1      | Link del Vídeo: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211399_upc_edu_pe/ESgo7U5_auJIkjKMfm2eQHoBw1pkgzwlQ5RJI3YjKjch2w?e=t357hm>|  
-
+| Vídeo de Exposición TP1      | Link del Vídeo: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/EU2iWmGhVO1Cv7Hil0N63tIBi6PW_YVQ7Vjz3A-WzD30Rg?e=nPnsU0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>|
