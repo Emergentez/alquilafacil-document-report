@@ -4318,31 +4318,53 @@ Los userflows describen gráficamente el recorrido que sigue el usuario dentro d
 - **Landing Page:**  
   [AlquilaFácil Landing Page](https://emergentez.github.io/alquilafacil-landing-page/)
 
-### Lean UX
-- **Lean UX Canvas:**  
-  [Ver en GitHub](https://github.com/Emergentez/alquilafacil-document-report/blob/cap-5/images/cap-1/lean-ux-process/lean-ux-canvas.png)  
+### Lean UX Canvas
+- **Lean UX Canvas:**
+  [Ver en GitHub](https://github.com/Emergentez/alquilafacil-document-report/blob/main/images/cap-1/lean-ux-process/lean-ux-canvas.png)
 
 ### Mapas de Empatía
-- **Empathy Maps:**  
-  [Ver en GitHub](https://github.com/Emergentez/alquilafacil-document-report/blob/cap-5/images/cap-2/empathy-mapping/empathy-1.jpg)  
+- **Empathy Map - Arrendatario:**
+  [Ver en GitHub](https://github.com/Emergentez/alquilafacil-document-report/blob/main/images/cap-2/empathy-mapping/empathy-1.jpg)
 
-  [Ver en GitHub](https://github.com/Emergentez/alquilafacil-document-report/blob/cap-5/images/cap-2/empathy-mapping/empathy-2.jpg)  
+- **Empathy Map - Arrendador:**
+  [Ver en GitHub](https://github.com/Emergentez/alquilafacil-document-report/blob/main/images/cap-2/empathy-mapping/empathy-2.jpg)
 
 ### Escenarios
 
-- **To-Be Scenario:**  
-  [Ver en GitHub](https://github.com/Emergentez/alquilafacil-document-report/blob/cap-5/images/cap-3/ToBe-1.jpg)  
+- **As-Is Scenario Mapping - Arrendatarios:**
+  [Ver en Imgur](https://i.imgur.com/LOppgHF.png)
+
+- **As-Is Scenario Mapping - Arrendadores:**
+  [Ver en Imgur](https://i.imgur.com/svsvxcC.png)
+
+- **To-Be Scenario:**
+  [Ver en GitHub](https://github.com/Emergentez/alquilafacil-document-report/blob/main/images/cap-3/ToBe-1.jpg)
+
+  [Ver en GitHub](https://github.com/Emergentez/alquilafacil-document-report/blob/main/images/cap-3/To-be-diagram.jpeg)
 
 ### Mapa de Impacto
-- **Impact Map:**  
-  [Ver en GitHub](https://github.com/Emergentez/alquilafacil-document-report/blob/cap-5/images/cap-3/impact-maps/Impact-map-arrendador.png)
+- **Impact Map - Arrendador:**
+  [Ver en GitHub](https://github.com/Emergentez/alquilafacil-document-report/blob/main/images/cap-3/impact-maps/Impact-map-arrendador.png)
 
-  [Ver en GitHub](https://github.com/Emergentez/alquilafacil-document-report/blob/cap-5/images/cap-3/impact-maps/Impact-map-arrendatario.png)  
+- **Impact Map - Arrendatario:**
+  [Ver en GitHub](https://github.com/Emergentez/alquilafacil-document-report/blob/main/images/cap-3/impact-maps/Impact-map-arrendatario.png)
 
 ### Diagramas de Arquitectura de Software
 
-- **Diagramas (Lucidchart):**  
-  [Abrir en Lucidchart](https://lucid.app/lucidchart/7fbb2e19-8ec1-4c1e-967c-3e1fb0c6df7e/edit?invitationId=inv_fcdb9abc-361f-4908-a1a7-661aec8f02ee&page=KIPV0OhYQO.c#)  
+- **Diagramas (Lucidchart):**
+  [Abrir en Lucidchart](https://lucid.app/lucidchart/7fbb2e19-8ec1-4c1e-967c-3e1fb0c6df7e/edit?invitationId=inv_fcdb9abc-361f-4908-a1a7-661aec8f02ee&page=KIPV0OhYQO.c#)
+
+- **Context Diagram:**
+  [Ver en GitHub](https://github.com/Emergentez/alquilafacil-document-report/blob/main/images/cap-4/software-architecture/context.png)
+
+- **Container Diagram:**
+  [Ver en GitHub](https://github.com/Emergentez/alquilafacil-document-report/blob/main/images/cap-4/software-architecture/container.png)
+
+- **Deployment Diagram:**
+  [Ver en GitHub](https://github.com/Emergentez/alquilafacil-document-report/blob/main/images/cap-4/software-architecture/deployment.png)
+
+- **Landscape Diagram:**
+  [Ver en GitHub](https://github.com/Emergentez/alquilafacil-document-report/blob/main/images/cap-4/software-architecture/landscape.png)  
 
 ### Vídeos de Exposición (Anexo 1)
 
