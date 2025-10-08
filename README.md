@@ -2773,17 +2773,23 @@ Los userflows describen gráficamente el recorrido que sigue el usuario dentro d
 
 ![Prototype Android](images/cap-6/Prototypes/android.png) 
 
+<p> Prototipo interactivo diseñado para dispositivos Android, optimizado para la experiencia móvil con navegación táctil y diseño adaptado a las guías de Material Design. <p>
+
 [Ver prototipo Android](https://www.figma.com/proto/xgTMj9suBtUHH4bUyKpfq9/AlquilaFacil--IoT-?node-id=105-4793&p=f&t=KcyIhvbiCsSOhkGb-0&scaling=scale-down&content-scaling=fixed&page-id=72%3A3&starting-point-node-id=105%3A4793)
 
 ### Mobile iOS
 
 ![Prototype iOS](images/cap-6/Prototypes/iphone.png) 
 
+<p>Prototipo interactivo diseñado específicamente para dispositivos iOS, siguiendo las directrices de Human Interface Guidelines de Apple para una experiencia nativa en iPhone y iPad.<p>
+
 [Ver prototipo iOS](https://www.figma.com/proto/xgTMj9suBtUHH4bUyKpfq9?page-id=76%3A517&node-id=76-517&p=f&t=wbbhV2RsUAl2DKQg-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=76%3A1466)
 
 ### WebPage
 
 ![Prototype desktop](images/cap-6/Prototypes/desktop.png) 
+
+<p>Prototipo de la versión web de la plataforma, diseñado para navegadores de escritorio y tablets, con interfaz responsive y funcionalidades completas para la gestión de alquileres IoT.<p>
 
 [Ver prototipo Web](https://www.figma.com/proto/xgTMj9suBtUHH4bUyKpfq9?page-id=76%3A3767&node-id=76-3767&p=f&t=wbbhV2RsUAl2DKQg-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2002%3A8410)
 
