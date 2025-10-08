@@ -2700,6 +2700,25 @@ AlquilaFácil implementa un sistema de navegación jerárquica en el que los usu
 
 ### 6.4.2. Applications Wireflow Diagrams
 
+<div align="justify">
+  Los wireflows combinan los wireframes con los flujos de navegación para representar cómo el usuario interactúa con la aplicación paso a paso. Permiten visualizar las pantallas en secuencia junto con las conexiones entre ellas, mostrando las posibles rutas y decisiones que puede tomar el usuario. De esta forma, facilitan la comprensión del comportamiento del sistema y la lógica detrás de cada interacción.
+</div>
+
+**Web**
+
+![Artefacto creado en Overflow](images/cap-6/Web%20Page%20UXUI/Web_Wireflow_1.png) 
+
+![Artefacto creado en Overflow](images/cap-6/Web%20Page%20UXUI/Web_Wireflow_2.png)
+**Mobile**
+
+![Artefacto creado en Overflow](images/cap-6/Mobile%20Application%20UXUI/Mobile_Wireflow_1.png) 
+
+![Artefacto creado en Overflow](images/cap-6/Mobile%20Application%20UXUI/Mobile_Wireflow_2.png) 
+
+![Artefacto creado en Overflow](images/cap-6/Mobile%20Application%20UXUI/Mobile_Wireflow_3.png) 
+
+**Enlace de los wireflows:** <https://overflow.io/s/1IDNN3EF>
+
 ### 6.4.3. Applications Mock-ups
 
 <div align="justify">
