@@ -105,33 +105,43 @@ del ABET – EAC - Student Outcome 3.
     <tr>
       <td>Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.</td>
       <td>
-      <strong>Ames Oviedo, Mariano José <br>(TB1):</strong> Expuso los avances de la fase de análisis de requerimientos, aclarando dudas del equipo y utilizando ejemplos prácticos para facilitar la comprensión de las funcionalidades.<br><br>
-      <strong>Cachis Gonzales, Sebastian Nicolas <br>(TB1):</strong> Presentó la propuesta de arquitectura del sistema, explicando de manera clara el flujo de datos y la interacción de módulos ante un público con distintos niveles de experiencia.<br><br>
-      <strong>Lecca Choccare, Christopher Bryan <br>(TB1):</strong> Lideró sesiones de Event Storming y Context Mapping, guiando al equipo en la identificación de bounded contexts y adaptando el lenguaje técnico según la audiencia.<br><br>
-      <strong>Llamo Sánchez, Amner Levi <br>(TB1):</strong> Explicó los diagramas UML al grupo, destacando las relaciones entre clases y casos de uso, simplificando conceptos técnicos para que todos pudieran entenderlos.<br><br>
-      <strong>Morales Montalvo, Omar Andrew<br>(TB1):</strong> Expuso la justificación del uso de metodologías ágiles, mostrando cómo Scrum permite adaptarse a cambios y ejemplificando con la organización de sprints.<br>
+      <strong>Ames Oviedo, Mariano José <br>(TB1):</strong> Expuse los avances de la fase de análisis de requerimientos, aclarando dudas del equipo y utilizando ejemplos prácticos para facilitar la comprensión de las funcionalidades.<br><br>
+      <strong>Cachis Gonzales, Sebastian Nicolas <br>(TB1):</strong> Presenté la propuesta de arquitectura del sistema, explicando de manera clara el flujo de datos y la interacción de módulos ante un público con distintos niveles de experiencia.<br><br>
+      <strong>Lecca Choccare, Christopher Bryan <br>(TB1):</strong> Lideré sesiones de Event Storming y Context Mapping, guiando al equipo en la identificación de bounded contexts y adaptando el lenguaje técnico según la audiencia.<br><br>
+      <strong>Llamo Sánchez, Amner Levi <br>(TB1):</strong> Expliqué los diagramas UML al grupo, destacando las relaciones entre clases y casos de uso, simplificando conceptos técnicos para que todos pudieran entenderlos.<br><br>
+      <strong>Morales Montalvo, Omar Andrew<br>(TB1):</strong> Expuse la justificación del uso de metodologías ágiles, mostrando cómo Scrum permite adaptarse a cambios y ejemplificando con la organización de sprints.<br><br>
+      <strong>Ames Oviedo, Mariano José <br>(TP1):</strong> Presenté los Wireflows y User Flows del sistema, explicando el recorrido completo de los usuarios y cómo cada flujo responde a las necesidades identificadas, facilitando la comprensión del equipo.<br><br>
+      <strong>Cachis Gonzales, Sebastian Nicolas <br>(TP1):</strong> Expuse el trabajo realizado en Profiles (SC) y el agregado de enlaces de herramientas usadas (SC), explicando la estructura de perfiles de usuario y justificando las decisiones de diseño.<br><br>
+      <strong>Lecca Choccare, Christopher Bryan <br>(TP1):</strong> Presenté los desarrollos de Booking (CL), Subscriptions (CL), Monitoring (CL), Mockups (CL) y Wireframes (CL), articulando la funcionalidad de cada módulo y su integración en el sistema completo.<br><br>
+      <strong>Llamo Sánchez, Amner Levi <br>(TP1):</strong> Expuse el trabajo en Notifications (AS), Information Architecture (AS) y Landing Page UI Design (AS), explicando las decisiones de arquitectura de información y diseño de interfaz de manera clara.<br><br>
+      <strong>Morales Montalvo, Omar Andrew<br>(TP1):</strong> Presenté los avances en Locales (OM), Style Guidelines (OM) y Prototypes (OM), mostrando la coherencia visual del sistema y las guías de estilo establecidas para el proyecto.<br>
       </td>
       <td>
-      Los integrantes del equipo demostraron capacidad de comunicación oral al exponer ideas y resultados con objetividad, adaptando el lenguaje a públicos con diferentes especialidades y niveles jerárquicos.
+      <strong>TB1:</strong> Los integrantes del equipo demostraron capacidad de comunicación oral al exponer ideas y resultados con objetividad, adaptando el lenguaje a públicos con diferentes especialidades y niveles jerárquicos.<br><br>
+      <strong>TP1:</strong> El equipo fortaleció sus habilidades para presentar elementos de diseño de interfaz y experiencia de usuario, logrando transmitir conceptos visuales y de interacción de manera clara y efectiva. Los integrantes mejoraron su capacidad de articular decisiones de diseño justificando cada elección desde una perspectiva técnica y de usabilidad, lo que facilitó la comprensión y alineación del equipo en la fase de prototipado.
       </td>
     </tr>
     <tr>
       <td>Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería</td>
       <td>
-      <strong>Ames Oviedo, Mariano José <br>(TB1):</strong> Redactó la documentación del análisis de requerimientos y los criterios de aceptación, asegurando claridad en el uso de términos técnicos y su comprensión general.<br><br>
-      <strong>Cachis Gonzales, Sebastian Nicolas <br>(TB1):</strong> Elaboró la sección del informe sobre diseño arquitectónico, integrando diagramas y resúmenes técnicos para hacer el contenido accesible a distintos públicos.<br><br>
-      <strong>Lecca Choccare, Christopher Bryan <br>(TB1):</strong> Participó en la redacción de las descripciones del modelo C4 y de las User Stories, estructurando el Product Backlog con un lenguaje claro y comprensible.<br><br>
-      <strong>Llamo Sánchez, Amner Levi <br>(TB1):</strong> Documentó los diagramas UML y su interpretación funcional, conectando lo visual con lo técnico y garantizando la coherencia del informe final.<br><br>
-      <strong>Morales Montalvo, Omar Andrew<br>(TB1):</strong> Redactó la sección metodológica del informe, justificando el uso de Scrum y explicando la organización de los sprints con un estilo formal y accesible.<br>
+      <strong>Ames Oviedo, Mariano José <br>(TB1):</strong> Redacté la documentación del análisis de requerimientos y los criterios de aceptación, asegurando claridad en el uso de términos técnicos y su comprensión general.<br><br>
+      <strong>Cachis Gonzales, Sebastian Nicolas <br>(TB1):</strong> Elaboré la sección del informe sobre diseño arquitectónico, integrando diagramas y resúmenes técnicos para hacer el contenido accesible a distintos públicos.<br><br>
+      <strong>Lecca Choccare, Christopher Bryan <br>(TB1):</strong> Participé en la redacción de las descripciones del modelo C4 y de las User Stories, estructurando el Product Backlog con un lenguaje claro y comprensible.<br><br>
+      <strong>Llamo Sánchez, Amner Levi <br>(TB1):</strong> Documenté los diagramas UML y su interpretación funcional, conectando lo visual con lo técnico y garantizando la coherencia del informe final.<br><br>
+      <strong>Morales Montalvo, Omar Andrew<br>(TB1):</strong> Redacté la sección metodológica del informe, justificando el uso de Scrum y explicando la organización de los sprints con un estilo formal y accesible.<br><br>
+      <strong>Ames Oviedo, Mariano José <br>(TP1):</strong> Documenté los Wireflows y User Flows con descripciones detalladas, explicando cada paso del recorrido del usuario y su relación con los requisitos funcionales del sistema.<br><br>
+      <strong>Cachis Gonzales, Sebastian Nicolas <br>(TP1):</strong> Redacté la documentación de Profiles (SC) y elaboré el enlace de herramientas usadas, estructurando la información de manera clara y accesible para diferentes audiencias.<br><br>
+      <strong>Lecca Choccare, Christopher Bryan <br>(TP1):</strong> Documenté los módulos de Booking, Subscriptions, Monitoring (CL), además de Mockups y Wireframes, integrando descripciones funcionales con elementos visuales de diseño.<br><br>
+      <strong>Llamo Sánchez, Amner Levi <br>(TP1):</strong> Elaboré la documentación de Notifications (AS), Information Architecture (AS) y Landing Page UI Design (AS), estructurando la arquitectura de información con claridad y coherencia.<br><br>
+      <strong>Morales Montalvo, Omar Andrew<br>(TP1):</strong> Redacté las secciones de Locales (OM), Style Guidelines (OM) y Prototypes (OM), estableciendo estándares visuales y de diseño con documentación clara y profesional.<br>
       </td>
       <td>
-      El equipo evidenció solidez en la comunicación escrita al elaborar documentación técnica clara y estructurada, comprensible para distintos públicos y útil para la gestión del proyecto.
+      <strong>TB1:</strong> El equipo evidenció solidez en la comunicación escrita al elaborar documentación técnica clara y estructurada, comprensible para distintos públicos y útil para la gestión del proyecto.<br><br>
+      <strong>TP1:</strong> Los integrantes consolidaron su capacidad de documentar elementos de diseño, arquitectura de información y prototipos con un nivel profesional de detalle y claridad. El equipo desarrolló habilidades para integrar elementos visuales (mockups, wireframes) con descripciones textuales coherentes, creando documentación técnica que sirve tanto como referencia para desarrolladores como guía comprensible para stakeholders no técnicos. Esta competencia resultó fundamental para mantener la trazabilidad entre los requisitos iniciales y las soluciones de diseño propuestas.
       </td>
     </tr>
   </tbody>
 </table>
-
-
 ---
 
 # Contenido
@@ -2314,6 +2324,1939 @@ La separación clara entre deployment nodes (Edge Node Server, Web Server, API G
 
 ---
 
+# Capítulo V: Tactical-Level Software Design
+
+## 5.1. Bounded Context: IAM Context
+
+### 5.1.1. Domain Layer
+
+El **Domain Layer** representa el núcleo del bounded context IAM, donde se encuentran las entidades, value objects, agregados y contratos de repositorio que encapsulan la lógica de negocio.
+
+- **Aggregate Root**
+  - **User**: entidad principal que representa a un usuario del sistema. Contiene atributos como `Id`, `Username`, `Email` y `PasswordHash`. Define operaciones para actualizar nombre de usuario y contraseña.  
+- **Entities**
+  - **Role**: define los roles disponibles en el sistema (`ADMIN`, `CLIENT`).
+  - **UserRole**: entidad de unión que materializa la relación muchos a muchos entre `User` y `Role`.
+- **Value Objects**
+  - **UserId**: encapsula el identificador del usuario.
+  - **Email**: asegura el formato correcto y unicidad del correo electrónico.
+  - **EncryptedPassword**: garantiza que la contraseña siempre se maneje en formato hasheado.
+- **Enumeraciones**
+  - **EUserRoles**: enum que define los roles base del sistema.
+- **Interfaces (Repositories)**
+  - **IUserRepository**: abstracción para persistencia de usuarios (`FindByEmail`, `ExistsByUsername`, `GetUsernameById`, etc.).
+  - **IUserRoleRepository**: valida la existencia de roles de usuario.
+
+El dominio establece las **reglas clave**: cada `User` debe tener email único, username único y contraseñas siempre encriptadas. La relación `User` ↔ `Role` es de tipo M:N mediante `UserRole`.
+
+---
+
+### 5.1.2. Interface Layer
+
+El **Interface Layer** corresponde a la capa de presentación (exposición de API REST).
+
+- **Controllers**
+  - **AuthenticationController**: expone los endpoints de autenticación (`/auth/sign-in`, `/auth/sign-up`). Recibe comandos, los transforma en objetos de aplicación y retorna un `ActionResult`.
+  - **UserController**: expone endpoints relacionados con la gestión de usuarios (`/users/{id}`, `/users`, `/users/{id}/username`). Permite obtener información y actualizar el nombre de usuario.
+
+Su responsabilidad es recibir solicitudes HTTP, validar datos básicos, mapear a comandos/queries y retornar respuestas adecuadas. No contiene lógica de negocio.
+
+---
+
+### 5.1.3. Application Layer
+
+El **Application Layer** coordina los casos de uso del bounded context IAM. Se implementa a través de servicios de comandos y queries.
+
+- **Command Handlers**
+  - **UserCommandService**: maneja flujos de `SignIn`, `SignUp` y `UpdateUsername`.  
+    - **SignUp**: crea un nuevo usuario, valida unicidad, encripta la contraseña y genera token.  
+    - **SignIn**: valida credenciales contra la base de datos y devuelve un `AuthResult`.  
+    - **UpdateUsername**: actualiza el nombre de usuario asegurando unicidad.
+  - **SeedUserRolesCommandService**: inicializa roles base en la base de datos.
+- **Query Handlers**
+  - **UserQueryService**: implementa consultas (`GetUserById`, `GetAllUsers`, `GetUserByEmail`, `GetUsernameById`, `UserExists`).
+
+Los comandos y queries se representan como DTOs inmutables (`SignInCommand`, `SignUpCommand`, `UpdateUsernameCommand`, etc.), facilitando la separación CQRS.
+
+---
+
+### 5.1.4. Infrastructure Layer
+
+El **Infrastructure Layer** contiene implementaciones concretas de los contratos definidos en el dominio y la interacción con servicios externos.
+
+- **Repositorios**
+  - **UserRepository**: implementación de `IUserRepository` sobre PostgreSQL.
+  - **UserRoleRepository**: implementación de `IUserRoleRepository`.
+- **Servicios externos**
+  - **JwtTokenService**: implementación de `ITokenService` para generar y validar JWT.
+  - **BcryptHashingService**: implementación de `IHashingService` para hashear y verificar contraseñas.
+- **Base de datos (PostgreSQL)**
+  - Tablas: `users`, `roles`, `user_roles`.  
+  - Persisten las entidades del dominio y soportan las relaciones M:N.
+
+---
+
+### 5.1.6. Bounded Context Software Architecture Component Level Diagrams
+
+El bounded context IAM se despliega como un contenedor **IAM API** en el modelo C4. Sus componentes principales son:
+
+- **Controllers**: `AuthenticationController`, `UserController`.
+- **Application Services**: `UserCommandService`, `UserQueryService`, `SeedUserRolesCommandService`.
+- **Domain**: entidades (`User`, `Role`, `UserRole`), value objects (`UserId`, `Email`, `EncryptedPassword`) y enums (`EUserRoles`).
+- **Infrastructure Adapters**: `UserRepository`, `UserRoleRepository` (adaptadores DB), `JwtTokenService` (adaptador JWT), `BcryptHashingService` (adaptador de hash).
+- **Base de datos PostgreSQL**: persistencia de usuarios y roles.
+
+El flujo de interacción es: Controllers → Application Services → Domain (Entities, VOs, Repositories) → Adapters (DB/JWT/Hash).
+
+---
+
+### 5.1.7. Bounded Context Software Architecture Code Level Diagrams
+
+#### 5.1.7.1. Bounded Context Domain Layer Class Diagrams
+
+<div align="justify">
+    El siguiente diagrama de clases representa la capa de dominio del bounded context IAM, mostrando las relaciones entre las entidades User, Role y UserRole, así como los value objects (UserId, Email, EncryptedPassword) y las interfaces de los repositorios que gestionan la persistencia de usuarios y roles.
+</div>
+<br>
+
+![IAM Class Diagram](images/cap-5/class-diagrams/class-diagram-IAM.png)
+
+#### 5.1.7.2. Bounded Context Database Design Diagram
+
+<div align="justify">
+    El diagrama de base de datos del bounded context IAM muestra el diseño físico de las tablas users, roles y user_roles en PostgreSQL, incluyendo los tipos de datos, claves primarias, claves foráneas y las relaciones muchos a muchos entre usuarios y roles.
+</div>
+<br>
+
+![IAM Database Design Diagram](images/cap-5/database-diagram/database-diagram-IAM.png)
+
+---
+
+## 5.2. Bounded Context: Profile Context
+
+### 5.2.1. Domain Layer
+
+El **Domain Layer** del bounded context Profile encapsula las reglas de negocio relacionadas con la gestión de perfiles de usuario. Aquí se definen los agregados, entidades, value objects y repositorios que representan el núcleo del dominio.
+
+- **Aggregate Root**
+  - **Profile**: representa el perfil de un usuario. Contiene información personal, documento de identidad, fecha de nacimiento, teléfono, cuentas bancarias y estado de suscripción. Expone métodos de factoría y actualización (`Profile(CreateProfileCommand)`, `Update(UpdateProfileCommand)`).
+
+- **Entities**
+  - **Profile** (aggregate root).
+
+- **Value Objects**
+  - **PersonName**: compone `Name`, `FatherName` y `MotherName`.
+  - **DateOfBirth**: encapsula la fecha de nacimiento (`BirthDate`).
+  - **Phone**: encapsula el número de teléfono (`PhoneNumber`).
+  - **DocumentNumber**: representa el número de documento (`NumberDocument`).
+  - **BankAccount**: representa una cuenta bancaria, con `AccountNumber` e `InterbankAccountNumber`.
+  - **SubscriptionStatus**: indica el estado de suscripción del perfil (ej. `ACTIVE`, `INACTIVE`, `PENDING`).
+
+- **Interfaces (Repositories)**
+  - **IProfileRepository**: abstracción para la persistencia de perfiles. Expone `FindByUserId(int userId)`.
+
+El dominio asegura reglas como: cada perfil está asociado a un único `UserId`, el `DocumentNumber` es único, y cada perfil puede tener múltiples cuentas bancarias y registros de estado de suscripción.
+
+---
+
+### 5.2.2. Interface Layer
+
+El **Interface Layer** expone la funcionalidad de Profile a través de controladores REST (no mostrados en el diagrama, pero implícitos en la arquitectura).
+
+- **Responsabilidades**
+  - Recibir solicitudes HTTP para creación, actualización y consulta de perfiles.
+  - Mapear los requests a `CreateProfileCommand`, `UpdateProfileCommand` o queries específicas.
+  - Retornar respuestas con recursos de perfil y estados de operación.
+
+Ejemplo de endpoints:
+- `POST /profiles` → crear un perfil.
+- `PUT /profiles/{id}` → actualizar un perfil.
+- `GET /profiles/{userId}` → obtener perfil por usuario.
+- `GET /profiles/{userId}/bank-accounts` → obtener cuentas bancarias.
+- `GET /profiles/{userId}/subscription-status` → obtener estado de suscripción.
+
+---
+
+### 5.2.3. Application Layer
+
+El **Application Layer** coordina los casos de uso del bounded context Profile mediante servicios de comandos y queries.
+
+- **Command Handlers**
+  - **ProfileCommandService**: maneja la creación y actualización de perfiles.
+    - `Handle(CreateProfileCommand)` → crea un nuevo perfil y lo persiste.
+    - `Handle(UpdateProfileCommand)` → actualiza información personal, documento, teléfono o cuentas bancarias de un perfil.
+
+- **Query Handlers**
+  - **ProfileQueryService**: maneja las consultas asociadas al perfil.
+    - `Handle(GetProfileByUserIdQuery)` → retorna el perfil por `UserId`.
+    - `Handle(GetSubscriptionStatusByUserIdQuery)` → retorna el estado de suscripción como VO.
+    - `Handle(GetProfileBankAccountsByUserIdQuery)` → retorna la lista de cuentas bancarias.
+
+- **DTOs (Commands y Queries)**
+  - **Commands**: `CreateProfileCommand`, `UpdateProfileCommand`.
+  - **Queries**: `GetProfileByUserIdQuery`, `GetSubscriptionStatusByUserIdQuery`, `GetProfileBankAccountsByUserIdQuery`.
+
+---
+
+### 5.2.4. Infrastructure Layer
+
+El **Infrastructure Layer** contiene las implementaciones concretas y la interacción con la base de datos.
+
+- **Repositorios**
+  - **ProfileRepository**: implementación de `IProfileRepository` sobre PostgreSQL. Permite persistir y recuperar perfiles.
+
+- **Base de datos (PostgreSQL)**
+  - **profiles**: almacena los datos principales del perfil (nombre, documento, fecha de nacimiento, teléfono).
+  - **bank_accounts**: almacena las cuentas bancarias asociadas a cada perfil.
+  - **subscription_statuses**: guarda el estado de suscripción asociado a cada perfil.
+
+La infraestructura asegura integridad referencial entre `profiles`, `bank_accounts` y `subscription_statuses`.
+
+---
+
+### 5.2.6. Bounded Context Software Architecture Component Level Diagrams
+
+El bounded context Profile se despliega como un contenedor **Profile API** en el modelo C4. Sus componentes principales son:
+
+- **Controllers**: exponen endpoints para crear, actualizar y consultar perfiles.
+- **Application Services**: `ProfileCommandService`, `ProfileQueryService`.
+- **Domain**: entidades (`Profile`) y value objects (`PersonName`, `DateOfBirth`, `Phone`, `DocumentNumber`, `BankAccount`, `SubscriptionStatus`).
+- **Infrastructure Adapters**: `ProfileRepository` como adaptador de persistencia.
+- **Base de datos PostgreSQL**: almacenamiento de perfiles, cuentas bancarias y estados de suscripción.
+
+El flujo: Controllers → Application Services → Domain (Aggregate Profile + VOs) → Repository → DB.
+
+---
+
+### 5.2.7. Bounded Context Software Architecture Code Level Diagrams
+
+#### 5.2.7.1. Bounded Context Domain Layer Class Diagrams
+
+<div align="justify">
+    El diagrama de clases del bounded context Profile ilustra el aggregate root Profile y sus value objects asociados (PersonName, DateOfBirth, Phone, DocumentNumber, BankAccount, SubscriptionStatus), así como la interfaz del repositorio IProfileRepository que define los contratos de persistencia.
+</div>
+<br>
+
+![Profile Class Diagram](images/cap-5/class-diagrams/class-diagram-Profiles.png)
+
+#### 5.2.7.2. Bounded Context Database Design Diagram
+
+<div align="justify">
+    El diagrama de base de datos del bounded context Profile presenta el diseño de las tablas profiles, bank_accounts y subscription_statuses, mostrando sus atributos, tipos de datos, claves y las relaciones uno a muchos entre el perfil y sus cuentas bancarias y estados de suscripción.
+</div>
+<br>
+
+![Profile Database Design Diagram](images/cap-5/database-diagram/database-diagram-profiles.png)
+
+---
+
+## 5.3. Bounded Context: Locals Context
+### 5.3.1. Domain Layer
+#### Aggregates
+
+1. **Local**
+   - **Descripción:** Representa un espacio físico disponible para ser arrendado, incluyendo características como ubicación, precio, tipo y capacidad.
+   - **Atributos:**
+     - `Id`: Identificador único del local.
+     - `Features`: Características especiales del local.
+     - `Capacity`: Capacidad máxima de personas.
+     - `LocalName`: Tipo o nombre del local (objeto de valor `LocalName`).
+     - `NightPrice`: Precio por noche (objeto de valor `NightPrice`).
+     - `PhotoUrl`: URL de la foto principal del local (objeto de valor `PhotoUrl`).
+     - `StreetAddress`: Dirección completa (objeto de valor `StreetAddress`).
+     - `CityPlace`: Ciudad y país (objeto de valor `CityPlace`).
+     - `DescriptionMessage`: Descripción del local (objeto de valor `DescriptionMessage`).
+     - `LocalCategoryId`: Identificador de categoría del local.
+     - `UserId`: Identificador del propietario del local.
+
+
+2. **Comment**
+   - **Descripción:** Representa un comentario realizado por un usuario sobre un local, incluyendo la valoración y el texto del comentario.
+   - **Atributos:**
+     - `Id`: Identificador único del comentario.
+     - `UserId`: ID del usuario que realiza el comentario.
+     - `LocalId`: ID del local sobre el que se comenta.
+     - `Text`: Texto del comentario (objeto de valor `TextComment`).
+     - `Rating`: Valoración del local (objeto de valor `RatingComment`).
+     - `CommentText`: Texto plano del comentario.
+     - `CommentRating`: Valor numérico de la calificación.
+
+3. **Report**
+   - **Descripción:** Representa un reporte o queja generado sobre un local, realizado por un usuario.
+   - **Atributos:**
+     - `Id`: Identificador único del reporte.
+     - `LocalId`: ID del local reportado.
+     - `Title`: Título del reporte.
+     - `UserId`: ID del usuario que genera el reporte.
+     - `Description`: Descripción del problema o situación reportada.
+     - `CreatedAt`: Fecha de creación del reporte.
+
+#### Entities
+
+1. **LocalCategory**
+   - **Descripción:** Representa una categoría de locales, como auditorio, salón de eventos, oficina, etc.
+   - **Atributos:**
+     - `Id`: Identificador único de la categoría.
+     - `Name`: Nombre de la categoría (por ejemplo, \"Auditorio\", \"Coworking\", \"Salón de Eventos\").
+     - `PhotoUrl`: URL de una imagen representativa de la categoría.
+
+
+#### Value Objects
+
+1. **CityPlace**
+   - **Descripción:** Representa el país y la ciudad donde se ubica un local.
+   - **Atributos:**
+     - `Country`: País del local.
+     - `City`: Ciudad del local.
+     - `FullCityPlace`: Representación completa como texto (`"País, Ciudad"`).
+
+2. **DescriptionMessage**
+   - **Descripción:** Representa el mensaje descriptivo o detalle del local.
+   - **Atributos:**
+     - `MessageDescription`: Texto descriptivo del local.
+
+3. **LocalName**
+   - **Descripción:** Representa el tipo o nombre asignado a un local.
+   - **Atributos:**
+     - `TypeLocal`: Nombre o tipo del local (ej: \"Auditorio\", \"Sala de Reuniones\").
+
+4. **NightPrice**
+   - **Descripción:** Representa el precio por noche de alquiler del local.
+   - **Atributos:**
+     - `PriceNight`: Valor numérico del precio.
+
+5. **PhotoUrl**
+   - **Descripción:** Representa la URL de la foto principal del local.
+   - **Atributos:**
+     - `PhotoUrlLink`: Enlace de la imagen.
+
+6. **RatingComment**
+   - **Descripción:** Representa la calificación numérica otorgada a un local en un comentario.
+   - **Atributos:**
+     - `Rating`: Puntuación del comentario (ej: de 1 a 5 estrellas).
+
+7. **StreetAddress**
+   - **Descripción:** Representa la dirección geográfica del local.
+   - **Atributos:**
+     - `District`: Distrito donde se ubica el local.
+     - `Street`: Calle específica del local.
+     - `FullAddress`: Representación completa como texto (`"Distrito, Calle"`).
+
+8. **TextComment**
+   - **Descripción:** Representa el texto escrito de un comentario sobre un local.
+   - **Atributos:**
+     - `Text`: Contenido textual del comentario.
+
+
+#### Commands
+
+1. **CreateLocalCommand**
+   - **Descripción:** Permite registrar un nuevo local con todos sus datos estructurados.
+   - **Parámetros:**
+     - `District`: Distrito donde se ubica el local.
+     - `Street`: Calle del local.
+     - `LocalType`: Tipo o categoría del local.
+     - `Country`: País.
+     - `City`: Ciudad.
+     - `Price`: Precio por noche.
+     - `PhotoUrl`: Enlace de la imagen principal.
+     - `DescriptionMessage`: Descripción del local.
+     - `LocalCategoryId`: ID de la categoría.
+     - `UserId`: ID del arrendador que registra el local.
+     - `Features`: Características adicionales del local.
+     - `Capacity`: Capacidad máxima de personas.
+
+2. **UpdateLocalCommand**
+   - **Descripción:** Actualiza los atributos de un local existente.
+   - **Parámetros:**
+     - `Id`: ID del local a actualizar.
+     - (Resto de parámetros iguales a `CreateLocalCommand`)
+
+3. **CreateCommentCommand**
+   - **Descripción:** Registra un nuevo comentario para un local.
+   - **Parámetros:**
+     - `UserId`: ID del usuario que comenta.
+     - `LocalId`: ID del local.
+     - `Text`: Texto del comentario.
+     - `Rating`: Puntuación asignada al local.
+
+4. **CreateReportCommand**
+   - **Descripción:** Permite crear un reporte operativo o queja sobre un local.
+   - **Parámetros:**
+     - `LocalId`: ID del local reportado.
+     - `Title`: Título del reporte.
+     - `UserId`: ID del usuario que genera el reporte.
+     - `Description`: Contenido del reporte.
+
+5. **DeleteReportCommand**
+   - **Descripción:** Elimina un reporte existente en base a su ID.
+   - **Parámetros:**
+     - `Id`: ID del reporte a eliminar.
+
+6. **SeedLocalCategoriesCommand**
+   - **Descripción:** Permite poblar la base de datos con un conjunto inicial de categorías de locales.
+   - **Parámetros:** *(Ninguno)*
+
+
+
+#### Queries
+
+1. **GetAllCommentsByLocalIdQuery**
+   - **Descripción:** Obtiene todos los comentarios asociados a un local específico.
+   - **Parámetros:**
+     - `LocalId`: ID del local.
+
+2. **GetAllLocalCategoriesQuery**
+   - **Descripción:** Obtiene todas las categorías de locales disponibles.
+   - **Parámetros:** *(Ninguno)*
+
+3. **GetAllLocalDistrictsQuery**
+   - **Descripción:** Obtiene todos los distritos donde existen locales registrados.
+   - **Parámetros:** *(Ninguno)*
+
+4. **GetAllLocalsByLocalCategoryIdQuery**
+   - **Descripción:** Obtiene todos los locales filtrados por una categoría específica.
+   - **Parámetros:**
+     - `LocalCategoryId`: ID de la categoría.
+
+5. **GetAllLocalsQuery**
+   - **Descripción:** Obtiene todos los locales registrados en el sistema.
+   - **Parámetros:** *(Ninguno)*
+
+6. **GetLocalByIdQuery**
+   - **Descripción:** Consulta los detalles de un local específico por su ID.
+   - **Parámetros:**
+     - `LocalId`: ID del local.
+
+7. **GetLocalCategoryByIdQuery**
+   - **Descripción:** Consulta los detalles de una categoría específica de locales.
+   - **Parámetros:**
+     - `Id`: ID de la categoría.
+
+8. **GetLocalsByCategoryIdAndCapacityRangeQuery**
+   - **Descripción:** Obtiene locales que pertenecen a una categoría específica y cuyo rango de capacidad está dentro de los límites indicados.
+   - **Parámetros:**
+     - `LocalCategoryId`: ID de la categoría.
+     - `MinCapacity`: Capacidad mínima.
+     - `MaxCapacity`: Capacidad máxima.
+
+9. **GetLocalsByUserIdQuery**
+   - **Descripción:** Obtiene todos los locales registrados por un usuario específico (arrendador).
+   - **Parámetros:**
+     - `UserId`: ID del usuario.
+
+10. **GetReportsByLocalIdQuery**
+    - **Descripción:** Obtiene todos los reportes asociados a un local específico.
+    - **Parámetros:**
+      - `LocalId`: ID del local.
+
+11. **GetReportsByUserIdQuery**
+    - **Descripción:** Obtiene todos los reportes generados por un usuario específico.
+    - **Parámetros:**
+      - `UserId`: ID del usuario.
+
+12. **IsLocalOwnerQuery**
+    - **Descripción:** Verifica si un usuario específico es propietario de un local.
+    - **Parámetros:**
+      - `UserId`: ID del usuario.
+      - `LocalId`: ID del local.
+
+
+
+
+
+#### Repositories (Interfaces)
+
+1. **ICommentRepository**
+   - **Descripción:** Interfaz para gestionar los comentarios asociados a locales.
+   - **Métodos:**
+     - `GetAllCommentsByLocalId(int localId)`: Obtiene todos los comentarios de un local específico.
+
+2. **ILocalCategoryRepository**
+   - **Descripción:** Interfaz para gestionar las categorías de locales.
+   - **Métodos:**
+     - `ExistsLocalCategory(EALocalCategoryTypes type)`: Verifica si existe una categoría específica.
+     - `GetAllLocalCategories()`: Obtiene todas las categorías de locales.
+
+3. **ILocalRepository**
+   - **Descripción:** Interfaz para la gestión de locales registrados en el sistema.
+   - **Métodos:**
+     - `GetAllDistrictsAsync()`: Obtiene un listado de todos los distritos donde hay locales.
+     - `GetLocalsByCategoryIdAndCapacityrange(int categoryId, int minCapacity, int maxCapacity)`: Filtra locales por categoría y rango de capacidad.
+     - `GetLocalsByUserIdAsync(int userId)`: Obtiene los locales de un usuario específico (arrendador).
+     - `IsOwnerAsync(int userId, int localId)`: Verifica si un usuario es dueño de un local.
+
+4. **IReportRepository**
+   - **Descripción:** Interfaz para la gestión de reportes generados sobre locales.
+   - **Métodos:**
+     - `GetReportsByLocalId(int localId)`: Obtiene los reportes asociados a un local.
+     - `GetReportsByUserId(int userId)`: Obtiene los reportes generados por un usuario específico.
+
+
+
+### 5.3.2. Interface Layer
+
+#### Controllers
+
+1. **CommentController**
+   - **Descripción:** Maneja operaciones relacionadas con los comentarios de locales.
+   - **Métodos:**
+     - `GetAllCommentsByLocalId(int localId)`: Obtiene todos los comentarios realizados sobre un local específico.
+     - `CreateComment(CreateCommentResource resource)`: Registra un nuevo comentario para un local.
+
+2. **LocalCategoriesController**
+   - **Descripción:** Expone operaciones para consultar las categorías de locales disponibles.
+   - **Métodos:**
+     - `GetAllLocalCategories()`: Obtiene todas las categorías de locales.
+
+3. **LocalsController**
+   - **Descripción:** Maneja las operaciones CRUD principales sobre locales.
+   - **Métodos:**
+     - `CreateLocal(CreateLocalResource resource)`: Registra un nuevo local.
+     - `GetAllLocals()`: Obtiene todos los locales registrados en el sistema.
+     - `GetLocalById(int localId)`: Consulta los detalles de un local específico.
+     - `UpdateLocal(int localId, UpdateLocalResource resource)`: Actualiza la información de un local existente.
+     - `SearchByCategoryIdAndCapacityRange(int categoryId, int minCapacity, int maxCapacity)`: Filtra locales por categoría y rango de capacidad.
+     - `GetAllDistricts()`: Obtiene todos los distritos donde hay locales registrados.
+     - `GetUserLocals(int userId)`: Obtiene todos los locales registrados por un arrendador específico.
+
+4. **ReportController**
+   - **Descripción:** Maneja operaciones relacionadas con la creación, consulta y eliminación de reportes de locales.
+   - **Métodos:**
+     - `CreateReport(CreateReportResource createReportResource)`: Registra un nuevo reporte de estado o queja sobre un local.
+     - `GetReportsByUserId(int userId)`: Obtiene todos los reportes generados por un usuario.
+     - `GetReportsByLocalId(int localId)`: Obtiene todos los reportes asociados a un local específico.
+     - `DeleteReport(int reportId)`: Elimina un reporte existente por su ID.
+  
+
+### 5.3.3. Application Layer
+#### Command Services
+
+1. **CommentCommandService**
+   - **Descripción:** Maneja la lógica de negocio para registrar comentarios en locales.
+   - **Dependencias:** `ICommentRepository`, `ILocalRepository`, `IUserCommentExternalService`, `IUnitOfWork`.
+   - **Métodos:**
+     - `Handle(CreateCommentCommand command)`: Valida existencia del local y usuario, crea el comentario y lo persiste.
+
+2. **LocalCommandService**
+   - **Descripción:** Maneja la creación y actualización de locales por parte de los arrendadores.
+   - **Dependencias:** `ILocalRepository`, `ILocalCategoryRepository`, `IUnitOfWork`.
+   - **Métodos:**
+     - `Handle(CreateLocalCommand command)`: Crea un nuevo local validando categoría y precio.
+     - `Handle(UpdateLocalCommand command)`: Actualiza un local existente validando entidad y datos.
+
+3. **LocalCategoryCommandService**
+   - **Descripción:** Inicializa las categorías de locales disponibles en el sistema.
+   - **Dependencias:** `ILocalCategoryRepository`, `IUnitOfWork`.
+   - **Métodos:**
+     - `Handle(SeedLocalCategoriesCommand command)`: Registra categorías predefinidas si no existen.
+
+4. **ReportCommandService**
+   - **Descripción:** Maneja la creación y eliminación de reportes asociados a locales.
+   - **Dependencias:** `IReportRepository`, `IUnitOfWork`.
+   - **Métodos:**
+     - `Handle(CreateReportCommand command)`: Crea y guarda un nuevo reporte.
+     - `Handle(DeleteReportCommand command)`: Elimina un reporte existente validando su existencia.
+
+
+#### Query Services
+
+1. **CommentQueryService**
+   - **Descripción:** Permite consultar los comentarios hechos sobre un local.
+   - **Dependencias:** `ICommentRepository`.
+   - **Métodos:**
+     - `Handle(GetAllCommentsByLocalIdQuery query)`: Devuelve todos los comentarios asociados a un local.
+
+2. **LocalQueryService**
+   - **Descripción:** Permite consultar información de locales y sus filtros asociados.
+   - **Dependencias:** `ILocalRepository`.
+   - **Métodos:**
+     - `Handle(GetAllLocalsQuery query)`: Lista todos los locales del sistema.
+     - `Handle(GetLocalByIdQuery query)`: Devuelve los detalles de un local específico.
+     - `Handle(GetAllLocalDistrictsQuery query)`: Devuelve todos los distritos donde hay locales registrados.
+     - `Handle(GetLocalsByUserIdQuery query)`: Lista los locales registrados por un arrendador.
+     - `Handle(GetLocalsByCategoryIdAndCapacityRangeQuery query)`: Devuelve locales filtrados por categoría y rango de capacidad.
+     - `Handle(IsLocalOwnerQuery query)`: Verifica si un usuario es dueño del local.
+
+3. **LocalCategoryQueryService**
+   - **Descripción:** Permite consultar la lista de categorías de locales.
+   - **Dependencias:** `ILocalCategoryRepository`.
+   - **Métodos:**
+     - `Handle(GetAllLocalCategoriesQuery query)`: Retorna todas las categorías existentes.
+
+4. **ReportQueryService**
+   - **Descripción:** Permite obtener reportes asociados a locales o usuarios.
+   - **Dependencias:** `IReportRepository`.
+   - **Métodos:**
+     - `Handle(GetReportsByLocalIdQuery query)`: Lista los reportes generados para un local.
+     - `Handle(GetReportsByUserIdQuery query)`: Lista los reportes generados por un usuario.
+
+
+### 5.3.4. Infrastructure Layer
+
+#### Repositories (Implementaciones)
+
+1. **CommentRepository**
+   - **Descripción:** Implementación del repositorio para gestionar comentarios sobre locales.
+   - **Hereda de:** `BaseRepository<Comment>`
+   - **Métodos implementados:**
+     - `GetAllCommentsByLocalId(int localId)`: Devuelve todos los comentarios asociados a un local específico.
+
+2. **LocalCategoryRepository**
+   - **Descripción:** Implementación del repositorio para gestionar categorías de locales.
+   - **Hereda de:** `BaseRepository<LocalCategory>`
+   - **Métodos implementados:**
+     - `ExistsLocalCategory(EALocalCategoryTypes type)`: Verifica si existe una categoría específica.
+     - `GetAllLocalCategories()`: Devuelve todas las categorías de locales disponibles.
+
+3. **LocalRepository**
+   - **Descripción:** Implementación del repositorio para gestionar entidades `Local`.
+   - **Hereda de:** `BaseRepository<Local>`
+   - **Métodos implementados:**
+     - `GetAllDistrictsAsync()`: Obtiene todos los distritos registrados donde hay locales, combinando ubicación con dirección.
+     - `GetLocalsByCategoryIdAndCapacityrange(int categoryId, int minCapacity, int maxCapacity)`: Devuelve locales filtrados por categoría y rango de capacidad.
+     - `GetLocalsByUserIdAsync(int userId)`: Obtiene todos los locales de un usuario específico.
+     - `IsOwnerAsync(int userId, int localId)`: Verifica si un usuario es dueño de un local determinado.
+     - `GetLocalByUserId(int userId, int localId)`: Obtiene un local específico por ID si pertenece al usuario.
+
+4. **ReportRepository**
+   - **Descripción:** Implementación del repositorio para gestionar reportes relacionados a locales.
+   - **Hereda de:** `BaseRepository<Report>`
+   - **Métodos implementados:**
+     - `GetReportsByLocalId(int localId)`: Devuelve todos los reportes asociados a un local.
+     - `GetReportsByUserId(int userId)`: Devuelve todos los reportes realizados por un usuario específico.
+
+
+### 5.3.6. Bounded Context Software Architecture Component Level Diagrams
+
+<div align="justify">
+    El diagrama de componentes C4 del bounded context Locals muestra la arquitectura interna del contenedor Locals API, incluyendo los controladores, servicios de aplicación (comandos y consultas), repositorios y su interacción con la base de datos relacional para gestionar locales, comentarios, reportes y categorías.
+</div>
+<br>
+
+![Diagrama Stucturizr([URL]())](images/cap-5/c4-component-diagrams/locals_bounded_context.png)
+
+El bounded context **Locals** se despliega como un contenedor **Locals API** en el modelo C4. Sus componentes principales son:
+
+* **Controllers**: exponen endpoints HTTP para gestionar locales, comentarios, reportes y categorías de locales a través de `LocalsController`, `CommentController`, `ReportController` y `LocalCategoriesController`.
+
+* **Application Services**: 
+  - **Command Services**: `LocalCommandService`, `CommentCommandService`, `ReportCommandService` y `LocalCategoryCommandService` para operaciones de escritura.
+  - **Query Services**: `LocalQueryService`, `CommentQueryService`, `ReportQueryService` y `LocalCategoryQueryService` para operaciones de lectura.
+
+* **Infrastructure Adapters**: `LocalRepository`, `CommentRepository`, `ReportRepository` y `LocalCategoryRepository` como adaptadores de persistencia que implementan las interfaces del dominio.
+
+* **Base de datos Relacional (Relational Database)**: almacenamiento centralizado de locales, comentarios, reportes y categorías, gestionando la información relacionada con espacios arrendables y sus interacciones con usuarios.
+
+### 5.3.7. Bounded Context Software Architecture Code Level Diagrams
+
+#### 5.3.7.1. Bounded Context Domain Layer Class Diagrams
+
+<div align="justify">
+    El diagrama de clases del bounded context Locals representa las entidades principales del dominio: Local (aggregate root), Comment, Report y LocalCategory, junto con sus value objects (Location, Address, TimeRange, Price) y las interfaces de los repositorios correspondientes.
+</div>
+<br>
+
+![Diagrama Stucturizr([URL]())](images/cap-5/class-diagrams/class_diagrams_1.png)
+
+
+#### 5.3.7.2. Bounded Context Database Design Diagram
+
+<div align="justify">
+    El diagrama de base de datos del bounded context Locals muestra el diseño de las tablas locales, comentarios, reportes y categorías de locales, incluyendo sus relaciones, claves primarias, claves foráneas y los tipos de datos de cada atributo.
+</div>
+<br>
+
+![Diagrama Stucturizr([URL]())](images/cap-5/database-diagram/database_diagram.png)
+
+## 5.4 Bounded Context: Booking Context
+
+### 5.4.1. Domain Layer
+
+#### Aggregates
+
+1. **Reservation**
+     - `Id`: Identificador único de la reserva.
+     - `StartDate`: Fecha y hora de inicio de la reserva
+     - `EndDate`: Fecha y hora del fin de la reserva.
+     - `UserId`: Identificador único del usuario.
+     - `LocalId`: Identificador único del local.
+
+#### Commands
+
+1. **CreateReservationCommand:**
+   - **Descripción:** Crear una nueva reserva con la fecha y hora de inicio, fecha y hora de fin, userId y LocalId.
+
+2. **DeleteReservationCommand:**
+   - **Descripción:** Elimina una reserva con el Id de la misma.
+
+3. **UpdateReservationDateCommand:**
+   - **Descripción:** Permite cambiar la fecha y hora de inicio y la fecha y hora de fin.
+
+
+#### Queries
+
+
+1. **GetReservationByEndDate:**
+   - **Descripción:** Obtener todas las reservas que finalizan en una fecha específica.
+
+2. **GetReservationByStartDate:**
+   - **Descripción:** Obtener todas las reservas que inician en una fecha específica.
+
+3. **GetReservationByLocalIdQuery:**
+   - **Descripción:** Obtener todas las reservas asociadas a un local específico.
+
+4. **GetReservationByOwnerIdQuery:**
+   - **Descripción:** Obtener todas las reservas realizadas en locales pertenecientes a un propietario específico.
+
+5. **GetReservationByUserId:**
+   - **Descripción:** Obtener todas las reservas realizadas por un usuario específico.
+
+
+#### Repositories (interfaces)
+
+1. **ReservationRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de reservas.
+   - **Métodos:**
+     - `GetReservationsByUserIdAsync(int userId)`: Obtiene todas las reservas realizadas por un usuario específico.
+     - `GetReservationByStartDateAsync(DateTime startDate)`: Obtiene todas las reservas que inician en una fecha específica.
+     - `GetReservationByEndDateAsync(DateTime endDate)`: Obtiene todas las reservas que finalizan en una fecha específica.
+     - `GetReservationsByLocalIdAsync(List<int> localId)`: Obtiene todas las reservas asociadas a uno o más locales específicos.
+
+### 5.4.2. Interface Layer
+
+#### Controllers
+
+1. **ReservationController:**
+   - **Descripción:** Expone endpoints para la gestión de reservas, incluyendo su creación, actualización, eliminación y consultas por distintos criterios.
+   - **Métodos:**
+     - `CreateReservationAsync(CreateReservationResource resource)`: Endpoint para crear una nueva reserva.
+     - `UpdateReservationAsync(int id, UpdateReservationResource resource)`: Endpoint para actualizar las fechas de una reserva existente.
+     - `DeleteReservationAsync(int id)`: Endpoint para eliminar una reserva por su ID.
+     - `GetReservationsByUserIdAsync(int userId)`: Endpoint para obtener todas las reservas hechas por un usuario específico.
+     - `GetReservationUserDetailsAsync(int userId)`: Endpoint que obtiene reservas y detalles de suscriptores asociadas al usuario dueño del local.
+     - `GetReservationByStartDateAsync(DateTime startDate)`: Endpoint para obtener todas las reservas que comienzan en una fecha específica.
+     - `GetReservationByEndDateAsync(DateTime endDate)`: Endpoint para obtener todas las reservas que terminan en una fecha específica.
+
+
+### 5.4.3. Application Layer
+
+#### Command Services
+
+1. **ReservationCommandService:**
+   - **Descripción:** Servicio encargado de manejar los comandos relacionados a la creación, actualización y eliminación de reservas, aplicando reglas de negocio y validaciones necesarias.
+   - **Métodos:**
+     - `Handle(CreateReservationCommand reservation)`: Crea una nueva reserva validando existencia de usuario, local, fechas correctas y propiedad del local.
+     - `Handle(UpdateReservationDateCommand reservation)`: Actualiza las fechas de una reserva existente tras validar que las fechas sean válidas y futuras.
+     - `Handle(DeleteReservationCommand reservation)`: Elimina una reserva por su ID si esta existe.
+
+
+#### Query Services
+
+2. **ReservationQueryService:**
+   - **Descripción:** Servicio encargado de consultar reservas desde la base de datos, permitiendo filtros por usuario, fechas o propiedad del local.
+   - **Métodos:**
+     - `GetReservationsByUserIdAsync(GetReservationsByUserId query)`: Obtiene todas las reservas asociadas a un usuario dado su ID.
+     - `GetReservationByStartDateAsync(GetReservationByStartDate query)`: Obtiene todas las reservas que comienzan en una fecha específica.
+     - `GetReservationByEndDateAsync(GetReservationByEndDate query)`: Obtiene todas las reservas que finalizan en una fecha específica.
+     - `GetReservationsByOwnerIdAsync(GetReservationsByOwnerIdQuery query)`: Obtiene todas las reservas de los locales propiedad de un usuario específico.
+
+### 5.4.4. Application Layer
+
+#### Repositories (implementaciones)
+
+### ReservationRepository
+
+**Descripción:**  
+Implementación del repositorio para interactuar con la base de datos de reservas, utilizando Entity Framework Core.
+
+**Métodos:**
+
+- `GetReservationsByUserIdAsync(int userId)`  
+  Obtiene todas las reservas realizadas por un usuario específico.
+
+- `GetReservationByStartDateAsync(DateTime startDate)`  
+  Obtiene todas las reservas que comienzan en una fecha específica.
+
+- `GetReservationByEndDateAsync(DateTime endDate)`  
+  Obtiene todas las reservas que terminan en una fecha específica.
+
+- `GetReservationsByLocalIdAsync(List<int> localId)`  
+  Obtiene todas las reservas asociadas a una lista de IDs de locales.
+
+
+### 5.4.6. Bounded Context Software Architecture Component Level Diagrams
+
+<div align="justify">
+    El diagrama de componentes C4 del bounded context Booking muestra la arquitectura del contenedor Booking API, incluyendo el controlador de reservas, los servicios de comandos y consultas, el repositorio de reservas y su conexión con la base de datos para gestionar las reservaciones de locales.
+</div>
+<br>
+
+![Diagrama Stucturizr([URL]())](images/cap-5/c4-component-diagrams/booking-context.png)
+
+### 5.4.7. Bounded Context Software Architecture Code Level Diagrams
+
+#### 5.4.7.1. Bounded Context Domain Layer Class Diagrams
+
+<div align="justify">
+    El diagrama de clases del bounded context Booking representa el aggregate root Reservation con sus atributos (StartDate, EndDate, UserId, LocalId), los comandos para crear, actualizar y eliminar reservas, las consultas para obtener reservaciones, y la interfaz del repositorio IReservationRepository.
+</div>
+<br>
+
+![Diagrama Lucidchart([URL]())](images/cap-5/class-diagrams/booking-context.png)
+
+#### 5.4.7.2. Bounded Context Database Design Diagram
+
+<div align="justify">
+    El diagrama de base de datos del bounded context Booking muestra la tabla reservations con sus atributos (id, start_date, end_date, user_id, local_id), sus tipos de datos, claves primarias y las claves foráneas que establecen relaciones con las tablas de usuarios y locales.
+</div>
+<br>
+
+![Diagrama Vertanelo([URL]())](images/cap-5/database-diagram/booking-context.png)
+
+
+## 5.5. Bounded Context: Notifications Context
+
+### 5.5.1. Domain Layer
+
+#### **Aggregates**
+
+**🔹 Notification**
+
+- **Descripción**: Representa una notificación enviada a un usuario dentro del sistema.
+- **Atributos**:
+  - `Id`: Identificador único de la notificación.
+  - `UserId`: Usuario destinatario.
+  - `Title`: Título de la notificación.
+  - `Message`: Contenido textual.
+  - `Type`: Tipo de notificación (información, advertencia, error).
+  - `CreationDate`: Fecha y hora de creación.
+  - `State`: Estado de la notificación (`enviada`, `leída`).
+
+#### **Value Objects**
+  - **NotificationType**: Enum de tipo de notificación `INFO`, `WARN` y `ERROR`.
+  - **NotificationStatus**: Enum de estado `SENT` y `READ`.
+  - **UserId**: encapsula el id del usuario (`userId`).
+
+---
+
+### 5.5.2. Interface Layer
+
+#### **Controllers**
+
+**🔹 NotificationController**
+
+- **Descripción**: Expone endpoints para gestionar las notificaciones del sistema.
+- **Métodos**:
+  - `GetAllNotificationsByUserId(int userId)`: Retorna todas las notificaciones asociadas a un usuario.
+  - `GetAllNotificationsByUserIdAndType(int userId, string type)`: Lista las notificaciones no leídas del usuario.
+  - `MarkAsRead(int notificationId)`: Marca una notificación como leída.
+
+---
+
+### 5.5.3. Application Layer
+
+#### **Command Services**
+
+**🔹 NotificationCommandService**
+
+- **Descripción**: Contiene la lógica para gestionar comandos relacionados con el envío de notificaciones.
+- **Métodos**:
+  - `Handle(SendNotificationCommand command)`: Valida y envía una nueva notificación.
+  - `Handle(MarkAsReadCommand command)`: Cambia el estado de una notificación a leida.
+
+#### **Query Services**
+
+**🔹 NotificationQueryService**
+
+- **Descripción**: Permite consultar notificaciones relacionadas a un usuario.
+- **Métodos**:
+  - `Handle(GetAllNotificationsByUserIdQuery query)`: Devuelve todas las notificaciones del usuario.
+  - `Handle(GetAllNotificationsByUserIdAndType query)`: Devuelve notificaciones por usuario y tipo.
+
+---
+
+### 5.5.4. Infrastructure Layer
+
+#### **Repositories (Implementaciones)**
+
+**🔹 NotificationRepository**
+
+- **Descripción**: Implementa acceso a la base de datos de notificaciones.
+- **Métodos**:
+  - `findByUserId(userId)`: Lista de notificaciones por usuario.
+  - `findByUserIdAndType(userId, type)`: Lista de notificaciones por usuario y tipo.
+  - `save(notification)`: Guarda una nueva notificación.
+
+---
+
+### 5.5.6. Bounded Context Software Architecture Component Level Diagrams
+
+<div align="justify">
+    El diagrama de componentes C4 del bounded context Notifications presenta la arquitectura del contenedor Notifications API, mostrando el controlador de notificaciones, los servicios de comandos y consultas, el repositorio de notificaciones y su integración con la base de datos y servicios externos de mensajería.
+</div>
+<br>
+
+![Diagrama Stucturizr([URL]())](images/cap-5/c4-component-diagrams/notification-context.png)
+
+---
+### 5.5.7. Bounded Context Software Architecture Code Level Diagrams
+
+#### 5.5.7.1. Bounded Context Domain Layer Class Diagrams
+
+<div align="justify">
+    El diagrama de clases del bounded context Notifications muestra el aggregate root Notification con sus atributos (Message, Type, SentDate, UserId), los value objects relacionados, los comandos para enviar notificaciones, las consultas para obtenerlas y la interfaz del repositorio INotificationRepository.
+</div>
+<br>
+
+![Diagrama Lucidchart([URL]())](images/cap-5/class-diagrams/class-diagram-notification.png)
+
+---
+#### 5.5.7.2. Bounded Context Database Design Diagram
+
+<div align="justify">
+    El diagrama de base de datos del bounded context Notifications muestra la tabla notifications con sus campos (id, message, type, sent_date, user_id), tipos de datos, claves primarias y las claves foráneas que relacionan las notificaciones con los usuarios destinatarios.
+</div>
+<br>
+
+![Diagrama Lucidchart([URL]())](images/cap-5/database-diagram/database-diagram-notification.png)
+
+---
+
+## 5.6. Bounded Context: Subscription Context
+
+### 5.6.1. Domain Layer
+
+#### Aggregates
+
+1. **Invoice**:
+  - **Descripción**: Representa la compra de una subscripción en la aplicación
+  - **Atributos**:
+    - `Id`: Identificador de la compra
+    - `Amount`: Monto de la compra
+    - `Date`: Fecha de la compra
+    - `SubscriptionId`: Id de la subscripción comprada
+
+2. **Plan**:
+  - **Descripción**: Representa un plan de subscripción en la aplicación
+  - **Atributos**:
+    - `Id`: Identificador del plan de subscripción.
+    - `Name`: Nombre del plan
+    - `Service`: Servicio que ofrece el plan
+    - `Price`: Precio del plan
+
+3. **Subscription**:
+  - **Descripción**: Representa una subscripción en la aplicación
+  - **Atributos**:
+    - `Id`: Identificador de la subscripción.
+    - `UserId`: Identificador del usuario que compro la subscripción.
+    - `SubscriptionStatusId`: Identificador del estado de la subscripción.
+    - `PlanId`: Identificador del plan de la subscripción
+    - `VoucherImageUrl`: Imagen del voucher de la subscripción
+
+4. **SubscriptionAudit**:
+  - **Description**: Registro de las fechas de creación o actualización de las subscripciones.
+  - **Atributos**:
+    - `CreatedDate`: Fecha de creación de la subscripción
+    - `UpdatedDate`: Fecha de actualización de la subscripción
+
+#### Entities
+
+1. **SubscriptionStatus**:
+  - **Descripción**: Estado de la subscripción
+  - **Atributos**:
+    - `Id`: Identificador unico del estado de la subscripción.
+    - `Status`: Nombre del estado de la descripción.
+
+#### Value Objects
+
+1. **ESubscriptionStatus**:
+  - **Descripción**: Enumerador para obtener los estados de la subscripción.
+
+#### Commands
+
+1. **ActiveSubscriptionStatusCommand**:
+  - **Descripción**: Comando para modificar el estado de una subscripción a activa.
+
+2. **CreateInvoiceCommand**:
+  - **Descripción**: Comando para crear una compra de una subscripción.
+
+3. **CreatePlanCommand**:
+  - **Descripción**: Comando para crear un plan de subscripción
+
+4. **CreateSubscriptionCommand**:
+  - **Descripción**: Comando para crear una subscripción
+
+5. **CreateSubscriptionPaymentCommand**:
+  - **Descripción**: Comando para crear un pago de una subscripción
+
+6. **SeedSubscriptionPlanCommand**:
+  - **Descripción**: Comando para inicializar los planes de subscripción
+
+7. **SeedSubscripionStatusCommand**:
+  - **Descripción**: Comando para inicializar los estados de subscripción
+
+#### Queries
+
+1. **GetAllInvoicesQuery**:
+  - **Descripción**: Consulta para obtener todas las compras de subscripción.
+
+2. **GetAllPlans**:
+  - **Descripción**: Consulta para obetener todos los planes de subscripción.
+
+3. **GetAllSubscriptionPayments**:
+  - **Descripción**: Consulta para obtener todos los pagos de subscripción.
+
+4. **GetInvoiceByIdQuery**:
+  - **Descripción**: Consulta para obtener una compra de subscripción dado su id.
+
+5. **GetPlanByIdQuery**:
+  - **Descripción**: Consulta para obtener un plan de subscripción dado su id.
+
+6. **GetSubscriptionByIdQuery**:
+  - **Descripción**: Consulta para obtener una subscripción dado su id.
+
+7. **GetSubscriptionByUserIdQuery**:
+  - **Descripción**: Consulta para obtener una subscripción dado el id de el usuario
+
+8. **GetSubscriptionPaymentByIdQuery**:
+  - **Descripción**: Consulta para obtener el pago de una subscripción dado su id
+
+9. **GetSubscriptionsByUserIdQuery**:
+  - **Descripción**: Consulta para obtener todas las subscripciones de un solo usuario.
+
+#### Repositories
+
+1. **IInvoiceRepository**:
+  - **Descripción**: Permite interactuar con la base de datos para almacenar u obtener datos de las compras.
+
+2. **IPlanRepository**:
+  - **Descripción**: Permite interactuar con la base de datos para almacenar u obtener datos de los planes de subscripción.
+
+3. **ISubscriptionRepository**:
+  - **Descripción**: Permite interactuar con la base de datos para almacenar u obtener datos de las subscripciones.
+  - **Métodos**:
+    - `FindByUserIdAsync(int userId)`: Obtiene una subscripción a traves del id de su usuario
+    - `FindByUserIdsListAsync`: Obtiene una lista de subscripciones a traves de una lista de ids de usuarios.
+
+4. **ISubscriptionStatusRepository**:
+  - **Descripción**: Permite interactuar con la base de datos para almacenar u obtener datos de los estados de subscripción.
+  - **Métodos**:
+    - `ExistsBySubscriptionStatus(ESubscriptionStatus subscriptionStatus)`: Verifica si existe un estado.
+
+#### Services
+
+1. **IInvoiceCommandService**:
+  - **Descripción**: Maneja los comandos para la creación de las compras
+  - **Métodos**:
+    - `Handle(CreateInvoiceCommand command)`: Maneja el comando para crear una compra.
+
+2. **IInvoiceQueryService**:
+  - **Descripción**: Maneja las consultas de las compras desde la base de datos
+  - **Métodos**:
+    - `Handle(GetInvoiceByIdQuery query)`: Maneja la consulta para obtener una compra a traves de su id.
+    - `Handle(GetAllInvoicesQuery query)`: Maneja la consulta para obtener todas las compras registradas.
+
+3. **IPlanCommandService**
+  - **Descripción**: Maneja los comandos para la creación de los planes
+  - **Métodos**:
+    - `Handle(CreatePlanCommand command)`: Maneja el comando para la creación de planes de subscripción.
+
+4. **IPlanQueryService**
+  - **Descripción**: Maneja las consultas de los planes desde la base de datos
+  - **Métodos**:
+    - `Handle(GetAllPlansQuery query)`: Maneja la consulta para obtener todos los planes de subscripción.
+
+5. **ISeedSubscriptionPlanCommandService**
+  - **Descripción**: Permite el manejo del comando para la inicialización de los planes de subscripción.
+  - **Métodos**:
+    - `Handle(SeedSubscriptionPlanCommand command)`: Maneja el comando para la inicialización de los planes de subscripción.
+
+6. **ISubscriptionCommandService**
+  - **Descripción**: Permite el manejo de comandos para la creación y activación de las subscripciones
+  - **Métodos**:
+    - `Handle(CreateSubscriptionCommand command)`: Maneja el comando para la creación de subscripciones.
+    - `Handle(ActiveSubscriptionStatusCommand command)`: Maneja el comando para la activación de una subscripciones.
+
+7. **ISubscriptionQueryService**
+  - **Descripción**: Permite el manejo de consultas de las subscripciones desde la base datos.
+  - **Métodos**:
+    - `Handle(GetSubscriptionByIdQuery query)`: Maneja la consulta para obtener una subscripción en base a su id.
+    - `Handle(GetAllSubscriptionsQuery query)`: Maneja la consulta para obtener todas las subscriptiones.
+    - `Handle(GetSubscriptionByUserIdQuery query)`: Maneja la consulta para obtener una subscripción en base a la id de su usuario.
+    - `Handle(GetSubscriptionsByUserIdQuery query)`: Maneja la consulta para obtener todas las subscripciones de un usuario en base a su id.
+
+8. **ISubscriptionStatusCommandService**
+  - **Descripción**: Permite el manejo de comandos para la inicializacion de estados.
+  - **Métodos**:
+    - `Handle(SeedSubscriptionStatusCommand command)`: Maneja la inicialización de los estados.
+
+### 5.6.2. Interface Layer
+
+#### Facades
+
+1. **ISubscriptionContextFacade**
+  - **Descripción**: Permite el uso de metodos del bounded context de subscriptions en otros bounded context.
+  - **Métodos**:
+    `GetSubscriptionByUserIdsList(List<int> userIdsList)`: Obtiene las subscripciones de varios usuarios a traves de sus ids.
+    `GetSubscriptionStatusByUserId(int userId)`: Obtiene los estados de la subscripción de un usuario a traves de su id.
+
+#### Controller
+
+1. **InvoiceController**: 
+  - **Descripción**: Expone endpoints para el manejo de las compras dentro de la aplicación
+  - **Métodos**:
+    - `CreateInvoice([CreateInvoiceResource createInvoiceResource)`: Endpoint para crear una compra
+    - `GetInvoices()`: Endpoint para obtener todas las compras.
+    - `GetInvoiceById(int invoiceId)`: Endpoint para obtener una compra en base a su id.
+
+2. **PlanController**:
+  - **Descripción**: Exponer endpoints para el manejo de los planes de subscripción dentro de la aplicación
+  - **Métodos**:
+    - `GetAllPlans()`: Endpoint para obtener todos los planes de subscripción dentro de la aplicación
+
+3. **SubscriptionsController**:
+  - **Descripción**: Exponer endpoints para el manejo de las subscripciones dentro de la aplicación.
+  - **Métodos**:
+    - `CreateSubscription(CreateSubscriptionResource createSubscriptionResource)`: Endpoint para la creación de subscripciones dentro de la aplicación
+    - `GetAllSubscriptions()`: Endpoint para obtener todas las subscripciones dentro de la aplicación
+    - `GetSubscriptionById(int subscriptionId)`: Endpoint para obtener subscripciones en base a su id
+    - `ActiveSubscriptionStatus(int subscriptionId)`: Endpoint para activar una subscripción en base a su id
+
+### 5.6.3. Application Layer
+
+#### Command Services (Implementation)
+
+1. **InvoiceCommandService**:
+  - **Descripción**: Maneja los comandos para la creación de las compras
+  - **Métodos**:
+    - `Handle(CreateInvoiceCommand command)`: Maneja el comando para crear una compra.
+
+2. **PlanCommandService**
+  - **Descripción**: Maneja los comandos para la creación de los planes
+  - **Métodos**:
+    - `Handle(CreatePlanCommand command)`: Maneja el comando para la creación de planes de subscripción.
+
+3. **SeedSubscriptionPlanCommandService**
+  - **Descripción**: Permite el manejo del comando para la inicialización de los planes de subscripción.
+  - **Métodos**:
+    - `Handle(SeedSubscriptionPlanCommand command)`: Maneja el comando para la inicialización de los planes de subscripción.
+
+4. **SubscriptionCommandService**
+  - **Descripción**: Permite el manejo de comandos para la creación y activación de las subscripciones
+  - **Métodos**:
+    - `Handle(CreateSubscriptionCommand command)`: Maneja el comando para la creación de subscripciones.
+    - `Handle(ActiveSubscriptionStatusCommand command)`: Maneja el comando para la activación de una subscripciones.
+
+5. **SubscriptionStatusCommandService**
+  - **Descripción**: Permite el manejo de comandos para la inicializacion de estados.
+  - **Métodos**:
+    - `Handle(SeedSubscriptionStatusCommand command)`: Maneja la inicialización de los estados.
+
+#### Query Services (Implementación)
+
+1. **InvoiceQueryService**:
+  - **Descripción**: Maneja las consultas de las compras desde la base de datos
+  - **Métodos**:
+    - `Handle(GetInvoiceByIdQuery query)`: Maneja la consulta para obtener una compra a traves de su id.
+    - `Handle(GetAllInvoicesQuery query)`: Maneja la consulta para obtener todas las compras registradas.
+
+2. **PlanQueryService**
+  - **Descripción**: Maneja las consultas de los planes desde la base de datos
+  - **Métodos**:
+    - `Handle(GetAllPlansQuery query)`: Maneja la consulta para obtener todos los planes de subscripción.
+  
+3. **SubscriptionQueryService**
+  - **Descripción**: Permite el manejo de consultas de las subscripciones desde la base datos.
+  - **Métodos**:
+    - `Handle(GetSubscriptionByIdQuery query)`: Maneja la consulta para obtener una subscripción en base a su id.
+    - `Handle(GetAllSubscriptionsQuery query)`: Maneja la consulta para obtener todas las subscriptiones.
+    - `Handle(GetSubscriptionByUserIdQuery query)`: Maneja la consulta para obtener una subscripción en base a la id de su usuario.
+    - `Handle(GetSubscriptionsByUserIdQuery query)`: Maneja la consulta para obtener todas las subscripciones de un usuario en base a su id.
+
+#### OutboundServices
+
+1. **ExternalUserWithSubscriptionService**
+  - **Descripción**: Permite utilizar metodos del bounded context de usuarios.
+  - **Métodos**:
+    - `UserExists(int id)`: Permite validar si un usuario existe dada su id.
+
+### 5.6.4. Infrastructure Layer
+
+#### Repositories (Implementación)
+
+1. **IInvoiceRepository**:
+  - **Descripción**: Permite interactuar con la base de datos para almacenar u obtener datos de las compras.
+
+2. **IPlanRepository**:
+  - **Descripción**: Permite interactuar con la base de datos para almacenar u obtener datos de los planes de subscripción.
+
+3. **ISubscriptionRepository**:
+  - **Descripción**: Permite interactuar con la base de datos para almacenar u obtener datos de las subscripciones.
+  - **Métodos**:
+    - `FindByUserIdAsync(int userId)`: Obtiene una subscripción a traves del id de su usuario
+    - `FindByUserIdsListAsync`: Obtiene una lista de subscripciones a traves de una lista de ids de usuarios.
+
+4. **ISubscriptionStatusRepository**:
+  - **Descripción**: Permite interactuar con la base de datos para almacenar u obtener datos de los estados de subscripción.
+  - **Métodos**:
+    - `ExistsBySubscriptionStatus(ESubscriptionStatus subscriptionStatus)`: Verifica si existe un estado.
+
+### 5.6.6. Bounded Context Software Architecture Component Level Diagrams
+
+<div align="justify">
+    El diagrama de componentes C4 del bounded context Subscription ilustra la arquitectura del contenedor Subscription API, mostrando los controladores para gestionar subscripciones, planes y facturas, los servicios de aplicación, los repositorios correspondientes y su conexión con la base de datos y servicios externos de usuarios.
+</div>
+<br>
+
+![Diagrama Stucturizr([URL]())](images/cap-5/c4-component-diagrams/subscription-component-diagram.png)
+
+### 5.6.7. Bounded Context Software Architecture Code Level Diagrams
+
+#### 5.6.7.1. Bounded Context Domain Layer Class Diagrams
+
+<div align="justify">
+    El diagrama de clases del bounded context Subscription presenta los aggregates Invoice, Plan y Subscription con sus atributos respectivos, los value objects (SubscriptionStatus, PlanDuration), los comandos para crear y gestionar subscripciones, las consultas y las interfaces de los repositorios (IInvoiceRepository, IPlanRepository, ISubscriptionRepository).
+</div>
+<br>
+
+![Diagrama Lucidchart([URL]())](images/cap-5/class-diagrams/subscription-class-diagram.png)
+
+#### 5.6.7.2. Bounded Context Database Design Diagram
+
+<div align="justify">
+    El diagrama de base de datos del bounded context Subscription muestra las tablas invoices, plans, subscriptions y subscription_statuses con sus respectivos campos, tipos de datos, claves primarias y las relaciones entre ellas, estableciendo cómo se almacenan las subscripciones, planes y facturas en la base de datos.
+</div>
+<br>
+
+![Diagrama Vertanelo([URL]())](images/cap-5/database-diagram/subscription-database-diagram.png)
+
+------
+
+## 5.7. Bounded Context: Monitoring Context
+
+### 5.7.1. Domain Layer
+
+#### Aggregates
+
+1. **Sensor:**
+   - **Descripción:** Representa un sensor IoT desplegado dentro de un espacio monitoreado (por ejemplo, para ruido o humo).
+   - **Atributos:**
+     - `Id`: Identificador único del sensor.
+     - `Code`: Código físico o serial único del sensor.
+     - `Type`: Tipo del sensor: NOISE, SMOKE, TEMP, etc.
+     - `State`: Estado del sensor (ACTIVE, INACTIVE, MAINTENANCE).
+     - `Location`: Ubicación física dentro de la propiedad.
+     - `LocalId`: Identificador del local al que pertenece.
+     - `Readings`: Colección de lecturas registradas por el sensor.
+
+2. **NFCTag**
+   - **Descripción:** Representa una tarjeta NFC registrada y asociada a un usuario o propósito.
+   - **Atributos:**
+     - `Id`: Identificador único del tag.
+     - `Code`: Código físico del tag NFC.
+     - `Alias`: Nombre opcional para identificar la tarjeta.
+     - `IsActive`: Si está activa o desactivada.
+     - `ExpirationDate`: Fecha opcional de expiración del tag.
+
+#### Entities
+
+1. **Reading:**
+   - **Descripción:** Representa un dato capturado por un sensor en un momento específico.
+   - **Atributos:**
+     - `Id`: Identificador único de la lectura.
+     - `SensorId`: ID del sensor que envió la lectura.
+     - `Timestamp`: Fecha y hora de la lectura.
+     - `Value`: Valor medidor por el sensor.
+     - `Unit`: Unidad de medida (°C, %, etc.).
+
+2. **NFCDetectionEvent:**
+   - **Descripción:** Representa un evento de detección de un tag NFC en un lector.
+   - **Atributos:**
+     - `Id`: Identificador único de la configuración.
+     - `DetectedAt`: Momento de la detección.
+     - `TagId`: Identificador del NFCTag detectado.
+     - `SensorId`: Identificador de sensor que detecta.
+
+#### Value Objects
+
+1. **SensorType:**
+   - **Descripción:** Objeto de valor que representa el tipo de un sensor. Asegura el control del tipo de infracción respectivo.
+   - **Atributos:**
+     - `SensorType`: 	Tipo del sensor: (NOISE, SMOKE, TEMP, etc).
+
+2. **SensorStatus:**
+   - **Descripción:** Objeto de valor que representa el estado de un sensor. Asegura que el estado cumpla con ciertas reglas de negocio (por ejemplo, solo valores como 'activo' o 'inactivo').
+   - **Atributos:**
+     - `Status`: Estado del dispositivo (activo, inactivo, mantenimiento).
+
+3. **Unit:**
+   - **Descripción:** Objeto de valor que representa la unidad de valor de una lectura en el sensor.
+   - **Atributos:**
+     - `Unit`: 	Unidad del valor (ej: dB, ppm, °C).
+
+
+#### Commands
+
+##### Sensor
+
+1. **CreateSensorCommand:**
+   - **Descripción:** Crear un nuevo sensor con tipo, ubicación y estado inicial
+
+2. **CreateReadingCommand:**
+   - **Descripción:** Crear una lectura individual desde un sensor para registrarla
+
+3. **UpdateSensorCommand:**
+   - **Descripción:** Activar o desactivar un sensor específico
+
+##### NFCTag
+
+1. **CreateNFCTagCommand:**
+   - **Descripción:** Registra una nueva tarjeta NFC con UID y alias opcional
+
+2. **UpdateNFCTagCommand:**
+   - **Descripción:** Desactiva una tarjeta NFC existente
+
+3. **CreateNFCDetectionEvent:**
+   - **Descripción:** Registra un evento de detección de un tag NFC en un lector
+
+#### Queries
+
+##### Sensor
+
+1. **GetAllSensorsByLocalIdQuery:**
+   - **Descripción:** Obtener todos los sensores registrados para un id de local dado.
+
+2. **GetSensorByIdQuery:**
+   - **Descripción:** Obtener detalles de un sensor específico
+
+3. **GetReadingsBySensorIdQuery:**
+   - **Descripción:** Obtener todas las lecturas de un sensor
+
+##### NFCTag
+
+1. **GetNFCTagByIdQuery:**
+   - **Descripción:** Obtener detalles de un tag NFC específico
+
+2. **GetAllTagDetectionEventsBySensorIdQuery:**
+   - **Descripción:** Obtener eventos de detección para un sensor específico
+
+#### Repositories (Interfaces)
+
+1. **SensorRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de sensores.
+   - **Métodos:**
+     - `FindAllByLocalId(int id)`: Busca todos los sensores por ID de local.
+     - `FindById(int id)`: Busca un sensor por su ID.
+     - `Save(Sensor sensor)`: Guarda o actualiza un sensor en la base de datos.
+
+2. **ReadingRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de lecturas de sensores.
+   - **Métodos:**
+     - `FindAllBySensorId(int id)`: Busca todas las lecturas por ID de sensor.
+     - `Save(Reading reading)`: Guarda o actualiza una lectura en la base de datos.
+
+3. **NFCTagRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de tags NFC.
+   - **Métodos:**
+     - `FindById(int id)`: Busca un tag NFC por su ID.
+     - `Save(NFCTag nfcTag)`: Guarda o actualiza un tag NFC en la base de datos.
+
+4. **NFCDetectionEventRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de detecciones NFC.
+   - **Métodos:**
+     - `FindAllBySensorId(int id)`: Busca todas las detecciones por ID de sensor.
+     - `Save(NFCDetectionEvent nfcDetectionEvent)`: Guarda o actualiza una deteccion en la base de datos.
+
+### 5.7.2. Interface Layer
+
+#### Controllers
+
+1. **SensorsController:**
+   - **Descripción:** Expone endpoints para la gestión de sensores, incluyendo la creación, actualización y recuperación de lecturas.
+   - **Métodos:**
+     - `RegisterSensor(Sensor sensor)`: Endpoint para registrar un nuevo sensor.
+     - `RegisterReading(Reading reading)`: Endpoint para registrar una lectura de sensor.
+     - `UpdateSensorStatus(int id, String status)`: Endpoint para actualizar el estado de un dispositivo.
+     - `GetAllSensorsByLocalId(int id)`: Endpoint para obtener todos los sensores dado un ID de local.
+     - `GetSensorById(int id)`: Endpoint para obtener los detalles de un sensor por su ID.
+     - `GetAllReadingsBySensorId(int id)`: Endpoint para obtener todos las lecturas dado un ID de sensor.
+
+2. **NFCTagsController:**
+   - **Descripción:** Expone endpoints para la gestión de sensores, incluyendo la creación, actualización y recuperación de dispositivos.
+   - **Métodos:**
+     - `RegisterNFCTag(NFCTag nfcTag)`: Endpoint para registrar un nuevo tag NFC.
+     - `RegisterNFCDetectionEvent(NFCDetectionEvent nfcDetectionEvent)`: Endpoint para registrar una detección de evento NFC.
+     - `UpdateNFCTagStatus(int id, String status)`: Endpoint para actualizar el estado de un tag NFC.
+     - `GetNFCTagById(int id)`: Endpoint para obtener los detalles de un tag NFC por su ID.
+     - `GetAllNFCDetectionEventsBySensorId(int id)`: Endpoint para obtener todas las detecciones de eventos NFC dado un ID de sensor.
+
+### 5.7.3. Application Layer
+
+#### Command Services
+
+1. **SensorCommandService:**
+   - **Descripción:** Maneja comandos para crear y actualizar sensores con sus lecturas.
+   - **Métodos:**
+     - `Handle(CreateSensorCommand command)`: Valida y aplica el comando para crear un sensor.
+     - `Handle(CreateReadingCommand command)`: Valida y aplica el comando para crear una lectura.
+     - `Handle(UpdateSensorCommand command)`: Valida y aplica el comando para actualizar el estado de un sensor.
+
+2. **NFCTagCommandService:**
+   - **Descripción:** Maneja comandos para crear y actualizar tags NFC con sus detecciones de eventos.
+   - **Métodos:**
+     - `Handle(CreateNFCTagCommand command)`: Valida y aplica el comando para crear un tag NFC.
+     - `Handle(CreateNFCDetectionEventCommand command)`: Valida y aplica el comando para crear una deteccion de evento NFC.
+     - `Handle(UpdateNFCTagCommand command)`: Valida y aplica el comando para actualizar el estado de un tag NFC.
+
+
+#### Query Services
+
+1. **SensorQueryService:**
+   - **Descripción:** Ofrece consultas para obtener información sobre los sensores y sus lecturas.
+   - **Métodos:**
+     - `Handle(GetAllSensorsByLocalIdQuery query)`: Valida y aplica el query para obtener todos los sensores dado un ID de local.
+     - `Handle(GetSensorByIdQuery query)`: Valida y aplica el query para obtener la información de un sensor dado su ID.
+     - `Handle(GetReadingsBySensorIdQuery query)`: Valida y aplica el query para obtener las lecturas dado un ID de sensor.
+
+2. **NFCTagQueryService:**
+   - **Descripción:** Ofrece consultas para obtener información sobre los tag NFC y sus detecciones de eventos.
+   - **Métodos:**
+     - `Handle(GetNFCTagByIdQuery query)`: Valida y aplica el query para obtener la información de un tag NFC.
+     - `Handle(GetAllTagDetectionEventsBySensorIdQuery query)`: Valida y aplica el query para obtener todas las detecciones de eventos dado un ID de sensor.
+
+### 5.7.4. Infrastructure Layer
+
+#### Repositories (Implementaciones)
+
+1. **SensorRepository:**
+   - **Descripción:** Implementación para interactuar con la base de datos de sensores.
+   - **Métodos:**
+     - `FindAllByLocalId(int id)`: Busca todos los sensores por ID de local.
+     - `FindById(int id)`: Busca un sensor por su ID.
+     - `Save(Sensor sensor)`: Guarda o actualiza un sensor en la base de datos.
+
+2. **ReadingRepository:**
+   - **Descripción:** Implementación para interactuar con la base de datos de lecturas de sensores.
+   - **Métodos:**
+     - `FindAllBySensorId(int id)`: Busca todas las lecturas por ID de sensor.
+     - `Save(Reading reading)`: Guarda o actualiza una lectura en la base de datos.
+
+3. **NFCTagRepository:**
+   - **Descripción:** Implementación para interactuar con la base de datos de tags NFC.
+   - **Métodos:**
+     - `FindById(int id)`: Busca un tag NFC por su ID.
+     - `Save(Sensor sensor)`: Guarda o actualiza un tag NFC en la base de datos.
+
+4. **NFCDetectionEventRepository:**
+   - **Descripción:** Implementación para interactuar con la base de datos de detecciones NFC.
+   - **Métodos:**
+     - `FindAllBySensorId(int id)`: Busca todas las detecciones por ID de sensor.
+     - `Save(NFCDetectionEvent nfcDetectionEvent)`: Guarda o actualiza una deteccion en la base de datos.
+
+
+### 5.7.6. Bounded Context Software Architecture Component Level Diagrams
+
+<div align="justify">
+    El diagrama de componentes C4 del bounded context Monitoring muestra la arquitectura del contenedor Monitoring API, incluyendo los controladores para gestionar sensores y tags NFC, los servicios de comandos y consultas, los repositorios (SensorRepository, ReadingRepository, NFCTagRepository, NFCDetectionEventRepository) y su integración con la base de datos para monitorear eventos en los locales.
+</div>
+<br>
+
+![Diagrama Stucturizr([URL]())](images/cap-5/c4-component-diagrams/management-context.jpg)
+
+### 5.7.7. Bounded Context Software Architecture Code Level Diagrams
+
+#### 5.7.7.1. Bounded Context Domain Layer Class Diagrams
+
+<div align="justify">
+    El diagrama de clases del bounded context Monitoring presenta los aggregates Sensor, Reading, NFCTag y NFCDetectionEvent con sus respectivos atributos, los value objects relacionados con tipos de sensores y estados, los comandos para registrar sensores y lecturas, las consultas para obtener información de monitoreo y las interfaces de los repositorios correspondientes.
+</div>
+<br>
+
+![Diagrama LucidChart([URL]())](images/cap-5/class-diagrams/management-context.png)
+
+#### 5.7.7.2. Bounded Context Database Design Diagram
+
+<div align="justify">
+    El diagrama de base de datos del bounded context Monitoring muestra las tablas sensors, readings, nfc_tags y nfc_detection_events con sus campos respectivos, tipos de datos, claves primarias y claves foráneas, estableciendo las relaciones entre sensores, sus lecturas, tags NFC y eventos de detección para el monitoreo de locales.
+</div>
+<br>
+
+![Diagrama Vertabelo([URL]())](images/cap-5/database-diagram/management-context.png)
+
+
+# Capítulo VI: Solution UX Design
+
+## 6.1. Style Guidelines
+<div align="justify">
+    Un Style Guideline es un conjunto de reglas y normas que definen cómo se debe redactar, diseñar o presentar documentos, contenido web, software u otros trabajos creativos. A continuación, se detallan las especificaciones de los parámetros implementados en la estructura del proyecto.
+</div>
+
+### 6.1.1. General Style Guidelines
+
+**Overview:**
+<div align="justify">
+    Deseamos capturar la atención del usuario desde el inicio mediante la creación y el diseño de una perspectiva del producto que establezca una conexión inmediata y reconocible.
+</div>
+<br>
+
+**Brand Overview:**
+<div align="justify">
+     AlquilaFácil es un startup tecnológico fundada en el 2024 por un grupo de estudiantes compuesta por un grupo de estudiantes de la carrera de Ingeniería de Software. Nuestro startup está dedicada a simplificar el proceso de alquiler de espacios para eventos, brindando una plataforma innovadora y accesible para propietarios y organizadores por igual.
+</div>
+<br>
+
+**Brand Name:**
+<div align="justify">
+     Como el startup se trata de alquilar centros para eventos y también para publicitar centros que podrían ser alquilados, se vio conveniente llamarlo “AlquilaFácil”.
+</div>
+<br>
+
+![Artefacto creado en Canva](images/cap-6/Guidelines/Background-AlquilaFacil.png) 
+
+**Typography:**
+<div align="justify">
+     El tamaño elegido para la tipografía por el equipo fue: 
+</div>
+<br>
+
+![Artefacto creado en Canva](images/cap-6/Guidelines/Typography.png) 
+
+<br>
+
+**Colors:**
+<div align="justify">
+     La gama de colores elegidos son:
+</div>
+<br>
+
+![Artefacto creado en Canva](images/cap-6/Guidelines/Colors.png) 
+
+
+### 6.1.2. Web, Mobile & Devices Style Guidelines
+
+<div align="justify">
+    Teniendo en cuenta que tanto para la Web App se han utilizado los mismo estilos base ya predeterminados, como lo son: La tipografía, los colores y el brand del producto AlquilaFacil, hay ciertos aspectos que se diferencian dentro de la versión Mobile y Web. Por ejemplo:
+</div>
+
+<br>
+
+**Toolbar:**
+<div align="justify">
+     Una de las principales notoriedades es la Toolbar, al tratarse de una plataforma Web a diferencia de la contraparte Mobile, se tiene la posibilidad de ser mucho más amplia y tener el contenido más disperso.
+</div>
+<br>
+
+![Artefacto creado en Canva](images/cap-6/Web%20Styles/WebNavbar.png) 
+
+**Inputs/Buttons:**
+<div align="justify">
+     Al tener mucho más espacio en la pantalla, los inputs y botones de la Web App son mucho más grandes y con mayor espaciado.
+</div>
+<br>
+
+![Artefacto creado en Canva](images/cap-6/Web%20Styles/WebInputs.png) 
+
+
+**Espaciado**
+<div align="justify">
+     Siguiendo lo mencionado antes, teniendo en cuenta que el tamaño de la pantalla de una Web App es mucho más amplio, se puede tener un espacio mejor entre los componentes y elementos para una visibilidad más intuitiva.
+</div>
+<br>
+
+![Artefacto creado en Canva](images/cap-6/Web%20Styles/WebSpacing.png) 
+
+## Mobile Guidelines
+
+
+<div align="justify">
+Entre las plataformas de AlquilaFacil Mobile, existe una característica que comparten ambas plataformas del App Moblile, el cuál es la NavBar del aplicativo.
+</div>
+
+<br>
+
+
+**Navbar:**
+<div align="justify">
+    En comparación con la versión de escritorio, la barra de nevagación es mucho más reducida y sintetizada a íconos alusivos a las funcionalidades principales de AlquilaFacil
+</div>
+<br>
+
+![Artefacto creado en Canva](images/cap-6/Mobile%20Styles/MobileBar.png) 
+
+
+**Buttons:**
+<div align="justify">
+    Ambas versiones tanto como para Android e iOS comparten similitudes en todos los aspectos, sin embargo hay ciertos botonos por ejemplo que en la versión de iOS son enfocados más en colores Blancos o Negros, como por ejemplo:
+</div>
+<br>
+
+![Artefacto creado en Canva](images/cap-6/Mobile%20Styles/AndroidBackButton.png) 
+
+## IoT Guidelines
+En esta parte sedescribe los lineamientos técnicos para la implementación de sensores de movimiento, humo y ruido en un entorno simulado utilizando Wokwi. El objetivo es establecer una base sólida para el desarrollo, simulación y posterior migración a dispositivos físicos reales, asegurando buenas prácticas en diseño, seguridad y escalabilidad.
+
+---
+
+**Sensores Utilizados**
+
+| Tipo de Sensor        | Modelo Sugerido    | Tipo de Señal | Función                           |
+|------------------------|---------------------|----------------|------------------------------------|
+| Movimiento             | PIR HC-SR501         | Digital        | Detecta presencia o movimiento     |
+| Humo/Gases             | MQ-2                 | Analógica      | Mide concentración de gases        |
+| Ruido/Ambiente Sonoro  | Micrófono analógico  | Analógica      | Detecta intensidad del sonido      |
+
+---
+
+**Librerías y Dependencias**
+
+| Sensor      | Librería Recomendada      | Propósito                                   |
+|-------------|---------------------------|---------------------------------------------|
+| MQ-2        | `MQUnifiedsensor`         | Calibración, regresión y lectura de ppm     |
+| PIR         | No requiere               | Lectura digital directa                     |
+| Micrófono   | No requiere               | Lectura analógica directa                   |
+
+> En Wokwi, las simulaciones suelen funcionar sin necesidad de instalar librerías, pero se recomienda su uso para mantener fidelidad con hardware real.
+
+---
+
+**Lineamientos Técnicos (IoT Guidelines)**
+
+**Diseño Modular**
+- Separar la lógica de cada sensor en funciones o bloques independientes.
+- Facilitar el mantenimiento y futuras expansiones del sistema.
+
+**Buenas Prácticas**
+- Evitar el uso de funciones bloqueantes (`delay()`), emplear temporizadores no bloqueantes (`millis()`).
+- Definir umbrales personalizables para cada tipo de sensor.
+- Utilizar estructuras de datos para representar lecturas de sensores de forma estandarizada (ej. JSON).
+
+**Comunicación de Datos**
+- Para simulación: enviar datos por consola serial en formato estructurado (ej. JSON).
+- Para implementación real: considerar protocolos como MQTT o HTTP para transmisión a la nube.
+- Preparar el sistema para emitir alertas basadas en condiciones específicas (ej. detección de gas o ruido elevado).
+
+**Seguridad Básica (aplicable a entorno físico)**
+- Uso de identificadores únicos por dispositivo.
+- Encriptación de datos en tránsito (cuando se conecten a la red).
+- Control de acceso a interfaces y configuraciones.
+
+---
+
+**Configuración en Wokwi**
+
+| Sensor     | Pin sugerido | Tipo de Lectura     |
+|------------|---------------|----------------------|
+| PIR        | D2            | Digital (`HIGH`/`LOW`) |
+| MQ-2       | A0            | Analógica (ppm)       |
+| Micrófono  | A1            | Analógica (nivel)     |
+
+> Se recomienda utilizar resistencias de pull-down o pull-up según el comportamiento observado en la simulación para evitar fluctuaciones no deseadas.
+
+---
+
+## 6.2. Information Architecture
+
+<div align="justify">
+    En esta sección, se va a presentar la estructura del software según cada segmento objetivo. Además, los elementos que emplearan para la navegación de esta. 
+</div>
+
+### 6.2.2. Labeling Systems
+
+<div align="justify">
+    El sistema de etiquetado o Labelling System de AlquilaFácil está diseñado para proporcionar claridad y coherencia en la presentación de información, facilitando la comprensión rápida y eficiente de los contenidos por parte del usuario. Este sistema emplea etiquetas visuales y textuales en diferentes áreas clave de la aplicación: 
+</div>
+
+<br>
+
+<div align="justify">
+
+* ***Etiquetas de búsqueda y filtro:***
+En la parte superior de la interfaz, los campos de búsqueda y filtro están claramente etiquetados con íconos universales, como una lupa para la búsqueda y un embudo para los filtros. Estos íconos, junto con textos descriptivos, permiten que los usuarios identifiquen rápidamente las funciones y realicen acciones sin confusión. 
+
+* ***Etiquetas en tarjetas de espacios:***
+Cada tarjeta de espacio cuenta con etiquetas descriptivas que destacan la ubicación y el precio, las cuales están claramente diferenciadas en la interfaz. Estas etiquetas ayudan a los usuarios a identificar los detalles más relevantes de un espacio sin necesidad de interactuar más allá del listado inicial. 
+
+
+* ***Iconos como Etiquetas Visuales:***
+La aplicación utiliza iconos ampliamente reconocidos, como la estrella para "puntuaciones" y el botón de "más" para añadir nuevos espacios, que actúan como etiquetas visuales. Estos iconos, en combinación con sus posiciones estratégicas, ofrecen una experiencia intuitiva, reduciendo la necesidad de explicaciones textuales adicionales. 
+
+* ***Categorías de espacios:***
+Los espacios se pueden clasificar por diferentes tipos o características, lo que permite el uso de etiquetas de categoría. Estas etiquetas aparecen en los resultados de búsqueda para que los usuarios identifiquen rápidamente el tipo de espacio que están viendo (por ejemplo, oficinas, espacios de coworking, etc.). 
+</div>
+
+<br>
+
+### 6.2.3. Searching Systems
+
+<div align="justify">
+    El motor de búsqueda es fundamental para que los usuarios encuentren rápidamente detalles específicos 
+</div>
+
+<br>
+
+<div align="justify">
+Características claves: 
+
+* ***Búsqueda por ubicación:***
+Los usuarios podrán buscar centros para eventos cercanos a su ubicación actual o especificar una ubicación deseada.
+
+* ***Búsqueda por características:***
+Los usuarios podrán buscar características específicas, como piscina, parrilla, pet friendly, vigilancia.
+
+* ***Filtros avanzados:***
+Se proporcionarán filtros para refinar la búsqueda, como calificaciones, precios y disponibilidad.
+
+* ***Resultados relevantes:***
+ El sistema de búsqueda mostrará resultados relevantes y ordenados de acuerdo con la ubicación y otros criterios.
+
+</div>
+
+<br>
+
+### 6.2.4. SEO Tags and Meta Tags
+
+<div align="justify">
+        Las meta-etiquetas nos permiten codificar y especificar metadatos en una página web. Aunque no son visibles para los usuarios, los navegadores y rastreadores web las leen. Estas etiquetas facilitan el análisis de archivos HTML y ayudan en el mantenimiento del contenido. Además, influyen en el posicionamiento de nuestra página en los motores de búsqueda. 
+</div>
+
+<br>
+
+<div align="justify">
+    
+* ***Título:***
+Las meta etiquetas nos permiten codificar y especificar metadatos en una página web. Aunque no son visibles para los usuarios, los navegadores y rastreadores web las leen. Estas etiquetas facilitan el análisis de archivos HTML y ayudan en el mantenimiento del contenido. Además, influyen en el posicionamiento de nuestra página en los motores de búsqueda.
+
+:::
+```
+<title>Register your processes with AlquilaFacil</title>
+```
+:::
+
+
+* ***Codificación de caracteres:***
+Se decidió usar el utf-8 por la eficiencia de memoria. Es más eficiente en términos de memoria para caracteres del BMP (Plano Multilingüe Básico, que incluye la mayoría de los caracteres comunes).
+
+:::
+```
+<meta charset="utf-8">
+```
+:::
+
+* ***Descripción:***
+Esta etiqueta meta nos permite ofrecer un resumen del contenido de la página web. En ella, proporcionamos una breve descripción de lo que los usuarios pueden esperar visualizar en la página.
+
+:::
+```
+<meta name="description" content="AlquilaFacil is a web application focused on plublish and rent centers for events"/>
+```
+:::
+
+* ***Palabras clave:***
+En esta etiqueta se pone las palabras claves relacionadas con el tema o contenido de la página web.
+:::
+```
+<meta name="keywords" content="publish, rent, management, application, announcements, centers"/> 
+```
+:::
+
+* ***Autor y derechos de autor:***
+Se utiliza para registrar la información del autor de la página web y la propiedad y derechos de autor.
+:::
+```
+<meta name="author" content="AlquilaFacil"/> 
+
+<meta name="copyright" content="Copyright AlquilaFacil team" />
+```
+:::
+
+</div>
+
+<br>
+
+### 6.2.5. Navigation Systems
+
+<div align="justify">
+El Navigation System de AlquilaFácil está diseñado para proporcionar una experiencia de usuario fluida, intuitiva y eficiente, permitiendo a los usuarios moverse por la aplicación de manera rápida y sin complicaciones. Este sistema incluye varios elementos clave que optimizan el acceso a las distintas funciones y secciones de la aplicación: 
+</div>
+
+<br>
+
+<div align="justify">
+    
+* ***Barra de Navegación Inferior:***
+La aplicación cuenta con una barra de navegación fija en la parte inferior de la pantalla que agrupa las principales funcionalidades. Los iconos incluidos, como la lupa (búsqueda), la campana (notificaciones), el botón de "+" (añadir nuevo espacio), el calendario (gestión de eventos o reservas) y el perfil (opciones del usuario), permiten un acceso directo a cada sección, facilitando la navegación entre las funciones esenciales sin necesidad de menús desplegables o múltiples clics. 
+
+* ***Navegación Jerárquica:***
+AlquilaFácil implementa un sistema de navegación jerárquica en el que los usuarios pueden profundizar en los detalles de un espacio o acción, pero siempre tienen la opción de volver a la pantalla anterior de manera sencilla. Este enfoque evita que los usuarios se pierdan en la aplicación, manteniendo siempre claro en qué nivel de la jerarquía se encuentran. 
+    
+</div>
+
+<br>
+
+## 6.3. Landing Page UI Design
+
+### 6.3.1. Landing Page Wireframe
+
+<div align="justify">
+    A continuación, se presentan los wireframes de la Landing Page de AlquilaFácil, los cuales muestran la estructura y disposición de los elementos principales de la página sin incluir detalles visuales finales. Estos wireframes sirven como guía inicial para el diseño y desarrollo de la interfaz.
+</div>
+<br>
+
+![Artefacto creado en Figma](images/cap-6/landing/LandingWirefram-1.png) 
+
+![Artefacto creado en Figma](images/cap-6/landing/LandingWirefram-2.png) 
+
+![Artefacto creado en Figma](images/cap-6/landing/LandingWirefram-3.png) 
+
+**Enlace:** <https://www.figma.com/design/Sk1zmVhp0zEdPv97Vlxvwm/Landing-Page?node-id=4-202&t=0W0h3rzLTOTQUsPF-1>
+
+### 6.3.2. Landing Page Mock-up
+
+<div align="justify">
+    Los mock-ups de la Landing Page presentan el diseño visual completo con colores, tipografía, imágenes y todos los elementos gráficos finales. Estos prototipos de alta fidelidad permiten visualizar exactamente cómo se verá la página cuando esté implementada.
+</div>
+<br>
+
+![Artefacto creado en Figma](images/cap-6/landing/LandingMockup-1.png) 
+
+![Artefacto creado en Figma](images/cap-6/landing/LandingMockup-2.png) 
+
+![Artefacto creado en Figma](images/cap-6/landing/LandingMockup-3.png) 
+
+**Enlace:** <https://www.figma.com/design/Sk1zmVhp0zEdPv97Vlxvwm/Landing-Page?node-id=4-422&p=f&t=kZ23Arq5BMQvyN7O-0>
+
+
+## 6.4. Applications UX/UI Design
+
+### 6.4.1. Applications Wireframes.
+
+<div align="justify">
+    Los wireframes de la aplicación web muestran la estructura y organización de las diferentes pantallas y funcionalidades del sistema. Estos diseños de baja fidelidad permiten visualizar la arquitectura de la información y el flujo de navegación antes de aplicar el diseño visual final.
+</div>
+<br>
+
+![Artefacto creado en Figma](images/cap-6/Web%20Page%20UXUI/WebWireframe-1.png) 
+
+![Artefacto creado en Figma](images/cap-6/Web%20Page%20UXUI/WebWireframe-2.png) 
+
+![Artefacto creado en Figma](images/cap-6/Web%20Page%20UXUI/WebWireframe-3.png) 
+
+![Artefacto creado en Figma](images/cap-6/Web%20Page%20UXUI/WebWireframe-4.png) 
+
+**Enlace WebPage:** <https://www.figma.com/design/8e7OrbLVZLRQHAgSK4pDYD/Web-App?node-id=1-207&t=hZfD2aBdxlDEywVP-1>
+
+<div align="justify">
+    Los wireframes de la aplicación móvil presentan el diseño estructural adaptado a dispositivos móviles, considerando las particularidades de la interfaz táctil y las limitaciones de espacio en pantalla. Estos esquemas permiten planificar la experiencia de usuario en dispositivos iOS y Android.
+</div>
+<br>
+
+![Artefacto creado en Figma](images/cap-6/Mobile%20Application%20UXUI/Wireframe-1.png) 
+
+![Artefacto creado en Figma](images/cap-6/Mobile%20Application%20UXUI/Wireframe-2.png) 
+
+![Artefacto creado en Figma](images/cap-6/Mobile%20Application%20UXUI/Wireframe-3.png) 
+
+**Enlace Mobile:** <https://www.figma.com/design/ZgcH4GPA3oBLZf4SvVs52Z/Mobile-App?node-id=1-207&t=hZfD2aBdxlDEywVP-1>
+
+### 6.4.2. Applications Wireflow Diagrams
+
+<div align="justify">
+  Los wireflows combinan los wireframes con los flujos de navegación para representar cómo el usuario interactúa con la aplicación paso a paso. Permiten visualizar las pantallas en secuencia junto con las conexiones entre ellas, mostrando las posibles rutas y decisiones que puede tomar el usuario. De esta forma, facilitan la comprensión del comportamiento del sistema y la lógica detrás de cada interacción.
+</div>
+
+**Web**
+
+![Artefacto creado en Overflow](images/cap-6/Web%20Page%20UXUI/Web_Wireflow_1.png) 
+
+![Artefacto creado en Overflow](images/cap-6/Web%20Page%20UXUI/Web_Wireflow_2.png)
+**Mobile**
+
+![Artefacto creado en Overflow](images/cap-6/Mobile%20Application%20UXUI/Mobile_Wireflow_1.png) 
+
+![Artefacto creado en Overflow](images/cap-6/Mobile%20Application%20UXUI/Mobile_Wireflow_2.png) 
+
+![Artefacto creado en Overflow](images/cap-6/Mobile%20Application%20UXUI/Mobile_Wireflow_3.png) 
+
+**Enlace de los wireflows:** <https://overflow.io/s/1IDNN3EF>
+
+### 6.4.3. Applications Mock-ups
+
+<div align="justify">
+    Los mock-ups de la aplicación web presentan el diseño visual completo de las diferentes pantallas del sistema, incluyendo colores corporativos, tipografía, iconografía y todos los elementos gráficos de acuerdo a las guías de estilo establecidas. Estos prototipos de alta fidelidad representan fielmente la apariencia final de la aplicación.
+</div>
+<br>
+
+![Artefacto creado en Figma](images/cap-6/Web%20Page%20UXUI/WebMockup-1.png) 
+
+![Artefacto creado en Figma](images/cap-6/Web%20Page%20UXUI/WebMockup-2.png) 
+
+![Artefacto creado en Figma](images/cap-6/Web%20Page%20UXUI/WebMockup-3.png) 
+
+**Enlace WebPage:** <https://www.figma.com/design/8e7OrbLVZLRQHAgSK4pDYD/Web-App?node-id=1-206&t=hZfD2aBdxlDEywVP-1>
+
+<div align="justify">
+    Los mock-ups de la aplicación móvil muestran el diseño final optimizado para dispositivos móviles, incorporando todos los elementos visuales, patrones de interacción táctil y adaptaciones necesarias para ofrecer una experiencia de usuario óptima en smartphones y tablets, tanto para iOS como para Android.
+</div>
+<br>
+
+![Artefacto creado en Figma](images/cap-6/Mobile%20Application%20UXUI/Mockup-1.png) 
+
+![Artefacto creado en Figma](images/cap-6/Mobile%20Application%20UXUI/Mockup-2.png) 
+
+![Artefacto creado en Figma](images/cap-6/Mobile%20Application%20UXUI/Mockup-3.png) 
+
+**Enlace Mobile:** <https://www.figma.com/design/ZgcH4GPA3oBLZf4SvVs52Z/Mobile-App?node-id=1-206&t=hZfD2aBdxlDEywVP-1>
+
+### 6.4.4. Applications User Flow Diagrams
+
+<div align="justify">
+Los userflows describen gráficamente el recorrido que sigue el usuario dentro de la aplicación para cumplir un objetivo específico. Representan las decisiones, acciones y pantallas involucradas en cada paso del proceso, ayudando a identificar puntos críticos de la experiencia y optimizar la usabilidad. Estos diagramas permiten entender de manera clara cómo el usuario se desplaza por el sistema desde el inicio hasta la finalización de una tarea.
+</div>
+
+**Web**
+
+![Artefacto creado en Overflow](images/cap-6/Web%20Page%20UXUI/Web_Userflow_1.png) 
+
+![Artefacto creado en Overflow](images/cap-6/Web%20Page%20UXUI/Web_Userflow_2.png)
+**Mobile**
+
+![Artefacto creado en Overflow](images/cap-6/Mobile%20Application%20UXUI/Mobile_Userflow_1.png) 
+
+![Artefacto creado en Overflow](images/cap-6/Mobile%20Application%20UXUI/Mobile_Userflow_2.png) 
+
+![Artefacto creado en Overflow](images/cap-6/Mobile%20Application%20UXUI/Mobile_Userflow_3.png) 
+
+## 6.5. Applications Prototyping
+
+### Mobile Android
+
+
+![Prototype Android](images/cap-6/Prototypes/android.png) 
+
+<p> Prototipo interactivo diseñado para dispositivos Android, optimizado para la experiencia móvil con navegación táctil y diseño adaptado a las guías de Material Design. <p>
+
+[Ver prototipo Android](https://www.figma.com/proto/xgTMj9suBtUHH4bUyKpfq9/AlquilaFacil--IoT-?node-id=105-4793&p=f&t=KcyIhvbiCsSOhkGb-0&scaling=scale-down&content-scaling=fixed&page-id=72%3A3&starting-point-node-id=105%3A4793)
+
+### Mobile iOS
+
+![Prototype iOS](images/cap-6/Prototypes/iphone.png) 
+
+<p>Prototipo interactivo diseñado específicamente para dispositivos iOS, siguiendo las directrices de Human Interface Guidelines de Apple para una experiencia nativa en iPhone y iPad.<p>
+
+[Ver prototipo iOS](https://www.figma.com/proto/xgTMj9suBtUHH4bUyKpfq9?page-id=76%3A517&node-id=76-517&p=f&t=wbbhV2RsUAl2DKQg-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=76%3A1466)
+
+### WebPage
+
+![Prototype desktop](images/cap-6/Prototypes/desktop.png) 
+
+<p>Prototipo de la versión web de la plataforma, diseñado para navegadores de escritorio y tablets, con interfaz responsive y funcionalidades completas para la gestión de alquileres IoT.<p>
+
+[Ver prototipo Web](https://www.figma.com/proto/xgTMj9suBtUHH4bUyKpfq9?page-id=76%3A3767&node-id=76-3767&p=f&t=wbbhV2RsUAl2DKQg-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2002%3A8410)
+
+
+---
+
 ## Conclusiones y recomendaciones
 
 <div align="justify">
@@ -2356,8 +4299,46 @@ La separación clara entre deployment nodes (Edge Node Server, Web Server, API G
 
 # Anexos
 
+### Repositorio general
+- **Repositorio del proyecto (documentación completa):**  
+  [GitHub – AlquilaFácil Report](https://github.com/Emergentez/alquilafacil-document-report)
+  
+- **Repositorio de Landing Page:**  
+  [GitHub – AlquilaFácil Landing Page](https://github.com/Emergentez/alquilafacil-landing-page)
+  
+### Despliegues
+- **Landing Page:**  
+  [AlquilaFácil Landing Page](https://emergentez.github.io/alquilafacil-landing-page/)
+
+### Lean UX
+- **Lean UX Canvas:**  
+  [Ver en GitHub](https://github.com/Emergentez/alquilafacil-document-report/blob/cap-5/images/cap-1/lean-ux-process/lean-ux-canvas.png)  
+
+### Mapas de Empatía
+- **Empathy Maps:**  
+  [Ver en GitHub](https://github.com/Emergentez/alquilafacil-document-report/blob/cap-5/images/cap-2/empathy-mapping/empathy-1.jpg)  
+
+  [Ver en GitHub](https://github.com/Emergentez/alquilafacil-document-report/blob/cap-5/images/cap-2/empathy-mapping/empathy-2.jpg)  
+
+### Escenarios
+
+- **To-Be Scenario:**  
+  [Ver en GitHub](https://github.com/Emergentez/alquilafacil-document-report/blob/cap-5/images/cap-3/ToBe-1.jpg)  
+
+### Mapa de Impacto
+- **Impact Map:**  
+  [Ver en GitHub](https://github.com/Emergentez/alquilafacil-document-report/blob/cap-5/images/cap-3/impact-maps/Impact-map-arrendador.png)
+
+  [Ver en GitHub](https://github.com/Emergentez/alquilafacil-document-report/blob/cap-5/images/cap-3/impact-maps/Impact-map-arrendatario.png)  
+
+### Diagramas de Arquitectura de Software
+
+- **Diagramas (Lucidchart):**  
+  [Abrir en Lucidchart](https://lucid.app/lucidchart/7fbb2e19-8ec1-4c1e-967c-3e1fb0c6df7e/edit?invitationId=inv_fcdb9abc-361f-4908-a1a7-661aec8f02ee&page=KIPV0OhYQO.c#)  
+
 ### Vídeos de Exposición (Anexo 1)
 
 | Contenido | URL del Vídeo |
 |--------------|--------------|
 | Vídeo de Exposición TB1      | Link del Vídeo: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211399_upc_edu_pe/ESgo7U5_auJIkjKMfm2eQHoBw1pkgzwlQ5RJI3YjKjch2w?e=t357hm>|  
+
