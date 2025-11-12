@@ -338,15 +338,15 @@ del ABET – EAC - Student Outcome 3.
     - [7.1.3. Source Code Style Guide & Conventions](#713-source-code-style-guide--conventions)
     - [7.1.4. Software Deployment Configuration](#714-software-deployment-configuration)
   - [7.2. Solution Implementation](#72-solution-implementation)
-    - [7.2.X. Sprint n](#72x-sprint-n)
-      - [7.2.X.1. Sprint Planning n](#72x1-sprint-planning-n)
-      - [7.2.X.2. Sprint Backlog n](#72x2-sprint-backlog-n)
-      - [7.2.X.3. Development Evidence for Sprint Review](#72x3-development-evidence-for-sprint-review)
-      - [7.2.X.4. Testing Suite Evidence for Sprint Review](#72x4-testing-suite-evidence-for-sprint-review)
-      - [7.2.X.5. Execution Evidence for Sprint Review](#72x5-execution-evidence-for-sprint-review)
-      - [7.2.X.6. Services Documentation Evidence for Sprint Review](#72x6-services-documentation-evidence-for-sprint-review)
-      - [7.2.X.7. Software Deployment Evidence for Sprint Review](#72x7-software-deployment-evidence-for-sprint-review)
-      - [7.2.X.8. Team Collaboration Insights during Sprint](#72x8-team-collaboration-insights-during-sprint)
+    - [7.2.1. Sprint 1](#721-sprint-1)
+      - [7.2.1.1. Sprint Planning 1](#7211-sprint-planning-1)
+      - [7.2.1.2. Sprint Backlog 1](#7212-sprint-backlog-1)
+      - [7.2.1.3. Development Evidence for Sprint Review](#7213-development-evidence-for-sprint-review)
+      - [7.2.1.4. Testing Suite Evidence for Sprint Review](#7214-testing-suite-evidence-for-sprint-review)
+      - [7.2.1.5. Execution Evidence for Sprint Review](#7215-execution-evidence-for-sprint-review)
+      - [7.2.1.6. Services Documentation Evidence for Sprint Review](#7216-services-documentation-evidence-for-sprint-review)
+      - [7.2.1.7. Software Deployment Evidence for Sprint Review](#7217-software-deployment-evidence-for-sprint-review)
+      - [7.2.1.8. Team Collaboration Insights during Sprint](#7218-team-collaboration-insights-during-sprint)
   - [7.3. Validation Interviews](#73-validation-interviews)
     - [7.3.1. Diseño de Entrevistas](#731-diseño-de-entrevistas)
     - [7.3.2. Registro de Entrevistas](#732-registro-de-entrevistas)
@@ -4944,7 +4944,7 @@ A continuación se presenta el Deployment Diagram que ilustra la arquitectura de
 </table>
 
 
-### 6.2.1.2. Aspect Leaders and Collaborators
+### Aspect Leaders and Collaborators
 
 La siguiente tabla resume los líderes (L) y colaboradores (C) para cada aspecto técnico del Sprint:
 
@@ -4957,7 +4957,7 @@ La siguiente tabla resume los líderes (L) y colaboradores (C) para cada aspecto
 | Morales Montalvo, Omar Andrew      | andrewmm16         | C | C | C | C | L | C |
 
 
-#### 7.2.1.3. Sprint Backlog 1.
+#### 7.2.1.2. Sprint Backlog 1.
 
 En esta seccion se espcifica el detalle del Sprint Backlog 1, la ucal es una lista de tareas designadas para esta primera fase del proyecto:
 ![alt text](images/cap6_image4.jpeg)
@@ -5019,7 +5019,7 @@ En esta seccion se espcifica el detalle del Sprint Backlog 1, la ucal es una lis
 
 
 
-####  7.2.1.4. Development Evidence for Sprint Review.
+####  7.2.1.3. Development Evidence for Sprint Review.
 
 <p>
 En esta sección se presentan los commits más relevantes realizados en el repositorio de GitHub, donde se evidencia el trabajo progresivo en el desarrollo y despliegue, tanto como la Landing Page y Web Application. Se incluyen fusiones de ramas, configuraciones de despliegue, implementación de componentes y mejoras de contenido visual.
@@ -5169,7 +5169,7 @@ En esta sección se presentan los commits más relevantes realizados en el repos
   </tbody>
 </table>
 
-#### 7.2.1.5. Testing Suite Evidence for Sprint Review.
+#### 7.2.1.4. Testing Suite Evidence for Sprint Review.
 
 A continuación, se muestra la tabla de commits relacionados al testing de la aplicación Web Service: 
 
@@ -5732,7 +5732,7 @@ Scenario: Visualizar beneficios para arrendatarios
   And Los beneficios están presentados de forma atractiva
 ```
 
-#### 7.2.1.6. Execution Evidence for Sprint Review.
+#### 7.2.1.5. Execution Evidence for Sprint Review.
 
 Durante el Sprint 1 se logró desarrollar e implementar exitosamente las funcionalidades core del sistema AlquilaFácil IoT, abarcando las 25 User Stories planificadas con un total de 103 story points completados. Los principales logros alcanzados incluyen:
 
@@ -5760,7 +5760,7 @@ A continuación se presentan las principales vistas implementadas durante este S
 
 En el siguiente video se ilustra la navegación completa del sistema, mostrando las funcionalidades principales implementadas:
 
-**URL del Video:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211399_upc_edu_pe/IQBd9dv_ptmoRKUyVtbrmlzLAXPnIihm8nq2IgAdEk21Plo?e=frg4yR](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211399_upc_edu_pe/IQBd9dv_ptmoRKUyVtbrmlzLAXPnIihm8nq2IgAdEk21Plo?e=frg4yR)
+**URL del Video:** <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211399_upc_edu_pe/IQBd9dv_ptmoRKUyVtbrmlzLAXPnIihm8nq2IgAdEk21Plo?e=frg4yR>
 
 ### Web Application - Principales Vistas Implementadas
 
@@ -5822,7 +5822,7 @@ La app móvil ofrece gestión de reservas mediante un calendario con diferentes 
 
 ---
 
-#### 7.2.1.7. Services Documentation Evidence for Sprint Review.
+#### 7.2.1.6. Services Documentation Evidence for Sprint Review.
 
 Durante el Sprint 1 se logró documentar exitosamente todos los endpoints del Web Service y Edge Node utilizando OpenAPI (Swagger), proporcionando una interfaz interactiva completa para la exploración y prueba de la API REST. Los principales logros en documentación de servicios incluyen:
 
@@ -5986,7 +5986,7 @@ Se muestran los endpoints para obtener lecturas de diferentes sensores IoT.
 ![Swagger Docs](images/cap-7/services-docs/swagger-15.PNG)
 
 
-#### 7.2.1.8. Software Deployment Evidence for Sprint Review.
+#### 7.2.1.7. Software Deployment Evidence for Sprint Review.
 
 Durante el Sprint 1 se completó exitosamente el despliegue de todos los componentes digitales del sistema AlquilaFácil IoT en entornos de producción. Este proceso incluyó la configuración de cuentas en múltiples cloud providers, la configuración de recursos y servicios en la nube, la implementación de pipelines de CI/CD, y la configuración de bases de datos y servicios de integración. A continuación se detallan todas las actividades de deployment realizadas durante este sprint.
 
@@ -6370,7 +6370,7 @@ Para todos los componentes se implementó la metodología **GitFlow Workflow**:
 
 **Nota:** Todos los servicios están desplegados en entornos de producción con SSL/TLS, monitoreo activo, y configurados para auto-deployment desde sus respectivos repositorios.
 
-#### 7.2.1.9. Team Collaboration Insights during Sprint.
+#### 7.2.1.8. Team Collaboration Insights during Sprint.
 
 Durante el Sprint 1, el equipo trabajó de manera colaborativa aplicando buenas prácticas de control de versiones y comunicación efectiva para garantizar el cumplimiento de los objetivos establecidos.
 
