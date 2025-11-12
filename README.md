@@ -6465,6 +6465,23 @@ d. ¿Qué otra recomendación podrías brindarnos para mejorar el producto?
 Se llevarán a cabo tres entrevistas por segmento, sumando un total de seis. El registro será en formato mp4, y cada entrevista será independiente, ya que las preguntas y respuestas varían según los entrevistados de cada grupo.
 
 **Segmento 1: Arrendadores de espacios para eventos**
+| | **Entrevista #1** |
+|---|---|
+| **Nombre** | Manuel Jesús |
+| **Apellidos** | Chávez Cuba |
+| **Edad** | 21 |
+| **Distrito** | San Martín de Porres |
+| **Aplicaciones usadas** | Facebook Marketplace |
+| **Motivación** | Ofrecer experiencias únicas y memorables para sus clientes. |
+| **Frustración** | Limitaciones presupuestarias que puedan afectar la calidad de los eventos. |
+| **Tecnologías** | iOS, Android, Windows. |
+| **Browsers** | Google Chrome, Brave |
+| **Entrevistador** | Christopher Lecca |
+| **Evidencia** | <div align="center"><img src="https://i.imgur.com/U69nCd4.png" alt="Entrevista a Manuel Chávez"></div> |
+| **Enlace** | <p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/ETKDocDihcBDr-2XPwQmV_MBoAvLoDRRAv13oFy-cZd4Ag?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qmTbIx" title="Title">Microsoft Stream</a></p> |
+| **Duración** | 00:00 min - 09:52 min |
+| **Resumen** | Manuel nos comentó que se encuentra aún se encuentra dentro del mercado de alquiler de espacios para organizar eventos. Durante la entrevista, se mostró satisfecho con el producto resultado AlquilaFácil, resaltó que la versión Web como Mobile son excelentes, confirmando que recomendaría su uso a familiares y personas cercanos. Como única recomendación, nos mencionó la idea de cambiar el orden en el que se muestran los locales a los usuarios, puesto que es complicado ir hasta la parte inferior del catálogo para encontrar la más reciente. |
+
 
 **Segmento 2: Arrendatarios sociales frecuentes de espacios para eventos**
 
