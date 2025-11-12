@@ -4357,6 +4357,170 @@ Los userflows describen gráficamente el recorrido que sigue el usuario dentro d
 
 ---
 
+# Capítulo VII: Product Implementation, Validation & Deployment
+
+## 7.1. Software Configuration Management
+
+### 7.1.1. Software Development Environment Configuration
+
+### 7.1.2. Source Code Management
+
+### 7.1.3. Source Code Style Guide & Conventions
+
+### 7.1.4. Software Deployment Configuration
+
+## 7.2. Solution Implementation
+
+### 7.2.X. Sprint n
+
+#### 7.2.X.1. Sprint Planning n
+
+#### 7.2.X.2. Sprint Backlog n
+
+#### 7.2.X.3. Development Evidence for Sprint Review
+
+#### 7.2.X.4. Testing Suite Evidence for Sprint Review
+
+#### 7.2.X.5. Execution Evidence for Sprint Review
+
+#### 7.2.X.6. Services Documentation Evidence for Sprint Review
+
+#### 7.2.X.7. Software Deployment Evidence for Sprint Review
+
+#### 7.2.X.8. Team Collaboration Insights during Sprint
+
+## 7.3. Validation Interviews
+
+### 7.3.1. Diseño de Entrevistas
+
+Segmento 1: Arrendadores de espacios para eventos
+Objetivo: Validar la utilidad, facilidad de uso y valor percibido de la plataforma para propietarios de espacios que ofrecen alquiler.
+
+1. Contexto del negocio
+a. ¿Qué tipo de espacios ofreces para alquiler y con qué frecuencia los alquilas?
+b. ¿Qué herramientas utilizas actualmente para gestionar reservas y clientes?
+c. ¿Has tenido problemas relacionados a la gestión, pagos o comportamientos de los arrendatarios? ¿Cuáles?
+2. Interacción con la Landing Page
+a. ¿La información presentada en la landing page transmite claramente los beneficios de usar AlquilaFácil?
+b. ¿Encontraste fácil el proceso para registrar o publicar tu espacio? ¿Qué parte te resultó más confusa?
+c. ¿Qué aspecto visual o funcional mejorarías en la landing page?
+3. Experiencia con la Aplicación Web
+a. ¿Cómo calificarías la facilidad para gestionar tus espacios desde la aplicación (escala 1 a 5)?
+b. ¿Pudiste configurar las reglas del espacio y monitorear las reservas sin dificultad?
+c. ¿Qué funcionalidades consideras imprescindibles que aún no están disponibles?
+4. Percepción general
+a. ¿Qué te motivaría a usar esta plataforma en lugar de tus métodos actuales?
+b. ¿Cómo percibes el valor de herramientas como alertas en tiempo real o reportes automáticos?
+c. ¿Pagarías por planes premium con mayor visibilidad o alguna herramienta adicional?
+
+Segmento 2: Arrendatarios sociales o corporativos
+Objetivo: Validar la experiencia de búsqueda, reserva y confianza en la plataforma para personas o empresas que alquilan espacios para eventos.
+
+1. Contexto personal o profesional
+a. ¿Con qué frecuencia necesitas alquilar espacios para eventos? ¿Para qué tipo de actividades?
+b. ¿Qué plataformas o métodos usas actualmente para buscar y reservar espacios?
+c. ¿Qué problemas has tenido en experiencias pasadas al alquilar espacios?
+2. Interacción con la Landing Page
+a. ¿La información de las secciones te animó a probar la aplicación?
+b. ¿El flujo de navegación entre las secciones fue de tu agrado? ¿Qué mejorarías?
+c. ¿Confías en la plataforma tras navegar por la landing page? ¿Qué faltó?
+3. Experiencia con la Aplicación Web/Móvil
+a. ¿Pudiste realizar todo el flujo de reserva sin dificultades? ¿Dónde te atascaste?
+b. ¿Qué tan útil te parecieron los elementos como reseñas, calificaciones y verificación de espacios?
+c. ¿Las herramientas presentadas para el monitoreo y seguridad durante tu reserva te agradaron?
+4. Percepción general
+a. ¿Qué valor le ves a AlquilaFácil frente a otras plataformas conocidas como Airbnb o Booking?
+b. ¿Qué te motivaría a recomendar esta app a otras personas o empresas?
+c. ¿El método de pago de la plataforma te resulta fácil y sencillo?
+d. ¿Qué otra recomendación podrías brindarnos para mejorar el producto?
+
+### 7.3.2. Registro de Entrevistas
+
+<div align="justify">
+
+Se llevarán a cabo tres entrevistas por segmento, sumando un total de seis. El registro será en formato mp4, y cada entrevista será independiente, ya que las preguntas y respuestas varían según los entrevistados de cada grupo.
+
+**Segmento 1: Arrendadores de espacios para eventos**
+
+**Segmento 2: Arrendatarios sociales frecuentes de espacios para eventos**
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"> <div align="center">Entrevista #1<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Ricardo Rafael</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Rivas Carrillo</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Callao</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones usadas</td>
+    <td>Facebook Marketplace</td>
+  </tr>
+  <tr>
+    <td>Motivación</td>
+    <td>Realizar practicar en espacio adecuados para su grupo de baile</td>
+  </tr>
+  <tr>
+    <td>Frustración</td>
+    <td>Limitaciones para encontrar espacios que cumplan las necesidades de su grupo de baile.</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Android, Windows.</td>
+  </tr>
+  <tr>
+    <td>Browsers</td>
+    <td>Opera, Edge</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Sebastian Cachis</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="images/cap-7/Registro-Entrevistas/entrevista-ricardo.png" alt="Entrevista a Ricardo Riva"></div></td>
+  </tr>
+  <tr>
+    <td>Enlace</td>
+    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210846_upc_edu_pe/IQDpOm42HdVSTK85JeMPDWRmAYRjrhtFqDt0xG5CmgkNlAk?e=9NvR3F&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" title="Title">Microsoft Stream</a></p></td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>00:00 min - 14:56 min </td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    Ricardo Rivas, estudiante de 20 años de Ciencias de la Computación, comentó que tras ver la landing page, la app web y la app móvil de Alquila Fácil, le gustó mucho el resultado, destacando que el diseño es intuitivo, moderno y fácil de usar. Señaló que la plataforma refleja perfectamente lo que necesita para organizar eventos de baile o actuación, ya que permite comparar precios, ver fotos, leer opiniones y calificaciones, además de ofrecer un proceso de reserva rápido, seguro y con comunicación directa con el arrendador. También valoró el sistema de reputación entre usuarios, las notificaciones ante imprevistos y las medidas de seguridad como cámaras y control de acceso, afirmando que Alquila Fácil transmite confianza, transparencia y tecnología al facilitar el acceso a espacios para eventos.
+    </td>
+  </tr>
+</tbody>
+</table>
+
+
+### 7.3.3. Evaluaciones según heurísticas
+
+## 7.4. Video About-the-Product
+
+---
+
 ## Conclusiones y recomendaciones
 
 <div align="justify">
