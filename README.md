@@ -6536,6 +6536,71 @@ Se llevarán a cabo tres entrevistas por segmento, sumando un total de seis. El 
     </td>
   </tr>
 </tbody>
+<thead>
+  <tr>
+    <th colspan="2"> <div align="center">Entrevista #2<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Walther</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Cachay Villar</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>27</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Surco</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones usadas</td>
+    <td>Facebook Marketplace</td>
+  </tr>
+  <tr>
+    <td>Motivación</td>
+    <td>Alquilar espacios casi semanalmente para shows y eventos (cumpleaños, quince años, fiestas de promoción, bodas, despedidas de solteros)</td>
+  </tr>
+  <tr>
+    <td>Frustración</td>
+    <td>El espacio propuesto a veces no cumple con lo que se promociona en el flyer</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Android, Windows, Contactos preestablecidos</td>
+  </tr>
+  <tr>
+    <td>Browsers</td>
+    <td>Opera, Edge</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Amner Llamo</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="images/cap-7/Registro-Entrevistas/entrevista-walther.png" alt="Entrevista a Ricardo Riva"></div></td>
+  </tr>
+  <tr>
+    <td>Enlace</td>
+    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/personal/u20221c376_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20221c376%5Fupc%5Fedu%5Fpe%2FDocuments%2FWalther%20E%20Validaci%C3%B3n%201%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eab9a77d2%2D640c%2D4461%2D8e78%2D71688ea5d6ec" title="Title">Microsoft Stream</a></p></td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>00:00 min - 14:22 min </td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    Walther Kevin, arrendatario de 27 años, necesita alquilar semanalmente. Encontró la Landing Page de Alquila Fácil interesante y con un diseño "atrapante", destacando las secciones de Espacios, Publicar (pensando en futuro), y el Monitoreo con sensores. Sugirió añadir un enlace a Instagram y valoró la opción de idiomas. En la Aplicación Web, el flujo le pareció intuitivo y atractivo, y consideró las Reseñas como una función muy importante para generar confianza. Le encantó la idea de los sensores (humo, movimiento) e incluso sugirió uno para medir el aforo. Comparó Alquila Fácil positivamente con Booking, enfocada en la reserva de espacios para eventos. Su recomendación principal fue añadir una opción de mapas con enlace directo a Google Maps.
+    </td>
+  </tr>
+</tbody>
 </table>
 
 
