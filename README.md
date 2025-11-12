@@ -4476,7 +4476,7 @@ Esta estrategia facilitó la organización del trabajo mediante distintas ramas:
 
 - <strong>Web Service</strong>
 
-  ![Diagrama Git Flow Web Service([URL]())](images/cap-7/insights/service.PNG)
+  ![Diagrama Git Flow Web Service([URL]())](images/cap-7/insights/web-service.PNG)
 
   [Enlace de Repositorio de Landing Page](https://github.com/Emergentez/alquilafacil-web-service)
 
