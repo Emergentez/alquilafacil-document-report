@@ -1449,7 +1449,7 @@ Este mapa muestra cómo la plataforma AlquilaFácil transforma la experiencia de
 | US04                | Buscar espacios disponibles               | Como arrendatario, quiero poder buscar fácilmente espacios disponibles en AlquilaFácil para encontrar el lugar perfecto para mi evento.            | Escenario 01: Búsqueda principal por ubicación <br> **Dado** que un arrendatario busca un espacio para eventos en una ubicación específica. **Cuando** el arrendatario ingresa la ubicación deseada en el campo de búsqueda. **Entonces** se muestran los espacios disponibles en esa ubicación. <br><br> Escenario 02: Búsqueda general de espacios <br> **Dado** que un arrendatario no ingresa algún texto en la barra de búsqueda. **Cuando** presiona sobre el ícono para buscar espacios. **Entonces** se muestran todos los espacios disponibles. | EP03 |
 | US05                | Filtrar espacios disponibles              | Como arrendatario, quiero poder filtrar los espacios disponibles por capacidad y categoría, para encontrar uno que cumpla con mis criterios específicos. | Escenario 01: Filtrado por capacidad <br> **Dado** que un arrendatario desea un espacio con capacidad para un número específico de personas. **Cuando** el arrendatario aplica un filtro de capacidad en la búsqueda. **Entonces** se muestran solo los espacios que cumplen con ese criterio. <br><br> Escenario 02: Filtrado por categoría <br> **Dado** que un arrendatario desea un espacio de una categoría en específico. **Cuando** el arrendatario aplica un filtro de categoría en la búsqueda. **Entonces** se muestran solo los espacios que cumplen con ese criterio. | EP03 |
 | US06                | Visualizar información del espacio        | Como arrendatario, quiero poder visualizar información detallada del espacio, para evaluar si cumple con los requisitos de mi evento antes de hacer una reserva. | Escenario 01: Visualización de información <br> **Dado** que el arrendatario selecciona un espacio en AlquilaFácil. **Cuando** accede a la página de detalles del espacio. **Entonces** puede visualizar información detallada como el aforo máximo, descripción del espacio y servicios disponibles. <br><br> Escenario 02: Visualización de reseñas del espacio <br> **Dado** que el arrendatario está revisando un espacio. **Cuando** accede a la página de comentarios. **Entonces** puede visualizar las reseñas y calificaciones dejadas por otros usuarios sobre ese espacio. |EP03 |
-| US07                | Reservar espacios                         | Como arrendatario, quiero poder reservar un espacio para mi evento en AlquilaFácil para garantizar su disponibilidad en la fecha deseada. | Escenario 01: Proceso de Reserva <br> Dado que un arrendatario ha encontrado el espacio ideal en AlquilaFácil. Cuando selecciona un espacio y una fecha. Entonces se muestra un formulario de para completar los detalles de reserva. <br><br> Escenario 02: Pago de la reserva con PayPal <br> **Dado** que el usuario está a punto de culminar el proceso de reserva de un espacio. **Cuando** el usuario presione el botón de realizar reserva. **Entonces** el usuario realizará el pago de la reserva a través de PayPal. <br><br> Escenario 03: Confirmación de Reserva <br> Dado que un arrendatario ha realizado el pago de la reserva en AlquilaFácil. Cuando el arrendatario es redirigido a la aplicación. Entonces recibe una confirmación de reserva y los detalles se actualizan en su cuenta. | EP03 |
+| US07                | Reservar espacios                         | Como arrendatario, quiero poder reservar un espacio para mi evento en AlquilaFácil para garantizar su disponibilidad en la fecha deseada. | Escenario 01: Proceso de Reserva <br> Dado que un arrendatario ha encontrado el espacio ideal en AlquilaFácil. Cuando selecciona un espacio y una fecha. Entonces se muestra un formulario de para completar los detalles de reserva. <br><br> Escenario 02: Pago de la reserva con comprobantes <br> **Dado** que el usuario está a punto de culminar el proceso de reserva de un espacio. **Cuando** el usuario presione el botón de realizar reserva. **Entonces** el usuario realizará el pago de la reserva a través de comprobantes. <br><br> Escenario 03: Confirmación de Reserva <br> Dado que un arrendatario ha realizado el pago de la reserva en AlquilaFácil. Cuando el arrendatario es redirigido a la aplicación. Entonces recibe una confirmación de reserva y los detalles se actualizan en su cuenta. | EP03 |
 | US08                | Gestionar calendario de reservas          | Como usuario de AlquilaFácil, quiero poder controlar una agenda de reservas para tener un horario organizado y evitar conflictos futuros. | Escenario 01: Existencia de reserva de usuario normal <br> Dado que un arrendatario ha realizado una reserva   de uno de mis espacios. Cuando el propietario accede al calendario. Entonces puede ver el día de la reserva resaltada en color rojo. <br><br> Escenario 02: Existencia de reserva de usuario premium <br> Dado que un arrendatario con suscripción premium ha realizado una reserva   de uno de mis espacios. Cuando el propietario accede al calendario. Entonces puede ver el día de la reserva resaltada en color amarillo. <br><br> Escenario 03: Existencia de reserva de espacio ajeno <br> Dado que un arrendatario ha realizado una reserva de espacio. Cuando este accede al calendario. Entonces puede ver el día de su reserva resaltada en color azul. | EP04 |
 | US09                | Calificar y comentar sobre espacios       | Como arrendatario, quiero poder publicar mi reseña sobre un espacio que he reservado para que otros usuarios puedan conocer mi experiencia sobre este. | Escenario 01: Permiso para opinar sobre un espacio <br> Dado que un arrendatario tiene una reserva culminada de un espacio. Cuando accede a su información a través del calendario. Entonces se presenta la opción habilitada para que pueda publicar su reseña sobre este. <br><br> Escenario 02: Aporte de reseña <br> Dado que un arrendatario ha rellenado todos los campos de reseña. Cuando presiona el campo de realizar reseña. Entonces esta se publica para que todos los usuarios la puedan ver. | EP04 |
 | US10                | Notificar sobre actividades de arrendatarios | Como arrendador de un espacio para eventos en AlquilaFácil, quiero recibir notificaciones **Cuando** un arrendatario ha realizado cierta acción sobre mi espacio para estar al tanto de su estado y tomar las acciones pertinentes.  | Escenario 01: Notificación de reserva <br> **Dado** que el arrendador ha publicado un espacio en AlquilaFácil. **Cuando** un arrendatario realiza una reserva para dicho espacio. **Entonces** el arrendador recibe una notificación en la aplicación indicando que el espacio ha sido reservado, con detalles de la fecha y el nombre del arrendatario.  <br><br> Escenario 02: Notificación de reseña <br> **Dado** que el arrendador ha publicado un espacio en AlquilaFácil. **Cuando** un arrendatario realiza una reseña sobre dicho espacio. **Entonces** el arrendador recibe una notificación en la aplicación que le permite ver el comentario y la calificación otorgada, ayudándole a monitorear la satisfacción del cliente.  |  EP04 |
@@ -4355,39 +4355,2063 @@ Los userflows describen gráficamente el recorrido que sigue el usuario dentro d
 [Ver prototipo Web](https://www.figma.com/proto/xgTMj9suBtUHH4bUyKpfq9?page-id=76%3A3767&node-id=76-3767&p=f&t=wbbhV2RsUAl2DKQg-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2002%3A8410)
 
 
+# Capitulo VII: Product Implementation, Validation & Deployment.
+
+## 7.1. Software Configuration Management.
+### 7.1.1. Software Development Environment Configuration.
+
+<table border="1">
+  <tr>
+    <td>Project Management</td>
+    <td>Microsoft 365<br>Utilizado como repositorio en la nube para almacenar videos de entrevistas, presentaciones de prototipos y otros recursos vinculados al desarrollo del proyecto.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Discord<br>Herramienta de comunicación grupal empleada para coordinar tareas, realizar reuniones virtuales y facilitar el trabajo colaborativo.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>WhatsApp<br>Aplicación de mensajería empleada principalmente para enviar recordatorios de reuniones y comunicaciones rápidas.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Trello<br>Plataforma de gestión visual de tareas que permitió organizar, asignar y dar seguimiento al avance del proyecto.</td>
+  </tr>
+  <tr>
+    <td>Requirements Management</td>
+    <td>Structurizr<br>Software de modelado que facilitó la elaboración de diagramas C4 para representar la arquitectura del sistema.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Vertabelo<br>Herramienta para el diseño y modelado visual de bases de datos relacionales.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Lucidchart<br>Herramienta de diagramación online empleada para crear modelos UML como casos de uso, clases y secuencias.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Miro<br>Plataforma de pizarra colaborativa usada para diseñar escenarios actuales (As-Is) y propuestos (To-Be) del sistema.</td>
+  </tr>
+  <tr>
+    <td>Product UX/UI Design</td>
+    <td>Figma<br>Aplicación de diseño utilizada para construir wireframes, interfaces gráficas y prototipos navegables del sistema.</td>
+  </tr>
+  <tr>
+    <td>Software Development</td>
+    <td>Git<br>Sistema de control de versiones empleado para gestionar el código fuente y asegurar un trabajo colaborativo eficaz.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>GitHub<br>Plataforma basada en Git que se usó para alojar el repositorio del proyecto y coordinar el trabajo en equipo.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>HTML5<br>Lenguaje de marcado utilizado para estructurar el contenido de la interfaz web.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>CSS<br>Lenguaje de estilos empleado para dar formato visual a las páginas HTML desarrolladas.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>JavaScript<br>Lenguaje de programación orientado a la web utilizado para incorporar funcionalidades e interacciones en la interfaz.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Vue.js<br>Framework progresivo para construir interfaces de usuario dinámicas y componentes reutilizables en el frontend.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>C#<br>Lenguaje de programación moderno y orientado a objetos, usado principalmente en aplicaciones empresariales y en desarrollo con tecnologías Microsoft.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>ASP.NET<br>Framework de desarrollo web de Microsoft que permite crear aplicaciones web robustas y escalables con C#.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Python<br>Lenguaje de programación versátil y legible, utilizado para el desarrollo rápido de aplicaciones, scripts, y servicios backend.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>FastAPI<br>Framework moderno y de alto rendimiento para construir APIs con Python, ideal para microservicios y servicios RESTful.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>C++<br>Lenguaje de programación de alto rendimiento orientado a sistemas embebidos, controladores y aplicaciones donde el uso eficiente de recursos es crítico.</td>
+  </tr>
+  <tr>
+    <td>Software Deployment</td>
+    <td>Netlify<br>Servicio en la nube que permitió desplegar la landing page y Web Application del sistema de forma automática, continua y con URL pública.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Render<br>Servicio en la nube que permitió desplegar el Web Service y Edge Node de forma automática, continua y con URL pública.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Wokwi<br>Plataforma en línea que permitió desplegar la Embedded App con URL pública.</td>
+  </tr>
+</table>
+
+
+### 7.1.2. Source Code Management.
+
+Se empleó la metodología Git Flow con el objetivo de mantener un mayor control sobre la gestión del proyecto y permitir el desarrollo simultáneo tanto de la implementación de la aplicación como de la elaboración del informe.
+
+Esta estrategia facilitó la organización del trabajo mediante distintas ramas: una rama principal (main), que contiene la versión estable y lista para presentación, libre de errores; una rama de desarrollo (develop), que actúa como punto de integración de los avances realizados en otras ramas; además de ramas específicas creadas para implementar funcionalidades importantes del sistema y para el desarrollo de cada capítulo del reporte final.
+
+- <strong>Landing Page</strong>
+
+  ![Diagrama Git Flow Landing Page App([URL]())](images/cap-7/insights/landing.PNG)
+
+  [Enlace de Repositorio de Landing Page](https://github.com/Emergentez/alquilafacil-landing-page)
+
+- <strong>Web Application</strong>
+
+  ![Diagrama Git Flow Web App([URL]())](images/cap-7/insights/web-app.PNG)
+
+  [Enlace de Repositorio de Landing Page](https://github.com/Emergentez/alquilafacil-web-app)
+
+- <strong>Web Service</strong>
+
+  ![Diagrama Git Flow Web Service([URL]())](images/cap-7/insights/service.PNG)
+
+  [Enlace de Repositorio de Landing Page](https://github.com/Emergentez/alquilafacil-web-service)
+
+- <strong>Mobile Application</strong>
+
+  ![Diagrama Git Flow Mobile App([URL]())](images/cap-7/insights/mobile.PNG)
+
+  [Enlace de Repositorio de Landing Page](https://github.com/Emergentez/alquilafacil-mobile-app)
+
+- <strong>Edge Node</strong>
+
+  ![Diagrama Git Flow Edge Node([URL]())](images/cap-7/insights/edge.PNG)
+
+  [Enlace de Repositorio de Landing Page](https://github.com/Emergentez/alquilafacil-edge-node)
+
+- <strong>Embebbed Application</strong>
+
+  ![Diagrama Git Flow Edge Node([URL]())](images/cap-7/insights/embedded.PNG)
+
+  [Enlace de Repositorio de Landing Page](https://github.com/Emergentez/alquilafacil-embedded-app)
+
+
+### 7.1.3. Source Code Style Guide & Conventions.
+
+**Lenguaje Markdown**
+
+| Referencias Adoptadas| Explicación y Convenciones |
+|-----------|-----------|
+| The Markdown Guide: https://www.markdownguide.org/ | Consideramos guiarnos de la guía oficial de markdown para tener mayor noción de trabajo con el uso de esta tecnología. Usaremos el archivo .md para todo lo que es descripción o información del proyecto. |
+
+**Lenguaje Gherkin**
+
+| Referencias Adoptadas | Explicación y Convenciones|
+|-----------|-----------|
+| Gherkin Conventions for Readable Specifications: https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/ | Consideramos guiarnos y aprender de la documentación situada en la referencia indicada, porque necesitamos tener ideas de cómo trabajar bajo ese lenguaje y poder usar de manera adecuada las herramientas.| Gherkin Conventions for Readable Specifications: https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/ | Consideramos guiarnos y aprender de la documentación situada en la referencia indicada, porque necesitamos tener ideas de cómo trabajar bajo ese lenguaje y poder usar de manera adecuada las herramientas. |
+
+**Lenguaje HTML y CSS**
+| Referencias Adoptadas | Explicación y Convenciones |
+|-----------|-----------|
+| Html Style Guide and Coding Conventions: https://google.github.io/styleguide/htmlcssguide.html | Consideramos que será beneficioso guiarnos y aprender de la documentación de la referencia indicada, ya que contiene una gran cantidad de información sobre las etiquetas HTML. Esto es fundamental para su uso en nuestros proyectos. | Google HTML/ CSS Style Guide: https://google.github.io/styleguide/htmlcssguide.html | Consideramos guiarnos con la documentación de Google para tener una lista de recomendaciones que nos ayude a mejorar la estructura de nuestras páginas. |Vue Style Guide: https://vuejs.org/v2/style-guide/|Consideramos guiarnos de la documentación oficial de Vue.JS para estudiar la sintaxis, buenas prácticas, recomendaciones, etc. De esta manera podremos desarrollar un mejor producto de Software.|
+
+**Lenguaje C#**
+
+| Referencias Adoptadas | Explicación y Convenciones|
+|-----------|-----------|
+| C# Coding Conventions: https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions | Consideramos en utilizar la documentación de Microsoft  para aprender buenas prácticas y sintaxis de C#, puesto que lo utilizaremos en el desarrollo del Back-end. | Microsoft ASP .NET Core Coding Guidelines: https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines#coding-guidelines | Consideramos en utilizar la documentación de la referencia especificada para estudiar y aprender buenas prácticas, convenciones y cómo integrar código C# a ASP .NET Core, ya que lo utilizaremos en el backend de nuestros productos. |
+
+**Lenguaje Dart**
+
+| Referencias Adoptadas| Explicación y Convenciones |
+|-----------|-----------|
+| Dart Style Guide: https://dart.dev/effective-dart/style | Dart ofrece en su documentación, algunas practicas, estilos y nomenclaturas para tanto la declaracionde de funciones, carpetas, clases, etc. |
+
+**Lenguaje Python**
+
+| Referencias Adoptadas| Explicación y Convenciones |
+|-----------|-----------|
+| Python Style Guide: https://www.python.org/doc/essays/styleguide/ | Usamos las convenciones determinadas por la organización detrás de Python, para una amplia noción de las nomenclaturas y buenas practicas para la elaboración de la Api. |
+
+**Lenguaje C++**
+
+| Referencias Adoptadas| Explicación y Convenciones |
+|-----------|-----------|
+| C++ Core Guidelines: https://isocpp.github.io/CppCoreGuidelines/ | Aplicamos las pautas modernas recomendadas por la comunidad C++, enfocándonos en el uso seguro de punteros, manejo eficiente de memoria, programación orientada a objetos y separación clara entre interfaz y lógica de implementación, especialmente en el desarrollo de componentes embebidos. |
+
+
+### 7.1.4. Software Deployment Configuration.
+
+En esta sección se especifica la configuración del despliegue de la solución IoT AlquilaFácil, incluyendo los pasos necesarios para que, a partir de los repositorios de código fuente, se pueda lograr el despliegue o publicación satisfactorio de cada uno de los productos digitales en la solución.
+
+#### Herramientas de Gestión y Control de Versiones
+
+Para llevar a cabo el despliegue de todos los componentes de la solución, se utilizaron las siguientes herramientas:
+
+- **Git**: Sistema de control de versiones utilizado para registrar los cambios realizados en todos los proyectos y facilitar la colaboración entre los integrantes del equipo.
+
+- **GitHub**: Plataforma en la que se alojaron los repositorios del proyecto. Allí se almacenaron todas las versiones del código de cada componente, asegurando acceso centralizado y controlado.
+
+- **Git Flow**: Metodología aplicada para estructurar y organizar el desarrollo mediante distintas ramas, lo que facilitó la coordinación, integración y seguimiento del trabajo colaborativo.
+
+#### Configuración de Despliegue por Componente
+
+##### 1. Landing Page
+
+**Plataforma de Despliegue:** GitHub Pages
+
+**Repositorio:** https://github.com/Emergentez/alquilafacil-landing-page
+
+**Tecnologías:**
+- HTML5, CSS3, JavaScript vanilla
+- Tailwind CSS v3.4.13 para estilos
+- AOS (Animate On Scroll) para animaciones
+
+**Pasos de Despliegue:**
+1. El código fuente está desarrollado con HTML, CSS y JavaScript con Tailwind CSS.
+2. Se ejecuta el build de Tailwind CSS:
+   ```bash
+   npm run build
+   ```
+   Este comando ejecuta: `npx tailwindcss -i ./src/input.css -o ./src/output.css --minify`
+3. En el repositorio de GitHub, se accede a Settings > Pages.
+4. En la sección "Source", se selecciona la rama `main`.
+5. GitHub Pages genera automáticamente la URL de despliegue.
+6. La landing page queda publicada en: `https://emergentez.github.io/alquilafacil-landing-page/`
+
+**Automatización:** Cada push a la rama principal activa el despliegue automático en GitHub Pages mediante GitHub Actions.
+
+##### 2. Web Application
+
+**Plataforma de Despliegue:** Netlify
+
+**Repositorio:** https://github.com/Emergentez/alquilafacil-web-app
+
+**Tecnologías:**
+- Vue.js 3.5.13 (Composition API)
+- Vite 6.2.0 como build tool
+- Vue Router 4.5.0 para navegación
+- Pinia 3.0.2 para manejo de estado
+- Axios 1.8.4 para llamadas HTTP
+- Tailwind CSS 4.1.3 para estilos
+- Firebase 11.6.0 para autenticación y notificaciones
+- SignalR 8.0.7 para comunicación en tiempo real
+- Schedule-X para calendario de reservas
+
+**Pasos de Despliegue:**
+1. La aplicación web está desarrollada en Vue.js 3 con Vite.
+2. Se conecta el repositorio de GitHub con Netlify.
+3. Se configuran los comandos de build en Netlify:
+   - Build command: `npm run build`
+   - Publish directory: `dist`
+4. Se configuran las variables de entorno en Netlify:
+   - `VITE_API_URL`: URL del Web Service backend
+5. Netlify ejecuta `vite build` automáticamente con cada push a la rama principal.
+6. Los archivos estáticos generados en `/dist` se despliegan en el CDN de Netlify.
+7. La aplicación queda publicada con un dominio de Netlify.
+
+**Automatización:** Continuous Deployment activado - cada commit en la rama principal despliega automáticamente.
+
+##### 3. Web Service (Backend API)
+
+**Plataforma de Despliegue:** Render
+
+**Repositorio:** https://github.com/Emergentez/alquilafacil-web-service
+
+**Tecnologías:**
+- ASP.NET Core 8.0 (C# / .NET 8)
+- Entity Framework Core 8.0.7 para ORM
+- MySQL con Pomelo.EntityFrameworkCore.MySql 8.0.2
+- JWT Bearer Authentication para seguridad
+- Swagger/Swashbuckle 6.5.0 para documentación de API
+- BCrypt.Net para hashing de contraseñas
+- SignalR para comunicación en tiempo real
+- Docker para containerización
+
+**Arquitectura:**
+El proyecto sigue Domain-Driven Design (DDD) con los siguientes bounded contexts:
+- IAM (Identity and Access Management)
+- Booking (Reservas)
+- Locals (Gestión de espacios)
+- Management (Gestión IoT y sensores)
+- Notifications (Notificaciones)
+- Profiles (Perfiles de usuario)
+- Subscriptions (Suscripciones)
+
+**Dockerfile:**
+```dockerfile
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+WORKDIR /app
+EXPOSE 8080
+EXPOSE 8081
+
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+ARG BUILD_CONFIGURATION=Release
+WORKDIR /src
+COPY ["AlquilaFacilPlatform/AlquilaFacilPlatform.csproj", "AlquilaFacilPlatform/"]
+RUN dotnet restore "AlquilaFacilPlatform/AlquilaFacilPlatform.csproj"
+COPY . .
+WORKDIR "/src/AlquilaFacilPlatform"
+RUN dotnet build "AlquilaFacilPlatform.csproj" -c $BUILD_CONFIGURATION -o /app/build
+
+FROM build AS publish
+RUN dotnet publish "AlquilaFacilPlatform.csproj" -c $BUILD_CONFIGURATION -o /app/publish
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "AlquilaFacilPlatform.dll"]
+```
+
+**Pasos de Despliegue en Render:**
+1. Se crea un nuevo Web Service en Render conectado al repositorio de GitHub.
+2. Se selecciona "Docker" como entorno de despliegue.
+3. Render detecta automáticamente el `Dockerfile` en el proyecto.
+4. Se configuran las variables de entorno:
+   - `ConnectionStrings__DefaultConnection`: URL de conexión a Railway MySQL
+   - `JWT__Secret`: Secret key para tokens JWT
+   - `JWT__Issuer` y `JWT__Audience`: Configuración JWT
+   - `ASPNETCORE_ENVIRONMENT`: Production
+5. Render ejecuta el build del contenedor Docker automáticamente.
+6. El servicio queda expuesto en los puertos 8080 (HTTP) y 8081 (HTTPS).
+7. Se obtiene una URL pública para el API REST (ej: `https://alquilafacil-api.onrender.com`).
+
+**Automatización:** Auto-deploy activado - cada push a la rama principal construye y despliega el contenedor Docker automáticamente.
+
+##### 4. Edge Node (Servidor Edge/IoT Gateway)
+
+**Plataforma de Despliegue:** Render
+
+**Repositorio:** https://github.com/Emergentez/alquilafacil-edge-node
+
+**Tecnologías:**
+- Python 3.9.23
+- FastAPI 0.115.12 para API REST
+- Uvicorn 0.34.3 como servidor ASGI
+- Peewee 3.18.1 como ORM (base de datos SQLite local)
+- Pydantic 2.11.7 para validación de datos
+- HTTP/WebSocket para comunicación con sensores y backend
+- Docker para containerización
+
+**Funcionalidad:**
+El Edge Node actúa como gateway IoT que:
+- Recibe datos de sensores embebidos (humo, ruido, movimiento, aforo)
+- Procesa y valida datos en tiempo real
+- Almacena temporalmente eventos en SQLite local
+- Envía datos procesados al Web Service backend
+- Gestiona la comunicación bidireccional con dispositivos IoT
+
+**Bounded Contexts:**
+- IAM: Gestión de autenticación del edge node
+- Locals: Información de espacios monitoreados
+- Management: Procesamiento de datos de sensores IoT
+- Shared: Componentes compartidos
+
+**Dockerfile:**
+```dockerfile
+FROM python:3.9.23-bookworm
+WORKDIR /app
+
+COPY . .
+
+RUN pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt
+
+EXPOSE 80
+
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "80", "--reload"]
+```
+
+**Pasos de Despliegue en Render:**
+1. Se crea un nuevo Web Service en Render conectado al repositorio de GitHub.
+2. Se selecciona "Docker" como entorno de despliegue.
+3. Render detecta automáticamente el `Dockerfile` en el proyecto.
+4. Se configuran variables de entorno:
+   - `BACKEND_API_URL`: URL del Web Service backend
+   - `DATABASE_PATH`: Ruta a la base de datos SQLite local
+   - `WEBSOCKET_ENDPOINT`: Endpoint para comunicación con sensores
+5. Render construye la imagen Docker e instala dependencias de `requirements.txt`.
+6. El servicio FastAPI se ejecuta con Uvicorn en el puerto 80.
+7. Se obtiene una URL pública (ej: `https://alquilafacil-edge.onrender.com`).
+
+**Dependencias principales (requirements.txt):**
+- fastapi==0.115.12
+- uvicorn==0.34.3
+- peewee==3.18.1
+- pydantic==2.11.7
+- httpx==0.28.1
+- python-dotenv==1.1.0
+
+**Automatización:** Auto-deploy activado - cada push a la rama principal reconstruye y despliega el contenedor Docker automáticamente.
+
+##### 5. Mobile Application
+
+**Plataforma de Distribución:** APK con Flutter
+
+**Repositorio:** https://github.com/Emergentez/alquilafacil-mobile-app
+
+**Tecnologías:**
+- Flutter SDK 3.4.3+
+- Dart SDK >=3.4.3 <4.0.0
+- Provider 6.1.2 para gestión de estado
+- HTTP 1.2.2 y Dio 5.7.0 para llamadas a APIs
+- Firebase Core 3.7.0 y Firebase Auth 5.3.2 para autenticación
+- Google Sign-In 6.2.2 y Facebook Auth 4.3.4 para SSO
+- Table Calendar 3.1.2 para calendario de reservas
+- Image Picker 1.1.2 para carga de imágenes
+- Shared Preferences 2.0.10 para almacenamiento local
+- WebSocket Channel 2.4.0 para comunicación en tiempo real
+
+**Características Principales:**
+- Gestión de reservas de espacios
+- Calendario interactivo de disponibilidad
+- Sistema de calificaciones y reseñas
+- Notificaciones en tiempo real
+- Chat/comunicación con arrendadores
+- Perfil de usuario personalizable
+
+**Pasos de Generación y Distribución del APK:**
+
+1. **Configuración Previa:**
+   - Configurar `android/app/build.gradle` con:
+     - Version code y version name
+     - Nombre del paquete (applicationId)
+     - Min SDK version y Target SDK version
+     - Permisos (Internet, Cámara, Almacenamiento)
+   - Configurar Firebase en `android/app/google-services.json`
+   - Configurar signing key en `android/key.properties`
+
+2. **Build del APK:**
+   ```bash
+   flutter clean
+   flutter pub get
+   flutter build apk --release
+   ```
+
+3. **Build de APK separados por ABI (opcional, para optimizar tamaño):**
+   ```bash
+   flutter build apk --split-per-abi
+   ```
+
+4. **Ubicación de los APKs generados:**
+   - APK universal: `build/app/outputs/flutter-apk/app-release.apk`
+   - APKs por ABI:
+     - `build/app/outputs/flutter-apk/app-armeabi-v7a-release.apk`
+     - `build/app/outputs/flutter-apk/app-arm64-v8a-release.apk`
+     - `build/app/outputs/flutter-apk/app-x86_64-release.apk`
+
+5. **Distribución:**
+   - **GitHub Releases:** Se sube el APK como asset en la sección de Releases
+   - **Firebase App Distribution:** Para distribución beta a testers
+   - **Descarga directa:** Link directo al APK en documentación
+   - **Google Play Store (futuro):** Publicación mediante Google Play Console
+
+**Testing:**
+```bash
+flutter test
+```
+
+##### 6. Embedded Application (Simulación IoT)
+
+**Plataforma de Simulación:** Wokwi
+
+**Repositorio:** https://github.com/Emergentez/alquilafacil-embedded-app
+
+**Pasos de Simulación y Configuración:**
+1. El código embebido está desarrollado en C++ para Arduino/ESP32.
+2. Se utiliza Wokwi (https://wokwi.com) como simulador de hardware IoT.
+3. Configuración en Wokwi:
+   - Se carga el código desde el repositorio o directamente en el editor
+   - Se configura el archivo `diagram.json` con los componentes (sensores de humo, ruido, movimiento, etc.)
+   - Se configuran las conexiones WiFi para comunicación con el Edge Node
+4. El simulador permite:
+   - Probar el comportamiento de sensores sin hardware físico
+   - Validar la lógica de detección de eventos
+   - Verificar la comunicación con el backend/edge node
+5. Para deployment en hardware real:
+   - Se compila el código con Arduino IDE o PlatformIO
+   - Se flashea en dispositivos ESP32/Arduino físicos
+
+##### 7. Base de Datos
+
+**Plataforma de Hosting:** Railway (MySQL)
+
+**Configuración:**
+1. Se crea una nueva base de datos MySQL en Railway.
+2. Railway proporciona automáticamente:
+   - Host URL
+   - Puerto
+   - Usuario y contraseña
+   - Nombre de la base de datos
+3. Se ejecutan los scripts de migración/inicialización:
+   - Creación de tablas (usuarios, espacios, reservas, sensores, eventos)
+   - Inserción de datos iniciales si es necesario
+4. Se configuran las credenciales en las variables de entorno del Web Service y Edge Node.
+5. Railway proporciona:
+   - Backups automáticos
+   - Monitoreo de uso
+   - Escalado según necesidad
+
+**Conexión:** El Web Service y Edge Node se conectan usando las credenciales proporcionadas por Railway.
+
+#### Deployment Diagram (C4 Model)
+
+A continuación se presenta el Deployment Diagram que ilustra la arquitectura de despliegue de la solución AlquilaFácil:
+
+![Deployment Diagram](images/cap-4/software-architecture/deployment.png)
+
+**Descripción del Diagrama:**
+- **GitHub Pages**: Hospeda la Landing Page estática accesible públicamente.
+- **Netlify**: Despliega la Web Application (SPA) con CDN global.
+- **Render (Web Service)**: Ejecuta el backend API REST que gestiona la lógica de negocio.
+- **Render (Edge Node)**: Procesa datos de sensores IoT en tiempo real.
+- **Railway MySQL**: Almacena todos los datos persistentes de la aplicación.
+- **APK Flutter**: Distribuido a dispositivos Android de usuarios finales.
+- **Wokwi**: Simula dispositivos embebidos IoT para desarrollo y testing.
+
+**Flujo de Comunicación:**
+1. Usuarios acceden a Landing Page (GitHub Pages) → redirigen a Web App (Netlify)
+2. Web App y Mobile App consumen APIs del Web Service (Render)
+3. Dispositivos IoT (simulados en Wokwi) envían datos al Edge Node (Render)
+4. Edge Node procesa y envía datos al Web Service
+5. Web Service almacena/consulta datos en Railway MySQL
+6. Notificaciones push se envían desde Web Service a Mobile App
+
+
+## 7.2. Solution Implementation.
+### 7.2.1. Sprint 1
+#### 7.2.1.1. Sprint Planning 1
+<table align="center" border="1" width="90%" style="border-collapse:collapse; text-align:left;">
+  <tr>
+    <td><b>Sprint #</b></td>
+    <td><b>Sprint 1</b></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>Sprint Planning Background</b></td>
+  </tr>
+  <tr>
+    <td><b>Date</b></td>
+    <td>01/11/2025</td>
+  </tr>
+  <tr>
+    <td><b>Time</b></td>
+    <td>12:00</td>
+  </tr>
+  <tr>
+    <td><b>Location</b></td>
+    <td>Modalidad remota por Discord</td>
+  </tr>
+  <tr>
+    <td><b>Prepared By</b></td>
+    <td>Lecca Choccare Christopher Bryan</td>
+  </tr>
+  <tr>
+    <td>
+    <b>Attendees (to planning meeting)</b>
+    </td>
+    <td>
+      - Ames Oviedo, Mariano Jose<br>
+      - Cachis Gonzales, Sebastian Nicolas<br>
+      - Lecca Choccare Christopher Bryan<br>
+      - Llamo Sánchez, Amner Levi<br>
+      - Morales Montalvo, Omar Andrew
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+  </tr>
+  <tr>
+  <td><b>Sprint 1 Goal</b></td>
+  <td>
+    <strong>Our focus is on</strong> developing and deploying a complete IoT-enabled platform for AlquilaFácil, including the landing page, web application, mobile application, backend web service, edge node for IoT gateway, and embedded application for sensor simulation. This comprehensive approach aims to deliver an end-to-end solution that connects users, spaces, and IoT monitoring capabilities.
+    <br><br>
+    <strong>We believe it delivers</strong> a fully functional ecosystem where users can discover the platform through the landing page, manage spaces and reservations via web and mobile applications, while IoT sensors monitor events in real-time through the edge node and embedded systems, all powered by a robust backend service with MySQL database on Railway.
+    <br><br>
+    <strong>This will be confirmed</strong> through successful deployment of all six applications, complete integration testing across all components demonstrating real-time IoT data flow from sensors to applications, and internal team testing verifying all 25 user stories functionality from authentication to IoT monitoring features.
+  </td>
+</tr>
+  <tr>
+    <td><b>Sprint 1 Velocity</b></td>
+    <td>103</td>
+  </tr>
+  <tr>
+    <td><b>Sum of Story Points</b></td>
+    <td>103</td>
+  </tr>
+  
+</table>
+
+
+### 6.2.1.2. Aspect Leaders and Collaborators
+
+La siguiente tabla resume los líderes (L) y colaboradores (C) para cada aspecto técnico del Sprint:
+
+| Team Member (Last Name, First Name) | GitHub Username   | Landing Page Leader (L) / Colaborator (C) | Web Application Leader (L) / Colaborator (C) | Web Service Leader (L) / Colaborator (C) | Mobile App Leader (L) / Colaborator (C) | Edge Node Leader (L) / Colaborator (C) | Embedded App Leader (L) / Colaborator (C) |
+|------------------------------------|--------------------|---|---|---|---|---|---|
+| Ames Oviedo, Mariano José          | MarianoAmes        | C | C | C | C | C | L |
+| Cachis Gonzales, Sebastian Nicolas | Dark7YT            | C | C | L | C | C | C |
+| Lecca Choccare, Christopher Bryan  | ChrisByBits        | L | L | C | C | C | C |
+| Llamo Sánchez, Amner Levi          | AmnerL             | C | C | C | L | C | C |
+| Morales Montalvo, Omar Andrew      | andrewmm16         | C | C | C | C | L | C |
+
+
+#### 7.2.1.3. Sprint Backlog 1.
+
+En esta seccion se espcifica el detalle del Sprint Backlog 1, la ucal es una lista de tareas designadas para esta primera fase del proyecto:
+![alt text](images/cap6_image4.jpeg)
+
+**Enlace del tablero:** https://trello.com/b/63Zub4fa/product-backlog-iot
+
+| **User Story ID** | **US Title**                          | **Task ID** | **Task Title**                                     | **Description**                                                                                     | **Estimation (Hours)** | **Assigned To**           | **Status** |
+|------------------|-------------------------------------|-------------|---------------------------------------------------|--------------------------------------------------------------------------------------------------|------------------------|--------------------------|------------|
+| US01             | Registrar usuario                   | T-01-1      | Diseñar interfaz de formulario de registro        | Diseñar y maquetar la interfaz del formulario de registro con todos los campos requeridos.       | 3                      | Mariano Ames             | Done       |
+| US01             | Registrar usuario                   | T-01-2      | Implementar lógica de validación y registro       | Implementar la lógica de validación de datos y conexión con el backend para registro de usuarios.| 3                      | Mariano Ames             | Done       |
+| US02             | Iniciar sesión                     | T-02-1      | Crear componente de formulario de login           | Crear el componente visual del formulario de inicio de sesión con campos de email y contraseña.  | 3                      | Sebastian Cachis         | Done       |
+| US02             | Iniciar sesión                     | T-02-2      | Implementar autenticación y manejo de sesiones    | Implementar la lógica de autenticación, validación de credenciales y gestión de tokens de sesión.| 3                      | Sebastian Cachis         | Done       |
+| US03             | Registrar espacios                 | T-03-1      | Diseñar formulario multipaso de registro          | Diseñar y estructurar el formulario multipaso con todos los campos organizados por secciones.    | 8                      | Omar Morales             | Done       |
+| US03             | Registrar espacios                 | T-03-2      | Implementar validaciones y envío de datos         | Implementar validaciones por cada paso y lógica de envío completo al backend.                    | 8                      | Omar Morales             | Done       |
+| US04             | Buscar espacios disponibles        | T-04-1      | Crear componente de barra de búsqueda             | Crear el componente visual de la barra de búsqueda con campo de texto e ícono.                   | 3                      | Christopher Lecca        | Done       |
+| US04             | Buscar espacios disponibles        | T-04-2      | Implementar lógica de búsqueda y resultados       | Implementar la lógica de búsqueda por ubicación y visualización de resultados filtrados.         | 3                      | Christopher Lecca        | Done       |
+| US05             | Filtrar espacios disponibles       | T-05-1      | Diseñar panel de filtros avanzados                | Diseñar interfaz de filtros con opciones de capacidad y categoría.                               | 2                      | Amner Llamo              | Done       |
+| US05             | Filtrar espacios disponibles       | T-05-2      | Implementar lógica de filtrado                    | Implementar la lógica de aplicación de múltiples filtros y actualización de resultados.          | 3                      | Amner Llamo              | Done       |
+| US06             | Visualizar información del espacio | T-06-1      | Diseñar página de detalles del espacio            | Diseñar el layout completo de la página de detalles con todas las secciones informativas.        | 2                      | Mariano Ames             | Done       |
+| US06             | Visualizar información del espacio | T-06-2      | Cargar y renderizar datos del espacio             | Implementar la carga de datos desde el backend y renderizado dinámico de toda la información.    | 3                      | Mariano Ames             | Done       |
+| US07             | Reservar espacios                 | T-07-1      | Crear formulario de reserva                       | Diseñar y crear el formulario de reserva con selección de fecha y datos del evento.             | 3                      | Omar Morales             | Done       |
+| US07             | Reservar espacios                 | T-07-2      | Implementar proceso de pago y confirmación        | Integrar sistema de pago y lógica de confirmación de reserva exitosa.                  | 3                      | Omar Morales             | Done       |
+| US08             | Gestionar calendario de reservas   | T-08-1      | Implementar componente de calendario              | Crear el componente visual del calendario con capacidad de mostrar fechas y eventos.             | 3                      | Christopher Lecca        | Done       |
+| US08             | Gestionar calendario de reservas   | T-08-2      | Integrar datos de reservas en calendario          | Implementar la lógica para cargar reservas y mostrarlas en el calendario con códigos de color.   | 3                      | Christopher Lecca        | Done       |
+| US09             | Calificar y comentar sobre espacios| T-09-1      | Diseñar interfaz de calificaciones y reseñas      | Diseñar el componente de calificación con estrellas y área de texto para comentarios.            | 2                      | Sebastian Cachis         | Done       |
+| US09             | Calificar y comentar sobre espacios| T-09-2      | Implementar envío y visualización de reseñas      | Implementar lógica para enviar reseñas al backend y mostrar reseñas existentes.                  | 3                      | Sebastian Cachis         | Done       |
+| US10             | Notificar sobre actividades        | T-10-1      | Implementar sistema de notificaciones push        | Configurar sistema de notificaciones en tiempo real para eventos de espacios.                    | 3                      | Amner Llamo              | Done       |
+| US10             | Notificar sobre actividades        | T-10-2      | Crear panel de visualización de notificaciones    | Diseñar e implementar panel donde se muestren todas las notificaciones recibidas.                | 2                      | Amner Llamo              | Done       |
+| US11             | Controlar espacios favoritos         | T-11-1      | Implementar funcionalidad de agregar favoritos    | Crear lógica para agregar y quitar espacios de la lista de favoritos del usuario.                | 2                      | Mariano Ames             | Done       |
+| US11             | Controlar espacios favoritos         | T-11-2      | Diseñar vista de espacios favoritos               | Diseñar e implementar la página que muestra todos los espacios marcados como favoritos.          | 3                      | Mariano Ames             | Done       |
+| US12             | Visualizar espacios propios         | T-12-1      | Crear vista de listado de espacios propios        | Diseñar interfaz que muestre todos los espacios publicados por el arrendador.                    | 2                      | Omar Morales             | Done       |
+| US12             | Visualizar espacios propios         | T-12-2      | Implementar carga de datos de espacios propios    | Implementar lógica para cargar y filtrar espacios según el propietario actual.                   | 3                      | Omar Morales             | Done       |
+| US13             | Modificar espacios publicados      | T-13-1      | Habilitar edición de campos del espacio           | Implementar formulario de edición con campos precargados del espacio seleccionado.               | 3                      | Christopher Lecca        | Done       |
+| US13             | Modificar espacios publicados      | T-13-2      | Guardar cambios y actualizar información          | Implementar lógica para enviar cambios al backend y actualizar la información del espacio.       | 3                      | Christopher Lecca        | Done       |
+| US14             | Actualizar perfil y cerrar sesión  | T-14-1      | Crear página de edición de perfil                 | Diseñar e implementar formulario de edición de perfil con datos del usuario.                     | 2                      | Sebastian Cachis         | Done       |
+| US14             | Actualizar perfil y cerrar sesión  | T-14-2      | Implementar funcionalidad de cierre de sesión     | Implementar lógica para cerrar sesión, limpiar tokens y redirigir al usuario.                    | 3                      | Sebastian Cachis         | Done       |
+| US15             | Reportar espacios inseguros        | T-15-1      | Crear formulario de reporte de espacios           | Diseñar formulario con campos para describir el problema de seguridad del espacio.               | 2                      | Amner Llamo              | Done       |
+| US15             | Reportar espacios inseguros        | T-15-2      | Implementar envío y almacenamiento de reportes    | Implementar lógica para enviar reportes al backend y notificar a administradores.                | 3                      | Amner Llamo              | Done       |
+| US16             | Visualizar espacios reportados     | T-16-1      | Diseñar vista de reportes realizados              | Crear interfaz que muestre lista de todos los reportes realizados por el usuario.                | 2                      | Mariano Ames             | Done       |
+| US16             | Visualizar espacios reportados     | T-16-2      | Cargar y mostrar detalles de reportes             | Implementar carga de reportes desde el backend y visualización de su estado.                     | 3                      | Mariano Ames             | Done       |
+| US17             | Acceder a información de ayuda     | T-17-1      | Diseñar sección de preguntas frecuentes          | Crear diseño y estructura de la página de FAQ con categorías de preguntas.                       | 3                      | Omar Morales             | Done       |
+| US17             | Acceder a información de ayuda     | T-17-2      | Implementar información de contacto               | Implementar sección de contacto con formulario y datos de soporte técnico.                       | 2                      | Omar Morales             | Done       |
+| US18             | Control de aforo                   | T-18-1      | Integrar sensores de conteo de personas           | Configurar integración con sensores IoT para recibir datos de aforo en tiempo real.              | 4                      | Christopher Lecca        | Done       |
+| US18             | Control de aforo                   | T-18-2      | Implementar alertas de aforo                      | Crear sistema de alertas que notifique cuando se aproxime o exceda el aforo permitido.           | 3                      | Christopher Lecca        | Done       |
+| US19             | Monitoreo de niveles de ruido      | T-19-1      | Integrar sensores de nivel de ruido               | Configurar conexión con sensores de ruido para recibir mediciones en tiempo real.                | 3                      | Sebastian Cachis         | Done       |
+| US19             | Monitoreo de niveles de ruido      | T-19-2      | Crear sistema de notificaciones de ruido          | Implementar lógica de comparación con umbral y envío de notificaciones al arrendador.            | 3                      | Sebastian Cachis         | Done       |
+| US20             | Detección de humo                  | T-20-1      | Integrar sensores de detección de humo            | Configurar integración con sensores de humo del sistema IoT.                                     | 3                      | Amner Llamo              | Done       |
+| US20             | Detección de humo                  | T-20-2      | Implementar alertas automáticas de humo           | Crear sistema de alertas automáticas que notifique inmediatamente al detectar humo.              | 4                      | Amner Llamo              | Done       |
+| US21             | Movimiento en áreas no autorizadas | T-21-1      | Integrar sensores de movimiento                   | Configurar sensores de movimiento en zonas restringidas del sistema IoT.                         | 3                      | Mariano Ames             | Done       |
+| US21             | Movimiento en áreas no autorizadas | T-21-2      | Implementar notificaciones de acceso restringido  | Crear lógica que envíe notificaciones al detectar movimiento en áreas no permitidas.             | 4                      | Mariano Ames             | Done       |
+| US22             | Registro de incidentes             | T-22-1      | Diseñar historial de eventos de sensores          | Crear interfaz para visualizar cronológicamente todos los eventos registrados.                    | 3                      | Omar Morales             | Done       |
+| US22             | Registro de incidentes             | T-22-2      | Implementar almacenamiento y filtrado             | Implementar sistema de almacenamiento de eventos y opciones de filtrado por tipo y fecha.        | 4                      | Omar Morales             | Done       |
+| US23             | Explorar landing informativa           | T-23-1      | Diseñar estructura y secciones del landing        | Crear diseño responsive del landing page con todas las secciones principales.                    | 5                      | Christopher Lecca        | Done       |
+| US23             | Explorar landing informativa           | T-23-2      | Implementar contenido y animaciones               | Implementar contenido, imágenes y animaciones para una experiencia atractiva.                     | 5                      | Christopher Lecca        | Done       |
+| US24             | Navegar por secciones desde el header  | T-24-1      | Diseñar menú de navegación responsive             | Crear diseño del header con menú de navegación adaptable a dispositivos móviles.                 | 5                      | Sebastian Cachis         | Done       |
+| US24             | Navegar por secciones desde el header  | T-24-2      | Implementar scroll suave entre secciones          | Implementar funcionalidad de navegación con scroll suave hacia las secciones del landing.        | 5                      | Sebastian Cachis         | Done       |
+| US25             | Ver beneficios diferenciados           | T-25-1      | Diseñar tarjetas de beneficios                    | Crear diseño de tarjetas informativas para arrendadores y arrendatarios con iconografía.         | 5                      | Amner Llamo              | Done       |
+| US25             | Ver beneficios diferenciados           | T-25-2      | Implementar sección de beneficios                 | Implementar sección con todas las tarjetas de beneficios organizadas por tipo de usuario.        | 5                      | Amner Llamo              | Done       |
+
+
+
+####  7.2.1.4. Development Evidence for Sprint Review.
+
+<p>
+En esta sección se presentan los commits más relevantes realizados en el repositorio de GitHub, donde se evidencia el trabajo progresivo en el desarrollo y despliegue, tanto como la Landing Page y Web Application. Se incluyen fusiones de ramas, configuraciones de despliegue, implementación de componentes y mejoras de contenido visual.
+</p>
+
+- <strong>Landing Page</strong>
+<table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%; text-align: left;">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="8">Emergentez/alquilafacil-landing-page</td>
+      <td>/main</td>
+      <td>ID</td>
+      <td>Message</td>
+      <td>Body</td>
+      <td>dd/MM/yyyy</td>
+    </tr>
+  </tbody>
+</table>
+
+- <strong>Web Application</strong>
+<table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%; text-align: left;">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="8">Emergentez/alquilafacil-web-app</td>
+      <td>/main</td>
+      <td>ID</td>
+      <td>Message</td>
+      <td>Body</td>
+      <td>dd/MM/yyyy</td>
+    </tr>
+  </tbody>
+</table>
+
+- <strong>Web Service</strong>
+<table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%; text-align: left;">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="8">Emergentez/alquilafacil-web-service</td>
+      <td>/main</td>
+      <td>ID</td>
+      <td>Message</td>
+      <td>Body</td>
+      <td>dd/MM/yyyy</td>
+    </tr>
+  </tbody>
+</table>
+
+- <strong>Mobile Application</strong>
+<table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%; text-align: left;">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="8">Emergentez/alquilafacil-mobile-app</td>
+      <td>/main</td>
+      <td>ID</td>
+      <td>Message</td>
+      <td>Body</td>
+      <td>dd/MM/yyyy</td>
+    </tr>
+  </tbody>
+</table>
+
+- <strong>Edge Node</strong>
+<table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%; text-align: left;">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="8">Emergentez/alquilafacil-edge-node</td>
+      <td>/main</td>
+      <td>ID</td>
+      <td>Message</td>
+      <td>Body</td>
+      <td>dd/MM/yyyy</td>
+    </tr>
+  </tbody>
+</table>
+
+- <strong>Embebbed Application</strong>
+<table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%; text-align: left;">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="8">Emergentez/alquilafacil-embedded-app</td>
+      <td>/main</td>
+      <td>ID</td>
+      <td>Message</td>
+      <td>Body</td>
+      <td>dd/MM/yyyy</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 7.2.1.5. Testing Suite Evidence for Sprint Review.
+
+A continuación, se muestra la tabla de commits relacionados al testing de la aplicación Web Service: 
+
+<table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%; text-align: left;">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="8">Emergentez/alquilafacil-web-service</td>
+      <td>/main</td>
+      <td>fa6a499</td>
+      <td>Add integration tests for Notification, Profile, Report, Reservation, Subscription, and User controllers</td>
+      <td>
+      - Implemented tests for NotificationController to verify notification retrieval and deletion.
+      - Added ProfileController tests for fetching and updating user profiles.
+      - Created ReportController tests to ensure report creation and retrieval by user and local IDs.
+      - Developed ReservationController tests for creating, updating, deleting, and retrieving reservations.
+      - Added SubscriptionController tests for subscription creation, retrieval, and status updates.
+      - Implemented UserController tests for user retrieval and updates.
+      - Introduced new REST controllers and resources for handling plans and invoices.
+      - Added transformation classes for converting resources to commands and entities.</td>
+      <td>22/10/2025</td>
+    </tr>
+  </tbody>
+</table>
+
+#### Resumen de Tests Automatizados
+
+A continuación se presenta la relación completa de tests automatizados desarrollados para el Sprint 1, organizados por tipo de testing:
+
+##### Unit Tests (Pruebas Unitarias)
+
+Los Unit Tests se enfocan en probar entidades del dominio y sus comportamientos de manera aislada:
+
+| Test Class | Clase Probada | Comportamientos Probados | User Stories Relacionadas |
+|------------|---------------|-------------------------|---------------------------|
+| **UserTests** | `User` (IAM.Domain.Model.Aggregates) | - Constructor con parámetros inicializa propiedades correctamente<br>- `UpdateUsername()` actualiza el nombre de usuario<br>- `UpdatePasswordHash()` actualiza el hash de contraseña | US01, US02, US14 |
+| **ProfileTests** | `Profile` (Profiles.Domain.Model.Aggregates) | - Constructor inicializa propiedades del perfil<br>- Actualización de información de perfil | US14 |
+| **LocalTests** | `Local` (Locals.Domain.Model.Aggregates) | - Constructor inicializa datos del espacio<br>- Validación de capacidad y categoría<br>- Actualización de información del espacio | US03, US06, US12, US13 |
+| **ReservationTests** | `Reservation` (Booking.Domain.Model.Aggregates) | - Creación de reserva con fechas válidas<br>- Validación de conflictos de fechas<br>- Actualización de estado de reserva | US07, US08 |
+| **CommentTests** | `Comment` (Locals.Domain.Model.Entities) | - Creación de comentario con calificación<br>- Validación de calificación (rango 1-5)<br>- Asociación con espacio y usuario | US09 |
+| **NotificationTests** | `Notification` (Notifications.Domain.Model.Aggregates) | - Creación de notificación<br>- Estado de lectura/no lectura<br>- Asociación con usuario | US10 |
+| **ReportTests** | `Report` (Management.Domain.Model.Aggregates) | - Creación de reporte de espacio<br>- Validación de descripción de problema<br>- Estado del reporte | US15, US16 |
+| **SubscriptionTests** | `Subscription` (Subscriptions.Domain.Model.Aggregates) | - Creación de suscripción<br>- Estados de suscripción (activa/inactiva)<br>- Fecha de renovación | Funcionalidad de suscripciones |
+
+##### Integration Tests (Pruebas de Integración)
+
+Los Integration Tests validan la interacción entre controladores y servicios del Web Service:
+
+| Test Class | Controller Probado | Endpoints Probados | User Stories Relacionadas |
+|------------|-------------------|-------------------|---------------------------|
+| **AuthenticationControllerTests** | `AuthenticationController` | - POST `/api/v1/authentication/sign-in` (credenciales válidas/inválidas)<br>- POST `/api/v1/authentication/sign-up` (registro exitoso/fallido) | US01, US02 |
+| **LocalControllerTests** | `LocalController` | - GET `/api/v1/locals` (listar espacios)<br>- GET `/api/v1/locals/{id}` (detalle de espacio)<br>- POST `/api/v1/locals` (crear espacio)<br>- PUT `/api/v1/locals/{id}` (actualizar espacio)<br>- GET `/api/v1/locals/search` (búsqueda y filtrado) | US03, US04, US05, US06, US12, US13 |
+| **ReservationControllerTests** | `ReservationController` | - GET `/api/v1/reservations` (listar reservas)<br>- POST `/api/v1/reservations` (crear reserva)<br>- PUT `/api/v1/reservations/{id}` (actualizar reserva)<br>- DELETE `/api/v1/reservations/{id}` (cancelar reserva)<br>- GET `/api/v1/reservations/calendar` (calendario) | US07, US08 |
+| **CommentControllerTests** | `CommentController` | - GET `/api/v1/comments/local/{localId}` (comentarios de espacio)<br>- POST `/api/v1/comments` (crear comentario y calificación)<br>- GET `/api/v1/comments/user/{userId}` (comentarios de usuario) | US09 |
+| **NotificationControllerTests** | `NotificationController` | - GET `/api/v1/notifications/user/{userId}` (obtener notificaciones)<br>- DELETE `/api/v1/notifications/{id}` (eliminar notificación)<br>- PUT `/api/v1/notifications/{id}/read` (marcar como leída) | US10 |
+| **ProfileControllerTests** | `ProfileController` | - GET `/api/v1/profiles/{userId}` (obtener perfil)<br>- PUT `/api/v1/profiles/{userId}` (actualizar perfil) | US14 |
+| **ReportControllerTests** | `ReportController` | - POST `/api/v1/reports` (crear reporte)<br>- GET `/api/v1/reports/user/{userId}` (reportes de usuario)<br>- GET `/api/v1/reports/local/{localId}` (reportes de espacio) | US15, US16 |
+| **UserControllerTests** | `UserController` | - GET `/api/v1/users/{id}` (obtener usuario)<br>- PUT `/api/v1/users/{id}` (actualizar usuario) | US01, US02, US14 |
+| **SubscriptionControllerTests** | `SubscriptionController` | - GET `/api/v1/subscriptions/{userId}` (obtener suscripción)<br>- POST `/api/v1/subscriptions` (crear suscripción)<br>- PUT `/api/v1/subscriptions/{id}/status` (actualizar estado) | Funcionalidad de suscripciones |
+| **LocalCategoriesControllerTests** | `LocalCategoriesController` | - GET `/api/v1/local-categories` (listar categorías)<br>- Soporte para filtrado por categoría | US05 |
+
+**Nota:** Los tests de IoT (US18-US22: Control de aforo, Monitoreo de ruido, Detección de humo, Movimiento, Registro de incidentes) se prueban a nivel de Edge Node con Python/FastAPI y simulación en Wokwi. Los tests de Landing Page (US23-US25) son pruebas E2E manuales de UI/UX.
+
+#### Acceptance Tests (BDD con Gherkin)
+
+En adición, se presentan los archivos .feature que contienen cada uno de los escenarios a validar para las features respectivas a las historias de usuario trabajadas en este Sprint.
+
+**US01:**
+
+```gherkin
+Feature: Registro de usuario
+
+Scenario: Registro exitoso
+  Given Que un usuario desea registrar su espacio en AlquilaFácil
+  When Completa el formulario de registro con la información requerida
+  Then Recibe una confirmación de registro y puede acceder a su cuenta
+
+Scenario: Validación de datos
+  Given Que un usuario completa el formulario de registro en AlquilaFácil
+  When Envía el formulario
+  Then Los datos proporcionados se validan para garantizar la precisión y la autenticidad
+```
+
+**US02:**
+
+```gherkin
+Feature: Inicio de sesión
+
+Scenario: Inicio de sesión exitoso
+  Given Que un usuario registrado desea acceder a su cuenta en AlquilaFácil
+  When Ingresa su correo electrónico y contraseña correctos en el formulario de inicio de sesión
+  Then Es autenticado exitosamente y se le otorga acceso a su cuenta
+
+Scenario: Error en el inicio de sesión por credenciales incorrectas
+  Given Que un usuario registrado intenta acceder a su cuenta en AlquilaFácil
+  When Ingresa una combinación incorrecta de correo electrónico o contraseña
+  Then Se le muestra un mensaje de error indicando que las credenciales son incorrectas y se le solicita que intente nuevamente
+
+```
+
+**US03:**
+
+```gherkin
+Feature: Registro de espacios
+
+Scenario: Registro de datos básicos
+  Given Que un arrendador desea registrar su espacio en AlquilaFácil
+  When Completa los campos organizados en varios pasos con información detallada sobre la propiedad
+  Then Puede enviar el registro con éxito y recibir confirmación de su inclusión en la plataforma
+
+Scenario: Validación de datos requeridos en cada paso del registro
+  Given Que un arrendador está completando el registro de su espacio
+  When Rellena todos los campos correspondientes a un paso específico
+  Then Se activa el botón que le permite continuar al siguiente paso
+
+```
+
+**US04:**
+
+```gherkin
+Feature: Búsqueda de espacios disponibles
+
+Scenario: Búsqueda principal por ubicación
+  Given Que un arrendatario busca un espacio para eventos en una ubicación específica
+  When Ingresa la ubicación deseada en el campo de búsqueda
+  Then Se muestran los espacios disponibles en esa ubicación
+
+Scenario: Búsqueda general de espacios
+  Given Que un arrendatario no ingresa texto en la barra de búsqueda
+  When Presiona sobre el ícono de búsqueda
+  Then Se muestran todos los espacios disponibles
+
+```
+
+**US05:**
+
+```gherkin
+Feature: Filtrado de espacios disponibles
+
+Scenario: Filtrado por capacidad
+  Given Que un arrendatario desea un espacio con capacidad para un número específico de personas
+  When Aplica un filtro de capacidad en la búsqueda
+  Then Se muestran solo los espacios que cumplen con ese criterio
+
+Scenario: Filtrado por categoría
+  Given Que un arrendatario desea un espacio de una categoría específica
+  When Aplica un filtro de categoría en la búsqueda
+  Then Se muestran solo los espacios que cumplen con ese criterio
+```
+
+**US06:**
+
+```gherkin
+Feature: Visualización de información del espacio
+
+Scenario: Visualización de información
+  Given Que el arrendatario selecciona un espacio en AlquilaFácil
+  When Accede a la página de detalles del espacio
+  Then Puede visualizar información detallada como aforo máximo, descripción del espacio y servicios disponibles
+
+Scenario: Visualización de reseñas del espacio
+  Given Que el arrendatario está revisando un espacio
+  When Accede a la página de comentarios
+  Then Puede visualizar las reseñas y calificaciones dejadas por otros usuarios sobre ese espacio
+```
+
+**US07:**
+
+```gherkin
+Feature: Reservar espacios
+
+Scenario: Proceso de reserva
+  Given Que un arrendatario ha encontrado el espacio ideal en AlquilaFácil
+  When Selecciona un espacio y una fecha
+  Then Se muestra un formulario para completar los detalles de la reserva
+
+Scenario: Pago de la reserva con vouchers
+  Given Que el usuario está a punto de culminar el proceso de reserva de un espacio
+  When Presiona el botón de realizar reserva
+  Then Realiza el pago de la reserva a través de vouchers
+
+Scenario: Confirmación de reserva
+  Given Que un arrendatario ha realizado el pago de la reserva
+  When Es redirigido a la aplicación
+  Then Recibe una confirmación de reserva y los detalles se actualizan en su cuenta
+
+```
+
+**US08:**
+
+```gherkin
+Feature: Gestión del calendario de reservas
+
+Scenario: Existencia de reserva de usuario normal
+  Given Que un arrendatario ha realizado una reserva de uno de mis espacios
+  When El propietario accede al calendario
+  Then Puede ver el día de la reserva resaltado en color rojo
+
+Scenario: Existencia de reserva de usuario premium
+  Given Que un arrendatario con suscripción premium ha reservado uno de mis espacios
+  When El propietario accede al calendario
+  Then Puede ver el día de la reserva resaltado en color amarillo
+
+Scenario: Existencia de reserva de espacio ajeno
+  Given Que un arrendatario ha realizado una reserva
+  When Accede al calendario
+  Then Puede ver el día de su reserva resaltado en color azul
+```
+
+**US09:**
+
+```gherkin
+Feature: Calificar y comentar sobre espacios
+
+Scenario: Publicar reseña exitosamente
+  Given Que un arrendatario ha completado una reserva de un espacio
+  When Accede a la sección de reseñas del espacio
+  And Completa el formulario con calificación y comentario
+  Then Su reseña se publica exitosamente
+  And Otros usuarios pueden visualizar la reseña
+
+Scenario: Validación de calificación
+  Given Que un arrendatario está escribiendo una reseña
+  When Intenta enviar la reseña sin seleccionar una calificación
+  Then El sistema muestra un mensaje de error
+  And No permite publicar la reseña hasta completar la calificación
+```
+
+**US10:**
+
+```gherkin
+Feature: Notificar sobre actividades de arrendatarios
+
+Scenario: Recibir notificación de nueva reserva
+  Given Que un arrendatario ha realizado una reserva en mi espacio
+  When La reserva se confirma en el sistema
+  Then Recibo una notificación en tiempo real
+  And La notificación aparece en mi panel de notificaciones
+
+Scenario: Recibir notificación de cancelación
+  Given Que tengo una reserva confirmada en mi espacio
+  When El arrendatario cancela la reserva
+  Then Recibo una notificación de cancelación
+  And El calendario se actualiza automáticamente
+```
+
+**US11:**
+
+```gherkin
+Feature: Controlar espacios favoritos
+
+Scenario: Agregar espacio a favoritos
+  Given Que un arrendatario está visualizando un espacio
+  When Presiona el botón de "Agregar a favoritos"
+  Then El espacio se guarda en su lista de favoritos
+  And El ícono de favorito cambia de estado
+
+Scenario: Eliminar espacio de favoritos
+  Given Que un arrendatario tiene espacios en su lista de favoritos
+  When Presiona el botón de "Quitar de favoritos"
+  Then El espacio se elimina de la lista
+  And Puede confirmar la eliminación en la vista de favoritos
+```
+
+**US12:**
+
+```gherkin
+Feature: Visualizar espacios propios publicados
+
+Scenario: Listar todos los espacios publicados
+  Given Que soy un arrendador con espacios publicados
+  When Accedo a la sección "Mis Espacios"
+  Then Veo una lista con todos mis espacios publicados
+  And Cada espacio muestra su nombre, categoría y estado
+
+Scenario: Ver detalles de espacio propio
+  Given Que estoy visualizando mi lista de espacios
+  When Selecciono un espacio específico
+  Then Puedo ver todos los detalles completos del espacio
+  And Visualizo las reservas asociadas a ese espacio
+```
+
+**US13:**
+
+```gherkin
+Feature: Modificar espacios publicados
+
+Scenario: Actualizar información del espacio
+  Given Que un arrendador desea modificar su espacio publicado
+  When Accede al formulario de edición
+  And Modifica campos como descripción, aforo o servicios
+  And Guarda los cambios
+  Then Los datos se actualizan exitosamente
+  And Los cambios son visibles inmediatamente
+
+Scenario: Cambiar visibilidad temporal del espacio
+  Given Que un arrendador tiene un espacio publicado
+  When Cambia el estado de visibilidad a "No disponible temporalmente"
+  Then El espacio deja de aparecer en búsquedas públicas
+  And El arrendador puede reactivarlo posteriormente
+```
+
+**US14:**
+
+```gherkin
+Feature: Actualizar perfil y sesión de usuario
+
+Scenario: Modificar nombre de usuario
+  Given Que un usuario está en su perfil
+  When Cambia su nombre de usuario
+  And Guarda los cambios
+  Then El nuevo nombre se actualiza en el sistema
+  And Se refleja en todas sus interacciones
+
+Scenario: Cerrar sesión exitosamente
+  Given Que un usuario está autenticado en la aplicación
+  When Presiona el botón "Cerrar sesión"
+  Then El sistema cierra la sesión correctamente
+  And El usuario es redirigido a la pantalla de inicio de sesión
+```
+
+**US15:**
+
+```gherkin
+Feature: Reportar espacios inseguros
+
+Scenario: Enviar reporte de espacio inseguro
+  Given Que un usuario identifica un espacio con problemas de seguridad
+  When Accede a la opción "Reportar espacio"
+  And Completa el formulario con descripción del problema
+  And Envía el reporte
+  Then El reporte se registra exitosamente
+  And El usuario recibe confirmación del envío
+
+Scenario: Validación de campos requeridos en reporte
+  Given Que un usuario está creando un reporte
+  When Intenta enviar el reporte sin completar campos obligatorios
+  Then El sistema muestra mensajes de error
+  And No permite enviar el reporte hasta completar todos los campos
+```
+
+**US16:**
+
+```gherkin
+Feature: Visualizar espacios reportados
+
+Scenario: Ver lista de reportes realizados
+  Given Que un usuario ha realizado reportes de espacios
+  When Accede a la sección "Mis Reportes"
+  Then Visualiza una lista con todos sus reportes
+  And Cada reporte muestra el espacio, fecha y estado
+
+Scenario: Ver detalle de reporte específico
+  Given Que un usuario está viendo su lista de reportes
+  When Selecciona un reporte específico
+  Then Puede ver los detalles completos del reporte
+  And Visualiza el estado de resolución (pendiente, en revisión, resuelto)
+```
+
+**US17:**
+
+```gherkin
+Feature: Acceder a información de ayuda
+
+Scenario: Consultar preguntas frecuentes
+  Given Que un usuario necesita ayuda
+  When Accede a la sección de "Ayuda"
+  Then Visualiza una lista de preguntas frecuentes organizadas por categorías
+  And Puede expandir cada pregunta para ver la respuesta completa
+
+Scenario: Contactar con soporte
+  Given Que un usuario no encuentra respuesta en las FAQs
+  When Accede a la sección de "Contacto"
+  Then Visualiza las opciones de contacto (email, teléfono, formulario)
+  And Puede enviar un mensaje directamente al equipo de soporte
+```
+
+**US18:**
+
+```gherkin
+Feature: Control de aforo
+
+Scenario: Monitoreo en tiempo real del aforo
+  Given Que un evento está en curso en mi local
+  When Los sensores detectan el número de personas presentes
+  Then Recibo información actualizada en tiempo real del aforo
+  And La información se muestra en el dashboard de monitoreo
+
+Scenario: Alerta de aforo aproximándose al límite
+  Given Que el aforo actual está cerca del límite permitido
+  When El sistema detecta que se ha alcanzado el 90% de capacidad
+  Then Se envía una alerta preventiva al arrendador
+  And El sistema sugiere acciones a tomar
+
+Scenario: Notificación de aforo excedido
+  Given Que el aforo máximo permitido es conocido
+  When Los sensores detectan que se ha superado el aforo
+  Then El sistema envía notificación inmediata por push y email
+  And Se registra el incidente en el historial
+```
+
+**US19:**
+
+```gherkin
+Feature: Monitoreo de niveles de ruido
+
+Scenario: Monitoreo continuo de nivel de ruido
+  Given Que un evento está en curso
+  When Los sensores de ruido están activos
+  Then El sistema monitorea continuamente los decibeles
+  And Muestra el nivel actual en el dashboard
+
+Scenario: Notificación de umbral de ruido superado
+  Given Que se ha configurado un umbral de ruido de 85 dB
+  When El sensor detecta niveles superiores a 85 dB
+  Then El arrendador recibe una notificación inmediata
+  And Se muestra la hora y duración del exceso
+
+Scenario: Registro de eventos de ruido excesivo
+  Given Que el nivel de ruido ha superado el umbral
+  When El evento de ruido excesivo finaliza
+  Then El sistema registra el incidente con timestamp
+  And El registro queda disponible en el historial de eventos
+```
+
+**US20:**
+
+```gherkin
+Feature: Detección de humo
+
+Scenario: Detección de humo activada
+  Given Que los sensores de humo están operativos
+  When Se detecta presencia de humo en el local
+  Then Se activa una alerta automática de emergencia
+  And El arrendador recibe notificación inmediata
+
+Scenario: Escalamiento de alerta de humo
+  Given Que se ha detectado humo en el local
+  When La alerta es generada por el sistema
+  Then Se notifica al arrendador por múltiples canales (push, email, SMS)
+  And Se registra como incidente de alta prioridad
+  And Se sugiere contactar a servicios de emergencia
+
+Scenario: Verificación post-alerta
+  Given Que se activó una alerta de humo
+  When El arrendador verifica la situación
+  Then Puede confirmar o descartar la emergencia en el sistema
+  And El incidente se actualiza con la resolución
+```
+
+**US21:**
+
+```gherkin
+Feature: Movimiento en áreas no autorizadas
+
+Scenario: Detección de movimiento en zona restringida
+  Given Que existen áreas delimitadas como restringidas
+  When Los sensores detectan movimiento en una zona restringida
+  Then Se genera una alerta inmediata
+  And El arrendador recibe notificación con ubicación específica
+
+Scenario: Registro de accesos no autorizados
+  Given Que se detectó movimiento en área restringida
+  When El evento es confirmado por los sensores
+  Then Se registra en el historial con timestamp y ubicación
+  And Se incluye captura del sensor si está disponible
+
+Scenario: Configuración de zonas restringidas
+  Given Que soy arrendador de un espacio
+  When Accedo a la configuración de monitoreo
+  Then Puedo definir qué áreas son restringidas
+  And Configurar el nivel de sensibilidad de los sensores
+```
+
+**US22:**
+
+```gherkin
+Feature: Registro de incidentes
+
+Scenario: Visualizar historial completo de eventos
+  Given Que soy arrendador de un espacio con sensores
+  When Accedo a la sección de "Registro de Incidentes"
+  Then Visualizo un historial cronológico de todos los eventos
+  And Cada evento muestra tipo, fecha, hora y detalles
+
+Scenario: Filtrar eventos por tipo
+  Given Que estoy visualizando el historial de incidentes
+  When Aplico filtros por tipo (aforo, ruido, humo, movimiento)
+  Then Solo se muestran los eventos del tipo seleccionado
+  And Puedo combinar múltiples filtros
+
+Scenario: Exportar evidencia de incidentes
+  Given Que necesito documentación de incidentes
+  When Selecciono un rango de fechas
+  And Presiono el botón "Exportar"
+  Then El sistema genera un reporte PDF con todos los eventos
+  And El reporte incluye gráficos y estadísticas
+```
+
+**US23:**
+
+```gherkin
+Feature: Explorar landing informativa
+
+Scenario: Acceder a la landing page
+  Given Que soy un visitante nuevo
+  When Ingreso a la URL de AlquilaFácil
+  Then Visualizo una landing page clara y atractiva
+  And Veo información sobre los beneficios principales
+
+Scenario: Navegación fluida en la landing
+  Given Que estoy en la landing page
+  When Me desplazo por las secciones
+  Then La navegación es fluida y responsive
+  And Las animaciones cargan correctamente
+```
+
+**US24:**
+
+```gherkin
+Feature: Navegar por secciones clave desde el header
+
+Scenario: Usar menú de navegación
+  Given Que estoy en la landing page
+  When Hago clic en una opción del menú (Espacios, Publicar, Monitoreo, Beneficios)
+  Then Soy desplazado suavemente a la sección correspondiente
+  And El indicador del menú resalta la sección actual
+
+Scenario: Navegación responsive en móvil
+  Given Que accedo desde un dispositivo móvil
+  When Presiono el botón del menú hamburguesa
+  Then Se despliega el menú de navegación completo
+  And Puedo navegar a cualquier sección
+```
+
+**US25:**
+
+```gherkin
+Feature: Conocer los beneficios diferenciados
+
+Scenario: Visualizar beneficios para arrendadores
+  Given Que estoy en la sección de beneficios
+  When Visualizo las tarjetas informativas
+  Then Veo claramente los beneficios para arrendadores
+  And Cada beneficio tiene ícono descriptivo y explicación
+
+Scenario: Visualizar beneficios para arrendatarios
+  Given Que estoy explorando los beneficios de la plataforma
+  When Reviso las tarjetas de arrendatarios
+  Then Comprendo las ventajas de usar AlquilaFácil como arrendatario
+  And Los beneficios están presentados de forma atractiva
+```
+
+#### 7.2.1.6. Execution Evidence for Sprint Review.
+
+Durante el Sprint 1 se logró desarrollar e implementar exitosamente las funcionalidades core del sistema AlquilaFácil IoT, abarcando las 25 User Stories planificadas con un total de 103 story points completados. Los principales logros alcanzados incluyen:
+
+**Funcionalidades Implementadas:**
+- **Sistema de Autenticación (US01, US02):** Registro e inicio de sesión con validación de credenciales, integración con Firebase Auth y soporte para Google/Facebook Sign-In.
+- **Gestión de Espacios (US03, US04, US05, US06, US12, US13):** Registro completo de espacios con formulario multipaso, búsqueda y filtrado avanzado por ubicación y categoría, visualización detallada de información de espacios, y administración de espacios publicados.
+- **Sistema de Reservas (US07, US08):** Proceso completo de reserva, calendario interactivo de reservas con diferenciación visual por tipo de usuario (normal/premium), y gestión de conflictos de fechas.
+- **Monitoreo IoT en Tiempo Real (US18-US22):** Control de aforo con alertas automáticas, monitoreo de niveles de ruido con umbrales configurables, detección de humo con alertas de emergencia, sistema de detección de movimiento en áreas restringidas, y registro completo de incidentes con historial y exportación.
+- **Interacción Social y Seguridad (US09, US11, US15, US16):** Sistema de calificaciones y reseñas, gestión de espacios favoritos, reportes de espacios inseguros, y seguimiento de reportes realizados.
+- **Gestión de Usuario (US10, US14, US17):** Notificaciones push en tiempo real sobre actividades, actualización de perfil y gestión de sesión, y sección de ayuda con FAQs y contacto.
+- **Landing Page Informativa (US23, US24, US25):** Página de presentación responsive con navegación fluida y secciones de beneficios diferenciados.
+
+**Tecnologías Desplegadas:**
+- Landing Page en GitHub Pages con Tailwind CSS y animaciones AOS
+- Web Application en Netlify con Vue.js 3, Vite, Pinia y SignalR para tiempo real
+- Mobile Application APK con Flutter 3.4.3+
+- Web Service en Render con ASP.NET Core 8.0, Docker y arquitectura DDD
+- Edge Node en Render con Python 3.9, FastAPI y Uvicorn
+- Base de Datos MySQL en Railway con esquema completo normalizado
+- Simulación de dispositivos IoT en Wokwi (ESP32, sensores de humo, ruido, movimiento)
+
+A continuación se presentan las principales vistas implementadas durante este Sprint, organizadas por plataforma (Web Application y Mobile Application), junto con el video demostrativo del sistema completo.
+
+### Video Demostrativo del Sprint 1
+
+En el siguiente video se ilustra la navegación completa del sistema, mostrando las funcionalidades principales implementadas:
+
+**URL del Video:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211399_upc_edu_pe/IQBd9dv_ptmoRKUyVtbrmlzLAXPnIihm8nq2IgAdEk21Plo?e=frg4yR](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211399_upc_edu_pe/IQBd9dv_ptmoRKUyVtbrmlzLAXPnIihm8nq2IgAdEk21Plo?e=frg4yR)
+
+### Web Application - Principales Vistas Implementadas
+
+#### 1. Registro de Espacios (US03)
+
+El proceso de registro de espacios permite a los arrendadores publicar sus locales mediante un formulario multipaso intuitivo que incluye información básica, detalles del espacio, servicios disponibles, y configuración de precios.
+
+**Vista Principal - Formulario de Registro de Espacio**
+![Registro de Espacios ](images/cap-7/execution/web-1.PNG)
+
 ---
 
-# Capítulo VII: Product Implementation, Validation & Deployment
+#### 2. Reserva de Espacios (US07)
 
-## 7.1. Software Configuration Management
+El sistema de reservas permite a los arrendatarios seleccionar fechas disponibles, completar información del evento, y proceder con el pago de forma segura.
 
-### 7.1.1. Software Development Environment Configuration
 
-### 7.1.2. Source Code Management
+**Vista Principal - Formulario de Reserva:**
+![Reserva - Formulario](images/cap-7/execution/web-2.PNG)
 
-### 7.1.3. Source Code Style Guide & Conventions
 
-### 7.1.4. Software Deployment Configuration
+---
 
-## 7.2. Solution Implementation
+#### 3. Monitoreo de Reservas y Eventos IoT (US08, US18-US22)
 
-### 7.2.X. Sprint n
+El dashboard de monitoreo proporciona visualización en tiempo real del estado de los espacios, incluyendo datos de sensores IoT como aforo, niveles de ruido, alertas de humo y movimiento en áreas restringidas.
 
-#### 7.2.X.1. Sprint Planning n
+**Vista Principal - Dashboard de Monitoreo General:**
+![Monitoreo - Dashboard](images/cap-7/execution/web-3.PNG)
 
-#### 7.2.X.2. Sprint Backlog n
+---
 
-#### 7.2.X.3. Development Evidence for Sprint Review
+### Mobile Application - Principales Vistas Implementadas
 
-#### 7.2.X.4. Testing Suite Evidence for Sprint Review
+#### 1. Registro de Espacios (US03)
 
-#### 7.2.X.5. Execution Evidence for Sprint Review
+La aplicación móvil permite a los arrendadores registrar espacios desde cualquier lugar, con una interfaz optimizada para dispositivos móviles que facilita la captura de fotos y la geolocalización automática.
 
-#### 7.2.X.6. Services Documentation Evidence for Sprint Review
+**Vista Mobile - Pantalla de Registro de espacio:**
+![Mobile Registro - Inicio](images/cap-7/execution/mob-1.PNG)
 
-#### 7.2.X.7. Software Deployment Evidence for Sprint Review
+---
 
-#### 7.2.X.8. Team Collaboration Insights during Sprint
+#### 2. Reserva de Espacios (US07)
+
+Los arrendatarios pueden explorar, filtrar y reservar espacios directamente desde la app móvil y notificaciones push instantáneas.
+
+**Vista Mobile - Selección de Fecha y Hora:**
+![Mobile Reserva - Fecha](images/cap-7/execution/mob-2.PNG)
+
+---
+
+#### 3. Calendario de Reservas (US08)
+
+La app móvil ofrece gestión de reservas mediante un calendario con diferentes leyendas para entender el estado de una reserva.
+
+**Vista Mobile - Calendario de reservas:**
+![Mobile Monitoreo - Dashboard](images/cap-7/execution/mob-3.PNG)
+
+---
+
+#### 7.2.1.7. Services Documentation Evidence for Sprint Review.
+
+Durante el Sprint 1 se logró documentar exitosamente todos los endpoints del Web Service y Edge Node utilizando OpenAPI (Swagger), proporcionando una interfaz interactiva completa para la exploración y prueba de la API REST. Los principales logros en documentación de servicios incluyen:
+
+**Logros Alcanzados:**
+- **Documentación Completa de 15 Controllers** en el Web Service con ASP.NET Core, incluyendo todos los endpoints de autenticación, gestión de espacios, reservas, monitoreo IoT, notificaciones, y suscripciones.
+- **Documentación de 4 Endpoints IoT** en el Edge Node con FastAPI para recepción de datos de sensores (humo, ruido, capacidad, y áreas restringidas).
+- **Especificaciones Detalladas** para cada endpoint incluyendo verbos HTTP, parámetros, request bodies con schemas JSON, y responses esperados.
+- **Integración con Swashbuckle** en el Web Service para generación automática de documentación OpenAPI 3.0.
+- **Despliegue de Documentación** en entornos de producción (Render) con acceso público para testing.
+- **Annotations y Descripciones** en todos los endpoints para facilitar el entendimiento y uso de la API.
+
+**Herramientas Utilizadas:**
+- **Swashbuckle.AspNetCore 6.5.0** para documentación automática en ASP.NET Core
+- **FastAPI built-in docs** para documentación automática del Edge Node
+- **OpenAPI 3.0 Specification** como estándar de documentación
+- **Swagger UI** para interfaz interactiva de pruebas
+
+| Servicio | URL de Swagger/Docs | Descripción |
+|-----------|---------------------|--------------|
+| **Web Service API** | [https://alquilafacil-web-service-software.onrender.com/swagger/index.html](https://alquilafacil-web-service-software.onrender.com/swagger/index.html) | Documentación completa de 80+ endpoints del backend |
+| **Edge Node API** | [https://alquilafacil-egde.onrender.com/docs](https://alquilafacil-egde.onrender.com/docs) | Documentación de endpoints IoT FastAPI |
+
+
+**Repositorios:**
+- **Web Service:** [https://github.com/Emergentez/alquilafacil-web-service](https://github.com/Emergentez/alquilafacil-web-service)
+- **Edge Node:** [https://github.com/Emergentez/alquilafacil-edge-node](https://github.com/Emergentez/alquilafacil-edge-node)
+
+
+### Tabla de Endpoints Documentados
+
+A continuación se presenta la tabla completa de endpoints documentados durante el Sprint 1, organizados por controller/módulo:
+
+#### Web Service - RESTful API Endpoints
+
+| Controller | Endpoint | Verbo HTTP | Parámetros | Request Body Schema | Response | User Stories |
+|------------|----------|------------|------------|---------------------|----------|--------------|
+| **Authentication** | `/api/v1/authentication/sign-in` | POST | - | `{ "email": "string", "password": "string" }` | Token JWT del usuario autenticado | US01, US02 |
+| **Authentication** | `/api/v1/authentication/sign-up` | POST | - | `{ "username": "string", "password": "string", "email": "string", "name": "string", "fatherName": "string", "motherName": "string", "dateOfBirth": "string", "documentNumber": "string", "phone": "string" }` | Token JWT del usuario registrado | US01, US02 |
+| **Comments** | `/api/v1/comments/local/{localId}` | GET | `localId` | - | Lista de comentarios del espacio | US09 |
+| **Comments** | `/api/v1/comments` | POST | - | `{ "userId": 0, "localId": 0, "text": "string", "rating": 0 }` | Comentario publicado con calificación | US09 |
+| **Invoices** | `/api/v1/invoices` | POST | - | `{ "subscriptionId": 0, "amount": 0, "date": "2025-06-20T21:00:13.031Z" }` | Boleta generada | Subscriptions |
+| **Invoices** | `/api/v1/invoices` | GET | - | - | Lista de todas las boletas | Subscriptions |
+| **Invoices** | `/api/v1/invoices/{invoiceId}` | GET | `invoiceId` | - | Boleta específica | Subscriptions |
+| **LocalCategories** | `/api/v1/local-categories` | GET | - | - | Lista de categorías de espacios | US05 |
+| **LocalEdgeNodes** | `/api/v1/local-edge-nodes` | POST | - | `{ "localId": 0, "edgeNodeUrl": "string" }` | Edge Node registrado para el espacio | US18-US22 |
+| **LocalEdgeNodes** | `/api/v1/local-edge-nodes/local-id/{localId}` | GET | `localId` | - | Edge Node del espacio | US18-US22 |
+| **Locals** | `/api/v1/locals` | POST | - | `{ "district": "string", "street": "string", "localName": "string", "country": "string", "city": "string", "price": 0, "photoUrl": "string", "descriptionMessage": "string", "localCategoryId": 0, "userId": 0, "features": "string", "capacity": 0 }` | Espacio publicado | US03 |
+| **Locals** | `/api/v1/locals` | GET | - | - | Lista de todos los espacios publicados | US04 |
+| **Locals** | `/api/v1/locals/{localId}` | GET | `localId` | - | Detalles completos del espacio | US06 |
+| **Locals** | `/api/v1/locals/{localId}` | PUT | `localId` | `{ "district": "string", "street": "string", "localName": "string", "country": "string", "city": "string", "price": 0, "photoUrl": "string", "descriptionMessage": "string", "localCategoryId": 0, "userId": 0, "features": "string", "capacity": 0 }` | Espacio actualizado | US13 |
+| **Locals** | `/api/v1/locals/get-all-districts` | GET | - | - | Lista de distritos con espacios | US04, US05 |
+| **Locals** | `/api/v1/locals/get-user-locals/{userId}` | GET | `userId` | - | Espacios publicados por el usuario | US12 |
+| **Notifications** | `/api/v1/notifications/{userId}` | GET | `userId` | - | Notificaciones del usuario | US10 |
+| **Notifications** | `/api/v1/notifications/{notificationId}` | DELETE | `notificationId` | - | Notificación eliminada | US10 |
+| **Plans** | `/api/v1/plans` | GET | - | - | Planes de suscripción disponibles | Subscriptions |
+| **Profiles** | `/api/v1/profiles/user/{userId}` | GET | `userId` | - | Perfil del usuario | US14 |
+| **Profiles** | `/api/v1/profiles/subscription-status/{userId}` | GET | `userId` | - | Estado de suscripción del usuario | Subscriptions |
+| **Profiles** | `/api/v1/profiles/bank-accounts/{userId}` | GET | `userId` | - | Cuentas bancarias del usuario | Subscriptions |
+| **Readings** | `/api/v1/readings` | POST | - | `{ "localId": 0, "sensorTypeId": 0, "message": "string", "timestamp": "2025-06-20T21:21:48.106Z" }` | Lectura de sensor registrada | US18-US22 |
+| **Readings** | `/api/v1/readings/local-id/{localId}` | GET | `localId` | - | Lecturas de sensores del espacio | US22 |
+| **Reports** | `/api/v1/reports` | POST | - | `{ "localId": 0, "title": "string", "userId": 0, "description": "string" }` | Reporte publicado | US15 |
+| **Reports** | `/api/v1/reports/get-by-user-id/{userId}` | GET | `userId` | - | Reportes del usuario | US16 |
+| **Reports** | `/api/v1/reports/get-by-local-id/{localId}` | GET | `localId` | - | Reportes del espacio | US15 |
+| **Reports** | `/api/v1/reports/{reportId}` | DELETE | `reportId` | - | Reporte eliminado | US16 |
+| **Reservations** | `/api/v1/reservations` | POST | - | `{ "startDate": "2025-06-20T21:26:54.049Z", "endDate": "2025-06-20T21:26:54.049Z", "userId": 0, "localId": 0, "price": 0, "voucherImageUrl": "string" }` | Reserva creada | US07 |
+| **Reservations** | `/api/v1/reservations/{reservationId}` | PUT | `reservationId` | `{ "startDate": "2025-06-20T21:26:54.049Z", "endDate": "2025-06-20T21:26:54.049Z", "userId": 0, "localId": 0, "price": 0, "voucherImageUrl": "string" }` | Reserva actualizada | US08 |
+| **Reservations** | `/api/v1/reservations/{reservationId}` | DELETE | `reservationId` | - | Reserva cancelada | US08 |
+| **Reservations** | `/api/v1/reservations/by-user-id/{userId}` | GET | `userId` | - | Reservas del usuario | US08 |
+| **Reservations** | `/api/v1/reservations/reservation-user-details/{userId}` | GET | `userId` | - | Detalles de reservas combinadas | US08 |
+| **Subscriptions** | `/api/v1/subscriptions` | POST | - | `{ "planId": 0, "userId": 0, "voucherImageUrl": "string" }` | Suscripción creada | Subscriptions |
+| **Subscriptions** | `/api/v1/subscriptions` | GET | - | - | Lista de suscripciones | Subscriptions |
+| **Subscriptions** | `/api/v1/subscriptions/{subscriptionId}` | GET | `subscriptionId` | - | Suscripción específica | Subscriptions |
+| **Subscriptions** | `/api/v1/subscriptions/{subscriptionId}` | PUT | `subscriptionId` | - | Suscripción activada (premium) | Subscriptions |
+| **Users** | `/api/v1/users/{userId}` | GET | `userId` | - | Usuario específico | US01, US02, US14 |
+| **Users** | `/api/v1/users/{userId}` | PUT | `userId` | `{ "username": "string" }` | Usuario actualizado | US14 |
+| **Users** | `/api/v1/users` | GET | - | - | Lista de usuarios (Admin only) | US14 |
+| **Users** | `/api/v1/users/get-username/{userId}` | GET | `userId` | - | Nombre de usuario | US14 |
+
+---
+
+#### Edge Node - IoT Sensor Endpoints
+
+| Endpoint | Verbo HTTP | Parámetros | Request Body Schema | Response | User Stories |
+|----------|------------|------------|---------------------|----------|--------------|
+| `/readings/smoke` | POST | - | `{ "device_id": 0, "message": "string" }` | Lectura de sensor de humo procesada | US20 |
+| `/readings/noise` | POST | - | `{ "device_id": 0, "message": "string" }` | Lectura de sensor de ruido procesada | US19 |
+| `/readings/capacity` | POST | - | `{ "device_id": 0, "message": "string" }` | Lectura de sensor de aforo procesada | US18 |
+| `/readings/restricted-area` | POST | - | `{ "device_id": 0, "message": "string" }` | Lectura de sensor de movimiento procesada | US21 |
+| `/readings/local-id/{local_id}` | GET | `local_id` | - | Historial de lecturas del espacio | US22 |
+
+---
+
+### Capturas de Documentación Swagger
+
+A continuación se presentan capturas de la documentación interactiva generada con Swagger/OpenAPI:
+
+**Authentication Controller:**
+
+Se muestra un intento de Login al correo admin@gmail.com
+
+![Swagger Docs](images/cap-7/services-docs/swagger-1.PNG)
+
+**Comments Controller:**
+
+Se muestra la petición de comentarios con respecto a un local 1.
+
+![Swagger Docs](images/cap-7/services-docs/swagger-2.PNG)
+
+**Invoices Controller:**
+
+Se muestra la petición de boletas por ID.
+
+![Swagger Docs](images/cap-7/services-docs/swagger-3.PNG)
+
+**LocalCategories Controller:**
+
+Se muestra la petición para obtener todas las categorías de locales del sistema.
+
+![Swagger Docs](images/cap-7/services-docs/swagger-4.PNG)
+
+**LocalEdgeNodes Controller:**
+
+Se muestra la petición para crear un nodo Edge a un espacio en específico.
+
+![Swagger Docs](images/cap-7/services-docs/swagger-5.PNG)
+
+**Locals Controller:**
+
+Se muestra la petición para obtener todos los locales de la plataforma.
+
+![Swagger Docs](images/cap-7/services-docs/swagger-6.PNG)
+
+**Notifications Controller:**
+
+Se muestra la petición para obtener todas las notificaciones de un usuario.
+
+![Swagger Docs](images/cap-7/services-docs/swagger-7.PNG)
+
+**Plans Controller:**
+
+Se muestra la petición para obtener todos los planes de la plataforma.
+
+![Swagger Docs](images/cap-7/services-docs/swagger-8.PNG)
+
+**Profiles Controller:**
+
+Se muestra la petición para obtener el perfil de un usuario con ID 1.
+
+![Swagger Docs](images/cap-7/services-docs/swagger-9.PNG)
+
+**Reservations Controller:**
+
+Se muestra la petición para obtener las reservaciones de un usuario con ID 2.
+
+![Swagger Docs](images/cap-7/services-docs/swagger-12.PNG)
+
+**Edge Node API Documentation:**
+
+Se muestran los endpoints para obtener lecturas de diferentes sensores IoT.
+
+![Swagger Docs](images/cap-7/services-docs/swagger-15.PNG)
+
+
+#### 7.2.1.8. Software Deployment Evidence for Sprint Review.
+
+Durante el Sprint 1 se completó exitosamente el despliegue de todos los componentes digitales del sistema AlquilaFácil IoT en entornos de producción. Este proceso incluyó la configuración de cuentas en múltiples cloud providers, la configuración de recursos y servicios en la nube, la implementación de pipelines de CI/CD, y la configuración de bases de datos y servicios de integración. A continuación se detallan todas las actividades de deployment realizadas durante este sprint.
+
+---
+
+### Resumen de Actividades de Deployment
+
+**Componentes Desplegados:**
+1. **Landing Page** → GitHub Pages
+2. **Web Application** → Netlify
+3. **Web Service (Backend API)** → Render con Docker
+4. **Edge Node (IoT Gateway)** → Render con Docker
+5. **Mobile Application** → APK Flutter distribuido vía GitHub Releases
+6. **Base de Datos** → Railway MySQL
+7. **Embedded Application** → Simulación en Wokwi
+
+**Cuentas y Servicios Configurados:**
+- Cuenta de GitHub para repositorios y GitHub Pages
+- Cuenta de Netlify para deployment de frontend
+- Cuenta de Render para servicios backend containerizados
+- Cuenta de Railway para base de datos MySQL
+- Cuenta de Firebase para autenticación y notificaciones push
+- Configuración de dominios y SSL automático en todas las plataformas
+
+---
+
+### 1. Landing Page - Deployment en GitHub Pages
+
+**Plataforma:** GitHub Pages
+**URL de Despliegue:** https://emergentez.github.io/alquilafacil-landing-page/
+
+**Proceso de Deployment:**
+
+1. **Configuración del Repositorio:**
+   - Creación del repositorio `alquilafacil-landing-page` en GitHub
+   - Configuración de permisos de acceso para el equipo
+   - Estructura de carpetas con `src/` conteniendo HTML, CSS compilado y assets
+
+2. **Configuración de GitHub Pages:**
+   - Acceso a Settings > Pages en el repositorio
+   - Selección de rama `main` como fuente de deployment
+   - Configuración de ruta raíz `/` para servir la landing
+   - GitHub Pages detecta automáticamente el `index.html`
+
+3. **Build Process:**
+   - Ejecución local de `npm run build` para compilar Tailwind CSS
+   - Generación de `output.css` minificado desde `input.css`
+   - Commit y push de archivos compilados a rama `main`
+
+4. **Automatización:**
+   - GitHub Actions configurado para rebuild automático en cada push
+   - SSL/HTTPS habilitado automáticamente por GitHub
+   - CDN de GitHub para servir contenido estático globalmente
+
+**Evidencia de Deployment:**
+
+![Landing Page Deployment Logs](images/cap-7/deploys/landing.PNG)
+
+**Estado:** ✅ Desplegado exitosamente y accesible públicamente
+
+---
+
+### 2. Web Application - Deployment en Netlify
+
+**Plataforma:** Netlify
+**URL de Despliegue:** https://alquila-facil-app-iot.netlify.app/
+
+**Proceso de Deployment:**
+
+1. **Configuración de Cuenta Netlify:**
+   - Creación de cuenta Netlify con autenticación GitHub
+   - Vinculación del repositorio `alquilafacil-web-app`
+   - Configuración de permisos de build y deploy
+
+2. **Configuración del Proyecto:**
+   - **Build Command:** `npm run build`
+   - **Publish Directory:** `dist`
+   - **Node Version:** 18.x
+   - Detección automática de framework Vue.js + Vite
+
+3. **Variables de Entorno:**
+   ```
+   VITE_API_URL=[URL_del_Web_Service_en_Render]
+   VITE_FIREBASE_API_KEY=[Firebase_API_Key]
+   VITE_FIREBASE_AUTH_DOMAIN=[Firebase_Auth_Domain]
+   VITE_FIREBASE_PROJECT_ID=[Firebase_Project_ID]
+   ```
+
+4. **Configuración de Despliegue:**
+   - Continuous Deployment habilitado desde rama `main`
+   - Branch deploys configurados para preview de PRs
+   - Redirects configurados en `netlify.toml` para SPA routing
+   - Configuración de headers de seguridad (CORS, CSP)
+
+5. **Optimizaciones:**
+   - Asset optimization automático (minificación JS/CSS)
+   - Image optimization mediante Netlify Image CDN
+   - Compresión Gzip/Brotli habilitada
+   - CDN global con edge nodes en múltiples regiones
+
+**Evidencia de Deployment:**
+
+![Web Application Deployment Logs](images/cap-7/deploys/web.PNG)
+
+**Estado:** ✅ Desplegado exitosamente con SSL y CDN global
+
+---
+
+### 3. Web Service (Backend API) - Deployment en Render
+
+**Plataforma:** Render (Docker Container)
+**URL de Despliegue:** [URL_Render_Web_Service]
+**Swagger Docs:** [URL_Render_Web_Service]/swagger
+
+**Proceso de Deployment:**
+
+1. **Configuración de Cuenta Render:**
+   - Creación de cuenta Render con autenticación GitHub
+   - Configuración de billing (free tier para desarrollo)
+   - Vinculación de repositorio `alquilafacil-web-service`
+
+2. **Creación del Web Service:**
+   - Tipo: Web Service
+   - Environment: Docker
+   - Region: Oregon (US West)
+   - Instance Type: Free tier (512MB RAM)
+
+3. **Configuración de Docker:**
+   - Render detecta automáticamente el `Dockerfile` en la raíz
+   - Build del contenedor multi-stage con .NET 8.0
+   - Exposición de puertos 8080 (HTTP) y 8081 (HTTPS)
+   - Health check endpoint configurado
+
+4. **Variables de Entorno:**
+   ```
+   ASPNETCORE_ENVIRONMENT=Production
+   ConnectionStrings__DefaultConnection=[Railway_MySQL_Connection_String]
+   JWT__Secret=[JWT_Secret_Key]
+   JWT__Issuer=AlquilaFacilAPI
+   JWT__Audience=AlquilaFacilClients
+   JWT__ExpirationMinutes=1440
+   CORS__AllowedOrigins=[Netlify_URL],[Mobile_App_Domain]
+   ```
+
+5. **Configuración de Base de Datos:**
+   - Conexión a Railway MySQL mediante connection string seguro
+   - Entity Framework Core migrations aplicadas en startup
+   - Connection pooling configurado para optimizar conexiones
+
+6. **Deployment Automático:**
+   - Auto-deploy habilitado desde rama `main`
+   - Build time: ~5-7 minutos
+   - Zero-downtime deployments con health checks
+   - Logs persistentes en dashboard de Render
+
+**Evidencia de Deployment:**
+
+![Web Service Deployment Logs](images/cap-7/deploys/service.PNG)
+
+**Estado:** ✅ Desplegado exitosamente y respondiendo a requests
+
+---
+
+### 4. Edge Node (IoT Gateway) - Deployment en Render
+
+**Plataforma:** Render (Docker Container)
+**URL de Despliegue:** https://alquilafacil-egde-node-fsaa.onrender.com
+**FastAPI Docs:** https://alquilafacil-egde-node-fsaa.onrender.com/docs
+
+**Proceso de Deployment:**
+
+1. **Creación del Web Service:**
+   - Tipo: Web Service
+   - Environment: Docker
+   - Region: Oregon (US West)
+   - Instance Type: Free tier (512MB RAM)
+
+2. **Configuración de Docker:**
+   - Dockerfile con Python 3.9.23-bookworm como base
+   - Instalación de dependencias con `pip install -r requirements.txt`
+   - FastAPI + Uvicorn como servidor ASGI
+   - Exposición del puerto 80
+
+3. **Variables de Entorno:**
+   ```
+   BACKEND_API_URL=[URL_del_Web_Service]
+   DATABASE_PATH=/app/alquilafacil.db
+   WEBSOCKET_ENDPOINT=wss://wokwi.com/projects/433560726038801409
+   LOG_LEVEL=INFO
+   ```
+
+4. **Configuración de Integración:**
+   - Conexión HTTP al Web Service para persistir lecturas
+   - Base de datos SQLite local para cache temporal
+   - WebSocket listener para datos de sensores Wokwi
+   - Validación de datos con Pydantic schemas
+
+5. **Deployment Automático:**
+   - Auto-deploy desde rama `main`
+   - Build time: ~3-4 minutos
+   - Logs de lecturas de sensores en tiempo real
+   - Health check en endpoint raíz `/`
+
+**Evidencia de Deployment:**
+
+![Edge Node Deployment Logs](images/cap-7/deploys/edge.PNG)
+
+**Estado:** ✅ Desplegado y recibiendo datos de sensores IoT
+
+---
+
+### 5. Base de Datos - Railway MySQL
+
+**Plataforma:** Railway
+**Tipo:** MySQL 8.0
+**Region:** US West
+
+**Proceso de Configuración:**
+
+1. **Creación de Proyecto Railway:**
+   - Registro en Railway con GitHub authentication
+   - Creación de nuevo proyecto "AlquilaFacil"
+   - Adición de servicio MySQL desde template
+
+2. **Configuración de MySQL:**
+   - Versión: MySQL 8.0
+   - Storage: 1GB (free tier)
+   - Generación automática de credenciales seguras
+   - Connection string público proporcionado
+
+3. **Configuración de Acceso:**
+   ```
+   Host: [Railway_MySQL_Host]
+   Port: [Railway_MySQL_Port]
+   Database: railway
+   Username: root
+   Password: [Generated_Secure_Password]
+   ```
+
+4. **Inicialización del Esquema:**
+   - Entity Framework Core migrations aplicadas desde Web Service
+   - Creación automática de tablas al iniciar el servicio
+   - Bounded contexts: IAM, Locals, Booking, Management, Notifications, Profiles, Subscriptions
+
+5. **Seguridad y Backups:**
+   - Conexión encriptada SSL/TLS obligatoria
+   - Backups automáticos diarios por Railway
+   - Monitoring de uso de recursos en dashboard
+   - Logs de queries disponibles
+
+**Tablas Creadas:**
+- Users, Profiles, UserRoles (IAM)
+- Locals, LocalCategories, Comments (Locals)
+- Reservations (Booking)
+- Readings, SensorTypes, LocalEdgeNodes (Management)
+- Notifications (Notifications)
+- Subscriptions, Plans, Invoices (Subscriptions)
+- Reports (Management)
+
+**Estado:** ✅ Base de datos operativa y conectada a servicios
+
+---
+
+### 6. Mobile Application - Distribution
+
+**Plataforma:** GitHub Releases + APK Direct Download
+**URL de Descarga:** [GitHub_Releases_URL_APK]
+
+**Proceso de Generación y Distribución:**
+
+1. **Build del APK:**
+   ```bash
+   flutter clean
+   flutter pub get
+   flutter build apk --release
+   ```
+
+2. **Configuración de Firma:**
+   - Keystore generado con keytool
+   - Configuración en `android/key.properties`
+   - Firma digital del APK para distribución
+
+3. **Generación de APK:**
+   - APK universal: ~45MB
+   - Min SDK: Android 5.0 (API 21)
+   - Target SDK: Android 13 (API 33)
+
+4. **Distribución:**
+   - Upload del APK a GitHub Releases
+   - Tag de versión: v1.0.0-sprint1
+   - Release notes con changelog
+   - Link directo de descarga compartido
+
+**Estado:** ✅ APK generado y disponible para descarga
+
+---
+
+### 7. Embedded Application - Wokwi Simulation
+
+**Plataforma:** Wokwi Cloud Simulator
+**URL del Proyecto:** https://wokwi.com/projects/433560726038801409
+
+**Configuración de Simulación:**
+
+1. **Creación del Proyecto Wokwi:**
+   - Microcontrolador: ESP32 DevKit v1
+   - Sensores configurados:
+     - MQ-2 (Sensor de humo)
+     - KY-037 (Sensor de ruido)
+     - HC-SR501 (Sensor de movimiento PIR)
+     - Contador de personas simulado
+
+2. **Configuración de Código:**
+   - Código C/C++ con Arduino framework
+   - Bibliotecas: WiFi.h, HTTPClient.h, ArduinoJson
+   - Lógica de lectura de sensores cada 5 segundos
+   - Envío de datos a Edge Node vía HTTP POST
+
+3. **Configuración de Conectividad:**
+   - WiFi credentials configurados para Wokwi Cloud
+   - Endpoint del Edge Node hardcodeado
+   - JSON payloads con format `{ "device_id", "message" }`
+
+4. **Simulación Continua:**
+   - Proyecto compartido públicamente
+   - Simulación puede ejecutarse 24/7
+   - Logs de serial monitor visibles en tiempo real
+
+**Evidencia de Deployment:**
+
+![Embebbed Deployment Logs](images/cap-7/deploys/embebbed.PNG)
+
+
+**Estado:** ✅ Simulación operativa y enviando datos
+
+---
+
+### 8. Servicios de Integración
+
+#### Firebase Configuration
+
+**Servicios Habilitados:**
+- **Authentication:** Email/Password, Google OAuth, Facebook Login
+- **Cloud Messaging:** Push notifications para mobile app
+- **Hosting:** (Reservado para futuro deployment)
+
+**Configuración:**
+- Proyecto: `alquilafacil-iot`
+- Web API Key configurado en Netlify
+- Android package name registrado
+- SHA-1 fingerprints configurados
+
+### Control de Versiones - Git Flow Workflow
+
+Para todos los componentes se implementó la metodología **GitFlow Workflow**:
+
+- **`main`**: Rama de producción estable, desplegada automáticamente
+- **`develop`**: Rama de integración para features en desarrollo
+- **`feature/*`**: Ramas individuales para cada funcionalidad
+- **`hotfix/*`**: Ramas para correcciones urgentes en producción
+
+**Protección de Ramas:**
+- Pull requests obligatorios para merge a `main`
+- Code reviews requeridos (mínimo 1 aprobación)
+- Tests automáticos antes de merge
+- No se permite push directo a `main`
+
+---
+
+### Resumen de URLs de Deployment
+
+| Componente | URL/Acceso | Estado |
+|------------|------------|--------|
+| **Landing Page** | https://emergentez.github.io/alquilafacil-landing-page/ | ✅ Activo |
+| **Web Application** | https://alquila-facil-app-iot.netlify.app/ | ✅ Activo |
+| **Web Service API** | [URL_Render_Web_Service]/swagger | ✅ Activo |
+| **Edge Node** | https://alquilafacil-egde-node-fsaa.onrender.com/docs | ✅ Activo |
+| **Mobile APK** | [GitHub_Releases_URL] | ✅ Disponible |
+| **Wokwi Simulation** | https://wokwi.com/projects/433560726038801409 | ✅ Activo |
+| **Railway MySQL** | [Connection_String_Privado] | ✅ Operativo |
+
+**Nota:** Todos los servicios están desplegados en entornos de producción con SSL/TLS, monitoreo activo, y configurados para auto-deployment desde sus respectivos repositorios.
+
+#### 7.2.1.9. Team Collaboration Insights during Sprint.
+
+Durante el Sprint 1, el equipo trabajó de manera colaborativa aplicando buenas prácticas de control de versiones y comunicación efectiva para garantizar el cumplimiento de los objetivos establecidos.
+
+- ####   Canales de comunicación
+
+La coordinación del equipo se realizó principalmente a través de **Discord**, donde se llevaron a cabo reuniones remotas para definir tareas, revisar avances y resolver bloqueos. Adicionalmente, se utilizaron **mensajes por WhatsApp** para recordatorios y organización rápida. Esta combinación permitió una comunicación fluida y en tiempo real.
+
+- ####   Herramientas de gestión
+
+  GitHub Projects y commits verificados permitieron llevar un registro detallado de las tareas completadas y del responsable de cada cambio.Las tareas fueron distribuidas entre todos los miembros del equipo, y se registraron contribuciones en los distintos servicios: Landing Page, Frontend Web, y documentación técnica. El uso de etiquetas claras en los commits facilitó el rastreo de avances por funcionalidad y componente.
+
+- ####   Resultados obtenidos
+
+  Se logró mantener un flujo constante de integración y revisión de código sin conflictos mayores. Todos los miembros del equipo realizaron commits y participaron activamente en el proceso de desarrollo. La colaboración fue efectiva, permitiendo cumplir con los objetivos del sprint y completar las primeras versiones de las aplicaciones.
+  </br>
+
+- ####   Landing page
+
+  ![Insights([URL]())](images/cap-7/insights/landing.PNG)
+
+- ####   Web Application
+
+  ![Insights([URL]())](images/cap-7/insights/web-app.PNG)
+
+- ####   Web Service
+
+  ![Insights([URL]())](images/cap-7/insights/web-service.PNG)
+
+- ####   Mobile Application
+
+  ![Insights([URL]())](images/cap-7/insights/mobile-app.PNG)
+
+- ####   Edge Node
+
+  ![Insights([URL]())](images/cap-7/insights/edge.PNG)
+
+- ####   Embedded App
+
+  ![Insights([URL]())](images/cap-7/insights/embedded.PNG)
+
+---
 
 ## 7.3. Validation Interviews
 
@@ -4518,8 +6542,6 @@ Se llevarán a cabo tres entrevistas por segmento, sumando un total de seis. El 
 ### 7.3.3. Evaluaciones según heurísticas
 
 ## 7.4. Video About-the-Product
-
----
 
 ## Conclusiones y recomendaciones
 
