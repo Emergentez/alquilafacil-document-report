@@ -4468,39 +4468,39 @@ Esta estrategia facilitó la organización del trabajo mediante distintas ramas:
 
 - <strong>Landing Page</strong>
 
-  ![Diagrama Git Flow Landing Page App([URL]())](images/cap-7/insights/landing.PNG)
+  ![Diagrama Git Flow Landing Page App([URL]())](images/cap-7/network/landing.PNG)
 
   [Enlace de Repositorio de Landing Page](https://github.com/Emergentez/alquilafacil-landing-page)
 
 - <strong>Web Application</strong>
 
-  ![Diagrama Git Flow Web App([URL]())](images/cap-7/insights/web-app.PNG)
+  ![Diagrama Git Flow Web App([URL]())](images/cap-7/network/web-app.PNG)
 
-  [Enlace de Repositorio de Landing Page](https://github.com/Emergentez/alquilafacil-web-app)
+  [Enlace de Repositorio de Web Application](https://github.com/Emergentez/alquilafacil-web-app)
 
 - <strong>Web Service</strong>
 
-  ![Diagrama Git Flow Web Service([URL]())](images/cap-7/insights/web-service.PNG)
+  ![Diagrama Git Flow Web Service([URL]())](images/cap-7/network/service.PNG)
 
-  [Enlace de Repositorio de Landing Page](https://github.com/Emergentez/alquilafacil-web-service)
+  [Enlace de Repositorio de Web Service](https://github.com/Emergentez/alquilafacil-web-service)
 
 - <strong>Mobile Application</strong>
 
-  ![Diagrama Git Flow Mobile App([URL]())](images/cap-7/insights/mobile.PNG)
+  ![Diagrama Git Flow Mobile App([URL]())](images/cap-7/network/mobile.PNG)
 
-  [Enlace de Repositorio de Landing Page](https://github.com/Emergentez/alquilafacil-mobile-app)
+  [Enlace de Repositorio de Mobile Application](https://github.com/Emergentez/alquilafacil-mobile-app)
 
 - <strong>Edge Node</strong>
 
-  ![Diagrama Git Flow Edge Node([URL]())](images/cap-7/insights/edge.PNG)
+  ![Diagrama Git Flow Edge Node([URL]())](images/cap-7/network/edge.PNG)
 
-  [Enlace de Repositorio de Landing Page](https://github.com/Emergentez/alquilafacil-edge-node)
+  [Enlace de Repositorio de Edge Node](https://github.com/Emergentez/alquilafacil-edge-node)
 
 - <strong>Embebbed Application</strong>
 
-  ![Diagrama Git Flow Edge Node([URL]())](images/cap-7/insights/embedded.PNG)
+  ![Diagrama Git Flow Edge Node([URL]())](images/cap-7/network/embedded.PNG)
 
-  [Enlace de Repositorio de Landing Page](https://github.com/Emergentez/alquilafacil-embedded-app)
+  [Enlace de Repositorio de Embedded App](https://github.com/Emergentez/alquilafacil-embedded-app)
 
 
 ### 7.1.3. Source Code Style Guide & Conventions.
@@ -4567,7 +4567,7 @@ Para llevar a cabo el despliegue de todos los componentes de la solución, se ut
 
 **Plataforma de Despliegue:** GitHub Pages
 
-**Repositorio:** https://github.com/Emergentez/alquilafacil-landing-page
+**Repositorio:** <https://github.com/Emergentez/alquilafacil-landing-page>
 
 **Tecnologías:**
 - HTML5, CSS3, JavaScript vanilla
@@ -4592,7 +4592,7 @@ Para llevar a cabo el despliegue de todos los componentes de la solución, se ut
 
 **Plataforma de Despliegue:** Netlify
 
-**Repositorio:** https://github.com/Emergentez/alquilafacil-web-app
+**Repositorio:** <https://github.com/Emergentez/alquilafacil-web-app>
 
 **Tecnologías:**
 - Vue.js 3.5.13 (Composition API)
@@ -4601,7 +4601,6 @@ Para llevar a cabo el despliegue de todos los componentes de la solución, se ut
 - Pinia 3.0.2 para manejo de estado
 - Axios 1.8.4 para llamadas HTTP
 - Tailwind CSS 4.1.3 para estilos
-- Firebase 11.6.0 para autenticación y notificaciones
 - SignalR 8.0.7 para comunicación en tiempo real
 - Schedule-X para calendario de reservas
 
@@ -4623,7 +4622,7 @@ Para llevar a cabo el despliegue de todos los componentes de la solución, se ut
 
 **Plataforma de Despliegue:** Render
 
-**Repositorio:** https://github.com/Emergentez/alquilafacil-web-service
+**Repositorio:** <https://github.com/Emergentez/alquilafacil-web-service>
 
 **Tecnologías:**
 - ASP.NET Core 8.0 (C# / .NET 8)
@@ -4689,7 +4688,7 @@ ENTRYPOINT ["dotnet", "AlquilaFacilPlatform.dll"]
 
 **Plataforma de Despliegue:** Render
 
-**Repositorio:** https://github.com/Emergentez/alquilafacil-edge-node
+**Repositorio:** <https://github.com/Emergentez/alquilafacil-edge-node>
 
 **Tecnologías:**
 - Python 3.9.23
@@ -4754,7 +4753,7 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "80", "--reload"]
 
 **Plataforma de Distribución:** APK con Flutter
 
-**Repositorio:** https://github.com/Emergentez/alquilafacil-mobile-app
+**Repositorio:** <https://github.com/Emergentez/alquilafacil-mobile-app>
 
 **Tecnologías:**
 - Flutter SDK 3.4.3+
@@ -4821,7 +4820,7 @@ flutter test
 
 **Plataforma de Simulación:** Wokwi
 
-**Repositorio:** https://github.com/Emergentez/alquilafacil-embedded-app
+**Repositorio:** <https://github.com/Emergentez/alquilafacil-embedded-app>
 
 **Pasos de Simulación y Configuración:**
 1. El código embebido está desarrollado en C++ para Arduino/ESP32.
@@ -4964,9 +4963,10 @@ La siguiente tabla resume los líderes (L) y colaboradores (C) para cada aspecto
 #### 7.2.1.2. Sprint Backlog 1.
 
 En esta seccion se espcifica el detalle del Sprint Backlog 1, la ucal es una lista de tareas designadas para esta primera fase del proyecto:
-![alt text](images/cap6_image4.jpeg)
 
-**Enlace del tablero:** https://trello.com/b/63Zub4fa/product-backlog-iot
+![alt text](images/cap-7/trello/sprint1.png)
+
+**Enlace del tablero:** <https://trello.com/b/928tfhf1/sprint-1>
 
 | **User Story ID** | **US Title**                          | **Task ID** | **Task Title**                                     | **Description**                                                                                     | **Estimation (Hours)** | **Assigned To**           | **Status** |
 |------------------|-------------------------------------|-------------|---------------------------------------------------|--------------------------------------------------------------------------------------------------|------------------------|--------------------------|------------|
@@ -6089,9 +6089,6 @@ Durante el Sprint 1 se completó exitosamente el despliegue de todos los compone
 3. **Variables de Entorno:**
    ```
    VITE_API_URL=[URL_del_Web_Service_en_Render]
-   VITE_FIREBASE_API_KEY=[Firebase_API_Key]
-   VITE_FIREBASE_AUTH_DOMAIN=[Firebase_Auth_Domain]
-   VITE_FIREBASE_PROJECT_ID=[Firebase_Project_ID]
    ```
 
 4. **Configuración de Despliegue:**
@@ -6739,11 +6736,14 @@ Se llevarán a cabo tres entrevistas por segmento, sumando un total de seis. El 
 ### 7.3.3. Evaluaciones según heurísticas
 
 <div align="center">UX Heuristics & Principles Evaluation</div>
-<div align="center">Usability – Inclusive Design – Information Architecture</div>
+<div align="center">Usability – Inclusive Design – Information Architecture</div><br>
 
 **CARRERA**: Ingeniería de Software
+
 **CURSO**: Arquitecturas de Software Emergentes
+
 **SECCIÓN**: 14653
+
 **PROFESORES** : Todos
 
 **APP A EVALUAR**: AlquilaFácil
@@ -6836,7 +6836,7 @@ Segmento de arrendatarios:
 - **Problema:**  
   El sistema permite subir únicamente una imagen por local, limitando la información visual que se puede proporcionar al usuario interesado. Esto afecta negativamente la experiencia de exploración de los espacios.  
 
-  <img src="images/cap-7/heuristicas/problema-1.PNG">
+![Heuristicas](images/cap-7/heuristicas/problema-1.PNG)
 
 - **Recomendación:**  
   Permitir adjuntar múltiples imágenes por local, con una interfaz que permita visualizarlas en carrusel o miniaturas.
@@ -6849,7 +6849,7 @@ Segmento de arrendatarios:
 - **Problema:**  
   La aplicación no cuenta con opción de personalización visual, como el modo claro y oscuro, lo cual limita la comodidad visual según preferencias o condiciones de iluminación. 
 
-  <img src="images/cap-7/heuristicas/problema-2.PNG">
+![Heuristicas](images/cap-7/heuristicas/problema-2.PNG)
 
 - **Recomendación:**  
   Implementar un selector de tema para que el usuario elija entre modo claro, oscuro o automático según el sistema operativo.
@@ -6862,7 +6862,7 @@ Segmento de arrendatarios:
 - **Problema:**  
   No existe una sección visible para que los usuarios puedan contactar al equipo de soporte o enviar reportes de errores desde la aplicación.
 
-  <img src="images/cap-7/heuristicas/problema-3.PNG">
+![Heuristicas](images/cap-7/heuristicas/problema-3.PNG)
 
 - **Recomendación:**  
   Añadir una sección de contacto o botón flotante que permita enviar correos o mensajes al equipo de soporte de forma directa.
@@ -6875,7 +6875,7 @@ Segmento de arrendatarios:
 - **Problema:**  
   El sistema muestra los espacios publicados de forma que los más recientes se encuentran en la parte inferior y los más antiguos en la superior.
 
-  <img src="images/cap-7/heuristicas/problema-4.PNG">
+![Heuristicas](images/cap-7/heuristicas/problema-4.PNG)
 
 - **Recomendación:**  
   Invertir el orden en el que se muestran los espacios recién publicados.
@@ -6931,10 +6931,37 @@ Segmento de arrendatarios:
   
 - **Repositorio de Landing Page:**  
   [GitHub – AlquilaFácil Landing Page](https://github.com/Emergentez/alquilafacil-landing-page)
+
+- **Repositorio de Web Application:**  
+  [GitHub – AlquilaFácil Web Application](https://github.com/Emergentez/alquilafacil-web-app)
+
+- **Repositorio de Web Service:**  
+  [GitHub – AlquilaFácil Web Service](https://github.com/Emergentez/alquilafacil-web-service)
+
+- **Repositorio de Mobile App:**  
+  [GitHub – AlquilaFácil Mobile App](https://github.com/Emergentez/alquilafacil-mobile-app)
+
+- **Repositorio de Edge Node:**  
+  [GitHub – AlquilaFácil Edge Node](https://github.com/Emergentez/alquilafacil-edge-node)
+
+  - **Repositorio de Embedded App:**  
+  [GitHub – AlquilaFácil Embedded App](https://github.com/Emergentez/alquilafacil-embedded-app)
   
 ### Despliegues
 - **Landing Page:**  
   [AlquilaFácil Landing Page](https://emergentez.github.io/alquilafacil-landing-page/)
+
+- **Web Application:**  
+  [AlquilaFácil Web Application](https://alquilafacil-web-app.netlify.app/)
+
+- **Web Service:**  
+  [AlquilaFácil Web Service](https://alquilafacil-web-service-software.onrender.com/swagger/index.html)
+
+- **Edge Node:**  
+  [AlquilaFácil Edge Node](https://alquilafacil-egde.onrender.com/docs)
+
+- **Embedded App:**  
+  [AlquilaFácil Embedded App](https://wokwi.com/projects/433560726038801409)
 
 ### Lean UX Canvas
 - **Lean UX Canvas:**
@@ -6983,6 +7010,11 @@ Segmento de arrendatarios:
 
 - **Landscape Diagram:**
   [Ver en GitHub](https://github.com/Emergentez/alquilafacil-document-report/blob/main/images/cap-4/software-architecture/landscape.png)  
+
+
+### Trello
+- **Trello Sprint 1:**
+  [Sprint 1](https://trello.com/b/928tfhf1/sprint-1)
 
 ### Vídeos de Exposición (Anexo 1)
 
