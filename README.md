@@ -6501,6 +6501,22 @@ Se llevarán a cabo tres entrevistas por segmento, sumando un total de seis. El 
 | **Enlace** | <p><a target="_blank" href="entrevista_angello_sosa.mp4" title="Title">Entrevista Video</a></p> |
 | **Duración** | 00:00 min - 12:45 min |
 | **Resumen** | Angello Sosa, arrendador de 20 años de San Borja, revisó la plataforma AlquilaFácil y mostró interés en las funcionalidades que ofrece para propietarios de espacios. Durante la entrevista, destacó la importancia del control y monitoreo de los espacios alquilados para evitar daños y generar confianza. Como recomendación principal, sugirió agregar una opción de modo oscuro (botón dark mode) a la landing page para mejorar la experiencia de usuario, especialmente durante el uso nocturno de la plataforma. |
+|---|---|
+| | **Entrevista #3** |
+| **Nombre** | Joaquín |
+| **Apellidos** | Pedraza Maldonado |
+| **Edad** | 21 |
+| **Distrito** | San Miguel |
+| **Aplicaciones usadas** | Facebook Marketplace |
+| **Motivación** | Facilitar la gestión de reservas en sus espacos y generar ingresos con mas alquileres |
+| **Frustración** | La falta de herramientas que le permitan una gestión sencilla de las reservas de sus espacios |
+| **Tecnologías** | Android, Windows |
+| **Browsers** | Google Chrome, Opera |
+| **Entrevistador** | Mariano Ames |
+| **Evidencia** | <div align="center"><img src="images/cap-7/Registro-Entrevistas/entrevista-joaquin.png" alt="Entrevista a Joaquin Pedraza"></div> |
+| **Enlace** | <p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211371_upc_edu_pe/IQArzEvE9uHEQYjooVDKAbHLAf4OuAB5GZDF776hG5Z-9SA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=HUgetY" title="Title">Microsoft Stream</a></p> |
+| **Duración** | 00:00 min - 10:35 min |
+| **Resumen** | Joaquin Pedraza, arrendador de 21 años de San Miguel, revisó la plataforma de AlquilaFacil y comento que sentía interes sobre las funcionalidades que le permiten manejar de mejor manera las reservas, destacó el calendario y como recomendación principal sugirió añadir diferentes funcionalidades adicionales a este, como por ejemplo visualizar las reservas completadas o pendientes y poder añadir propios recordatorios. |
 
 **Segmento 2: Arrendatarios sociales frecuentes de espacios para eventos**
 
