@@ -6836,7 +6836,7 @@ Segmento de arrendatarios:
 - **Problema:**  
   El sistema permite subir únicamente una imagen por local, limitando la información visual que se puede proporcionar al usuario interesado. Esto afecta negativamente la experiencia de exploración de los espacios.  
 
-  <img src="images/problema-1.PNG">
+  <img src="images/cap-7/heuristicas/problema-1.PNG">
 
 - **Recomendación:**  
   Permitir adjuntar múltiples imágenes por local, con una interfaz que permita visualizarlas en carrusel o miniaturas.
@@ -6849,7 +6849,7 @@ Segmento de arrendatarios:
 - **Problema:**  
   La aplicación no cuenta con opción de personalización visual, como el modo claro y oscuro, lo cual limita la comodidad visual según preferencias o condiciones de iluminación. 
 
-  <img src="images/problema-2.PNG">
+  <img src="images/cap-7/heuristicas/problema-2.PNG">
 
 - **Recomendación:**  
   Implementar un selector de tema para que el usuario elija entre modo claro, oscuro o automático según el sistema operativo.
@@ -6862,7 +6862,7 @@ Segmento de arrendatarios:
 - **Problema:**  
   No existe una sección visible para que los usuarios puedan contactar al equipo de soporte o enviar reportes de errores desde la aplicación.
 
-  <img src="images/problema-3.PNG">
+  <img src="images/cap-7/heuristicas/problema-3.PNG">
 
 - **Recomendación:**  
   Añadir una sección de contacto o botón flotante que permita enviar correos o mensajes al equipo de soporte de forma directa.
@@ -6875,7 +6875,7 @@ Segmento de arrendatarios:
 - **Problema:**  
   El sistema muestra los espacios publicados de forma que los más recientes se encuentran en la parte inferior y los más antiguos en la superior.
 
-  <img src="images/problema-4.PNG">
+  <img src="images/cap-7/heuristicas/problema-4.PNG">
 
 - **Recomendación:**  
   Invertir el orden en el que se muestran los espacios recién publicados.
