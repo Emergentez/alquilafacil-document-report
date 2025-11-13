@@ -140,6 +140,8 @@ del ABET – EAC - Student Outcome 3.
       <strong>Lecca Choccare, Christopher Bryan <br>(TP1):</strong> Presenté los desarrollos de Booking (CL), Subscriptions (CL), Monitoring (CL), Mockups (CL) y Wireframes (CL), articulando la funcionalidad de cada módulo y su integración en el sistema completo.<br><br>
       <strong>Llamo Sánchez, Amner Levi <br>(TP1):</strong> Expuse el trabajo en Notifications (AS), Information Architecture (AS) y Landing Page UI Design (AS), explicando las decisiones de arquitectura de información y diseño de interfaz de manera clara.<br><br>
       <strong>Morales Montalvo, Omar Andrew<br>(TP1):</strong> Presenté los avances en Locales (OM), Style Guidelines (OM) y Prototypes (OM), mostrando la coherencia visual del sistema y las guías de estilo establecidas para el proyecto.<br>
+      <strong>Cachis Gonzales, Sebastian Nicolas<br>(TB2):</strong> Conduje entrevistas de validación con usuarios finales. En ellas, traduje el funcionamiento técnico del backend en tareas simples, guiando a una audiencia no técnica para obtener retroalimentación objetiva sobre el producto. Además, Presenté la arquitectura e implementación del backend en el Sprint Review. Expliqué los endpoints, la lógica de negocio y las decisiones técnicas que tomé, adaptando la explicación para mi equipo.<br>
+      <strong>Llamo Sánchez, Amner Levi<br>(TB2):</strong> Participe en las entrevistas de validación con usuarios finales, traduciendo las funcionalidades técnicas de la aplicación móvil en tareas sencillas y comprensibles para obtener retroalimentación objetiva. Además, expuse la implementación y funcionalidad de la aplicación móvil durante el Sprint Review, demostrando el producto y explicando las decisiones técnicas tomadas al equipo<br>
       </td>
       <td>
       <strong>TB1:</strong> Los integrantes del equipo demostraron capacidad de comunicación oral al exponer ideas y resultados con objetividad, adaptando el lenguaje a públicos con diferentes especialidades y niveles jerárquicos.<br><br>
@@ -159,6 +161,8 @@ del ABET – EAC - Student Outcome 3.
       <strong>Lecca Choccare, Christopher Bryan <br>(TP1):</strong> Documenté los módulos de Booking, Subscriptions, Monitoring (CL), además de Mockups y Wireframes, integrando descripciones funcionales con elementos visuales de diseño.<br><br>
       <strong>Llamo Sánchez, Amner Levi <br>(TP1):</strong> Elaboré la documentación de Notifications (AS), Information Architecture (AS) y Landing Page UI Design (AS), estructurando la arquitectura de información con claridad y coherencia.<br><br>
       <strong>Morales Montalvo, Omar Andrew<br>(TP1):</strong> Redacté las secciones de Locales (OM), Style Guidelines (OM) y Prototypes (OM), estableciendo estándares visuales y de diseño con documentación clara y profesional.<br>
+      <strong>Cachis Gonzales, Sebastian Nicolas<br>(TB2):</strong> Documenté la evidencia de desarrollo (Development Evidence) y la documentación de servicios (Services Documentation Evidence) del backend, creando un registro técnico preciso para la trazabilidad y consulta del equipo. Además, Sinteticé los hallazgos de las entrevistas de validación en el "Registro de Entrevistas". Transformé las opiniones orales de la audiencia no técnica en un reporte analítico y objetivo que el equipo pudo usar.<br>
+      <strong>Llamo Sánchez, Amner Levi<br>(TB2):</strong> Elaboré el "Registro de Entrevistas" de validación, sintetizando la retroalimentación oral de una audiencia no técnica (usuarios) en un informe analítico estructurado para el equipo. Además, documenté la evidencia de desarrollo, pruebas y despliegue (Development, Testing & Deployment Evidence) de la aplicación móvil, asegurando la trazabilidad del trabajo realizado en el Sprint.<br>
       </td>
       <td>
       <strong>TB1:</strong> El equipo evidenció solidez en la comunicación escrita al elaborar documentación técnica clara y estructurada, comprensible para distintos públicos y útil para la gestión del proyecto.<br><br>
@@ -6497,6 +6501,22 @@ Se llevarán a cabo tres entrevistas por segmento, sumando un total de seis. El 
 | **Enlace** | <p><a target="_blank" href="entrevista_angello_sosa.mp4" title="Title">Entrevista Video</a></p> |
 | **Duración** | 00:00 min - 12:45 min |
 | **Resumen** | Angello Sosa, arrendador de 20 años de San Borja, revisó la plataforma AlquilaFácil y mostró interés en las funcionalidades que ofrece para propietarios de espacios. Durante la entrevista, destacó la importancia del control y monitoreo de los espacios alquilados para evitar daños y generar confianza. Como recomendación principal, sugirió agregar una opción de modo oscuro (botón dark mode) a la landing page para mejorar la experiencia de usuario, especialmente durante el uso nocturno de la plataforma. |
+|---|---|
+| | **Entrevista #3** |
+| **Nombre** | Joaquín |
+| **Apellidos** | Pedraza Maldonado |
+| **Edad** | 21 |
+| **Distrito** | San Miguel |
+| **Aplicaciones usadas** | Facebook Marketplace |
+| **Motivación** | Facilitar la gestión de reservas en sus espacos y generar ingresos con mas alquileres |
+| **Frustración** | La falta de herramientas que le permitan una gestión sencilla de las reservas de sus espacios |
+| **Tecnologías** | Android, Windows |
+| **Browsers** | Google Chrome, Opera |
+| **Entrevistador** | Mariano Ames |
+| **Evidencia** | <div align="center"><img src="images/cap-7/Registro-Entrevistas/entrevista-joaquin.png" alt="Entrevista a Joaquin Pedraza"></div> |
+| **Enlace** | <p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211371_upc_edu_pe/IQArzEvE9uHEQYjooVDKAbHLAf4OuAB5GZDF776hG5Z-9SA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=HUgetY" title="Title">Microsoft Stream</a></p> |
+| **Duración** | 00:00 min - 10:35 min |
+| **Resumen** | Joaquin Pedraza, arrendador de 21 años de San Miguel, revisó la plataforma de AlquilaFacil y comento que sentía interes sobre las funcionalidades que le permiten manejar de mejor manera las reservas, destacó el calendario y como recomendación principal sugirió añadir diferentes funcionalidades adicionales a este, como por ejemplo visualizar las reservas completadas o pendientes y poder añadir propios recordatorios. |
 
 **Segmento 2: Arrendatarios sociales frecuentes de espacios para eventos**
 
