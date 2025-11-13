@@ -6481,7 +6481,22 @@ Se llevarán a cabo tres entrevistas por segmento, sumando un total de seis. El 
 | **Enlace** | <p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/ETKDocDihcBDr-2XPwQmV_MBoAvLoDRRAv13oFy-cZd4Ag?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qmTbIx" title="Title">Microsoft Stream</a></p> |
 | **Duración** | 00:00 min - 09:52 min |
 | **Resumen** | Manuel nos comentó que se encuentra aún se encuentra dentro del mercado de alquiler de espacios para organizar eventos. Durante la entrevista, se mostró satisfecho con el producto resultado AlquilaFácil, resaltó que la versión Web como Mobile son excelentes, confirmando que recomendaría su uso a familiares y personas cercanos. Como única recomendación, nos mencionó la idea de cambiar el orden en el que se muestran los locales a los usuarios, puesto que es complicado ir hasta la parte inferior del catálogo para encontrar la más reciente. |
-
+|---|---|
+| | **Entrevista #2** |
+| **Nombre** | Angello Rodolfo |
+| **Apellidos** | Sosa Colca |
+| **Edad** | 20 |
+| **Distrito** | San Borja |
+| **Aplicaciones usadas** | Facebook Marketplace |
+| **Motivación** | Maximizar el uso de sus espacios y generar ingresos adicionales mediante alquileres frecuentes. |
+| **Frustración** | La falta de control y visibilidad sobre el comportamiento de los inquilinos y posibles daños en los espacios alquilados. |
+| **Tecnologías** | Android, Windows |
+| **Browsers** | Brave |
+| **Entrevistador** | [Nombre del entrevistador] |
+| **Evidencia** | <div align="center"><img src="https://i.imgur.com/BjPBVHQ.png" alt="Entrevista a Angello Sosa"></div> |
+| **Enlace** | <p><a target="_blank" href="entrevista_angello_sosa.mp4" title="Title">Entrevista Video</a></p> |
+| **Duración** | 00:00 min - 12:45 min |
+| **Resumen** | Angello Sosa, arrendador de 20 años de San Borja, revisó la plataforma AlquilaFácil y mostró interés en las funcionalidades que ofrece para propietarios de espacios. Durante la entrevista, destacó la importancia del control y monitoreo de los espacios alquilados para evitar daños y generar confianza. Como recomendación principal, sugirió agregar una opción de modo oscuro (botón dark mode) a la landing page para mejorar la experiencia de usuario, especialmente durante el uso nocturno de la plataforma. |
 
 **Segmento 2: Arrendatarios sociales frecuentes de espacios para eventos**
 
