@@ -5029,149 +5029,164 @@ En esta seccion se espcifica el detalle del Sprint Backlog 1, la ucal es una lis
 En esta sección se presentan los commits más relevantes realizados en el repositorio de GitHub, donde se evidencia el trabajo progresivo en el desarrollo y despliegue, tanto como la Landing Page y Web Application. Se incluyen fusiones de ramas, configuraciones de despliegue, implementación de componentes y mejoras de contenido visual.
 </p>
 
-- <strong>Landing Page</strong>
-<table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%; text-align: left;">
-  <thead>
-    <tr>
-      <th>Repository</th>
-      <th>Branch</th>
-      <th>Commit ID</th>
-      <th>Commit Message</th>
-      <th>Commit Message Body</th>
-      <th>Committed on (Date)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan="8">Emergentez/alquilafacil-landing-page</td>
-      <td>/main</td>
-      <td>ID</td>
-      <td>Message</td>
-      <td>Body</td>
-      <td>dd/MM/yyyy</td>
-    </tr>
-  </tbody>
-</table>
 
-- <strong>Web Application</strong>
-<table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%; text-align: left;">
-  <thead>
-    <tr>
-      <th>Repository</th>
-      <th>Branch</th>
-      <th>Commit ID</th>
-      <th>Commit Message</th>
-      <th>Commit Message Body</th>
-      <th>Committed on (Date)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan="8">Emergentez/alquilafacil-web-app</td>
-      <td>/main</td>
-      <td>ID</td>
-      <td>Message</td>
-      <td>Body</td>
-      <td>dd/MM/yyyy</td>
-    </tr>
-  </tbody>
-</table>
 
-- <strong>Web Service</strong>
-<table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%; text-align: left;">
-  <thead>
-    <tr>
-      <th>Repository</th>
-      <th>Branch</th>
-      <th>Commit ID</th>
-      <th>Commit Message</th>
-      <th>Commit Message Body</th>
-      <th>Committed on (Date)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan="8">Emergentez/alquilafacil-web-service</td>
-      <td>/main</td>
-      <td>ID</td>
-      <td>Message</td>
-      <td>Body</td>
-      <td>dd/MM/yyyy</td>
-    </tr>
-  </tbody>
-</table>
+## Landing Page
 
-- <strong>Mobile Application</strong>
-<table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%; text-align: left;">
-  <thead>
-    <tr>
-      <th>Repository</th>
-      <th>Branch</th>
-      <th>Commit ID</th>
-      <th>Commit Message</th>
-      <th>Commit Message Body</th>
-      <th>Committed on (Date)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan="8">Emergentez/alquilafacil-mobile-app</td>
-      <td>/main</td>
-      <td>ID</td>
-      <td>Message</td>
-      <td>Body</td>
-      <td>dd/MM/yyyy</td>
-    </tr>
-  </tbody>
-</table>
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|---------------------|
+| Emergentez/alquilafacil-landing-page | /main | c13b0e2 | refactor: update sign-in link to new URL | ChrisByBits | 12/11/2025 |
+| Emergentez/alquilafacil-landing-page | /main | eb3d7e5 | styles: change switcher position | ChrisByBits | 07/10/2025 |
+| Emergentez/alquilafacil-landing-page | /main | d039d57 | feat: add i18n | ChrisByBits | 07/10/2025 |
+| Emergentez/alquilafacil-landing-page | /main | 7af54c3 | feat: add i18n | ChrisByBits | 07/10/2025 |
+| Emergentez/alquilafacil-landing-page | /main | d4ba850 | refactor: fix formatting in main.yml | ChrisByBits | 07/10/2025 |
+| Emergentez/alquilafacil-landing-page | /main | e16a440 | fix: delete .github/workflows/develop | ChrisByBits | 07/10/2025 |
+| Emergentez/alquilafacil-landing-page | /main | 6053ec9 | feat: add CI workflow for main branch | ChrisByBits | 07/10/2025 |
+| Emergentez/alquilafacil-landing-page | /main | 497c4a7 | Merge branch 'develop' | ChrisByBits | 07/10/2025 |
+| Emergentez/alquilafacil-landing-page | /main | b0026d4 | feat: add main.yml | ChrisByBits | 07/10/2025 |
+| Emergentez/alquilafacil-landing-page | /main | fb4c6f9 | Merge hotfix/fix-css-link into develop | ChrisByBits | 07/10/2025 |
+| Emergentez/alquilafacil-landing-page | /main | b25b7a8 | Hotfix: improve gitignore patterns | ChrisByBits | 07/10/2025 |
+| Emergentez/alquilafacil-landing-page | /main | 114ef8e | fix: improve gitignore patterns | ChrisByBits | 07/10/2025 |
+| Emergentez/alquilafacil-landing-page | /main | 9454dea | Merge release/v1.0.0 back into develop | ChrisByBits | 07/10/2025 |
+| Emergentez/alquilafacil-landing-page | /main | 8469bd2 | Release v1.0.0 | ChrisByBits | 07/10/2025 |
+| Emergentez/alquilafacil-landing-page | /main | 57e9075 | chore: add production build script to package.json | ChrisByBits | 07/10/2025 |
+| Emergentez/alquilafacil-landing-page | /main | 11e4d4b | ci: add GitHub Actions deployment workflow | ChrisByBits | 07/10/2025 |
+| Emergentez/alquilafacil-landing-page | /main | 17f7e10 | Merge feature/showcase into develop | ChrisByBits | 07/10/2025 |
+| Emergentez/alquilafacil-landing-page | /main | f97e6a7 | build: add compiled Tailwind CSS output | ChrisByBits | 07/10/2025 |
+| Emergentez/alquilafacil-landing-page | /main | e6fa8d5 | feat: add event venue images for gallery | ChrisByBits | 07/10/2025 |
+| Emergentez/alquilafacil-landing-page | /main | 9817c13 | feat: add feature screenshots | ChrisByBits | 07/10/2025 |
+| Emergentez/alquilafacil-landing-page | /main | f305999 | feat: add mobile app mockups for showcase | ChrisByBits | 07/10/2025 |
+| Emergentez/alquilafacil-landing-page | /main | bbae926 | Merge feature/legal-pages into develop | ChrisByBits | 07/10/2025 |
+| Emergentez/alquilafacil-landing-page | /main | c2dbe45 | docs: add terms of service page | ChrisByBits | 07/10/2025 |
+| Emergentez/alquilafacil-landing-page | /main | cd8e41f | docs: add privacy policy page | ChrisByBits | 07/10/2025 |
+| Emergentez/alquilafacil-landing-page | /main | bfb3be | Merge feature/sensors into develop | ChrisByBits | 07/10/2025 |
+| Emergentez/alquilafacil-landing-page | /main | 5eb767f | feat: add IoT sensors images for monitoring section | ChrisByBits | 07/10/2025 |
+| Emergentez/alquilafacil-landing-page | /main | 3ea8c4b | Merge feature/hero-section into develop | ChrisByBits | 07/10/2025 |
+| Emergentez/alquilafacil-landing-page | /main | 3de4d33 | feat: add landing page HTML structure | ChrisByBits | 07/10/2025 |
+| Emergentez/alquilafacil-landing-page | /main | 82f48e4 | feat: add hero section images | ChrisByBits | 07/10/2025 |
+| Emergentez/alquilafacil-landing-page | /main | b30aea9 | feat: add brand logo asset | ChrisByBits | 07/10/2025 |
+| Emergentez/alquilafacil-landing-page | /main | 966b0db | style: add base CSS and Tailwind input files | ChrisByBits | 07/10/2025 |
+| Emergentez/alquilafacil-landing-page | /main | 494e9ec | feat: add project initial configuration | ChrisByBits | 07/10/2025 |
 
-- <strong>Edge Node</strong>
-<table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%; text-align: left;">
-  <thead>
-    <tr>
-      <th>Repository</th>
-      <th>Branch</th>
-      <th>Commit ID</th>
-      <th>Commit Message</th>
-      <th>Commit Message Body</th>
-      <th>Committed on (Date)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan="8">Emergentez/alquilafacil-edge-node</td>
-      <td>/main</td>
-      <td>ID</td>
-      <td>Message</td>
-      <td>Body</td>
-      <td>dd/MM/yyyy</td>
-    </tr>
-  </tbody>
-</table>
+---
 
-- <strong>Embebbed Application</strong>
-<table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%; text-align: left;">
-  <thead>
-    <tr>
-      <th>Repository</th>
-      <th>Branch</th>
-      <th>Commit ID</th>
-      <th>Commit Message</th>
-      <th>Commit Message Body</th>
-      <th>Committed on (Date)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan="8">Emergentez/alquilafacil-embedded-app</td>
-      <td>/main</td>
-      <td>ID</td>
-      <td>Message</td>
-      <td>Body</td>
-      <td>dd/MM/yyyy</td>
-    </tr>
-  </tbody>
-</table>
+## Web Application
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|---------------------|
+| Emergentez/alquilafacil-web-app | /main | 901dadd | refactor: fix reading event | ChrisByBits | 10/11/2025 |
+| Emergentez/alquilafacil-web-app | /main | 529fb51 | release: version 1.0.0 | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | e6a6b19 | merge: complete application integration | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | 4255caa | feat: integrate all modules in main app | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | 0d58137 | style: add global styles and tailwind configuration | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | df79430 | merge: integrate IoT monitoring module into develop | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | 4b3b749 | feat(management): add local monitoring dashboard | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | d9b282b | feat(management): implement real-time monitoring services | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | d55d859 | feat(management): add IoT monitoring models | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | 1b4c34f | merge: integrate notifications module into develop | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | 101f7e3 | feat(notification): add notifications page | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | 7a98684 | feat(notification): implement notifications API service | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | 25e2143 | feat(notification): add notification model | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | bdb23cc | merge: integrate subscriptions system into develop | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | 8854591 | feat(subscriptions): add paypal integration and purchase page | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | 622fe77 | feat(subscriptions): implement subscriptions API services | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | 4eaeca7 | feat(subscriptions): add subscription models | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | e56bdb8 | merge: integrate user profile module into develop | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | af005a3 | feat(profile): add control panel with subscriptions management | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | 91f4b73 | feat(profile): add reports and support features | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | 2be14d3 | feat(profile): add calendar integration | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | 42bfda5 | feat(profile): add profile management components | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | 1df7a77 | feat(profile): implement profiles API service | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | 5aa4df9 | feat(profile): add profile models | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | 2abcf81 | merge: integrate booking system into develop | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | ae67098 | feat(booking): add reservation details page | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | d446f22 | feat(booking): implement reservations API service | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | c0eacc2 | feat(booking): add reservation models and utilities | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | 0bb10b8 | merge: integrate locals management module into develop | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | 26ca283 | feat(locals): add multi-step local publication wizard | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | 78d41b9 | feat(locals): add reporting functionality | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | 9aa25f5 | feat(locals): add local details and comments features | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | da40fb2 | feat(locals): add local display components | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | fff0bea | feat(locals): add search and filtering pages | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | 34583ad | feat(locals): implement locals API services | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | 4674536 | feat(locals): add local models and data structures | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | 7ee1d95 | merge: integrate authentication module into develop | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | 6ab41de | feat(auth): add authentication UI components and pages | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | 5946dca | feat(auth): add authentication store with pinia | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | 93bb0f3 | feat(auth): implement authentication services and firebase integration | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | c441ce7 | feat(auth): add authentication models and request/response structures | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | ea23191 | merge: integrate project setup into develop | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | bafca219 | feat(public): add public components and routing infrastructure | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | fd9b7c8 | feat(shared): add core shared services and utilities | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | 94c04d4 | chore: initial project setup with vue, vite and tailwind | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-app | /main | 2a32a44 | chore: initial repository setup | ChrisByBits | 29/10/2025 |
+
+---
+
+## Web Service
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|---------------------|
+| Emergentez/alquilafacil-web-service | /main | a227e71 | refactor: update url for deployment | MarianoAmes | 13/11/2025 |
+| Emergentez/alquilafacil-web-service | /main | 878441f | refactor: update production database connection string | ChrisByBits | 12/11/2025 |
+| Emergentez/alquilafacil-web-service | /main | d27e12f | refactor: fix reading event | ChrisByBits | 10/11/2025 |
+| Emergentez/alquilafacil-web-service | /main | ec7a695 | refactor: change production database connection string | ChrisByBits | 10/11/2025 |
+| Emergentez/alquilafacil-web-service | /main | b7c1b6d | Update production database connection string | ChrisByBits | 03/11/2025 |
+| Emergentez/alquilafacil-web-service | /main | 5514fea | Update production appsettings for connection and origins | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-web-service | /main | fa6e499 | Add integration tests for Notification, Profile, Report, Reservation, Subscription, and User controllers | Dark7YT | 22/10/2025 |
+| Emergentez/alquilafacil-web-service | /main | 5f19fb2 | feat: Add subscription management entities, repositories, services, and REST controller | Dark7YT | 22/10/2025 |
+| Emergentez/alquilafacil-web-service | /main | ff31e44 | feat: Implement external services and repositories for user, local, notification, profile, and subscription management | Dark7YT | 22/10/2025 |
+| Emergentez/alquilafacil-web-service | /main | 7e5dddc | feat: Implement Local Edge Node and Reading repositories, controllers, and SignalR hub | Dark7YT | 22/10/2025 |
+| Emergentez/alquilafacil-web-service | /main | e8090b2 | feat: Implement LocalCategory, Local, and Report repositories | Dark7YT | 22/10/2025 |
+| Emergentez/alquilafacil-web-service | /main | 1d4e93d | Add user management and comment functionality | Dark7YT | 22/10/2025 |
+| Emergentez/alquilafacil-web-service | /main | 13616a8 | feat: Implement reservation commands and queries | Dark7YT | 22/10/2025 |
+| Emergentez/alquilafacil-web-service | /main | ae1ba97b | feat: Initialize AlquilaFacilPlatform project structure with essential files and configurations | Dark7YT | 22/10/2025 |
+| Emergentez/alquilafacil-web-service | /main | a0ed972 | fix: ensure consistent formatting in README.md | Dark7YT | 22/10/2025 |
+| Emergentez/alquilafacil-web-service | /main | 986fbed | first commit | Dark7YT | 22/10/2025 |
+
+---
+
+## Mobile Application
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|---------------------|
+| Emergentez/alquilafacil-mobile-app | /main | 94b9aed | refactor: fix calendar date bug | ChrisByBits | 10/11/2025 |
+| Emergentez/alquilafacil-mobile-app | /main | 1e03a3d | Update WebSocket URL for monitoring screen | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-mobile-app | /main | 65fb331 | Update BASE_URL to use secure HTTPS protocol | ChrisByBits | 29/10/2025 |
+| Emergentez/alquilafacil-mobile-app | /main | e2ab8dd | feat: Integrate subscription plans and payment logic | AmnerL | 27/10/2025 |
+| Emergentez/alquilafacil-mobile-app | /main | 7669947 | feat: Implement alert notification service | AmnerL | 27/10/2025 |
+| Emergentez/alquilafacil-mobile-app | /main | ff86e9f1 | feat: Introduce reservation and management/monitoring modules | AmnerL | 27/10/2025 |
+| Emergentez/alquilafacil-mobile-app | /main | 0e438fb | feat: Implement spaces module and public data/UI components | AmnerL | 25/10/2025 |
+| Emergentez/alquilafacil-mobile-app | /main | f73b25c | feat: Add user authentication (IAM) and profile management modules | AmnerL | 25/10/2025 |
+| Emergentez/alquilafacil-mobile-app | /main | 254fbe2 | feat: add first configuration | AmnerL | 25/10/2025 |
+| Emergentez/alquilafacil-mobile-app | /main | dfcf73a | Initial commit | AmnerL | 25/10/2025 |
+
+---
+
+## Edge Node
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|---------------------|
+| Emergentez/alquilafacil-edge-node | /main | fa8d9a4 | feat: readme with instructions added | andrewmm16 | 27/10/2025 |
+| Emergentez/alquilafacil-edge-node | /main | 2f0a288 | feat: edge node initial version added | andrewmm16 | 27/10/2025 |
+| Emergentez/alquilafacil-edge-node | /main | 8f7b106 | Initial commit | andrewmm16 | 27/10/2025 |
+
+---
+
+## Embedded Application
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|---------------------|
+| Emergentez/alquilafacil-embedded-app | /main | f86c429 | feat: add sketch ino | MarianoAmes | 12/11/2025 |
+| Emergentez/alquilafacil-embedded-app | /main | 3ab2a5f | feat: add device class and implementation | MarianoAmes | 12/11/2025 |
+| Emergentez/alquilafacil-embedded-app | /main | e24f886 | feat: add sound sensor class | MarianoAmes | 12/11/2025 |
+| Emergentez/alquilafacil-embedded-app | /main | 61c9aa8 | feat: add smoke sensor class | MarianoAmes | 12/11/2025 |
+| Emergentez/alquilafacil-embedded-app | /main | 21733d2 | feat: add movement sensors files | MarianoAmes | 12/11/2025 |
+| Emergentez/alquilafacil-embedded-app | /main | d6c89e3 | feat: create modestiot classes | MarianoAmes | 12/11/2025 |
+
+---
+
+
 
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review.
 
