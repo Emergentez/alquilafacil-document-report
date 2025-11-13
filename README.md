@@ -6633,6 +6633,71 @@ Se llevarán a cabo tres entrevistas por segmento, sumando un total de seis. El 
     </td>
   </tr>
 </tbody>
+<thead>
+  <tr>
+    <th colspan="2"> <div align="center">Entrevista #3<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Stefano Alessandro</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Valenzuela Vallejos</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>23 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>San Isidro</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones usadas</td>
+    <td>Instagram, TikTok.</td>
+  </tr>
+  <tr>
+    <td>Motivación</td>
+    <td>Ofrecer experiencias únicas y satisfactorias a sus clientes.</td>
+  </tr>
+  <tr>
+    <td>Frustración</td>
+    <td>Falta de herramientas de gestión durante el desarrollo de sus eventos.</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>iOS, macOS.</td>
+  </tr>
+  <tr>
+    <td>Browsers</td>
+    <td>Safari</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Christopher Lecca</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="images/cap-7/Registro-Entrevistas/entrevista-stefano.png" alt="Entrevista a Stefano Valenzuela"></div></td>
+  </tr>
+  <tr>
+    <td>Enlace</td>
+    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/ERFaEL1sWzdHqHVwfSUIz20BgEPcr_ZOt0Ph5Zrl2gD-CQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SpjLxo" title="Title">Microsoft Stream</a></p></td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>00:00 min - 10:12 min</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    Nuestro entrevistado, Stefano, nos comentó que el flujo de navegación de la Landing Page fue satisfactoria, al igual que con la Web Application y Mobile Application. En general, ambas versiones de la aplicación le agradaron, resultando en que su única recomendación fuese el expandir el catálogo de espacios disponibles, lo cual se logrará una vez la versión final del producto se encuentre disponible.
+    </td>
+  </tr>
+</tbody>
 </table>
 
 
