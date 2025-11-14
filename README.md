@@ -173,6 +173,8 @@ del ABET – EAC - Student Outcome 3.
     </tr>
   </tbody>
 </table>
+
+
 ---
 
 # Contenido
@@ -6885,6 +6887,12 @@ Segmento de arrendatarios:
 
 ## 7.4. Video About-the-Product
 
+En nuestro video About the Product, presentamos nuestras features principales que nos distinguen de la competencia para poder enganchar a los potenciales usuarios de nuestros segmentos objetivos.
+
+![About the product](images/cap-7/videos/product.PNG)
+
+[Enlace del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/IQDkBE4MGVrTQ6XW4UIvl4teAUGiaB18RxRWJHJL3YVi6pU?e=nXPMfL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 ## Conclusiones y recomendaciones
 
 <div align="justify">
@@ -6896,6 +6904,26 @@ Segmento de arrendatarios:
 * En cuanto a su estrategia de monetización, AlquilaFácil opta por un modelo inteligente y equilibrado: los arrendadores pueden acceder a planes de suscripción premium que les brindan ventajas competitivas, como mayor visibilidad y acceso a analíticas avanzadas, mientras que los arrendatarios disfrutan de un acceso gratuito a la plataforma. Esta estructura fomenta el crecimiento de la oferta de espacios disponibles y asegura un flujo constante de usuarios, fortaleciendo la comunidad dentro del ecosistema de AlquilaFácil.
   
 * El uso de sensores IoT para el moniteo de espacios y la gestión de reservas en tiempo real representa un avance significativo en la forma en que se gestionan los eventos. Esta tecnología no solo mejora la eficiencia operativa, sino que también proporciona datos valiosos para la toma de decisiones estratégicas, permitiendo a los arrendadores optimizar sus espacios y a los arrendatarios disfrutar de una experiencia más personalizada y adaptada a sus necesidades.
+
+## Video About-the-Team
+
+En nuestro video About the Team, cada uno de nuestros integrantes presentan sus acciones realizadas y cómo estas ayudaron a alcanzar el Outcome del curso:
+
+ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un rango de audiencias.
+
+![About the team](images/cap-7/videos/team.PNG)
+
+[Enlace del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/IQBlob3ImXGjTITe1boqXtAhAYlNjPFfozxhTX4p8obz3Ks?e=s6QuAw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+| Sección | Integrante |
+|---------|------------|
+| 0:00 - 0:51 | Sebastián Cachis |
+| 0:52 - 1:52 | Amner Llamo |
+| 1:53 - 3:15 | Omar Morales |
+| 3:16 - 4:04 | Mariano Ames |
+| 4:05 - 4:42 | Christopher Lecca |
+
+
 
 # Bibliografía
 
@@ -7024,3 +7052,4 @@ Segmento de arrendatarios:
 |--------------|--------------|
 | Vídeo de Exposición TB1      | Link del Vídeo: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211399_upc_edu_pe/ESgo7U5_auJIkjKMfm2eQHoBw1pkgzwlQ5RJI3YjKjch2w?e=t357hm>|  
 | Vídeo de Exposición TP1      | Link del Vídeo: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/EU2iWmGhVO1Cv7Hil0N63tIBi6PW_YVQ7Vjz3A-WzD30Rg?e=nPnsU0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>|
+| Vídeo de Exposición TB2      | Link del Vídeo: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/IQBqKtAtnfSZRpRVdx6UwZACAY-yOYv-Mv2cPxQqRcvX8vU?e=NCBwfY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>|
