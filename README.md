@@ -81,6 +81,22 @@
         </ul>
         </td>
     </tr>
+    <tr>
+    <td>3ra </td>
+        <td>07/10/2025 </td>
+        <td>
+          - Ames Oviedo, Mariano José<br>
+          - Cachis Gonzales, Sebastian Nicolas<br>
+          - Lecca Choccare, Christopher Bryan<br>
+          - Llamo Sánchez,Amner Levi<br>
+          - Morales Montalvo, Omar Andrew<br>
+        </td>
+        <td>
+        <ul>
+        <li>Capítulo VII</li>
+        </ul>
+        </td>
+    </tr>
     </tbody>
 </table>
 
@@ -106,6 +122,16 @@ Para este entregable, se continuó trabajando los capítulos por ramas, añadien
 ![Contributors](images/insights/tp1/network.PNG)
 
 ![Contributors](images/insights/tp1/contributors.PNG)
+
+---
+
+<strong>TB2:</strong>
+
+Para este entregable, se continuó trabajando los capítulos por ramas, añadiendo el capítulo 7:
+
+![Contributors](images/insights/tb2/network.PNG)
+
+![Contributors](images/insights/tb2/contributors.PNG)
 
 ---
 
