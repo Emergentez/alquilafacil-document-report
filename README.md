@@ -6447,7 +6447,7 @@ La coordinación del equipo se realizó principalmente a través de **Discord**,
 
 - ####   Mobile Application
 
-  ![Insights([URL]())](images/cap-7/insights/mobile-app.PNG)
+  ![Insights([URL]())](images/cap-7/insights/mobile.PNG)
 
 - ####   Edge Node
 
