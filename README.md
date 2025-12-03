@@ -140,6 +140,14 @@ Para este entregable, se continuó trabajando los capítulos por ramas, añadien
 
 ![Contributors](images/insights/tb2/contributors.PNG)
 
+<strong>TF1:</strong>
+
+Para este entregable, se continuó trabajando los capítulos por ramas, añadiendo el sprint 2 al capítulo 7:
+
+![Contributors](images/insights/tf1/network.PNG)
+
+![Contributors](images/insights/tf1/contributors.PNG)
+
 ---
 
 # Student Outcome
@@ -7895,7 +7903,9 @@ curl http://application.canadacentral.cloudapp.azure.com:8080/api/v1/local-categ
 | **Backend API** | `http://application.canadacentral.cloudapp.azure.com:8080/api/v1` | 8080 |
 | **Swagger Documentation** | `http://application.canadacentral.cloudapp.azure.com:8080/swagger` | 8080 |
 | **Edge Node IoT** | `http://application.canadacentral.cloudapp.azure.com:8081` | 8081 |
-| **MySQL (solo interno)** | `localhost:3306` | 3306 |
+| **Edge Node IoT Swagger** | `http://application.canadacentral.cloudapp.azure.com:8081/docs` | 8081 |
+| **MySQL** | `http://application.canadacentral.cloudapp.azure.com:3306` | 3306 |
+| **Embedded App (Wokwi)** | `https://wokwi.com/projects/433560726038801409` | 3306 |
 
 ---
 
@@ -7929,29 +7939,6 @@ curl http://application.canadacentral.cloudapp.azure.com:8080/api/v1/local-categ
 
 Durante el Sprint 2, el equipo trabajó de manera colaborativa enfocándose en internacionalización (i18n), documentación de API, pruebas automatizadas y despliegue en Azure.
 
-##### Distribución del Trabajo
-
-| Miembro | Área Principal | Commits | Archivos Modificados | Líneas Cambiadas |
-|---------|----------------|---------|----------------------|------------------|
-| Christopher Lecca | i18n Web App | 12 | 28 | +1,450 / -320 |
-| Amner Llamo | i18n Mobile App | 6 | 14 | +580 / -120 |
-| Sebastian Cachis | Backend/Swagger/Testing | 18 | 32 | +2,100 / -280 |
-| Mariano Ames | Testing Suite | 8 | 15 | +1,200 / -50 |
-| Omar Morales | Deployment/Docs | 4 | 8 | +650 / -80 |
-
-##### Métricas del Sprint
-
-| Métrica | Valor |
-|---------|-------|
-| Commits totales | 48 |
-| Pull Requests creados | 15 |
-| Pull Requests mergeados | 15 |
-| Code Reviews realizados | 22 |
-| Issues cerrados | 28 |
-| Story Points completados | 92/98 (94%) |
-| Tests automatizados ejecutados | 139 |
-| Tests pasados | 139 (100%) |
-
 ##### Herramientas de Colaboración
 
 - **Discord:** Reuniones diarias de 15 minutos (daily standups)
@@ -7961,14 +7948,23 @@ Durante el Sprint 2, el equipo trabajó de manera colaborativa enfocándose en i
 
 ##### Insights de Repositorios
 
+- #### Landing Page
+  ![Sprint 2 Web App Insights](images/cap-7/insights/landing2.PNG)
+
 - #### Web Application
-  ![Sprint 2 Web App Insights](images/cap-7/insights/sprint2-web-app.PNG)
+  ![Sprint 2 Web App Insights](images/cap-7/insights/web-app2.PNG)
 
 - #### Web Service
-  ![Sprint 2 Web Service Insights](images/cap-7/insights/sprint2-web-service.PNG)
+  ![Sprint 2 Web Service Insights](images/cap-7/insights/web-service2.PNG)
 
 - #### Mobile Application
-  ![Sprint 2 Mobile Insights](images/cap-7/insights/sprint2-mobile.PNG)
+  ![Sprint 2 Mobile Insights](images/cap-7/insights/mobile2.PNG)
+
+- #### Edge Node Application
+  ![Sprint 2 Mobile Insights](images/cap-7/insights/edge2.PNG)
+
+- #### Embedded Application
+  ![Sprint 2 Mobile Insights](images/cap-7/insights/embedded2.PNG)
 
 ---
 
