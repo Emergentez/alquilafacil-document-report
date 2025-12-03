@@ -1,25 +1,15 @@
 <div align="center"><strong>Informe del Trabajo Final</strong></div>
 
 <p align="center">
-    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
-    <strong>Ingeniería de Software</strong><br>
-    <strong>Arquitecturas De Software Emergentes</strong><br>
-    <strong>Profesor: Richard Leonardo Berrocal Navarro
-</strong><br>
-    <br>INFORME
-</p>
-
-<div align="center">
-
-#### Startup: **AlquilaEZ**
-
-#### Product: **AlquilaFácil**
-
-</div>
-
-## Team Members:
-
+    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br><br>
+    <strong>Ingeniería de Software</strong><br><br>
+    <strong>Arquitecturas De Software Emergentes</strong><br><br>
+    <strong>NRC:14653</strong><br><br><br>
+    <strong>Profesor: Richard Leonardo Berrocal Navarro</strong><br>
+    <strong>Nombre del Producto: AlquilaFácil</strong><br>
+    </p>
+    <strong>Integrantes:</strong>
 <div align="center">
 
 |              Member                |    Code    |
@@ -30,7 +20,8 @@
 | Llamo Sánchez, Amner Levi           | U20221C376 |
 | Morales Montalvo, Omar Andrew      | U202212383 |
 
-
+<br><strong>Diciembre de 2025</strong>
+</strong>
 </div>
 
 # Registro de Versiones del Informe
