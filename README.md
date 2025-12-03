@@ -6643,16 +6643,16 @@ En esta sección se presentan los commits más relevantes realizados durante el 
 
 | Repository | Branch | Commit ID | Commit Message | Author | Committed on (Date) |
 |------------|--------|-----------|----------------|--------|---------------------|
-| alquilafacil-web-app | /main | a1i8n2b3 | feat(i18n): add vue-i18n configuration and language switcher component | ChrisByBits | 27/11/2025 |
-| alquilafacil-web-app | /main | c4i8n5d6 | feat(i18n): add Spanish/English translations for authentication module | ChrisByBits | 27/11/2025 |
-| alquilafacil-web-app | /main | e7i8n8f9 | feat(i18n): implement translations for locals search and filter components | ChrisByBits | 26/11/2025 |
-| alquilafacil-web-app | /main | g0i8n1h2 | feat(i18n): add translations for reservation flow and calendar | ChrisByBits | 26/11/2025 |
-| alquilafacil-web-app | /main | i3i8n4j5 | feat(i18n): implement translations for profile management screens | ChrisByBits | 25/11/2025 |
-| alquilafacil-web-app | /main | k6i8n7l8 | feat(i18n): add translations for notifications and favorites modules | ChrisByBits | 25/11/2025 |
-| alquilafacil-web-app | /main | m9i8n0n1 | feat(i18n): implement translations for IoT monitoring dashboard | ChrisByBits | 24/11/2025 |
-| alquilafacil-web-app | /main | o2i8n3p4 | feat(i18n): add translations for reports and support sections | ChrisByBits | 24/11/2025 |
-| alquilafacil-web-app | /main | q5i8n6r7 | feat(i18n): implement translations for subscription management | ChrisByBits | 23/11/2025 |
-| alquilafacil-web-app | /main | s8i8n9t0 | feat(i18n): add language persistence in localStorage | ChrisByBits | 23/11/2025 |
+| alquilafacil-web-app | /main | 68286ae | feat(i18n): add vue-i18n configuration and translation files | ChrisByBits | 27/11/2025 |
+| alquilafacil-web-app | /main | 7bb7037 | feat(i18n): integrate i18n plugin and add LanguageSwitcher component | ChrisByBits | 27/11/2025 |
+| alquilafacil-web-app | /main | 440b83d | feat(i18n): add translations to authentication pages | ChrisByBits | 26/11/2025 |
+| alquilafacil-web-app | /main | bdc1095 | feat(i18n): add translations to public components and pages | ChrisByBits | 26/11/2025 |
+| alquilafacil-web-app | /main | 3e8ddae | feat(i18n): add translations to locals module | ChrisByBits | 25/11/2025 |
+| alquilafacil-web-app | /main | 4dd16a0 | feat(i18n): add translations to profile module | ChrisByBits | 25/11/2025 |
+| alquilafacil-web-app | /main | 38d9c84 | feat(i18n): add translations to booking, notification and subscription modules | ChrisByBits | 24/11/2025 |
+| alquilafacil-web-app | /main | 1d71b63 | Merge branch 'feature/i18n' into main | ChrisByBits | 24/11/2025 |
+| alquilafacil-web-app | /main | b448678 | feat(config): add Azure VM deployment configuration | ChrisByBits | 23/11/2025 |
+| alquilafacil-web-app | /main | b77cf8e | docs: add .env.example for Azure VM deployment | ChrisByBits | 23/11/2025 |
 
 ---
 
@@ -6660,14 +6660,14 @@ En esta sección se presentan los commits más relevantes realizados durante el 
 
 | Repository | Branch | Commit ID | Commit Message | Author | Committed on (Date) |
 |------------|--------|-----------|----------------|--------|---------------------|
-| alquilafacil-web-service | /main | a1s2w3g4 | docs(swagger): add SwaggerTag and SwaggerOperation to AuthenticationController | Dark7YT | 27/11/2025 |
-| alquilafacil-web-service | /main | b5s6w7g8 | docs(swagger): document ProfilesController with detailed descriptions | Dark7YT | 27/11/2025 |
-| alquilafacil-web-service | /main | c9s0w1g2 | docs(swagger): add comprehensive documentation to LocalsController | Dark7YT | 26/11/2025 |
-| alquilafacil-web-service | /main | d3s4w5g6 | docs(swagger): document ReservationController 7 endpoints with examples | Dark7YT | 26/11/2025 |
-| alquilafacil-web-service | /main | e7s8w9g0 | docs(swagger): add documentation to SubscriptionsController and PlanController | Dark7YT | 25/11/2025 |
-| alquilafacil-web-service | /main | f1s2w3g4 | docs(swagger): document NotificationController and CommentController | Dark7YT | 25/11/2025 |
-| alquilafacil-web-service | /main | g5s6w7g8 | docs(swagger): add LocalCategoriesController documentation | Dark7YT | 24/11/2025 |
-| alquilafacil-web-service | /main | h9s0w1g2 | docs(swagger): configure Swagger UI with API info and contact details | Dark7YT | 24/11/2025 |
+| alquilafacil-web-service | /main | fcd7b36 | feat(api): add OpenAPI documentation to all controllers | Dark7YT | 27/11/2025 |
+| alquilafacil-web-service | /main | 9c66982 | docs(api): add Swagger documentation to remaining controllers | Dark7YT | 27/11/2025 |
+| alquilafacil-web-service | /main | eb28840 | feat(seed): add demo locals and reservation seeder | Dark7YT | 26/11/2025 |
+| alquilafacil-web-service | /main | d963735 | fix(cors): use SetIsOriginAllowed to support SignalR with credentials | Dark7YT | 26/11/2025 |
+| alquilafacil-web-service | /main | 436f6d2 | fix(config): update appsettings.Production.json for Azure VM deployment | Dark7YT | 25/11/2025 |
+| alquilafacil-web-service | /main | e9a9479 | fix(cors): add AllowedFrontEndOrigins to production config | Dark7YT | 25/11/2025 |
+| alquilafacil-web-service | /main | d060b03 | feat(docker): configure Dockerfile for Azure VM deployment | Dark7YT | 24/11/2025 |
+| alquilafacil-web-service | /main | a142ff7 | feat(cors): add Azure VM origins to CORS policy | Dark7YT | 24/11/2025 |
 
 ---
 
@@ -6675,16 +6675,16 @@ En esta sección se presentan los commits más relevantes realizados durante el 
 
 | Repository | Branch | Commit ID | Commit Message | Author | Committed on (Date) |
 |------------|--------|-----------|----------------|--------|---------------------|
-| alquilafacil-web-service/AlquilaFacilPlatform.Tests | /main | a1t2e3s4 | test(iam): implement unit tests for SignInCommandService and SignUpCommandService | Dark7YT | 27/11/2025 |
-| alquilafacil-web-service/AlquilaFacilPlatform.Tests | /main | b5t6e7s8 | test(booking): add ReservationCommandService tests with date conflict validation | Dark7YT | 27/11/2025 |
-| alquilafacil-web-service/AlquilaFacilPlatform.Tests | /main | c9t0e1s2 | test(locals): implement LocalCommandService and LocalQueryService tests | Dark7YT | 26/11/2025 |
-| alquilafacil-web-service/AlquilaFacilPlatform.Tests | /main | d3t4e5s6 | test(profiles): add ProfileCommandService unit tests | Dark7YT | 26/11/2025 |
-| alquilafacil-web-service/AlquilaFacilPlatform.Tests | /main | e7t8e9s0 | test(subscriptions): implement subscription lifecycle tests | Dark7YT | 25/11/2025 |
-| alquilafacil-web-service/AlquilaFacilPlatform.Tests | /main | f1t2e3s4 | test(notifications): add NotificationService tests | Dark7YT | 25/11/2025 |
-| alquilafacil-web-service/AlquilaFacilPlatform.Tests | /main | g5i6n7t8 | test(integration): setup WebApplicationFactory with InMemory database | Dark7YT | 24/11/2025 |
-| alquilafacil-web-service/AlquilaFacilPlatform.Tests | /main | h9i0n1t2 | test(integration): implement API endpoint integration tests | Dark7YT | 24/11/2025 |
-| alquilafacil-web-service/AlquilaFacilPlatform.Tests | /main | i3p4e5r6 | test(performance): add API performance tests using TestServer | Dark7YT | 23/11/2025 |
-| alquilafacil-web-service/AlquilaFacilPlatform.Tests | /main | j7e8t9e0 | test(e2e): implement end-to-end tests for complete user workflows | Dark7YT | 23/11/2025 |
+| alquilafacil-web-service/AlquilaFacilPlatform.Tests | /main | 46b474f | test(iam): implement black-box tests for authentication | Dark7YT | 27/11/2025 |
+| alquilafacil-web-service/AlquilaFacilPlatform.Tests | /main | 554ea1b | test(booking): implement white-box tests for reservation service | Dark7YT | 27/11/2025 |
+| alquilafacil-web-service/AlquilaFacilPlatform.Tests | /main | a73c13a | test(performance): implement NBomber load tests for API endpoints | Dark7YT | 26/11/2025 |
+| alquilafacil-web-service/AlquilaFacilPlatform.Tests | /main | af8ee9c | test(e2e): implement Selenium end-to-end tests | Dark7YT | 26/11/2025 |
+| alquilafacil-web-service/AlquilaFacilPlatform.Tests | /main | b8b1767 | test(setup): add testing dependencies to test project | Dark7YT | 25/11/2025 |
+| alquilafacil-web-service/AlquilaFacilPlatform.Tests | /main | fcd7b36 | feat(api): add OpenAPI documentation to all controllers | Dark7YT | 25/11/2025 |
+| alquilafacil-web-service/AlquilaFacilPlatform.Tests | /main | 9c66982 | docs(api): add Swagger documentation to remaining controllers | Dark7YT | 24/11/2025 |
+| alquilafacil-web-service/AlquilaFacilPlatform.Tests | /main | eb28840 | feat(seed): add demo locals and reservation seeder | Dark7YT | 24/11/2025 |
+| alquilafacil-web-service/AlquilaFacilPlatform.Tests | /main | d963735 | fix(cors): use SetIsOriginAllowed to support SignalR with credentials | Dark7YT | 23/11/2025 |
+| alquilafacil-web-service/AlquilaFacilPlatform.Tests | /main | 436f6d2 | fix(config): update appsettings.Production.json for Azure VM deployment | Dark7YT | 23/11/2025 |
 
 ---
 
@@ -6692,11 +6692,11 @@ En esta sección se presentan los commits más relevantes realizados durante el 
 
 | Repository | Branch | Commit ID | Commit Message | Author | Committed on (Date) |
 |------------|--------|-----------|----------------|--------|---------------------|
-| alquilafacil-mobile-app | /main | a1m8i2n3 | feat(i18n): configure react-native-i18n with Spanish/English support | AmnerL | 27/11/2025 |
-| alquilafacil-mobile-app | /main | b4m8i5n6 | feat(i18n): add translations for authentication screens | AmnerL | 26/11/2025 |
-| alquilafacil-mobile-app | /main | c7m8i8n9 | feat(i18n): implement translations for spaces and reservation modules | AmnerL | 25/11/2025 |
-| alquilafacil-mobile-app | /main | d0m8i1n2 | feat(i18n): add translations for profile and notifications | AmnerL | 24/11/2025 |
-| alquilafacil-mobile-app | /main | e3m8i4n5 | feat(i18n): implement translations for IoT monitoring screens | AmnerL | 23/11/2025 |
+| alquilafacil-mobile-app | /main | 308bbb6 | feat(i18n): add internationalization configuration and ARB files | AmnerL | 27/11/2025 |
+| alquilafacil-mobile-app | /main | 61fdcc3 | feat(i18n): implement LocaleProvider and configure MaterialApp | AmnerL | 26/11/2025 |
+| alquilafacil-mobile-app | /main | 5776c98 | feat(i18n): add translations to authentication screens | AmnerL | 25/11/2025 |
+| alquilafacil-mobile-app | /main | 2cf3d31 | feat(i18n): add translations to profile screens | AmnerL | 24/11/2025 |
+| alquilafacil-mobile-app | /main | bdedfbf | feat(i18n): add translations to reservation screens | AmnerL | 23/11/2025 |
 
 ---
 
@@ -7422,6 +7422,8 @@ public async Task<IActionResult> CreateLocal(CreateLocalResource resource)
 | `/api/v1/authentication/sign-in` | POST | User Sign In | Authenticates a user with email and password credentials. Returns a JWT token for subsequent API calls. | 200, 400, 500 |
 | `/api/v1/authentication/sign-up` | POST | User Sign Up | Registers a new user account with username, email, and password. Email must be unique in the system. | 200, 400, 500 |
 
+![IAM Controller](images/cap-7/swagger/iam.PNG)
+
 ###### Locals (Rental Spaces)
 
 | Endpoint | Método | Summary | Descripción | Responses |
@@ -7435,6 +7437,8 @@ public async Task<IActionResult> CreateLocal(CreateLocalResource resource)
 | `/api/v1/locals/get-user-locals/{userId}` | GET | Get User Locals | Retrieves all rental spaces owned by a specific user. | 200, 401 |
 | `/api/v1/local-categories` | GET | Get All Categories | Retrieves all available rental space categories. Public endpoint. | 200 |
 
+![Locals Controller](images/cap-7/swagger/locals.PNG)
+
 ###### Booking (Reservations)
 
 | Endpoint | Método | Summary | Descripción | Responses |
@@ -7447,6 +7451,8 @@ public async Task<IActionResult> CreateLocal(CreateLocalResource resource)
 | `/api/v1/reservation/by-start-date/{startDate}` | GET | Get by Start Date | Retrieves all reservations that start on a specific date. | 200 |
 | `/api/v1/reservation/by-end-date/{endDate}` | GET | Get by End Date | Retrieves all reservations that end on a specific date. | 200 |
 
+![Booking Controller](images/cap-7/swagger/booking.PNG)
+
 ###### Subscriptions
 
 | Endpoint | Método | Summary | Descripción | Responses |
@@ -7457,6 +7463,8 @@ public async Task<IActionResult> CreateLocal(CreateLocalResource resource)
 | `/api/v1/subscriptions/{subscriptionId}` | PUT | Activate (Admin) | Activates a pending subscription. Requires Admin role. | 200, 401, 403, 404 |
 | `/api/v1/plans` | GET | Get All Plans | Retrieves all available subscription plans with their prices. Public endpoint. | 200 |
 
+![Subscription Controller](images/cap-7/swagger/sub.PNG)
+
 ###### Profiles
 
 | Endpoint | Método | Summary | Descripción | Responses |
@@ -7466,6 +7474,8 @@ public async Task<IActionResult> CreateLocal(CreateLocalResource resource)
 | `/api/v1/profiles/{userId}` | PUT | Update Profile | Updates the profile information for a user. | 200, 400 |
 | `/api/v1/profiles/bank-accounts/{userId}` | GET | Get Bank Accounts | Retrieves all bank accounts associated with a user's profile. | 200 |
 
+![Profiles Controller](images/cap-7/swagger/profile.PNG)
+
 ###### Notifications
 
 | Endpoint | Método | Summary | Descripción | Responses |
@@ -7473,12 +7483,16 @@ public async Task<IActionResult> CreateLocal(CreateLocalResource resource)
 | `/api/v1/notification/{userId}` | GET | Get Notifications | Retrieves all notifications for a specific user. | 200 |
 | `/api/v1/notification/{notificationId}` | DELETE | Delete Notification | Permanently deletes a notification from the system. | 200, 500 |
 
+![Notifications Controller](images/cap-7/swagger/not.PNG)
+
 ###### Comments
 
 | Endpoint | Método | Summary | Descripción | Responses |
 |----------|--------|---------|-------------|-----------|
 | `/api/v1/comment/local/{localId}` | GET | Get Comments | Retrieves all comments and reviews for a specific rental space. | 200 |
 | `/api/v1/comment` | POST | Create Comment | Creates a new comment/review for a rental space. | 201, 400 |
+
+![Notifications Controller](images/cap-7/swagger/comment.PNG)
 
 ---
 
@@ -8596,6 +8610,8 @@ ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un 
 ### Trello
 - **Trello Sprint 1:**
   [Sprint 1](https://trello.com/b/928tfhf1/sprint-1)
+- **Trello Sprint 2:**
+  [Sprint 2](https://trello.com/b/SuBNwpva/sprint-2-alquilafacil)
 
 ### Vídeos de Exposición (Anexo 1)
 
