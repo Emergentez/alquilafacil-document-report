@@ -6557,7 +6557,7 @@ En esta sección se especifica el detalle del Sprint Backlog 2, el cual incluye 
 
 ![Sprint 2 Backlog](images/cap-7/trello/sprint2.png)
 
-**Enlace del tablero:** <https://trello.com/b/928tfhf1/sprint-2>
+**Enlace del tablero:** <https://trello.com/b/SuBNwpva/sprint-2-alquilafacil>
 
 | **User Story ID** | **US Title**                          | **Task ID** | **Task Title**                                     | **Description**                                                                                     | **Estimation (Hours)** | **Assigned To**           | **Status** |
 |------------------|-------------------------------------|-------------|---------------------------------------------------|--------------------------------------------------------------------------------------------------|------------------------|--------------------------|------------|
@@ -6774,6 +6774,8 @@ Las pruebas de rendimiento evalúan la velocidad, tiempos de respuesta, throughp
 | Database Connections | 12 | 25 | 48 | < 100 | ✅ Óptimo |
 | Response Queue | 0 | 2 | 15 | < 50 | ✅ Óptimo |
 
+![hola](images/cap-7/test/health.PNG)
+
 ---
 
 ##### Pruebas de Caja Negra (Black-Box Testing)
@@ -6855,6 +6857,8 @@ Las pruebas de caja negra validan la funcionalidad del sistema sin conocer su im
 | **TOTAL** | **38** | **38** | **0** | **100%** |
 
 ---
+
+
 
 ##### Pruebas de Caja Blanca (White-Box Testing)
 
@@ -7113,6 +7117,10 @@ public class UserCommandServiceWhiteBoxTests
 }
 ```
 
+**Resultados en consola**:
+
+![alt text](images/cap-7/test/cajanegra.PNG)
+
 **Archivo:** `AlquilaFacilPlatform.Tests/CoreIntegrationTests/WhiteBoxTests/ReservationCommandServiceWhiteBoxTests.cs`
 
 ```csharp
@@ -7246,6 +7254,10 @@ dotnet test AlquilaFacilPlatform.Tests --verbosity normal
 Correctas! - Con error: 0, Superado: 139, Omitido: 0, Total: 139
 ```
 
+
+
+![alt text](images/cap-7/test/cajablanca.PNG)
+
 ---
 
 #### 7.2.2.5. Execution Evidence for Sprint Review.
@@ -7300,17 +7312,15 @@ Durante el Sprint 2 se logró implementar exitosamente todas las mejoras planifi
 
 **Capturas de Pantalla - Principales Vistas Implementadas:**
 
-### Web Application - Panel de Perfil Compactado
-![Profile Panel Sprint 2](images/cap-7/execution/sprint2-profile.PNG)
+### Web Application - Panel de Perfil en Inglés
+![Profile Panel Sprint 2](images/cap-7/test/perfil.PNG)
 
 ### Web Application - Dashboard de Monitoreo Rediseñado
-![Monitoring Dashboard Sprint 2](images/cap-7/execution/sprint2-monitoring.PNG)
+![Monitoring Dashboard Sprint 2](images/cap-7/test/monitoreo.PNG)
 
 ### Web Application - Sección de Soporte con Iconos
-![Support Section Sprint 2](images/cap-7/execution/sprint2-support.PNG)
+![Support Section Sprint 2](images/cap-7/test/soporte.PNG)
 
-### Web Application - Búsqueda con Iconos Mejorados
-![Search Bar Sprint 2](images/cap-7/execution/sprint2-search.PNG)
 
 ---
 
