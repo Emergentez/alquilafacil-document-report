@@ -97,6 +97,22 @@
         </ul>
         </td>
     </tr>
+    <tr>
+    <td>4ta </td>
+        <td>02/12/2025 </td>
+        <td>
+          - Ames Oviedo, Mariano José<br>
+          - Cachis Gonzales, Sebastian Nicolas<br>
+          - Lecca Choccare, Christopher Bryan<br>
+          - Llamo Sánchez,Amner Levi<br>
+          - Morales Montalvo, Omar Andrew<br>
+        </td>
+        <td>
+        <ul>
+        <li>Capítulo VII</li>
+        </ul>
+        </td>
+    </tr>
     </tbody>
 </table>
 
