@@ -7320,6 +7320,11 @@ Durante el Sprint 2 se logró implementar exitosamente todas las mejoras planifi
 ### Web Application - Sección de Soporte con Iconos
 ![Support Section Sprint 2](images/cap-7/test/soporte.PNG)
 
+### Video Demostrativo del Sprint 2
+
+En el siguiente video se ilustra la navegación completa del sistema, mostrando las funcionalidades principales implementadas:
+
+**URL del Video:** <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211399_upc_edu_pe/IQBd9dv_ptmoRKUyVtbrmlzLAc9uDwd66jQhE0MFKvqVCx4?e=hgWtqs>
 
 ---
 
