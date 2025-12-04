@@ -8380,7 +8380,7 @@ Segmento de arrendatarios:
 - **Problema:**  
   El sistema permite subir únicamente una imagen por local, limitando la información visual que se puede proporcionar al usuario interesado. Esto afecta negativamente la experiencia de exploración de los espacios.  
 
-![Heuristicas](images/cap-7/heuristicas/problema-1.PNG)
+![Heuristicas](images/cap-7/heuristicas/problema-1.png)
 
 - **Recomendación:**  
   Permitir adjuntar múltiples imágenes por local, con una interfaz que permita visualizarlas en carrusel o miniaturas.
@@ -8393,7 +8393,7 @@ Segmento de arrendatarios:
 - **Problema:**  
   La aplicación no cuenta con opción de personalización visual, como el modo claro y oscuro, lo cual limita la comodidad visual según preferencias o condiciones de iluminación. 
 
-![Heuristicas](images/cap-7/heuristicas/problema-2.PNG)
+![Heuristicas](images/cap-7/heuristicas/problema-2.png)
 
 - **Recomendación:**  
   Implementar un selector de tema para que el usuario elija entre modo claro, oscuro o automático según el sistema operativo.
@@ -8406,7 +8406,7 @@ Segmento de arrendatarios:
 - **Problema:**  
   No existe una sección visible para que los usuarios puedan contactar al equipo de soporte o enviar reportes de errores desde la aplicación.
 
-![Heuristicas](images/cap-7/heuristicas/problema-3.PNG)
+![Heuristicas](images/cap-7/heuristicas/problema-3.png)
 
 - **Recomendación:**  
   Añadir una sección de contacto o botón flotante que permita enviar correos o mensajes al equipo de soporte de forma directa.
@@ -8419,7 +8419,7 @@ Segmento de arrendatarios:
 - **Problema:**  
   El sistema muestra los espacios publicados de forma que los más recientes se encuentran en la parte inferior y los más antiguos en la superior.
 
-![Heuristicas](images/cap-7/heuristicas/problema-4.PNG)
+![Heuristicas](images/cap-7/heuristicas/problema-4.png)
 
 - **Recomendación:**  
   Invertir el orden en el que se muestran los espacios recién publicados.
@@ -8539,13 +8539,13 @@ ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un 
   [AlquilaFácil Landing Page](https://emergentez.github.io/alquilafacil-landing-page/)
 
 - **Web Application:**  
-  [AlquilaFácil Web Application](https://alquilafacil-web-app.netlify.app/)
+  [AlquilaFácil Web Application](http://application.canadacentral.cloudapp.azure.com:8083)
 
 - **Web Service:**  
-  [AlquilaFácil Web Service](https://alquilafacil-web-service-software.onrender.com/swagger/index.html)
+  [AlquilaFácil Web Service](http://application.canadacentral.cloudapp.azure.com:8080)
 
 - **Edge Node:**  
-  [AlquilaFácil Edge Node](https://alquilafacil-egde.onrender.com/docs)
+  [AlquilaFácil Edge Node](http://application.canadacentral.cloudapp.azure.com:8081)
 
 - **Embedded App:**  
   [AlquilaFácil Embedded App](https://wokwi.com/projects/433560726038801409)
