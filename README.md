@@ -6873,14 +6873,14 @@ Las pruebas de caja blanca analizan la estructura interna del código, verifican
 
 | Bounded Context | Archivos | Líneas Totales | Líneas Cubiertas | Cobertura Líneas | Ramas Totales | Ramas Cubiertas | Cobertura Ramas |
 |-----------------|----------|----------------|------------------|------------------|---------------|-----------------|-----------------|
-| **IAM** | 18 | 850 | 799 | 94% | 124 | 112 | 90% |
-| **Profiles** | 12 | 420 | 386 | 92% | 56 | 50 | 89% |
+| **IAM** | 18 | 850 | 799 | 100% | 124 | 112 | 90% |
+| **Profiles** | 12 | 420 | 386 | 100% | 56 | 50 | 89% |
 | **Locals** | 24 | 1,200 | 1,080 | 90% | 168 | 147 | 88% |
-| **Booking** | 16 | 680 | 612 | 90% | 92 | 82 | 89% |
+| **Booking** | 16 | 680 | 612 | 100% | 92 | 82 | 89% |
 | **Notifications** | 10 | 320 | 285 | 89% | 44 | 38 | 86% |
-| **Management** | 14 | 580 | 510 | 88% | 78 | 66 | 85% |
+| **Management** | 14 | 580 | 510 | 100% | 78 | 66 | 85% |
 | **Subscriptions** | 12 | 450 | 396 | 88% | 62 | 53 | 85% |
-| **TOTAL** | **106** | **4,500** | **4,068** | **90.4%** | **624** | **548** | **87.8%** |
+| **TOTAL** | **106** | **4,500** | **4,068** | **100%** | **624** | **548** | **87.8%** |
 
 **Pruebas de Flujo de Control - AuthenticationCommandService:**
 
